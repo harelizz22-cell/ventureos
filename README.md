@@ -34,3 +34,28 @@ Every meaningful change follows this sequence:
 
 Changes that affect autonomy, governance, tool access, AI access, spending, security, recovery, or production assets require explicit review before implementation.
 
+## Development Workflow
+
+VentureOS development follows this governance path:
+
+Founder
+
+-> Chief Architect
+
+-> Architecture
+
+-> ADR
+
+-> Phase Specification
+
+-> Codex Implementation
+
+-> Architecture Guardian Review
+
+-> Claude Review
+
+-> Founder Approval
+
+-> Merge
+
+Implementation before architecture approval is forbidden.
