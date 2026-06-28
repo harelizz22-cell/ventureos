@@ -19,6 +19,7 @@ The Architecture Guardian reviews:
 - Pull requests.
 - Architecture changes.
 - ADR changes.
+- Decision documentation changes.
 - Phase specification changes.
 - Agent contract changes.
 - Governance, security, recovery, evidence, decision, tool, and AI access changes.
@@ -43,13 +44,15 @@ The Architecture Guardian must not:
 
 Every reviewed pull request must be checked against:
 
-- `docs/architecture/ventureos-v2-architecture-master.md`
+- `docs/project/ventureos-system-bible.md`
+- `docs/architecture/ventureos-architecture.md`
 - Accepted ADRs in `docs/adr/`
 - Active phase specifications in `docs/phases/`
 - Governance rules in `docs/governance/`
 - Security and secrets policy in `docs/security/`
-- State machine requirements in `docs/state-machines/`
-- Evidence and decision ledger requirements in `docs/evidence/` and `docs/decisions/`
+- State machine requirements in `docs/architecture/state-machines.md`
+- Evidence and decision ledger requirements in `docs/contracts/`
+- Decision Guardian rules in `docs/development/decision-guardian.md`
 
 The Architecture Guardian must identify whether the pull request is documentation-only, architecture-changing, implementation-changing, governance-changing, or security-sensitive.
 
@@ -58,6 +61,9 @@ The Architecture Guardian must identify whether the pull request is documentatio
 Block or flag any pull request that:
 
 - Introduces components outside the master architecture without an ADR.
+- Uses Agent-first language as the primary architecture model.
+- Describes the CEO Agent as system orchestrator.
+- Assigns execution flow ownership outside the Execution Orchestrator.
 - Conflicts with the approved autonomy model.
 - Implements production behavior before phase approval.
 - Bypasses required state machines.
@@ -122,6 +128,17 @@ Block or flag any pull request that:
 - Skips phase specification updates for implementation-impacting changes.
 - Creates undocumented tradeoffs or governance exceptions.
 
+## Capability-First Execution Checks
+
+Block or flag any pull request that:
+
+- Treats VentureOS as an AI Operating System instead of a Company Operating System.
+- Treats agents as the primary architecture unit instead of capabilities.
+- Bypasses the hierarchy: Domain -> Capability -> Workflow -> Execution -> Implementation.
+- Makes an implementation mechanism the source of architecture.
+- Assigns execution flow to the CEO Agent or any runtime agent.
+- Weakens Capability Registry primacy or Agent Registry secondary status.
+
 ## Merge Blocking Criteria
 
 A pull request must be blocked when it:
@@ -133,6 +150,7 @@ A pull request must be blocked when it:
 - Enables agent self-approval or self-modification.
 - Creates or activates an agent outside the approved lifecycle.
 - Changes architecture without required documentation and ADR updates.
+- Implements from conversation-only decisions.
 - Removes auditability for meaningful decisions or actions.
 - Creates production assets without owner, backup, rollback, and monitoring plans.
 

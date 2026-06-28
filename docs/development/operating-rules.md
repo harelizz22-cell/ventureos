@@ -30,9 +30,15 @@ Independent reviewer and Red Team.
 
 Development quality gate.
 
+### Decision Guardian
+
+Development-time decision documentation gate. Ensures agreed decisions are recorded before implementation.
+
 ## Mandatory Workflow
 
 Decision
+
+-> Decision History
 
 -> Architecture Update
 
@@ -44,6 +50,8 @@ Decision
 
 Implementation before architecture is forbidden.
 
+Implementation from conversation-only decisions is forbidden.
+
 ## Builder Rules
 
 - Do not write production code without phase approval.
@@ -53,3 +61,5 @@ Implementation before architecture is forbidden.
 - Do not modify GitHub permissions.
 - Do not modify architecture decisions unless explicitly instructed.
 - Do not add secrets, tokens, API keys, credentials, or environment values.
+- Do not implement from undocumented decisions.
+- Treat VentureOS as capability-first, not agent-first.

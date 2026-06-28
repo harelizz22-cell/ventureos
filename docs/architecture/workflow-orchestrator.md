@@ -2,17 +2,20 @@
 
 Parent: `docs/architecture/ventureos-architecture.md`
 
-Source Of Truth: This file is the source of truth for workflow orchestration architecture.
+Source Of Truth: `docs/architecture/execution-orchestrator.md`
+
+## Status
+
+Compatibility document. Workflow Orchestrator terminology is replaced by Execution Orchestrator terminology.
 
 ## Purpose
 
-The Workflow Orchestrator coordinates tasks, approvals, agent handoffs, event handling, and state transitions.
+This file exists to preserve references to the older term and direct readers to `docs/architecture/execution-orchestrator.md`.
 
 ## Direction
 
-Trigger.dev is the preferred first workflow engine. Temporal may be considered later if workflow durability requirements exceed Trigger.dev capabilities.
+Use Execution Orchestrator for current architecture.
 
 ## Rule
 
-Workflows must enforce governance and state-machine requirements.
-
+Do not add new architecture content here. Add execution-flow architecture to `docs/architecture/execution-orchestrator.md`.

@@ -8,10 +8,10 @@ Source Of Truth: This file is the source of truth for approved core architecture
 
 - Governance Core
 - Policy Engine
-- Workflow Orchestrator
+- Execution Orchestrator
 - State Machine
-- Agent Registry
 - Capability Registry
+- Agent Registry
 - Capability Gap Detector
 - Agent Evolution Framework
 - Tool Gateway
@@ -25,4 +25,3 @@ Source Of Truth: This file is the source of truth for approved core architecture
 ## Rule
 
 New core components require an ADR before implementation.
-

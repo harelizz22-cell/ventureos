@@ -93,32 +93,34 @@ Define how proposed actions are evaluated against governance rules.
 - Deny, allow, and review paths are documented.
 - No implementation begins without phase approval.
 
-## Workflow Engine
+## Execution Orchestrator
 
 ### Objective
 
-Define workflow orchestration requirements for approvals, handoffs, and execution flow.
+Define execution orchestration requirements for capability invocation, approvals, retries, timeouts, failure containment, event coordination, and execution state tracking.
 
 ### Inputs
 
 - Master architecture.
 - Policy requirements.
 - State machine requirements.
+- Capability Registry requirements.
 
 ### Outputs
 
-- Workflow requirements.
-- Handoff rules.
+- Execution requirements.
+- Capability invocation rules.
 - Approval workflow definitions.
 
 ### Dependencies
 
 - Governance Core.
 - Policy Engine.
+- Capability Registry.
 
 ### Acceptance Criteria
 
-- Workflow boundaries are documented.
+- Execution boundaries are documented.
 - External execution remains gateway-controlled.
 - State transitions are auditable.
 

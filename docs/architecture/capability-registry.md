@@ -6,7 +6,9 @@ Source Of Truth: This file is the source of truth for Capability Registry archit
 
 ## Purpose
 
-The Capability Registry defines system capabilities independently from specific agents.
+The Capability Registry is the primary execution planning registry. It defines system capabilities independently from agents or implementation mechanisms.
+
+VentureOS is capability-first, not agent-first.
 
 ## Required Capability Attributes
 
@@ -18,5 +20,6 @@ The Capability Registry defines system capabilities independently from specific 
 
 ## Rule
 
-Capabilities do not grant execution authority by themselves.
+Capabilities do not grant execution authority by themselves. Capability invocation is routed through the Execution Orchestrator and governed before execution.
 
+Agents, humans, APIs, internal services, and future execution engines may implement capabilities, but they do not define the capability architecture.

@@ -11,8 +11,10 @@ Source Of Truth: This file is the source of truth for engineering collaboration 
 - Codex: builder.
 - Claude Code: independent reviewer and Red Team.
 - Architecture Guardian: development quality gate.
+- Decision Guardian: development-time decision documentation gate.
 
 ## Rule
 
 Implementation before architecture approval is forbidden.
 
+Implementation from conversation-only decisions is forbidden.
