@@ -6,22 +6,38 @@ Source Of Truth: This file is the source of truth for the latest work-session ha
 
 ## Completed Today
 
-- Restructured documentation into Documentation Architecture V2.
-- Added `docs/project/ventureos-system-bible.md` as the highest-level project document.
-- Split technical architecture into concern-specific files under `docs/architecture/`.
-- Moved development process documentation into `docs/development/`.
-- Added project-management tracking files under `docs/project-management/`.
-- Updated `README.md` to explain where each type of information belongs.
+- Architecture Audit #001 completed.
+- Restored Decision Ledger and Evidence Ledger as standalone specs under `docs/contracts/`.
+- Created runtime documentation area under `docs/runtime/`.
+- Created `docs/project/ventureos-manifesto.md`.
+- Updated hierarchy references and project tracking files.
 
 ## Architecture Decisions
 
 - No product architecture decisions were changed.
-- The previous monolithic architecture document was retained as a compatibility pointer for ADR-001.
+- No new architecture was invented beyond the audit fix request.
 - No new ADRs were added.
 
 ## Files Updated
 
-See the current commit for the full file list.
+- `README.md`
+- `docs/project/ventureos-system-bible.md`
+- `docs/project/ventureos-manifesto.md`
+- `docs/project/project-context.md`
+- `docs/project/session-handoff.md`
+- `docs/project/decision-history.md`
+- `docs/project-management/current-focus.md`
+- `docs/project-management/known-risks.md`
+- `docs/contracts/decision-ledger-spec.md`
+- `docs/contracts/evidence-ledger-spec.md`
+- `docs/contracts/agent-contracts.md`
+- `docs/architecture/ventureos-architecture.md`
+- `docs/runtime/README.md`
+- `docs/runtime/runtime-agent-lifecycle.md`
+- `docs/runtime/runtime-memory.md`
+- `docs/runtime/runtime-events.md`
+- `docs/runtime/runtime-tool-execution.md`
+- `docs/runtime/runtime-autonomy-levels.md`
 
 ## ADRs Added
 
@@ -30,13 +46,14 @@ None.
 ## Open Tasks
 
 - Review Phase 0 governance foundation scope.
+- Expand `docs/architecture/ventureos-architecture.md` into the real Phase -1 architecture specification.
 - Define approval thresholds.
 - Draft implementation-ready policy requirements after architecture approval.
 - Keep this file updated at the end of each work session.
 
 ## Recommended Next Step
 
-Review Documentation Architecture V2 and confirm whether ADR-001 should be updated in a future decision to point to `docs/architecture/ventureos-architecture.md`.
+Expand `docs/architecture/ventureos-architecture.md` into the real Phase -1 architecture specification.
 
 ## Questions For Founder
 
@@ -46,5 +63,7 @@ Review Documentation Architecture V2 and confirm whether ADR-001 should be updat
 ## Notes For Next Session
 
 - Load `docs/project/project-context.md` before planning work.
+- Read `docs/project/ventureos-manifesto.md` for project philosophy.
+- Read `docs/runtime/README.md` before runtime behavior work.
 - Confirm that no production code is requested before proceeding.
 - Continue from the approved architecture; do not restart or reinterpret the project.

@@ -22,11 +22,11 @@ Architecture Foundation.
 
 ## Architecture Status
 
-Architecture-first repository foundation exists. The system is configured for Autonomy Level 1: Assisted Mode. No production application code is approved.
+Architecture Audit #001 completed. Architecture-first repository foundation exists. The system is configured for Autonomy Level 1: Assisted Mode. No production application code is approved.
 
 ## Source Of Truth
 
-`docs/architecture/ventureos-v2-architecture-master.md`
+`docs/project/ventureos-system-bible.md`
 
 ## Current Builder
 
@@ -54,18 +54,19 @@ Founder.
 
 ## Current Goal
 
-Maintain the Documentation Architecture V2 hierarchy where each document has exactly one responsibility.
+Maintain the Documentation Architecture V2 hierarchy and prepare to expand `docs/architecture/ventureos-architecture.md` into the real Phase -1 architecture specification.
 
 ## Next Milestone
 
-Complete the governance foundation needed for Phase 0 review.
+Expand `docs/architecture/ventureos-architecture.md` into the real Phase -1 architecture specification.
 
 ## Current Risks
 
 - Implementation work may begin before architecture and phase approval.
 - Governance thresholds and approval details require future specification.
 - Tool Gateway and AI Gateway behavior is not yet implemented.
-- Evidence and decision records are specified but not yet implemented.
+- Decision Ledger and Evidence Ledger are restored as standalone specs but are not yet implemented.
+- Runtime documentation area exists but remains initial.
 
 ## Current Blockers
 
@@ -79,6 +80,7 @@ Complete the governance foundation needed for Phase 0 review.
 - Initial database schema review.
 - Tool Gateway contract details.
 - AI Gateway contract details.
+- Runtime state, memory, event, tool execution, and autonomy behavior details.
 
 ## Last Updated
 

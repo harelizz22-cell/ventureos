@@ -12,3 +12,7 @@ Agent contracts define what an agent is allowed to do, what it must not do, what
 
 Agent contracts do not activate agents. Activation follows `docs/architecture/agent-evolution.md`.
 
+## Related Contract Specifications
+
+- Decision Ledger: `docs/contracts/decision-ledger-spec.md`
+- Evidence Ledger: `docs/contracts/evidence-ledger-spec.md`

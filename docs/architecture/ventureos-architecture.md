@@ -18,6 +18,7 @@ VentureOS is architecture-first and configured for Autonomy Level 1: Assisted Mo
 - System components: `docs/architecture/system-components.md`
 - Event architecture: `docs/architecture/event-architecture.md`
 - Database architecture: `docs/architecture/database-architecture.md`
+- Runtime behavior: `docs/runtime/`
 - Tool Gateway: `docs/architecture/tool-gateway.md`
 - AI Gateway: `docs/architecture/ai-gateway.md`
 - Workflow Orchestrator: `docs/architecture/workflow-orchestrator.md`
@@ -33,3 +34,6 @@ VentureOS is architecture-first and configured for Autonomy Level 1: Assisted Mo
 
 Technical implementation work must trace to this architecture index, an accepted ADR, and an active phase specification.
 
+## Next Architecture Task
+
+Expand this document into the real Phase -1 architecture specification.

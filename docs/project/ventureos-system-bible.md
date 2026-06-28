@@ -56,12 +56,16 @@ The long-term vision is a portfolio-capable venture operating system that can co
 ## Documentation Hierarchy
 
 - `docs/project/` explains why the project exists and what state it is in.
+- `docs/project/ventureos-manifesto.md` explains the concise VentureOS philosophy.
 - `docs/architecture/` explains how VentureOS is technically structured.
 - `docs/adr/` records architecture decisions.
 - `docs/phases/` defines approved work phases.
 - `docs/agents/` defines agent contracts.
 - `docs/governance/` defines governance rules and review requirements.
 - `docs/contracts/` defines interface contract formats.
+- `docs/contracts/decision-ledger-spec.md` defines the Decision Ledger contract.
+- `docs/contracts/evidence-ledger-spec.md` defines the Evidence Ledger contract.
+- `docs/runtime/` explains VentureOS behavior while operating.
 - `docs/security/` defines security principles.
 - `docs/recovery/` defines recovery principles.
 - `docs/development/` defines how contributors work.
@@ -72,10 +76,11 @@ The long-term vision is a portfolio-capable venture operating system that can co
 1. Founder decision.
 2. Chief Architect architecture direction.
 3. `docs/project/ventureos-system-bible.md`
-4. `docs/architecture/ventureos-architecture.md`
-5. Accepted ADRs in `docs/adr/`
-6. Active phase documents in `docs/phases/`
-7. Concern-specific source documents.
+4. `docs/project/ventureos-manifesto.md`
+5. `docs/architecture/ventureos-architecture.md`
+6. Accepted ADRs in `docs/adr/`
+7. Active phase documents in `docs/phases/`
+8. Concern-specific source documents.
 
 When documents conflict, the higher item in this hierarchy controls until corrected.
 
@@ -102,4 +107,3 @@ AI collaborators participate through assigned roles. Codex builds documentation 
 - Keep architecture decisions in ADRs.
 - Keep project process in `docs/development/`.
 - Keep project planning in `docs/project-management/`.
-

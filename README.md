@@ -17,8 +17,9 @@ No production application code may be written before architecture approval. Init
 - `docs/adr/` - architecture decision records.
 - `docs/phases/` - phase specifications and acceptance criteria.
 - `docs/agents/` - agent contracts and MVP agent definitions.
-- `docs/contracts/` - API, event, and tool contract templates.
+- `docs/contracts/` - API, event, tool, agent, Decision Ledger, and Evidence Ledger contract/spec documents.
 - `docs/governance/` - governance rules, approval model, risk model, evidence rules, and compliance rules.
+- `docs/runtime/` - VentureOS behavior while the system is operating.
 - `docs/security/` - security and secrets principles.
 - `docs/recovery/` - recovery, backup, rollback, and incident response strategy.
 - `docs/diagrams/` - diagram placeholders and conventions.
@@ -32,13 +33,14 @@ The highest-level project document is `docs/project/ventureos-system-bible.md`.
 
 Use this rule for where information belongs:
 
-- Why VentureOS exists belongs in `docs/project/ventureos-system-bible.md`.
+- Why VentureOS exists belongs in `docs/project/ventureos-system-bible.md` and the concise philosophy belongs in `docs/project/ventureos-manifesto.md`.
 - How VentureOS is technically structured belongs in `docs/architecture/`.
+- How VentureOS behaves during execution belongs in `docs/runtime/`.
 - Architecture decisions belong in `docs/adr/`.
 - Approved work boundaries belong in `docs/phases/`.
 - Agent responsibilities belong in `docs/agents/`.
 - Governance rules belong in `docs/governance/`.
-- Interface formats belong in `docs/contracts/`.
+- Interface formats and ledger specs belong in `docs/contracts/`, including `docs/contracts/decision-ledger-spec.md` and `docs/contracts/evidence-ledger-spec.md`.
 - Security rules belong in `docs/security/`.
 - Recovery rules belong in `docs/recovery/`.
 - Engineering team process belongs in `docs/development/`.
