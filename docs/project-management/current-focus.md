@@ -6,7 +6,18 @@ Source Of Truth: This file is the source of truth for current project focus.
 
 ## Focus
 
-Architecture Audit #002 is complete. Current focus remains expanding `docs/architecture/ventureos-architecture.md` into the real Phase -1 architecture specification, with the capability-first execution model as a governing constraint.
+Phase 1 planning started. Current focus is reviewing `docs/phases/phase-1-system-foundation.md`.
+
+Phase 1 is documentation/specification only. No implementation is approved yet.
+
+## Current Planning Work
+
+- Phase 1 System Foundation specification drafted.
+- Phase 2 Governance Core placeholder created.
+- Phase 3 Policy Engine placeholder created.
+- Phase 4 Execution Orchestrator placeholder created.
+- Phase 5 Capability Registry placeholder created.
+- Capability-first execution model remains the governing constraint.
 
 ## Completed Architecture Audit #002
 

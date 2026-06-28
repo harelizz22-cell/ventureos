@@ -18,7 +18,7 @@ Documentation foundation. No production application version assigned.
 
 ## Current Phase
 
-Architecture Foundation.
+Phase 1 specification drafted. Implementation not approved.
 
 ## Architecture Status
 
@@ -58,11 +58,11 @@ Founder.
 
 ## Current Goal
 
-Maintain the capability-first execution model, preserve `docs/design/` as the official design source of truth, and prepare to expand `docs/architecture/ventureos-architecture.md` into the real Phase -1 architecture specification.
+Review and approve `docs/phases/phase-1-system-foundation.md` before any implementation begins.
 
 ## Next Milestone
 
-Expand `docs/architecture/ventureos-architecture.md` into the real Phase -1 architecture specification.
+Founder and Chief Architect review of the Phase 1 System Foundation specification.
 
 ## Current Risks
 
@@ -73,15 +73,17 @@ Expand `docs/architecture/ventureos-architecture.md` into the real Phase -1 arch
 - Decision Ledger and Evidence Ledger are restored as standalone specs but are not yet implemented.
 - Runtime documentation area exists but remains initial.
 - Design foundation exists but exact palette, typography choices, and final UI rules remain open.
+- Phase 1 identifies technology direction but does not authorize integrations, deployment, secrets, or production code.
 
 ## Current Blockers
 
 - Production implementation is blocked until approved architecture, ADRs, and phase specifications authorize it.
+- Phase 1 implementation is blocked until Phase 1 is explicitly approved.
 - External integrations are blocked until gateway, security, and approval requirements are defined.
 
 ## Open Decisions
 
-- Phase 0 implementation scope.
+- Phase 1 approval process.
 - Policy threshold definitions.
 - Initial database schema review.
 - Tool Gateway contract details.

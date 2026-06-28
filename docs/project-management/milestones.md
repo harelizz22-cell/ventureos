@@ -6,9 +6,12 @@ Source Of Truth: This file is the source of truth for project milestones.
 
 ## Current Milestone
 
-Documentation Architecture V2.
+Phase 1 System Foundation planning.
 
 ## Next Milestone
 
-Phase 0 governance foundation review.
+Founder and Chief Architect review of `docs/phases/phase-1-system-foundation.md`.
 
+## Status
+
+Phase 1 is documentation/specification only. No implementation is approved yet.
