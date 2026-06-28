@@ -20,6 +20,7 @@ No production application code may be written before architecture approval. Init
 - `docs/contracts/` - API, event, tool, agent, Decision Ledger, and Evidence Ledger contract/spec documents.
 - `docs/governance/` - governance rules, approval model, risk model, evidence rules, and compliance rules.
 - `docs/runtime/` - VentureOS behavior while the system is operating.
+- `docs/design/` - official product design direction, design principles, visual identity, interaction model, and component rules.
 - `docs/security/` - security and secrets principles.
 - `docs/recovery/` - recovery, backup, rollback, and incident response strategy.
 - `docs/diagrams/` - diagram placeholders and conventions.
@@ -36,6 +37,7 @@ Use this rule for where information belongs:
 - Why VentureOS exists belongs in `docs/project/ventureos-system-bible.md` and the concise philosophy belongs in `docs/project/ventureos-manifesto.md`.
 - How VentureOS is technically structured belongs in `docs/architecture/`.
 - How VentureOS behaves during execution belongs in `docs/runtime/`.
+- How VentureOS should look, feel, and behave as an interface belongs in `docs/design/`.
 - Architecture decisions belong in `docs/adr/`.
 - Approved work boundaries belong in `docs/phases/`.
 - Agent responsibilities belong in `docs/agents/`.
