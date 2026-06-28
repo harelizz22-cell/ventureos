@@ -6,11 +6,11 @@ Source Of Truth: This file is the source of truth for Execution Orchestrator arc
 
 ## Purpose
 
-The Execution Orchestrator owns VentureOS execution flow. It coordinates execution across capabilities, workflows, approvals, events, failures, and recovery triggers.
+The Execution Orchestrator owns VentureOS execution flow. It coordinates execution across capabilities, workflows, approvals, events, failures, resources, assets, and recovery triggers.
 
 ## Architectural Position
 
-VentureOS is capability-first, not agent-first. The Execution Orchestrator invokes capabilities and may route execution through an AI agent, human, external API, internal service, or future execution engine.
+VentureOS is Portfolio-first and capability-first, not agent-first. The Execution Orchestrator invokes capabilities and may route execution through AI, human, API, internal service, or future engine implementations.
 
 ## Responsibilities
 
@@ -24,20 +24,22 @@ VentureOS is capability-first, not agent-first. The Execution Orchestrator invok
 - Event coordination.
 - Recovery triggering.
 - Execution state tracking.
+- Resource consumption awareness.
+- Asset relationship awareness.
 
 ## Execution Hierarchy
 
-Domain -> Capability -> Workflow -> Execution -> Implementation
+Founder -> Organization -> Portfolio -> Venture -> Domain -> Capability -> Workflow -> Execution -> Evidence -> Decision -> Audit
 
 ## Implementation Options
 
-Execution may be performed by:
+Implementation may be:
 
-- AI Agent.
+- AI.
 - Human.
-- External API.
-- Internal service.
-- Future execution engine.
+- API.
+- Internal Service.
+- Future Engine.
 
 ## Rules
 
@@ -45,6 +47,8 @@ Execution may be performed by:
 - CEO Agent must not orchestrate the system.
 - Governance must be enforced before governed execution.
 - Execution state must be auditable.
+- Every meaningful execution must emit events.
+- Every execution consumes Resources.
 - Failed execution must be contained and routed to recovery rules when required.
 
 ## Open Questions
@@ -52,4 +56,3 @@ Execution may be performed by:
 - What execution state model is required for Phase -1?
 - What retry and timeout categories are required?
 - What approval waiting states must be founder-visible?
-

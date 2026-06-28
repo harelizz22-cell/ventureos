@@ -10,13 +10,20 @@ Supabase Postgres is the preferred future database direction.
 
 ## Required Data Domains
 
+- Organizations.
+- Portfolios.
+- Ventures.
+- Business Domains.
 - Governance.
 - Evidence.
 - Decisions.
-- Agents.
 - Capabilities.
+- Capability implementations.
+- Agents.
 - Assets.
-- Workflows.
+- Resources.
+- Events.
+- Workflows and executions.
 - State.
 - Approvals.
 - Audit trails.
@@ -24,4 +31,3 @@ Supabase Postgres is the preferred future database direction.
 ## Rule
 
 No database schema is approved until phase requirements and data contracts are reviewed.
-

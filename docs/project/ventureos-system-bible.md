@@ -10,11 +10,11 @@ VentureOS exists to help a founder discover, validate, launch, operate, optimize
 
 ## Vision
 
-VentureOS is a founder-owned autonomous venture operating system designed to move from assisted operation toward governed autonomy without losing auditability, ownership, or human authority.
+VentureOS is a founder-owned autonomous company operating system designed to move from assisted operation toward governed autonomy without losing auditability, ownership, or human authority.
 
 ## Core Philosophy
 
-The system exists to protect founder judgment while increasing operating leverage. Automation is useful only when it is evidence-based, governed, reversible, and owned by the founder.
+The system exists to protect founder judgment while increasing operating leverage across Organizations, Portfolios, and Ventures. Automation is useful only when it is evidence-based, governed, reversible, and owned by the founder.
 
 ## Core Principles
 
@@ -51,13 +51,16 @@ Production assets must be founder-owned and must have an owner, backup plan, rol
 
 ## Long-term Vision
 
-The long-term vision is a portfolio-capable venture operating system that can coordinate opportunities, agents, workflows, evidence, decisions, tools, AI providers, production assets, and recovery plans under founder governance.
+The long-term vision is a Portfolio-first company operating system that can manage multiple Organizations, multiple Portfolios, hundreds of Ventures, thousands of Capabilities, and millions of Events without architectural redesign.
+
+AI is not the product. AI is one implementation option for capabilities.
 
 ## Documentation Hierarchy
 
 - `docs/project/` explains why the project exists and what state it is in.
 - `docs/project/ventureos-manifesto.md` explains the concise VentureOS philosophy.
 - `docs/architecture/` explains how VentureOS is technically structured.
+- `docs/architecture/context-map.md` is the first architecture document every new contributor should read.
 - `docs/adr/` records architecture decisions.
 - `docs/phases/` defines approved work phases.
 - `docs/agents/` defines agent contracts.
@@ -87,6 +90,8 @@ When documents conflict, the higher item in this hierarchy controls until correc
 ## How AI Participates In The Project
 
 AI collaborators participate through assigned roles. Codex builds documentation and repository structure. Claude Code or equivalent reviewers provide independent review. The Architecture Guardian reviews compliance. AI does not own architecture, approve itself, override the Chief Architect, or replace founder approval.
+
+In VentureOS runtime architecture, AI is an implementation option, not the product identity.
 
 ## Explicit Non Goals
 

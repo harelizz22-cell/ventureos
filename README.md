@@ -35,7 +35,7 @@ The highest-level project document is `docs/project/ventureos-system-bible.md`.
 Use this rule for where information belongs:
 
 - Why VentureOS exists belongs in `docs/project/ventureos-system-bible.md` and the concise philosophy belongs in `docs/project/ventureos-manifesto.md`.
-- How VentureOS is technically structured belongs in `docs/architecture/`.
+- How VentureOS is technically structured belongs in `docs/architecture/`, starting with `docs/architecture/context-map.md`.
 - How VentureOS behaves during execution belongs in `docs/runtime/`.
 - How VentureOS should look, feel, and behave as an interface belongs in `docs/design/`.
 - Architecture decisions belong in `docs/adr/`.

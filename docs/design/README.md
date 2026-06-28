@@ -24,7 +24,8 @@ The official design source of truth is `docs/design/`.
 - Desktop is primary.
 - Mobile is companion only.
 - Dark professional interface.
-- Founder Command Center is the main entry concept.
+- Founder Operating Console is the main entry concept.
+- Founder Command Center is the primary screen.
 - Calm, premium, precise, executive.
 - Avoid generic AI dashboard patterns.
 - Avoid playful, neon, cyberpunk, and glassmorphism styling.
@@ -40,4 +41,3 @@ The official design source of truth is `docs/design/`.
 - `docs/design/interaction-model.md`
 - `docs/design/accessibility.md`
 - `docs/design/stitch-reference.md`
-

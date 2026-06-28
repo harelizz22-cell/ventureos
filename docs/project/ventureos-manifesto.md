@@ -10,11 +10,21 @@ VentureOS exists because founders need more than isolated AI assistance. They ne
 
 The purpose is not to make activity easier. The purpose is to make profitable, governed venture creation more disciplined.
 
+VentureOS is a Company Operating System. It is designed for Organizations, Portfolios, and Ventures, not a single-company assumption.
+
 ## Not Just An AI Agent System
 
-VentureOS is not just a collection of agents. Agents are participants, not the system. The system includes governance, evidence, decisions, contracts, state, recovery, assets, review, approvals, and founder authority.
+VentureOS is not just a collection of agents. Agents are participants, not the system. The system includes Organizations, Portfolios, Ventures, Domains, capabilities, governance, evidence, decisions, contracts, state, recovery, assets, review, approvals, events, and founder authority.
 
 An agent can draft, research, review, recommend, or execute within limits. It cannot become the owner of the venture, the source of truth for architecture, or the authority that approves its own expansion.
+
+AI is not the product. AI is one implementation option for capabilities.
+
+## Portfolio-First By Design
+
+VentureOS is Portfolio-first. A single venture is simply a portfolio containing one venture.
+
+This matters because the architecture must support multiple Organizations, multiple Portfolios, hundreds of Ventures, thousands of Capabilities, and millions of Events without redesign.
 
 ## Governance Before Autonomy
 
@@ -51,4 +61,3 @@ VentureOS starts in Assisted Mode because the system must first learn to be usef
 Documentation is not bureaucracy in VentureOS. It is the operating memory of the project. It preserves decisions, boundaries, responsibilities, risks, and rules so future work does not depend on fragile conversation history.
 
 The documentation architecture exists to prevent drift. One concern should have one source of truth. When the system changes, the documentation changes with it.
-

@@ -12,7 +12,7 @@ The phase objective is to build the system foundation that allows VentureOS to o
 
 Phase 1 must prepare the platform for future full autonomy while running initially in Autonomy Level 1: Assisted Mode.
 
-Phase 1 is capability-first, not agent-first. AI Agents are implementation details. The Execution Orchestrator owns execution flow. The CEO Agent must not orchestrate the system.
+Phase 1 is Portfolio-first, Domain-first, and capability-first, not agent-first. AI Agents are implementation details. The Execution Orchestrator owns execution flow. The CEO Agent must not orchestrate the system.
 
 ## 2. Phase Goals
 
@@ -25,7 +25,8 @@ Phase 1 is capability-first, not agent-first. AI Agents are implementation detai
 - Prepare Capability Registry and Agent Registry foundations.
 - Prepare Decision Ledger, Evidence Ledger, and Audit Log foundations.
 - Prepare Execution Orchestrator, Tool Gateway, and AI Gateway placeholders.
-- Prepare Founder Command Center placeholder.
+- Prepare Founder Operating Console placeholder.
+- Prepare Founder Command Center primary screen placeholder.
 - Preserve Assisted Mode as the initial operating mode.
 - Prevent external execution until approval gates exist.
 
@@ -54,7 +55,7 @@ Phase 1 is the foundation for the long-term VentureOS path:
 - Phase 4: Execution Orchestrator.
 - Phase 5: Capability Registry.
 - Phase 6: Evidence and Decision Ledgers.
-- Phase 7: Founder Command Center.
+- Phase 7: Founder Operating Console and Founder Command Center.
 - Phase 8: Tool Gateway.
 - Phase 9: AI Gateway.
 - Phase 10: Opportunity Engine.
@@ -82,7 +83,8 @@ Ownership must remain founder-controlled. VentureOS must not depend on agent-own
 
 ## 6. Runtime Control Model
 
-- Founder Command Center is the primary interface.
+- Founder Operating Console is the primary interface.
+- Founder Command Center is the primary screen.
 - Execution Orchestrator controls workflows.
 - Governance Core approves or blocks actions.
 - Policy Engine evaluates rules.
@@ -94,9 +96,9 @@ Ownership must remain founder-controlled. VentureOS must not depend on agent-own
 
 The Runtime Control Model follows ADR-004:
 
-Domain -> Capability -> Workflow -> Execution -> Implementation
+Founder -> Organization -> Portfolio -> Venture -> Domain -> Capability -> Workflow -> Execution -> Evidence -> Decision -> Audit
 
-Implementation may be an AI Agent, human, external API, internal service, or future execution engine.
+Implementation may be AI, human, API, internal service, or future engine.
 
 ## 7. Primary Flow
 
@@ -109,7 +111,8 @@ Founder signs in
 -> Capability Registry initialized
 -> Policy Engine initialized
 -> Execution Orchestrator initialized
--> Founder Command Center displays system state
+-> Founder Operating Console displays system state
+-> Founder Command Center presents the primary screen
 -> No external execution allowed until approval gates exist
 
 ## 8. Phase 1 Scope
@@ -130,7 +133,8 @@ Phase 1 includes documentation and skeleton planning for:
 - Execution Orchestrator placeholder.
 - Tool Gateway placeholder.
 - AI Gateway placeholder.
-- Founder Command Center placeholder.
+- Founder Operating Console placeholder.
+- Founder Command Center primary screen placeholder.
 
 Schema planning means identifying high-level entities, relationships, and boundaries. It does not authorize full database schema implementation.
 
@@ -156,6 +160,9 @@ Technology direction does not authorize integrations, secrets, deployment, or pr
 High-level entities only:
 
 - User.
+- Organization.
+- Portfolio.
+- Venture.
 - FounderProfile.
 - GovernanceConfig.
 - AutonomyLevel.
@@ -196,11 +203,12 @@ Phase 1 design direction:
 - Desktop primary.
 - Mobile companion.
 - Founder Operating Console.
+- Founder Command Center as primary screen.
 - Function defines form.
 - Stitch is exploration only.
 - `docs/design/` is source of truth.
 
-The Phase 1 interface foundation must align with the Founder Command Center concept and the design documentation foundation.
+The Phase 1 interface foundation must align with the Founder Operating Console product entry, the Founder Command Center primary screen, and the design documentation foundation.
 
 ## 13. Acceptance Criteria
 
@@ -242,4 +250,3 @@ Required follow-up phase documents:
 - What founder profile fields are required for the first usable system state?
 - What is the minimum acceptable AuditEvent shape for Phase 1 planning?
 - What Phase 1 approval process is required before implementation begins?
-

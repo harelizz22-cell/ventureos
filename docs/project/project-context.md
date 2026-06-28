@@ -22,7 +22,7 @@ Phase 1 specification drafted. Implementation not approved.
 
 ## Architecture Status
 
-Architecture Audit #002 completed. Architecture-first repository foundation exists. VentureOS is a Company Operating System, capability-first, and configured for Autonomy Level 1: Assisted Mode. No production application code is approved.
+Architecture Audit #003 completed. Architecture-first repository foundation exists. VentureOS is a Company Operating System, Portfolio-first, Domain-first, capability-first, Event-first, and configured for Autonomy Level 1: Assisted Mode. No production application code is approved.
 
 ## Design Status
 
@@ -54,11 +54,11 @@ Founder.
 
 ## Last ADR
 
-`ADR-004-capability-first-execution-model.md`
+`ADR-008-domain-first-capability-model.md`
 
 ## Current Goal
 
-Review and approve `docs/phases/phase-1-system-foundation.md` before any implementation begins.
+Review Architecture Audit #003 strategic expansion and then review `docs/phases/phase-1-system-foundation.md` before any implementation begins.
 
 ## Next Milestone
 
@@ -74,6 +74,7 @@ Founder and Chief Architect review of the Phase 1 System Foundation specificatio
 - Runtime documentation area exists but remains initial.
 - Design foundation exists but exact palette, typography choices, and final UI rules remain open.
 - Phase 1 identifies technology direction but does not authorize integrations, deployment, secrets, or production code.
+- Organization, Portfolio, Domain, Event-first runtime, Asset Registry, Knowledge Domain, Identity Domain, and Resource Domain are documented at placeholder level and require Phase-level expansion.
 
 ## Current Blockers
 
@@ -91,6 +92,9 @@ Founder and Chief Architect review of the Phase 1 System Foundation specificatio
 - Execution Orchestrator state, retry, timeout, failure containment, and approval waiting details.
 - Runtime state, memory, event, tool execution, and autonomy behavior details.
 - Exact design tokens and UI implementation standards.
+- Organization, Portfolio, and Venture data boundaries.
+- Domain ownership details for initial capabilities.
+- Event contract priority and retention rules.
 
 ## Last Updated
 

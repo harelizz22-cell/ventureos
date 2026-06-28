@@ -6,11 +6,11 @@ Source Of Truth: This file is the source of truth for project milestones.
 
 ## Current Milestone
 
-Phase 1 System Foundation planning.
+Architecture Audit #003 strategic expansion complete.
 
 ## Next Milestone
 
-Founder and Chief Architect review of `docs/phases/phase-1-system-foundation.md`.
+Founder and Chief Architect review of strategic architecture expansion, then review of `docs/phases/phase-1-system-foundation.md`.
 
 ## Status
 

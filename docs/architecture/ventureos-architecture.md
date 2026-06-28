@@ -12,18 +12,29 @@ This document identifies the source of truth for each technical architecture con
 
 VentureOS is a Company Operating System, not an AI Operating System. AI is an execution mechanism, not the identity of the system.
 
-VentureOS is capability-first, not agent-first. Agents are implementation details. The architecture hierarchy is:
+VentureOS is Portfolio-first and capability-first, not agent-first. A single venture is simply a portfolio containing one venture. Agents are implementation details.
 
-Domain -> Capability -> Workflow -> Execution -> Implementation
+The architecture hierarchy is:
+
+Founder -> Organization -> Portfolio -> Venture -> Domain -> Capability -> Workflow -> Execution -> Evidence -> Decision -> Audit
 
 The architecture is configured for Autonomy Level 1: Assisted Mode and must remain autonomy-ready.
 
+The long-term architecture must support multiple Organizations, multiple Portfolios, hundreds of Ventures, thousands of Capabilities, and millions of Events without architectural redesign.
+
 ## Technical Source Of Truth Map
 
+- Context map: `docs/architecture/context-map.md`
+- Organization and Portfolio model: `docs/architecture/organization-portfolio-model.md`
+- Domain model: `docs/architecture/domain-model.md`
+- Knowledge Domain: `docs/architecture/knowledge-domain.md`
+- Identity Domain: `docs/architecture/identity-domain.md`
+- Resource Domain: `docs/architecture/resource-domain.md`
 - System layers: `docs/architecture/system-layers.md`
 - System components: `docs/architecture/system-components.md`
 - Event architecture: `docs/architecture/event-architecture.md`
 - Database architecture: `docs/architecture/database-architecture.md`
+- Asset Registry: `docs/architecture/asset-registry.md`
 - Runtime behavior: `docs/runtime/`
 - Tool Gateway: `docs/architecture/tool-gateway.md`
 - AI Gateway: `docs/architecture/ai-gateway.md`
@@ -42,6 +53,8 @@ The architecture is configured for Autonomy Level 1: Assisted Mode and must rema
 Technical implementation work must trace to this architecture index, an accepted ADR, and an active phase specification.
 
 Implementation may be performed by an AI Agent, human, external API, internal service, or future execution engine.
+
+Every future capability must be multi-venture aware and must identify its owning Domain.
 
 ## Next Architecture Task
 

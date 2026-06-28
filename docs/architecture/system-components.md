@@ -6,6 +6,10 @@ Source Of Truth: This file is the source of truth for approved core architecture
 
 ## Approved Components
 
+- Organization
+- Portfolio
+- Venture
+- Domain Model
 - Governance Core
 - Policy Engine
 - Execution Orchestrator
@@ -19,7 +23,11 @@ Source Of Truth: This file is the source of truth for approved core architecture
 - Evidence Ledger
 - Decision Ledger
 - Asset Registry
+- Knowledge Domain
+- Identity Domain
+- Resource Domain
 - Recovery System
+- Founder Operating Console
 - Founder Command Center
 
 ## Rule

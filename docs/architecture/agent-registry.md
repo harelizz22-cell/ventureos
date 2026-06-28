@@ -10,6 +10,8 @@ The Agent Registry is secondary to the Capability Registry. It stores approved a
 
 Agents are implementation details for capabilities. They are not the primary architecture model.
 
+AI is not the product. AI Agents are one implementation option among humans, APIs, internal services, and future execution engines.
+
 ## Rule
 
 Agents cannot modify their own contract, approve themselves, or grant themselves new capabilities.

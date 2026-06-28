@@ -14,7 +14,9 @@ This file exists to preserve references to the older term and direct readers to 
 
 ## Direction
 
-Use Execution Orchestrator for current architecture.
+Use Execution Orchestrator for current architecture. Workflows sit within the hierarchy:
+
+Domain -> Capability -> Workflow -> Execution
 
 ## Rule
 

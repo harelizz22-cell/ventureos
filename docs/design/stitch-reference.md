@@ -29,7 +29,7 @@ Stitch is exploration only. It is visual inspiration, not final implementation a
 ## Approved Direction From Exploration
 
 - Dark professional operating interface.
-- Founder Command Center as main entry concept.
+- Founder Operating Console as main entry concept.
+- Founder Command Center as primary screen.
 - Calm, premium, precise, executive tone.
 - Enterprise operating-system posture rather than AI novelty dashboard.
-

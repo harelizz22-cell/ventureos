@@ -10,6 +10,8 @@ The Capability Registry is the primary execution planning registry. It defines s
 
 VentureOS is capability-first, not agent-first.
 
+Capabilities belong to Domains and must be multi-venture aware.
+
 ## Required Capability Attributes
 
 - Purpose.
@@ -17,9 +19,17 @@ VentureOS is capability-first, not agent-first.
 - Dependencies.
 - Required approvals.
 - Allowed tools.
+- Owning Domain.
+- Portfolio and Venture awareness.
+- Resource requirements.
+- Event requirements.
 
 ## Rule
 
 Capabilities do not grant execution authority by themselves. Capability invocation is routed through the Execution Orchestrator and governed before execution.
 
 Agents, humans, APIs, internal services, and future execution engines may implement capabilities, but they do not define the capability architecture.
+
+Every future capability must preserve the hierarchy:
+
+Founder -> Organization -> Portfolio -> Venture -> Domain -> Capability -> Workflow -> Execution -> Evidence -> Decision -> Audit
