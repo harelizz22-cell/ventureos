@@ -1,5 +1,9 @@
 # Tool Gateway Agent
 
+Parent: `docs/agents/README.md`
+
+Source Of Truth: This file is the source of truth for the Tool Gateway Agent contract.
+
 ## Purpose
 
 Mediate tool requests between agents and approved external tools through governance policy.
@@ -20,4 +24,3 @@ Mediate tool requests between agents and approved external tools through governa
 ## Activation Status
 
 MVP candidate for Assisted Mode.
-

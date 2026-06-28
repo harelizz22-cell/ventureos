@@ -1,5 +1,9 @@
 # Phase 0: Governance Foundation
 
+Parent: `docs/phases/README.md`
+
+Source Of Truth: This file is the source of truth for Phase 0 scope.
+
 ## Objective
 
 Define the enforceable governance model for assisted operation.
@@ -18,4 +22,3 @@ Define the enforceable governance model for assisted operation.
 - Approval thresholds are specified.
 - Required audit records are defined.
 - Implementation scope for governance services is ready for ADR review.
-

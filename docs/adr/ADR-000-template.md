@@ -1,5 +1,9 @@
 # ADR-000: Template
 
+Parent: `docs/adr/README.md`
+
+Source Of Truth: This file is the source of truth for ADR template structure.
+
 ## Status
 
 Proposed
@@ -19,4 +23,3 @@ Describe expected benefits, risks, tradeoffs, and required follow-up.
 ## Governance Notes
 
 List required approvals, evidence links, policy implications, and audit requirements.
-

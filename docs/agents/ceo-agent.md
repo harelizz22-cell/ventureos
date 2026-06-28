@@ -1,5 +1,9 @@
 # CEO Agent
 
+Parent: `docs/agents/README.md`
+
+Source Of Truth: This file is the source of truth for the CEO Agent contract.
+
 ## Purpose
 
 Coordinate venture strategy, prioritization, and operating recommendations.
@@ -20,4 +24,3 @@ Coordinate venture strategy, prioritization, and operating recommendations.
 ## Activation Status
 
 MVP candidate for Assisted Mode.
-

@@ -1,5 +1,9 @@
 # ADR-003: Agent Evolution Control
 
+Parent: `docs/adr/README.md`
+
+Source Of Truth: This file is the source of truth for the accepted agent evolution control decision.
+
 ## Status
 
 Accepted
@@ -19,4 +23,3 @@ The system may recommend and draft agent contracts. It may not activate new agen
 ## Governance Notes
 
 Agent activation requires auditable evidence, risk review, auditor review, and founder approval.
-

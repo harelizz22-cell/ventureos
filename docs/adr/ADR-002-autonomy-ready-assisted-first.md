@@ -1,5 +1,9 @@
 # ADR-002: Autonomy-Ready, Assisted First
 
+Parent: `docs/adr/README.md`
+
+Source Of Truth: This file is the source of truth for the accepted autonomy-ready assisted-first decision.
+
 ## Status
 
 Accepted
@@ -19,4 +23,3 @@ Agents may analyze, draft, and recommend. Meaningful actions require approval ac
 ## Governance Notes
 
 No agent may self-approve, self-modify, bypass gateways, or execute external actions outside approved policy.
-

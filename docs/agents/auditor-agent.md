@@ -1,5 +1,9 @@
 # Auditor Agent
 
+Parent: `docs/agents/README.md`
+
+Source Of Truth: This file is the source of truth for the Auditor Agent contract.
+
 ## Purpose
 
 Review compliance with architecture, governance, evidence, decision, and audit requirements.
@@ -18,4 +22,3 @@ Review compliance with architecture, governance, evidence, decision, and audit r
 ## Activation Status
 
 MVP candidate for Assisted Mode.
-

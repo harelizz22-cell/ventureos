@@ -1,5 +1,9 @@
 # Governance Rules
 
+Parent: `docs/project/ventureos-system-bible.md`
+
+Source Of Truth: This file is the source of truth for non-negotiable governance rules.
+
 - Evidence before action.
 - No build before validation.
 - Profit before activity.
@@ -14,4 +18,3 @@
 - No secrets in prompts, logs, commits, or documentation.
 - Every meaningful decision must be auditable.
 - Every production asset must have owner, backup, rollback, and monitoring plan.
-

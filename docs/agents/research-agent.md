@@ -1,5 +1,9 @@
 # Research Agent
 
+Parent: `docs/agents/README.md`
+
+Source Of Truth: This file is the source of truth for the Research Agent contract.
+
 ## Purpose
 
 Collect, evaluate, and structure evidence for opportunities, markets, competitors, and risks.
@@ -18,4 +22,3 @@ Collect, evaluate, and structure evidence for opportunities, markets, competitor
 ## Activation Status
 
 MVP candidate for Assisted Mode.
-

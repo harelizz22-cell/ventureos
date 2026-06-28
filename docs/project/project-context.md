@@ -1,5 +1,9 @@
 # Project Context
 
+Parent: `docs/project/ventureos-system-bible.md`
+
+Source Of Truth: This file is the source of truth for current project state.
+
 ## Project Name
 
 VentureOS
@@ -50,7 +54,7 @@ Founder.
 
 ## Current Goal
 
-Maintain the documentation and repository structure required for architecture-first development.
+Maintain the Documentation Architecture V2 hierarchy where each document has exactly one responsibility.
 
 ## Next Milestone
 
@@ -79,4 +83,3 @@ Complete the governance foundation needed for Phase 0 review.
 ## Last Updated
 
 2026-06-28
-

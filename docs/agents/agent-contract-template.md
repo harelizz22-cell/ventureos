@@ -1,5 +1,9 @@
 # Agent Contract Template
 
+Parent: `docs/agents/README.md`
+
+Source Of Truth: This file is the source of truth for individual agent contract template structure.
+
 ## Agent Name
 
 TBD
@@ -42,4 +46,3 @@ Describe the agent's purpose.
 ## Activation Status
 
 Proposed
-

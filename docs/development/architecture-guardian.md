@@ -1,5 +1,9 @@
 # Architecture Guardian
 
+Parent: `docs/development/project-constitution.md`
+
+Source Of Truth: This file is the source of truth for Architecture Guardian development review rules.
+
 ## Role
 
 The Architecture Guardian is a development-time review agent for VentureOS. Its purpose is to review proposed repository changes for alignment with the approved architecture, governance model, ADRs, phase specifications, and autonomy constraints.
@@ -168,4 +172,3 @@ Merge Decision:
 - Blocking criteria triggered:
 - Required next step:
 ```
-

@@ -1,13 +1,12 @@
 # Recovery Principles
 
-Every production asset must define:
+Parent: `docs/recovery/recovery-strategy.md`
 
-- Owner
-- Backup plan
-- Rollback plan
-- Monitoring plan
-- Incident trigger
-- Escalation path
+Source Of Truth: `docs/recovery/recovery-strategy.md`
 
-No production asset is complete without recovery readiness.
+## Status
+
+Deprecated. Recovery concerns are split into `recovery-strategy.md`, `backup-strategy.md`, `rollback-strategy.md`, and `incident-response.md`.
+
+Do not add new content here.
 

@@ -1,0 +1,14 @@
+# Agent Contracts
+
+Parent: `docs/project/ventureos-system-bible.md`
+
+Source Of Truth: This file defines the agent contract format. Individual agent contracts live in `docs/agents/`.
+
+## Purpose
+
+Agent contracts define what an agent is allowed to do, what it must not do, what it consumes, what it produces, and how it escalates.
+
+## Rule
+
+Agent contracts do not activate agents. Activation follows `docs/architecture/agent-evolution.md`.
+

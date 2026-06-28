@@ -1,5 +1,9 @@
 # Event Contract Template
 
+Parent: `docs/architecture/event-architecture.md`
+
+Source Of Truth: This file is the source of truth for event contract template structure.
+
 ## Event Name
 
 TBD
@@ -23,4 +27,3 @@ TBD
 ## Audit Requirements
 
 TBD
-

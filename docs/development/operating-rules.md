@@ -1,5 +1,9 @@
 # Operating Rules
 
+Parent: `docs/development/project-constitution.md`
+
+Source Of Truth: This file is the source of truth for AI collaboration operating rules.
+
 ## Purpose
 
 Describe how AI collaborators work on VentureOS.
@@ -49,4 +53,3 @@ Implementation before architecture is forbidden.
 - Do not modify GitHub permissions.
 - Do not modify architecture decisions unless explicitly instructed.
 - Do not add secrets, tokens, API keys, credentials, or environment values.
-

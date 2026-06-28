@@ -1,5 +1,9 @@
 # Codex Permissions Policy
 
+Parent: `docs/development/project-constitution.md`
+
+Source Of Truth: This file is the source of truth for Codex permission rules.
+
 ## Purpose
 
 Define which permissions Codex may request while working on VentureOS.
@@ -35,4 +39,3 @@ Define which permissions Codex may request while working on VentureOS.
 - Change repository ownership.
 - Change governance rules.
 - Self-approve architectural decisions.
-

@@ -1,5 +1,9 @@
 # Project Roadmap
 
+Parent: `docs/project/ventureos-system-bible.md`
+
+Source Of Truth: This file is the source of truth for engineering roadmap phases.
+
 This is an engineering documentation roadmap. It does not authorize production implementation by itself.
 
 ## Architecture Foundation
@@ -443,4 +447,3 @@ Define requirements for future autonomous venture operations under founder gover
 - Autonomy Level 3 readiness is explicitly approved.
 - Meaningful decisions remain auditable.
 - Founder governance remains enforceable.
-

@@ -1,5 +1,9 @@
 # ADR-001: Architecture Source of Truth
 
+Parent: `docs/adr/README.md`
+
+Source Of Truth: This file is the source of truth for the accepted architecture source-of-truth decision.
+
 ## Status
 
 Accepted
@@ -19,4 +23,3 @@ Architecture-impacting changes must update the master architecture before phase 
 ## Governance Notes
 
 This decision supports auditability and prevents production code from outrunning approved architecture.
-

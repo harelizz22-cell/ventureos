@@ -1,26 +1,12 @@
 # Policy Engine Rules
 
-The Policy Engine evaluates proposed actions before execution.
+Parent: `docs/architecture/policy-engine.md`
 
-## Outcomes
+Source Of Truth: `docs/architecture/policy-engine.md`
 
-- Allow
-- Deny
-- Require evidence
-- Require founder approval
-- Require risk review
-- Require auditor review
-- Require rollback plan
+## Status
 
-## Required Rule Categories
+Deprecated. Policy Engine architecture now belongs in `docs/architecture/policy-engine.md`. Governance rules belong in this folder by concern.
 
-- Autonomy level permissions.
-- Spending thresholds.
-- Tool access permissions.
-- AI provider access permissions.
-- Secret handling.
-- Production asset readiness.
-- Agent lifecycle changes.
-- Evidence sufficiency.
-- Decision auditability.
+Do not add new content here.
 

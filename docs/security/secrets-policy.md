@@ -1,5 +1,9 @@
 # Secrets Policy
 
+Parent: `docs/security/security-principles.md`
+
+Source Of Truth: This file is the source of truth for secrets policy.
+
 ## Prohibited
 
 - Committing secrets.
@@ -14,4 +18,3 @@
 - Use placeholder names in documentation.
 - Rotate any secret suspected of exposure.
 - Record secret exposure incidents in the decision and evidence systems once implemented.
-
