@@ -18,7 +18,7 @@ No production application code may be written before architecture approval. Init
 - `docs/phases/` - phase specifications and acceptance criteria.
 - `docs/agents/` - agent contracts and MVP agent definitions.
 - `docs/contracts/` - API, event, tool, agent, Decision Ledger, and Evidence Ledger contract/spec documents.
-- `docs/governance/` - governance rules, approval model, risk model, evidence rules, and compliance rules.
+- `docs/governance/` - governance rules, approval model, risk model, evidence rules, cost governance, and compliance rules.
 - `docs/runtime/` - VentureOS behavior while the system is operating.
 - `docs/design/` - official product design direction, design principles, visual identity, interaction model, and component rules.
 - `docs/security/` - security and secrets principles.
@@ -42,7 +42,7 @@ Use this rule for where information belongs:
 - Approved work boundaries belong in `docs/phases/`.
 - Agent responsibilities belong in `docs/agents/`.
 - Governance rules belong in `docs/governance/`.
-- Interface formats and ledger specs belong in `docs/contracts/`, including `docs/contracts/decision-ledger-spec.md` and `docs/contracts/evidence-ledger-spec.md`.
+- Interface formats and ledger specs belong in `docs/contracts/`, including `docs/contracts/decision-ledger-spec.md`, `docs/contracts/evidence-ledger-spec.md`, and `docs/contracts/audit-ledger-spec.md`.
 - Security rules belong in `docs/security/`.
 - Recovery rules belong in `docs/recovery/`.
 - Engineering team process belongs in `docs/development/`.

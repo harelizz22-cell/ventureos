@@ -18,3 +18,7 @@ Source Of Truth: This file is the source of truth for project-management risk tr
 - Event volume and retention requirements may be underestimated.
 - Resource consumption and cost tracking may be postponed too long.
 - Founder Operating Console terminology may drift back to generic dashboard language.
+- Governance fail-closed behavior may be under-specified during implementation planning.
+- Autonomy transition criteria may remain too vague.
+- Cost Governance may remain documented but unenforced without thresholds.
+- Ledger integrity may be weakened if Evidence, Decision, and Audit concerns are merged in implementation.

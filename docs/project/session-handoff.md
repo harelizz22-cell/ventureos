@@ -6,66 +6,63 @@ Source Of Truth: This file is the source of truth for the latest work-session ha
 
 ## Completed Today
 
-- Architecture Audit #003 completed.
-- Added Organization, Portfolio-first, Domain-first, Event-first, Knowledge Domain, Identity Domain, Resource Domain, and Asset Registry architecture docs.
-- Added Context Map as the first architecture document for new contributors.
-- Added ADR-005 through ADR-008.
-- Updated architecture source documents and project tracking.
+- Applied Claude Red Team Review #001 approved findings.
+- Added official architecture definitions.
+- Added Policy Engine fail-closed governance rule.
+- Clarified Founder authority versus Organization business structure.
+- Strengthened Capability Registry primary and Agent Registry runtime-only enforcement.
+- Expanded Runtime Autonomy Levels.
+- Added Audit Ledger specification and ledger integrity rules.
+- Added Cost Governance.
+- Added ADR-009.
 
 ## Architecture Decisions
 
-- Organization is a first-class architectural entity.
-- VentureOS is Portfolio-first.
-- VentureOS adopts a Domain-first business model.
-- Knowledge Domain, Identity Domain, and Resource Domain are architecture placeholders.
-- Asset Registry is first-class architecture.
-- VentureOS adopts Event-first runtime.
-- Founder Operating Console is official product entry terminology; Founder Command Center is the primary screen.
-- AI is not the product; AI is one implementation option.
+- All future documents must use official architecture definitions consistently.
+- All execution paths must pass through the Policy Engine.
+- If the Policy Engine is unavailable, VentureOS fails closed.
+- Founder is highest authority; Organization begins business hierarchy.
+- Capability Registry is the primary architectural registry.
+- Agent Registry is a runtime implementation registry only.
+- Evidence, Decision, and Audit Ledgers are separate architectural concerns.
+- Evidence must exist before Decision.
+- Audit is append-only.
+- Cost is an architectural concern.
 
 ## Files Updated
 
 - `docs/architecture/context-map.md`
-- `docs/architecture/organization-portfolio-model.md`
-- `docs/architecture/domain-model.md`
-- `docs/architecture/knowledge-domain.md`
-- `docs/architecture/identity-domain.md`
-- `docs/architecture/resource-domain.md`
-- `docs/architecture/asset-registry.md`
-- `docs/adr/ADR-005-portfolio-first-architecture.md`
-- `docs/adr/ADR-006-organization-layer.md`
-- `docs/adr/ADR-007-event-driven-architecture.md`
-- `docs/adr/ADR-008-domain-first-capability-model.md`
+- `docs/adr/ADR-009-claude-red-team-review-001.md`
 - `docs/architecture/ventureos-architecture.md`
-- `docs/architecture/system-components.md`
-- `docs/architecture/system-layers.md`
 - `docs/architecture/capability-registry.md`
 - `docs/architecture/agent-registry.md`
-- `docs/architecture/workflow-orchestrator.md`
 - `docs/architecture/execution-orchestrator.md`
+- `docs/architecture/observability.md`
+- `docs/contracts/audit-ledger-spec.md`
+- `docs/contracts/decision-ledger-spec.md`
+- `docs/contracts/evidence-ledger-spec.md`
+- `docs/governance/cost-governance.md`
+- `docs/runtime/runtime-autonomy-levels.md`
 - `docs/project/ventureos-system-bible.md`
-- `docs/project/ventureos-manifesto.md`
 - `docs/project/project-context.md`
 - `docs/project/session-handoff.md`
 - `docs/project/decision-history.md`
-- `docs/project-management/milestones.md`
+- `docs/project-management/current-focus.md`
 - `docs/project-management/known-risks.md`
 
 ## ADRs Added
 
-- `docs/adr/ADR-005-portfolio-first-architecture.md`
-- `docs/adr/ADR-006-organization-layer.md`
-- `docs/adr/ADR-007-event-driven-architecture.md`
-- `docs/adr/ADR-008-domain-first-capability-model.md`
+- `docs/adr/ADR-009-claude-red-team-review-001.md`
 
 ## Open Tasks
 
-- Review Architecture Audit #003 strategic expansion.
-- Update Phase 1 specification if needed to reflect Organization, Portfolio, and Domain-first hierarchy.
+- Review Claude Red Team Review #001 documentation changes.
 - Review `docs/phases/phase-1-system-foundation.md`.
 - Decide whether Phase 1 is approved for implementation.
 - Expand Phase 2 Governance Core specification after Phase 1 approval path is clear.
 - Define approval thresholds.
+- Define cost thresholds and token budget policy.
+- Define autonomy transition evidence requirements.
 - Draft implementation-ready policy requirements after approval.
 - Keep this file updated at the end of each work session.
 
@@ -86,7 +83,7 @@ Review and approve or revise `docs/phases/phase-1-system-foundation.md`.
 - Read `docs/design/README.md` before design or UI-related work.
 - Read `docs/adr/ADR-004-capability-first-execution-model.md` before architecture or execution-model work.
 - Read `docs/architecture/context-map.md` before architecture work.
-- Read ADR-005 through ADR-008 before Organization, Portfolio, Domain, or Event architecture work.
+- Read ADR-005 through ADR-009 before architecture work.
 - Read `docs/phases/phase-1-system-foundation.md` before any Phase 1 implementation discussion.
 - Confirm that no production code is requested before proceeding.
 - Continue from the approved architecture; do not restart or reinterpret the project.

@@ -46,6 +46,16 @@ ADRs record architecture decisions. The Decision Ledger may reference ADRs, but 
 
 Runtime decisions are operational decisions made while VentureOS is operating. Runtime decision records must link back to this Decision Ledger contract when they are meaningful, governed, or auditable.
 
+## Ledger Integrity Rules
+
+Evidence Ledger, Decision Ledger, and Audit Ledger are separate architectural concerns.
+
+Evidence must exist before Decision. Decision without Evidence is invalid.
+
+Evidence never changes historical Decision records. New evidence may trigger a new decision, reversal, or superseding decision, but it must not rewrite history.
+
+Audit records the decision event and subsequent changes as append-only entries.
+
 ## Future Database Mapping Note
 
 Future database design must map these required fields without weakening immutability, auditability, or relationship requirements.
@@ -53,4 +63,3 @@ Future database design must map these required fields without weakening immutabi
 ## Future API Contract Note
 
 Future API contracts must preserve the same required fields, audit requirements, and immutability behavior defined here.
-

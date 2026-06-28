@@ -29,9 +29,13 @@ The system exists to protect founder judgment while increasing operating leverag
 
 The founder is the final decision maker. The founder owns production assets, approves architecture-changing decisions, and controls autonomy expansion.
 
+Authority hierarchy is Founder -> Organization -> Portfolio -> Venture. Business hierarchy begins at Organization. Founder remains the highest authority but is not a business entity.
+
 ## Governance Philosophy
 
 Governance is a design constraint, not an afterthought. The system must prevent unauthorized action, uncontrolled spending, secret exposure, self-approval, and unreviewed autonomy expansion.
+
+All execution paths must pass through the Policy Engine. If governance is unavailable, VentureOS fails closed and execution is not permitted.
 
 ## Autonomy Philosophy
 
@@ -65,9 +69,11 @@ AI is not the product. AI is one implementation option for capabilities.
 - `docs/phases/` defines approved work phases.
 - `docs/agents/` defines agent contracts.
 - `docs/governance/` defines governance rules and review requirements.
+- `docs/governance/cost-governance.md` defines cost as an architectural governance concern.
 - `docs/contracts/` defines interface contract formats.
 - `docs/contracts/decision-ledger-spec.md` defines the Decision Ledger contract.
 - `docs/contracts/evidence-ledger-spec.md` defines the Evidence Ledger contract.
+- `docs/contracts/audit-ledger-spec.md` defines the Audit Ledger contract.
 - `docs/runtime/` explains VentureOS behavior while operating.
 - `docs/security/` defines security principles.
 - `docs/recovery/` defines recovery principles.

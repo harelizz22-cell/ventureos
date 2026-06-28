@@ -46,9 +46,14 @@ Implementation may be:
 - Agents do not own execution flow.
 - CEO Agent must not orchestrate the system.
 - Governance must be enforced before governed execution.
+- All execution paths must pass through the Policy Engine.
+- No Capability, Agent, Workflow, Tool, Service, or External Provider may self-approve execution.
+- If the Policy Engine is unavailable, VentureOS must fail closed.
+- No execution is permitted while governance is unavailable.
 - Execution state must be auditable.
 - Every meaningful execution must emit events.
 - Every execution consumes Resources.
+- Cost Governance may be used as a Policy Engine approval input.
 - Failed execution must be contained and routed to recovery rules when required.
 
 ## Open Questions

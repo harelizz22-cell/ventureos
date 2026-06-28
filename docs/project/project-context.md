@@ -22,7 +22,7 @@ Phase 1 specification drafted. Implementation not approved.
 
 ## Architecture Status
 
-Architecture Audit #003 completed. Architecture-first repository foundation exists. VentureOS is a Company Operating System, Portfolio-first, Domain-first, capability-first, Event-first, and configured for Autonomy Level 1: Assisted Mode. No production application code is approved.
+Claude Red Team Review #001 applied. Architecture-first repository foundation exists. VentureOS is a Company Operating System, Portfolio-first, Domain-first, capability-first, Event-first, governance-fail-closed, and configured for Autonomy Level 1: Assistant. No production application code is approved.
 
 ## Design Status
 
@@ -54,11 +54,11 @@ Founder.
 
 ## Last ADR
 
-`ADR-008-domain-first-capability-model.md`
+`ADR-009-claude-red-team-review-001.md`
 
 ## Current Goal
 
-Review Architecture Audit #003 strategic expansion and then review `docs/phases/phase-1-system-foundation.md` before any implementation begins.
+Review Claude Red Team Review #001 documentation changes and then review `docs/phases/phase-1-system-foundation.md` before any implementation begins.
 
 ## Next Milestone
 
@@ -75,6 +75,9 @@ Founder and Chief Architect review of the Phase 1 System Foundation specificatio
 - Design foundation exists but exact palette, typography choices, and final UI rules remain open.
 - Phase 1 identifies technology direction but does not authorize integrations, deployment, secrets, or production code.
 - Organization, Portfolio, Domain, Event-first runtime, Asset Registry, Knowledge Domain, Identity Domain, and Resource Domain are documented at placeholder level and require Phase-level expansion.
+- Policy Engine fail-closed behavior is documented but not implemented.
+- Cost Governance is documented but budget thresholds are not defined.
+- Autonomy levels are documented but transition evidence remains open.
 
 ## Current Blockers
 
@@ -95,6 +98,8 @@ Founder and Chief Architect review of the Phase 1 System Foundation specificatio
 - Organization, Portfolio, and Venture data boundaries.
 - Domain ownership details for initial capabilities.
 - Event contract priority and retention rules.
+- Cost thresholds and token budget policy.
+- Autonomy transition evidence requirements.
 
 ## Last Updated
 

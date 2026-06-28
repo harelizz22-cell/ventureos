@@ -54,6 +54,14 @@ Auditor review is required when evidence supports architecture-changing, governa
 
 Opportunity validation must link to Evidence Ledger records. Build work may not proceed when validation evidence is missing or insufficient.
 
+## Ledger Integrity Rules
+
+Evidence Ledger, Decision Ledger, and Audit Ledger are separate architectural concerns.
+
+Evidence must exist before Decision. Decision without Evidence is invalid.
+
+Evidence never changes historical Decision records. If evidence changes later, a new evidence record and follow-up decision are required.
+
 ## Future Database Mapping Note
 
 Future database design must map these required fields without weakening evidence quality, source, timestamp, confidence, or audit requirements.
@@ -61,4 +69,3 @@ Future database design must map these required fields without weakening evidence
 ## Future API Contract Note
 
 Future API contracts must preserve the same required fields, evidence quality rules, source requirements, timestamp requirements, confidence requirements, and review behavior defined here.
-

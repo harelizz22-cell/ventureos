@@ -22,3 +22,10 @@ The Policy Engine evaluates proposed actions against governance rules.
 
 Policies must be explicit, versioned, testable, and auditable.
 
+All execution paths must pass through the Policy Engine.
+
+No Capability, Agent, Workflow, Tool, Service, or External Provider may self-approve execution.
+
+If the Policy Engine is unavailable, VentureOS must fail closed. No execution is permitted while governance is unavailable.
+
+Cost Governance may be used as an approval input.

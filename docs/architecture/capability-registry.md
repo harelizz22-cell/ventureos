@@ -30,6 +30,14 @@ Capabilities do not grant execution authority by themselves. Capability invocati
 
 Agents, humans, APIs, internal services, and future execution engines may implement capabilities, but they do not define the capability architecture.
 
+The Capability Registry is the primary architectural registry.
+
+Capabilities never depend on specific Agents. Agents execute Capabilities.
+
+Future execution engines must be interchangeable.
+
+Every Capability execution path must pass through the Policy Engine. If the Policy Engine is unavailable, no Capability execution is permitted.
+
 Every future capability must preserve the hierarchy:
 
 Founder -> Organization -> Portfolio -> Venture -> Domain -> Capability -> Workflow -> Execution -> Evidence -> Decision -> Audit

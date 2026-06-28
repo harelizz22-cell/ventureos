@@ -16,3 +16,4 @@ Agent contracts do not activate agents. Activation follows `docs/architecture/ag
 
 - Decision Ledger: `docs/contracts/decision-ledger-spec.md`
 - Evidence Ledger: `docs/contracts/evidence-ledger-spec.md`
+- Audit Ledger: `docs/contracts/audit-ledger-spec.md`

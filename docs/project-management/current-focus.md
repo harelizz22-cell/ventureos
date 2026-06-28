@@ -6,7 +6,7 @@ Source Of Truth: This file is the source of truth for current project focus.
 
 ## Focus
 
-Phase 1 planning started. Current focus is reviewing `docs/phases/phase-1-system-foundation.md`.
+Claude Red Team Review #001 is applied. Current focus is reviewing the review changes and `docs/phases/phase-1-system-foundation.md`.
 
 Phase 1 is documentation/specification only. No implementation is approved yet.
 
@@ -14,12 +14,21 @@ Phase 1 is documentation/specification only. No implementation is approved yet.
 
 - Phase 1 System Foundation specification drafted.
 - Architecture Audit #003 strategic expansion completed.
+- Claude Red Team Review #001 documentation fixes applied.
 - Phase 2 Governance Core placeholder created.
 - Phase 3 Policy Engine placeholder created.
 - Phase 4 Execution Orchestrator placeholder created.
 - Phase 5 Capability Registry placeholder created.
 - Capability-first execution model remains the governing constraint.
 - Organization, Portfolio-first, Domain-first, and Event-first architecture are now governing constraints.
+- Policy Engine fail-closed behavior, autonomy levels, ledger integrity, and Cost Governance are now governing constraints.
+
+## Current Architecture Work Items
+
+- Review Phase 1 against official architecture definitions.
+- Define cost thresholds and token budget policy.
+- Define autonomy transition evidence requirements.
+- Expand Policy Engine governance behavior in Phase 2.
 
 ## Completed Architecture Audit #002
 
