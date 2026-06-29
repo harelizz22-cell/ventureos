@@ -12,6 +12,8 @@ The purpose is not to make activity easier. The purpose is measurable value crea
 
 VentureOS is a Company Operating System. It is designed for Organizations, Portfolios, and Ventures, not a single-company assumption.
 
+Architecturally, VentureOS can define thesis, hypotheses, evidence, decisions, audit, opportunity scores, investment readiness, funding plans, and capital allocation recommendations. In the future, this can support a venture studio, capital allocation system, and investor marketplace. That future is legal/compliance gated and is not enabled in MVP.
+
 ## Not Just An AI Agent System
 
 VentureOS is not just a collection of agents. Agents are participants, not the system. The system includes Organizations, Portfolios, Ventures, Domains, capabilities, governance, evidence, decisions, contracts, state, recovery, assets, review, approvals, events, and founder authority.
@@ -40,6 +42,8 @@ Autonomy without governance is unmanaged risk. VentureOS treats governance as a 
 
 Governance is not friction added after the fact. Governance is part of the system design.
 
+This is why VentureOS can be reviewed by technical reviewers, strategic partners, future investors, and legal/compliance reviewers without pretending that architecture alone authorizes regulated financial activity.
+
 ## Evidence Before Action
 
 VentureOS rejects motion for its own sake. Evidence must come before meaningful action because action consumes time, money, attention, and founder risk.
@@ -51,6 +55,14 @@ Evidence does not need to be perfect, but it must be visible. The system must kn
 VentureOS does not treat every idea as equally worth pursuing. Every Venture begins as a testable business hypothesis with success criteria, kill criteria, expected ROI, and Thesis alignment.
 
 Capital follows strategy. Ventures, external investments, acquisitions, and capital allocations must be reviewed against the Founder and Organization thesis before proceeding.
+
+## Future Funding And Investor Marketplace
+
+VentureOS may eventually expose selected Venture opportunities to qualified investors through Investment Readiness review, Investment Dossiers, compliance-gated access, syndicated funding models, and milestone-based capital release recommendations.
+
+This future marketplace must not sell securities, hold investor funds, process investments, or claim legal fundraising authority unless the appropriate legal entity, licensing, jurisdictional review, and compliance framework exists.
+
+No investment return is guaranteed. Investor-facing content must distinguish assumptions, evidence, forecasts, and confirmed facts.
 
 ## Learning Before Repetition
 

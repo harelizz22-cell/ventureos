@@ -34,6 +34,14 @@ Source Of Truth: This file is the source of truth for project-management risk tr
 - Portfolio Diversification may remain conceptual unless exposure thresholds and correlated risk models are defined.
 - Learning Engine may create misleading patterns unless updates are evidence-backed, reviewed, and auditable.
 - Hypothesis Engine may become a formality unless success criteria, kill criteria, validation plans, and Thesis alignment are enforced.
+- Future investor marketplace architecture may be mistaken for authorization to raise funds unless future-only and compliance-gated language remains explicit.
+- Funding Engine may be misunderstood as money movement unless recommendation-only boundaries stay explicit.
+- Investment Readiness may become misleading unless readiness dimensions, legal/compliance status, and evidence quality are defined.
+- Investment Dossiers may blur assumptions, evidence, forecasts, and confirmed facts unless review rules are enforced.
+- Syndicated Funding Model may imply securities coordination unless legal structure and jurisdictional review are completed first.
+- Milestone Capital Release may be mistaken for fund custody or transfer authority unless no-money-movement boundaries remain explicit.
+- Investor Intelligence may be mistaken for regulated investment advice unless recommendation-only and compliance review boundaries remain explicit.
+- Public fundraising, investor access, or investor communications may trigger securities regulation without approved legal/compliance framework.
 - Outcome-driven architecture may regress into workflow activity metrics.
 - Business Intelligence may become reporting-only instead of strategy-driving.
 - Venture Health scores may become misleading without clear calculation models.

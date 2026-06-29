@@ -37,6 +37,10 @@ No Venture, external investment, acquisition, or capital allocation may proceed 
 
 Thesis compliance scoring supports governed decisions. It does not override Founder approval, governance, evidence, capital discipline, or Enterprise Value evaluation.
 
+Future investor marketplace exposure must also align with Founder, Organization, and investor thesis constraints where applicable.
+
+Thesis Engine does not authorize fundraising, securities transactions, investor access, capital custody, or money movement.
+
 ## Placeholder Status
 
 This is an architecture placeholder. It does not define scoring weights, schemas, UI, integrations, financial execution, or implementation.

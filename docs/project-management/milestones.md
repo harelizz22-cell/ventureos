@@ -6,12 +6,12 @@ Source Of Truth: This file is the source of truth for project milestones.
 
 ## Current Milestone
 
-Architecture Audit #005 Enterprise Value and Capital Allocation complete.
+Architecture Audit #007 Future Funding and Investor Marketplace complete.
 
 ## Next Milestone
 
-Founder and Chief Architect review of Enterprise Value and Capital Allocation architecture, then review of `docs/phases/phase-1-system-foundation.md`.
+Founder and Chief Architect review of Future Funding and Investor Marketplace architecture, then review of `docs/phases/phase-1-system-foundation.md`.
 
 ## Status
 
-Phase 1 is documentation/specification only. No implementation is approved yet.
+Phase 1 is documentation/specification only. No implementation is approved yet. Future investor marketplace and funding architecture is not enabled in MVP and no regulated financial activity is approved.

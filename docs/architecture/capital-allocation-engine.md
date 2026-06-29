@@ -16,6 +16,9 @@ The Capital Allocation Engine optimizes where capital should be allocated across
 - Budget reallocation
 - Scaling decisions
 - Budget reduction
+- Funding readiness input
+- Funding round planning input
+- Milestone capital release recommendations
 - Opportunity comparison
 - Capital efficiency
 - Portfolio optimization
@@ -41,6 +44,8 @@ The Capital Allocation Engine generates governed recommendations. It does not ex
 No capital allocation may proceed without Thesis alignment review.
 
 Capital allocation recommendations must consider Portfolio Diversification, expected ROI, risk, approval requirements, and expected Enterprise Value impact.
+
+Future funding and capital release recommendations are governance-gated and compliance-gated. The Capital Allocation Engine does not hold funds, release funds, execute securities transactions, or move money.
 
 ## Placeholder Status
 

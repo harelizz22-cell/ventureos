@@ -16,6 +16,9 @@ The Investment Engine evaluates external and internal investment opportunities.
 - Risk evaluation
 - Expected ROI
 - Capital recommendation
+- Investment readiness input
+- Investment dossier input
+- Investor marketplace readiness input
 - Stage gate decisions
 - Exit recommendations
 - Portfolio diversification
@@ -41,6 +44,8 @@ The system must not autonomously transfer money or execute investments.
 
 Financial execution always requires Founder-defined governance.
 
+Future investor marketplace participation requires Investment Readiness review, Investment Dossier preparation, legal/compliance gating, and Founder approval.
+
 ## Rule
 
 The Investment Engine generates governed recommendations. It never executes investments.
@@ -48,6 +53,8 @@ The Investment Engine generates governed recommendations. It never executes inve
 No external investment, acquisition, or capital allocation recommendation may proceed without Thesis alignment review.
 
 Investment recommendations must consider Portfolio Diversification where meaningful.
+
+The Investment Engine must not claim VentureOS can legally raise funds, sell securities, hold investor money, or execute investments without approved legal/compliance structure.
 
 ## Placeholder Status
 

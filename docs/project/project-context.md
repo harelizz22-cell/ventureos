@@ -22,7 +22,7 @@ Phase 1 specification drafted. Implementation not approved.
 
 ## Architecture Status
 
-Architecture Audit #006 completed. Architecture-first repository foundation exists. VentureOS is an Enterprise Value-first, outcome-driven Company Operating System, Portfolio-first, Domain-first, capability-first, Event-first, governance-fail-closed, and configured for Autonomy Level 1: Assistant. Revenue is an important KPI, but Enterprise Value is the primary objective. Thesis Engine, Portfolio Diversification, Learning Engine, and Hypothesis Engine are now strategic thinking architecture concerns required before Phase 2. No production application code is approved.
+Architecture Audit #007 completed. Architecture-first repository foundation exists. VentureOS is an Enterprise Value-first, outcome-driven Company Operating System, Portfolio-first, Domain-first, capability-first, Event-first, governance-fail-closed, and configured for Autonomy Level 1: Assistant. Revenue is an important KPI, but Enterprise Value is the primary objective. Future investor marketplace, funding readiness, syndicated funding, and milestone capital release architecture are documented as future-phase, governance-gated, compliance-gated, evidence-based concerns. No production application code is approved. No regulated financial activity is approved.
 
 ## Repository Structure Status
 
@@ -60,15 +60,15 @@ Founder.
 
 ## Last ADR
 
-`ADR-028-hypothesis-engine.md`
+`ADR-034-milestone-based-capital-release.md`
 
 ## Current Goal
 
-Review Architecture Audit #006 Strategic Thinking Engines and then review `docs/phases/phase-1-system-foundation.md` before any implementation begins.
+Review Architecture Audit #007 Future Funding and Investor Marketplace architecture and then review `docs/phases/phase-1-system-foundation.md` before any implementation begins.
 
 ## Next Milestone
 
-Founder and Chief Architect review of Strategic Thinking Engines architecture, then Phase 1 System Foundation specification.
+Founder and Chief Architect review of Future Funding and Investor Marketplace architecture, then Phase 1 System Foundation specification.
 
 ## Current Risks
 
@@ -90,12 +90,15 @@ Founder and Chief Architect review of Strategic Thinking Engines architecture, t
 - Capital allocation thresholds, investment limits, and portfolio budget rules are not yet defined.
 - External startup investment support is documented as recommendation-only and requires governance detail before implementation.
 - Thesis scoring, hypothesis approval, diversification thresholds, and learning update governance are not yet defined.
+- Future Funding Engine, Investment Marketplace, Investor Intelligence, Investment Readiness, Investment Dossier, Syndicated Funding Model, Milestone Capital Release, and Investor Marketplace Compliance are documented at placeholder level and require legal/compliance review before any implementation.
+- Investor marketplace architecture may be misunderstood as approval to raise funds unless the future-only and compliance-gated boundary remains explicit.
 
 ## Current Blockers
 
 - Production implementation is blocked until approved architecture, ADRs, and phase specifications authorize it.
 - Phase 1 implementation is blocked until Phase 1 is explicitly approved.
 - External integrations are blocked until gateway, security, and approval requirements are defined.
+- Investor marketplace, funding, investor access, securities, and capital movement functionality are blocked until legal entity, licensing, jurisdictional review, compliance framework, governance, and phase approval exist.
 
 ## Open Decisions
 
@@ -121,6 +124,12 @@ Founder and Chief Architect review of Strategic Thinking Engines architecture, t
 - Hypothesis approval criteria.
 - Portfolio diversification thresholds and correlated risk model.
 - Learning update promotion and review process.
+- Future investor marketplace legal/compliance structure.
+- Investor qualification and access rules.
+- Investment Readiness scoring.
+- Investment Dossier review and approval process.
+- Syndicated funding legal model.
+- Milestone capital release governance and unused capital handling.
 
 ## Last Updated
 

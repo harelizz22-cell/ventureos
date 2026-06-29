@@ -10,15 +10,19 @@ VentureOS exists to maximize long-term Enterprise Value while preserving Founder
 
 Revenue is an important KPI. Enterprise Value is the primary objective.
 
-The purpose of VentureOS is measurable value creation. Every subsystem ultimately exists to increase Enterprise Value.
+The purpose of VentureOS is measurable value creation. Every subsystem ultimately exists to increase Enterprise Value through evidence-backed decisions, governed execution, auditable learning, and capital discipline.
 
 ## Vision
 
 VentureOS is a founder-owned autonomous company operating system designed to move from assisted operation toward governed autonomy without losing auditability, ownership, or human authority.
 
+It is designed to become a venture studio, capital allocation system, and future investor marketplace, but only through approved legal/compliance structure and Founder governance.
+
 ## Core Philosophy
 
 The system exists to protect founder judgment while increasing measurable enterprise value across Organizations, Portfolios, and Ventures. Automation is useful only when it is evidence-based, governed, reversible, owned by the founder, and tied to business outcomes.
+
+VentureOS is different from an AI agent app because AI is only one implementation option. The product identity is the governed operating system: Thesis, Hypothesis, Evidence, Policy, Decision, Audit, Capital Allocation, Funding Readiness, and Enterprise Value.
 
 ## Core Principles
 
@@ -49,6 +53,8 @@ Governance is a design constraint, not an afterthought. The system must prevent 
 
 All execution paths must pass through the Policy Engine. If governance is unavailable, VentureOS fails closed and execution is not permitted.
 
+Future investor marketplace and funding capabilities are governance-gated, compliance-gated, evidence-based, not enabled in MVP, and not autonomous money movement.
+
 ## Autonomy Philosophy
 
 VentureOS must be autonomy-ready, but it starts in Assisted Mode. Higher autonomy levels require evidence, governance, review, approval, monitoring, and recovery capability.
@@ -66,6 +72,10 @@ Every Venture starts as an explicit business hypothesis. No Venture may move fro
 Every Venture, external investment, acquisition, or capital allocation must pass Thesis alignment review before proceeding.
 
 Learning from outcomes must be evidence-backed and auditable.
+
+Future funding and investor marketplace architecture may explain opportunities, readiness, risk, evidence, and milestone-based capital plans to qualified audiences only after legal/compliance review. VentureOS must not claim it can legally raise funds, sell securities, hold investor money, or execute investments without the appropriate legal entity, licensing, jurisdictional review, and compliance framework.
+
+No guaranteed return language is allowed.
 
 ## Asset Ownership
 

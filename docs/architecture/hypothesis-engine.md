@@ -39,6 +39,8 @@ No Venture may move from idea to validation without an approved hypothesis.
 
 Hypothesis approval supports governed validation. It does not authorize production build, capital movement, external integration, or autonomous execution.
 
+No Venture may enter Investment Readiness review unless its hypothesis, validation results, success criteria, kill criteria, and evidence status are reviewable.
+
 ## Placeholder Status
 
 This is an architecture placeholder. It does not define hypothesis schemas, validation workflow implementation, UI, scoring formulas, or production code.

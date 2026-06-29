@@ -32,6 +32,10 @@ These definitions are architectural vocabulary. All future documents must use th
 - Hypothesis: An explicit, testable business assumption for a Venture before validation, including problem, audience, solution, assumptions, success criteria, kill criteria, validation plan, expected ROI, and Thesis alignment.
 - Portfolio Diversification: The architecture concern that monitors concentration risk across sector, geography, stage, technology, capital, providers, revenue models, and correlated risks.
 - Learning: Evidence-backed conversion of outcomes into reusable knowledge for future strategy, scoring, recommendations, and governance.
+- Funding Round: A future governed planning object for capital target, milestone funding plan, investor commitments, readiness status, and evidence-based release recommendations.
+- Investment Marketplace: A future compliance-gated capability for exposing selected, reviewed Venture opportunities to qualified investors through evidence-based dossiers.
+- Investment Readiness: A future review gate that determines whether a Venture is mature enough to be shown to investors.
+- Investment Dossier: A future investor-facing explanation package that distinguishes assumptions, evidence, forecasts, and confirmed facts.
 
 ## Current Architecture Posture
 
@@ -58,6 +62,10 @@ The long-term architecture must support multiple Organizations, multiple Portfol
 VentureOS measures success by business outcomes, not technical activity. Every Capability must contribute toward measurable business outcomes. Every Workflow must exist because it creates business value. Every autonomous action must be traceable to a measurable objective.
 
 VentureOS does not measure success by revenue alone. Revenue matters because it contributes to Enterprise Value.
+
+VentureOS is designed to become a venture studio, capital allocation system, and future investor marketplace because it combines Thesis, Hypothesis, Evidence, Policy, Audit, Funding, Investment Readiness, Investment Dossiers, and governed execution into one architecture. Future investor participation is not enabled in MVP and remains compliance-gated.
+
+VentureOS must not claim it can legally raise funds, sell securities, hold investor money, or execute investments without the appropriate legal entity, licensing, jurisdictional review, and compliance framework.
 
 ## Technical Source Of Truth Map
 
@@ -86,11 +94,19 @@ VentureOS does not measure success by revenue alone. Revenue matters because it 
 - Portfolio Diversification: `docs/architecture/portfolio-diversification.md`
 - Learning Engine: `docs/architecture/learning-engine.md`
 - Hypothesis Engine: `docs/architecture/hypothesis-engine.md`
+- Funding Engine: `docs/architecture/funding-engine.md`
+- Investment Marketplace: `docs/architecture/investment-marketplace.md`
+- Investor Intelligence: `docs/architecture/investor-intelligence.md`
+- Investment Readiness: `docs/architecture/investment-readiness.md`
+- Investment Dossier: `docs/architecture/investment-dossier.md`
+- Syndicated Funding Model: `docs/architecture/syndicated-funding-model.md`
+- Milestone Capital Release: `docs/architecture/milestone-capital-release.md`
 - Opportunity Engine: `docs/architecture/opportunity-engine.md`
 - Opportunity Score: `docs/architecture/opportunity-score.md`
 - Stage Gate Investment Model: `docs/architecture/stage-gate-investment-model.md`
 - Capital Governance: `docs/governance/capital-governance.md`
 - Cost Governance: `docs/governance/cost-governance.md`
+- Investor Marketplace Compliance: `docs/governance/investor-marketplace-compliance.md`
 - Runtime behavior: `docs/runtime/`
 - Tool Gateway: `docs/architecture/tool-gateway.md`
 - AI Gateway: `docs/architecture/ai-gateway.md`
@@ -123,6 +139,12 @@ No Venture, external investment, acquisition, or capital allocation may proceed 
 Learning updates must be evidence-backed and auditable.
 
 VentureOS must not autonomously transfer money or execute investments.
+
+Future Funding Engine, Investment Marketplace, Investor Intelligence, Investment Readiness, Investment Dossier, Syndicated Funding Model, and Milestone Capital Release are future-phase, governance-gated, compliance-gated, evidence-based architecture concerns. They are not enabled in MVP and do not authorize regulated financial activity.
+
+No Venture may be exposed to investors before passing Investment Readiness review.
+
+Investment content must distinguish assumptions, evidence, forecasts, and confirmed facts. No guaranteed return language is allowed.
 
 All execution paths must pass through the Policy Engine. No Capability, Agent, Workflow, Tool, Service, or External Provider may self-approve execution.
 

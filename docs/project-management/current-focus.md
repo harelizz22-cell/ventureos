@@ -6,7 +6,7 @@ Source Of Truth: This file is the source of truth for current project focus.
 
 ## Focus
 
-Architecture Audit #006 is applied. Current focus is reviewing Strategic Thinking Engines architecture, then `docs/phases/phase-1-system-foundation.md`.
+Architecture Audit #007 is applied. Current focus is reviewing Future Funding and Investor Marketplace architecture, then `docs/phases/phase-1-system-foundation.md`.
 
 Phase 1 is documentation/specification only. No implementation is approved yet.
 
@@ -18,6 +18,7 @@ Phase 1 is documentation/specification only. No implementation is approved yet.
 - Architecture Audit #004 revenue-first operating system completed.
 - Architecture Audit #005 Enterprise Value and Capital Allocation completed.
 - Architecture Audit #006 Strategic Thinking Engines completed.
+- Architecture Audit #007 Future Funding and Investor Marketplace completed.
 - Phase 2 Governance Core placeholder created.
 - Phase 3 Policy Engine placeholder created.
 - Phase 4 Execution Orchestrator placeholder created.
@@ -29,6 +30,8 @@ Phase 1 is documentation/specification only. No implementation is approved yet.
 - Revenue is an important KPI, but Enterprise Value is the primary objective.
 - Capital Allocation Engine, Investment Engine, Opportunity Score, Stage Gate Investment Model, and Capital Governance are now governing constraints.
 - Thesis Engine, Portfolio Diversification, Learning Engine, and Hypothesis Engine are now governing constraints.
+- Future Funding Engine, Investment Marketplace, Investor Intelligence, Investment Readiness, Investment Dossier, Syndicated Funding Model, Milestone Capital Release, and Investor Marketplace Compliance are future-phase, governance-gated, compliance-gated architecture concerns.
+- No regulated financial activity is approved.
 
 ## Current Architecture Work Items
 
@@ -49,6 +52,28 @@ Phase 1 is documentation/specification only. No implementation is approved yet.
 - Define Hypothesis approval workflow and validation readiness criteria.
 - Define Portfolio Diversification thresholds and correlated risk model.
 - Define Learning Engine update governance and evidence promotion flow.
+- Define future investor marketplace legal/compliance structure.
+- Define investor qualification and access rules.
+- Define Investment Readiness scoring.
+- Define Investment Dossier review and approval process.
+- Define syndicated funding legal model.
+- Define milestone capital release governance and unused capital handling.
+
+## Completed Architecture Audit #007
+
+- Future Funding Engine documented.
+- Future Investment Marketplace documented.
+- Investor Intelligence documented.
+- Investment Readiness documented.
+- Investment Dossier documented.
+- Syndicated Funding Model documented.
+- Milestone Capital Release documented.
+- Investor Marketplace Compliance boundary documented.
+- ADR-029 through ADR-034 added.
+- Future investor marketplace is future-phase, governance-gated, compliance-gated, evidence-based, not enabled in MVP, and not autonomous money movement.
+- No regulated financial activity is approved.
+- Enterprise Value remains the primary objective.
+- Founder governance remains non-negotiable.
 
 ## Completed Architecture Audit #006
 

@@ -21,6 +21,10 @@ The Resource Domain defines resources consumed by VentureOS execution.
 - Third-party Costs
 - Developer Time
 - Founder Time
+- Investor Commitments
+- Funding Rounds
+- Capital Targets
+- Milestone Release Recommendations
 - GitHub
 - Domains
 - Databases
@@ -36,7 +40,9 @@ The Resource Domain defines resources consumed by VentureOS execution.
 - Resource usage must be auditable when meaningful.
 - Secrets are tracked only as metadata; secrets must not be stored in documentation.
 - Resource Domain remains the write owner for asset and resource allocation state unless explicitly changed by ADR.
+- Future funding resources remain governance-gated and compliance-gated.
+- Resource Domain must not treat investor commitments as held funds unless legally permitted.
 
 ## Placeholder Status
 
-This is an architecture placeholder. It does not define billing integrations, quotas, schemas, or implementation.
+This is an architecture placeholder. It does not define billing integrations, quotas, investor fund custody, securities transactions, schemas, or implementation.

@@ -22,6 +22,9 @@ Opportunity Score is a first-class executive metric used to compare internal and
 - Hypothesis quality
 - Portfolio diversification impact
 - Learning pattern fit
+- Investment readiness
+- Funding readiness
+- Investor suitability considerations
 - Risk
 - Expected ROI
 - Time to revenue
@@ -34,6 +37,8 @@ Opportunity Score must support governed comparison. It must not execute investme
 Opportunity Score must not be calculated for Venture validation unless the Venture has an approved hypothesis.
 
 Opportunity Score must include Thesis alignment for Ventures, external investments, acquisitions, and capital allocations.
+
+Opportunity Score may support future investor marketplace comparison only after compliance gating. It must not promise investment returns, sell securities, process investments, or override Investment Readiness review.
 
 ## Placeholder Status
 

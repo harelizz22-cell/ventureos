@@ -18,6 +18,10 @@ The Business Intelligence Domain turns VentureOS operating data into executive i
 - Hypothesis outcome analysis
 - Portfolio diversification insight
 - Learning outcome analysis
+- Funding readiness insight
+- Investment readiness insight
+- Investor marketplace insight
+- Dossier evidence quality insight
 - Forecasting
 - KPI aggregation
 - Strategic recommendations
@@ -43,12 +47,17 @@ Examples:
 - Best performing hypothesis patterns
 - Highest concentration risk
 - Strongest evidence-backed learning patterns
+- Strongest Investment Readiness Scores
+- Funding plan performance
+- Milestone capital release outcomes
 
 ## Rule
 
 Business Intelligence must measure business outcomes, not technical activity. Running more workflows does not mean success. Creating measurable business value is success.
 
 Business Intelligence must support Thesis Engine, Hypothesis Engine, Portfolio Diversification, Learning Engine, Capital Allocation, Investment, and Enterprise Value evaluation.
+
+Business Intelligence may support future investor marketplace and funding analysis only as evidence-based, compliance-gated reporting. It must not recommend guaranteed returns or authorize regulated financial activity.
 
 ## Placeholder Status
 

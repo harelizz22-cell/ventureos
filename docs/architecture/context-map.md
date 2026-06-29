@@ -66,6 +66,16 @@ Portfolio Diversification identifies concentration risk before capital or invest
 
 Learning converts outcomes into evidence-backed, auditable reusable knowledge.
 
+## Future Investor Marketplace Model
+
+Opportunity -> Investment Readiness -> Investment Dossier -> Compliance Gate -> Investor Marketplace -> Funding Round -> Milestone Capital Release -> Outcome Tracking
+
+This is future-phase architecture only. It is governance-gated, compliance-gated, evidence-based, not enabled in MVP, and not autonomous money movement.
+
+No Venture may be exposed to investors before passing Investment Readiness review.
+
+The future marketplace must not sell securities, process investments, hold investor money, or claim legal fundraising authority without approved legal/compliance structure.
+
 ## Product Entry
 
 The primary product entry is the Founder Operating Console. The primary screen is the Founder Command Center.

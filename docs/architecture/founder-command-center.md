@@ -31,3 +31,5 @@ The Founder Command Center must preserve founder authority and decision auditabi
 The Founder Command Center must scale from a flat pending queue to prioritized triage as Venture count grows.
 
 AI may recommend prioritization, but may not approve decisions on behalf of the Founder unless Autonomy Policy explicitly allows it.
+
+Future investor marketplace and funding views must show Investment Readiness, dossier status, funding readiness, compliance status, investor communication records, capital target status, milestone release recommendations, and risk without enabling autonomous money movement.

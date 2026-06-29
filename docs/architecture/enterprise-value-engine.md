@@ -26,6 +26,10 @@ Enterprise Value is the primary optimization objective of VentureOS.
 - Hypothesis validation quality
 - Portfolio diversification
 - Evidence-backed learning
+- Investment readiness
+- Funding readiness
+- Milestone execution quality
+- Investor-facing evidence quality
 
 ## Rule
 
@@ -34,6 +38,8 @@ Revenue is an important KPI. Enterprise Value is the primary objective.
 Every subsystem ultimately exists to increase Enterprise Value while preserving Founder control, governance, transparency, and capital discipline.
 
 Thesis Engine, Hypothesis Engine, Portfolio Diversification, and Learning Engine support Enterprise Value evaluation. They do not replace governance, Founder approval, or the no autonomous money movement rule.
+
+Future investor marketplace and funding architecture may support Enterprise Value by making readiness, evidence, risk, capital needs, and milestones legible. It must remain future-phase, governance-gated, compliance-gated, and not autonomous money movement.
 
 ## Placeholder Status
 
