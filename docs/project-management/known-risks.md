@@ -42,6 +42,16 @@ Source Of Truth: This file is the source of truth for project-management risk tr
 - Milestone Capital Release may be mistaken for fund custody or transfer authority unless no-money-movement boundaries remain explicit.
 - Investor Intelligence may be mistaken for regulated investment advice unless recommendation-only and compliance review boundaries remain explicit.
 - Public fundraising, investor access, or investor communications may trigger securities regulation without approved legal/compliance framework.
+- Phase 2 Blueprint may be mistaken for implementation approval unless the documentation-only boundary remains explicit.
+- Execution Orchestrator may remain overloaded unless sub-responsibility boundaries are completed.
+- Policy decisions may become hard to audit unless policy versioning and snapshots are defined.
+- AI outputs may pollute Evidence Ledger unless output classification and promotion governance are enforced.
+- Event replay may weaken audit integrity unless duplicate and out-of-order event behavior is defined.
+- Cross-venture intelligence may violate venture isolation unless query governance is defined.
+- Learning records may continue influencing recommendations after dispute unless quarantine and withdrawal rules are defined.
+- Capital allocations may overcommit resources unless reservation and conflict rules are defined.
+- Recovery may bypass governance unless recovery actions, compensation, rollback, and escalation are defined.
+- Agent evolution may expand capabilities or autonomy without sufficient evidence unless promotion and rollback governance are defined.
 - Outcome-driven architecture may regress into workflow activity metrics.
 - Business Intelligence may become reporting-only instead of strategy-driving.
 - Venture Health scores may become misleading without clear calculation models.

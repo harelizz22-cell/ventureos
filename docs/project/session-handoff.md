@@ -6,6 +6,11 @@ Source Of Truth: This file is the source of truth for the latest work-session ha
 
 ## Completed Today
 
+- Phase 2 Architecture Blueprint created from accepted Red Team findings.
+- Added ADR-035 through ADR-040.
+- Recorded that Claude Red Team Architecture Review is input, not Source of Truth.
+- Converted critical runtime gaps into official Phase 2 workstreams.
+- Recorded that no implementation, production code, dependencies, integrations, or secrets are approved.
 - Architecture Audit #007 completed.
 - Added future Funding Engine, Investment Marketplace, Investor Intelligence, Investment Readiness, Investment Dossier, Syndicated Funding Model, Milestone Capital Release, and Investor Marketplace Compliance architecture.
 - Added ADR-029 through ADR-034.
@@ -69,6 +74,12 @@ Source Of Truth: This file is the source of truth for the latest work-session ha
 - Milestone Capital Release is evidence-based and governed, but does not move money.
 - VentureOS must not claim it can legally raise funds, sell securities, hold investor money, or execute investments without appropriate legal entity, licensing, jurisdictional review, and compliance framework.
 - No guaranteed return language is allowed.
+- Phase 2 Architecture Blueprint is official phase architecture scope.
+- Policy Engine consistency is required.
+- AI output must follow Draft -> Recommendation -> Candidate Evidence -> Verified Evidence.
+- Compliance Gate must become enforceable runtime architecture before restricted capability implementation.
+- Capital Reservation Model must prevent overcommit before allocation implementation.
+- Learning Quarantine Model must prevent disputed learning from silently influencing recommendations.
 
 ## Files Updated
 
@@ -132,6 +143,7 @@ Source Of Truth: This file is the source of truth for the latest work-session ha
 - `docs/architecture/syndicated-funding-model.md`
 - `docs/architecture/milestone-capital-release.md`
 - `docs/governance/investor-marketplace-compliance.md`
+- `docs/phases/phase-2-architecture-blueprint.md`
 - `docs/adr/ADR-025-thesis-engine.md`
 - `docs/adr/ADR-026-portfolio-diversification.md`
 - `docs/adr/ADR-027-learning-engine.md`
@@ -142,9 +154,21 @@ Source Of Truth: This file is the source of truth for the latest work-session ha
 - `docs/adr/ADR-032-investment-dossier.md`
 - `docs/adr/ADR-033-syndicated-funding-model.md`
 - `docs/adr/ADR-034-milestone-based-capital-release.md`
+- `docs/adr/ADR-035-phase-2-architecture-blueprint.md`
+- `docs/adr/ADR-036-policy-engine-consistency-required.md`
+- `docs/adr/ADR-037-ai-output-classification.md`
+- `docs/adr/ADR-038-compliance-gate-runtime.md`
+- `docs/adr/ADR-039-capital-reservation-model.md`
+- `docs/adr/ADR-040-learning-quarantine-model.md`
 
 ## ADRs Added
 
+- `docs/adr/ADR-035-phase-2-architecture-blueprint.md`
+- `docs/adr/ADR-036-policy-engine-consistency-required.md`
+- `docs/adr/ADR-037-ai-output-classification.md`
+- `docs/adr/ADR-038-compliance-gate-runtime.md`
+- `docs/adr/ADR-039-capital-reservation-model.md`
+- `docs/adr/ADR-040-learning-quarantine-model.md`
 - `docs/adr/ADR-029-future-investor-marketplace.md`
 - `docs/adr/ADR-030-funding-engine.md`
 - `docs/adr/ADR-031-investment-readiness.md`
@@ -195,12 +219,30 @@ Source Of Truth: This file is the source of truth for the latest work-session ha
 - Define Investment Dossier review and approval process.
 - Define syndicated funding legal model.
 - Define milestone capital release governance and unused capital handling.
+- Complete Phase 2 Architecture Blueprint review.
+- Expand Execution Orchestrator decomposition into concern-specific architecture.
+- Define Policy Engine consistency model.
+- Define Evidence freshness and quality model.
+- Define AI output classification and promotion governance.
+- Define Event ordering and replay model.
+- Define Cross-Venture Query Governance.
+- Define Founder unavailability and governance escalation.
+- Define Learning Quarantine workflow.
+- Define Compliance Gate runtime mechanism.
+- Define Multi-Tenancy Isolation model.
+- Define Capital Reservation and Conflict model.
+- Define Exit Management Capability group.
+- Define Legal and Compliance runtime planning.
+- Define Opportunity Score audit and bias detection.
+- Define Audit Ledger query model.
+- Define Recovery Governance model.
+- Define Agent Evolution Governance.
 - Draft implementation-ready policy requirements after approval.
 - Keep this file updated at the end of each work session.
 
 ## Recommended Next Step
 
-Review Architecture Audit #007, then approve or revise `docs/phases/phase-1-system-foundation.md`.
+Review Phase 2 Architecture Blueprint, then decide which critical architecture workstreams must close before any implementation begins.
 
 ## Questions For Founder
 
@@ -219,6 +261,7 @@ Review Architecture Audit #007, then approve or revise `docs/phases/phase-1-syst
 - Read ADR-015 through ADR-019 before Enterprise Value, capital allocation, investment, opportunity scoring, or Stage Gate work.
 - Read ADR-025 through ADR-028 before Thesis, diversification, learning, hypothesis, or strategic thinking engine work.
 - Read ADR-029 through ADR-034 before future funding, investor marketplace, investment readiness, investment dossier, syndicated funding, or milestone capital release work.
+- Read ADR-035 through ADR-040 and `docs/phases/phase-2-architecture-blueprint.md` before Phase 2 runtime governance architecture work.
 - Read `docs/phases/phase-1-system-foundation.md` before any Phase 1 implementation discussion.
 - Confirm that no production code is requested before proceeding.
 - Continue from the approved architecture; do not restart or reinterpret the project.

@@ -6,12 +6,12 @@ Source Of Truth: This file is the source of truth for project milestones.
 
 ## Current Milestone
 
-Architecture Audit #007 Future Funding and Investor Marketplace complete.
+Phase 2 Architecture Blueprint created.
 
 ## Next Milestone
 
-Founder and Chief Architect review of Future Funding and Investor Marketplace architecture, then review of `docs/phases/phase-1-system-foundation.md`.
+Founder and Chief Architect review of Phase 2 Architecture Blueprint, then decide which critical architecture gaps must close before implementation planning.
 
 ## Status
 
-Phase 1 is documentation/specification only. No implementation is approved yet. Future investor marketplace and funding architecture is not enabled in MVP and no regulated financial activity is approved.
+Phase 1 and Phase 2 remain documentation/specification only. No implementation is approved yet. Future investor marketplace and funding architecture is not enabled in MVP and no regulated financial activity is approved.

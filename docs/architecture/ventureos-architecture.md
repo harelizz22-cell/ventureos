@@ -36,6 +36,9 @@ These definitions are architectural vocabulary. All future documents must use th
 - Investment Marketplace: A future compliance-gated capability for exposing selected, reviewed Venture opportunities to qualified investors through evidence-based dossiers.
 - Investment Readiness: A future review gate that determines whether a Venture is mature enough to be shown to investors.
 - Investment Dossier: A future investor-facing explanation package that distinguishes assumptions, evidence, forecasts, and confirmed facts.
+- Compliance Gate: An enforceable runtime gate for restricted capability categories, legal approval records, investment marketplace gating, and regulated domain gating.
+- Capital Reservation: A governed record reserving capital for a proposed allocation without moving money or executing an investment.
+- Learning Quarantine: A governed state that prevents disputed, quarantined, or withdrawn learning from silently influencing future recommendations while preserving audit.
 
 ## Current Architecture Posture
 
@@ -69,6 +72,7 @@ VentureOS must not claim it can legally raise funds, sell securities, hold inves
 
 ## Technical Source Of Truth Map
 
+- Phase 2 Architecture Blueprint: `docs/phases/phase-2-architecture-blueprint.md`
 - Context map: `docs/architecture/context-map.md`
 - Organization and Portfolio model: `docs/architecture/organization-portfolio-model.md`
 - Domain model: `docs/architecture/domain-model.md`
@@ -145,6 +149,14 @@ Future Funding Engine, Investment Marketplace, Investor Intelligence, Investment
 No Venture may be exposed to investors before passing Investment Readiness review.
 
 Investment content must distinguish assumptions, evidence, forecasts, and confirmed facts. No guaranteed return language is allowed.
+
+Phase 2 Architecture Blueprint must close critical runtime architecture gaps before system implementation. Claude Red Team Architecture Review is input, not Source of Truth.
+
+AI output must follow Draft -> Recommendation -> Candidate Evidence -> Verified Evidence. AI output must never enter Evidence Ledger directly without promotion governance.
+
+Policy evaluation must preserve policy version or policy snapshot used.
+
+Compliance Gate, Capital Reservation, Learning Quarantine, Event Replay, Cross-Venture Query Governance, Multi-Tenancy Isolation, Recovery Governance, and Agent Evolution Governance must be defined before related implementation begins.
 
 All execution paths must pass through the Policy Engine. No Capability, Agent, Workflow, Tool, Service, or External Provider may self-approve execution.
 

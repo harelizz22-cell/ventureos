@@ -6,7 +6,7 @@ Source Of Truth: This file is the source of truth for current project focus.
 
 ## Focus
 
-Architecture Audit #007 is applied. Current focus is reviewing Future Funding and Investor Marketplace architecture, then `docs/phases/phase-1-system-foundation.md`.
+Phase 2 Architecture Blueprint is created. Current focus is reviewing critical runtime architecture gaps before implementation planning.
 
 Phase 1 is documentation/specification only. No implementation is approved yet.
 
@@ -19,6 +19,7 @@ Phase 1 is documentation/specification only. No implementation is approved yet.
 - Architecture Audit #005 Enterprise Value and Capital Allocation completed.
 - Architecture Audit #006 Strategic Thinking Engines completed.
 - Architecture Audit #007 Future Funding and Investor Marketplace completed.
+- Phase 2 Architecture Blueprint created from accepted Red Team findings.
 - Phase 2 Governance Core placeholder created.
 - Phase 3 Policy Engine placeholder created.
 - Phase 4 Execution Orchestrator placeholder created.
@@ -32,6 +33,9 @@ Phase 1 is documentation/specification only. No implementation is approved yet.
 - Thesis Engine, Portfolio Diversification, Learning Engine, and Hypothesis Engine are now governing constraints.
 - Future Funding Engine, Investment Marketplace, Investor Intelligence, Investment Readiness, Investment Dossier, Syndicated Funding Model, Milestone Capital Release, and Investor Marketplace Compliance are future-phase, governance-gated, compliance-gated architecture concerns.
 - No regulated financial activity is approved.
+- Phase 2 Architecture Blueprint is now the governing workstream list for critical runtime architecture gaps.
+- Claude Red Team Architecture Review is input, not Source of Truth.
+- No implementation is approved.
 
 ## Current Architecture Work Items
 
@@ -58,6 +62,35 @@ Phase 1 is documentation/specification only. No implementation is approved yet.
 - Define Investment Dossier review and approval process.
 - Define syndicated funding legal model.
 - Define milestone capital release governance and unused capital handling.
+- Review Phase 2 Architecture Blueprint.
+- Define Execution Orchestrator decomposition.
+- Define Policy Engine consistency model.
+- Define Evidence freshness and quality model.
+- Define Autonomy Governance model.
+- Define AI Output Classification promotion governance.
+- Define Event Ordering and Replay model.
+- Define Cross-Venture Query Governance.
+- Define Founder Unavailability and Governance Escalation.
+- Define Learning Quarantine model.
+- Define Compliance Gate runtime mechanism.
+- Define Multi-Tenancy Isolation model.
+- Define Capital Reservation and Conflict model.
+- Define Exit Management Capability group.
+- Define Legal and Compliance runtime planning.
+- Define Opportunity Score audit and bias detection.
+- Define Audit Ledger query model.
+- Define Recovery Governance model.
+- Define Agent Evolution Governance.
+
+## Completed Phase 2 Architecture Blueprint
+
+- Phase 2 Architecture Blueprint created.
+- ADR-035 through ADR-040 added.
+- Accepted Red Team findings converted into official Phase 2 workstreams.
+- Claude review recorded as input, not Source of Truth.
+- No implementation, code, dependencies, integrations, or secrets are approved.
+- Enterprise Value remains the primary objective.
+- Founder governance remains non-negotiable.
 
 ## Completed Architecture Audit #007
 

@@ -12,6 +12,8 @@ Define the future phase for building the Governance Core.
 
 Placeholder. Detailed scope must be written before Phase 2 implementation.
 
+`docs/phases/phase-2-architecture-blueprint.md` defines the official Phase 2 architecture workstreams required before implementation.
+
 ## Dependency
 
 Phase 1 System Foundation.
@@ -20,3 +22,4 @@ Phase 1 System Foundation.
 
 No implementation is authorized by this placeholder.
 
+No implementation is authorized by the Phase 2 Architecture Blueprint.
