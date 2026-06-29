@@ -6,9 +6,9 @@ Source Of Truth: This file is the source of truth for the concise VentureOS phil
 
 ## Why VentureOS Exists
 
-VentureOS exists because founders need more than isolated AI assistance. They need an operating system for turning judgment, evidence, validation, assets, workflows, and decisions into durable businesses without surrendering ownership or control.
+VentureOS exists because founders need more than isolated AI assistance. They need an operating system for turning judgment, evidence, validation, assets, workflows, capital, and decisions into long-term Enterprise Value without surrendering ownership or control.
 
-The purpose is not to make activity easier. The purpose is to make profitable, governed venture creation more disciplined.
+The purpose is not to make activity easier. The purpose is measurable value creation: maximize long-term Enterprise Value while preserving Founder control, governance, transparency, and capital discipline.
 
 VentureOS is a Company Operating System. It is designed for Organizations, Portfolios, and Ventures, not a single-company assumption.
 
@@ -25,6 +25,14 @@ AI is not the product. AI is one implementation option for capabilities.
 VentureOS is Portfolio-first. A single venture is simply a portfolio containing one venture.
 
 This matters because the architecture must support multiple Organizations, multiple Portfolios, hundreds of Ventures, thousands of Capabilities, and millions of Events without redesign.
+
+## Enterprise Value Before Revenue
+
+VentureOS measures success by business outcomes, not technical activity.
+
+Running more workflows does not mean success. Creating more agents does not mean success. Generating measurable business value is success.
+
+Revenue is an important KPI, but Enterprise Value is the primary objective. Every subsystem ultimately exists to increase Enterprise Value.
 
 ## Governance Before Autonomy
 

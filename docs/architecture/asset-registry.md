@@ -35,3 +35,4 @@ Every asset must have:
 
 Every production asset must be founder-owned and auditable. Secrets Metadata may describe the existence and ownership of secrets, but secrets themselves must not be stored in documentation.
 
+Assets must be linkable to Venture Digital Twin, Value Graph, and Venture Timeline records where meaningful.

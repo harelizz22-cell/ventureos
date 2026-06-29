@@ -6,69 +6,128 @@ Source Of Truth: This file is the source of truth for the latest work-session ha
 
 ## Completed Today
 
-- Applied Claude Red Team Review #001 approved findings.
-- Added official architecture definitions.
-- Added Policy Engine fail-closed governance rule.
-- Clarified Founder authority versus Organization business structure.
-- Strengthened Capability Registry primary and Agent Registry runtime-only enforcement.
-- Expanded Runtime Autonomy Levels.
-- Added Audit Ledger specification and ledger integrity rules.
-- Added Cost Governance.
-- Added ADR-009.
+- Architecture Audit #005 completed.
+- Updated mission to Enterprise Value-first, outcome-driven company operating system.
+- Recorded Revenue as an important KPI and Enterprise Value as the primary objective.
+- Added Enterprise Value Engine, Capital Allocation Engine, Investment Engine, Opportunity Engine, Opportunity Score, Stage Gate Investment Model, and Capital Governance architecture placeholders.
+- Added ADR-015 through ADR-019.
+- Updated strategic, architecture, governance, resource, and project-management documents.
+- Architecture Audit #004 completed.
+- Updated mission to revenue-first, outcome-driven company operating system during Architecture Audit #004. Architecture Audit #005 superseded the primary objective with Enterprise Value.
+- Added Business Intelligence Domain architecture placeholder.
+- Added Venture Timeline, Venture Health Model, Venture Digital Twin, Value Graph, Founder Decision Graph, and Revenue KPI architecture placeholders.
+- Added ADR-010 through ADR-014.
+- Updated strategic, architecture, governance, resource, and project-management documents.
 
 ## Architecture Decisions
 
-- All future documents must use official architecture definitions consistently.
-- All execution paths must pass through the Policy Engine.
-- If the Policy Engine is unavailable, VentureOS fails closed.
-- Founder is highest authority; Organization begins business hierarchy.
-- Capability Registry is the primary architectural registry.
-- Agent Registry is a runtime implementation registry only.
-- Evidence, Decision, and Audit Ledgers are separate architectural concerns.
-- Evidence must exist before Decision.
-- Audit is append-only.
-- Cost is an architectural concern.
+- VentureOS exists to create, operate, optimize, and scale profitable companies autonomously while maintaining Founder governance.
+- VentureOS is outcome-driven, not task-driven, workflow-driven, or agent-driven.
+- Every Capability must contribute toward measurable business outcomes.
+- Business Intelligence is a Business Domain.
+- Venture Timeline is first-class.
+- Venture Health Model is first-class.
+- Value Graph is adopted.
+- Every Venture has a Digital Twin.
+- Founder Decision Graph is adopted.
+- Revenue KPIs are first-class architecture concepts.
+- Resource economics and profit awareness are architecture concerns.
+- VentureOS exists to maximize long-term Enterprise Value while preserving Founder control, governance, transparency, and capital discipline.
+- Enterprise Value is the primary objective; revenue is an important KPI.
+- Capital Allocation Engine is first-class.
+- Investment Engine is first-class.
+- Opportunity Score is first-class.
+- Stage Gate Investment Model is adopted for Venture lifecycle and capital decisions.
+- Opportunity Engine may evaluate internal opportunities, external startups, acquisitions, and partnerships but may only recommend.
+- No VentureOS component may autonomously transfer money or execute investments.
+- Investment recommendations require evidence, governance, expected ROI, risk, approval requirements, and expected Enterprise Value impact.
 
 ## Files Updated
 
 - `docs/architecture/context-map.md`
-- `docs/adr/ADR-009-claude-red-team-review-001.md`
+- `docs/architecture/business-intelligence.md`
+- `docs/architecture/venture-timeline.md`
+- `docs/architecture/venture-health-model.md`
+- `docs/architecture/value-graph.md`
+- `docs/architecture/venture-digital-twin.md`
+- `docs/architecture/founder-decision-graph.md`
+- `docs/architecture/revenue-kpis.md`
+- `docs/architecture/enterprise-value-engine.md`
+- `docs/architecture/capital-allocation-engine.md`
+- `docs/architecture/investment-engine.md`
+- `docs/architecture/opportunity-engine.md`
+- `docs/architecture/opportunity-score.md`
+- `docs/architecture/stage-gate-investment-model.md`
+- `docs/governance/capital-governance.md`
+- `docs/adr/ADR-015-enterprise-value-engine.md`
+- `docs/adr/ADR-016-capital-allocation-engine.md`
+- `docs/adr/ADR-017-investment-engine.md`
+- `docs/adr/ADR-018-opportunity-score.md`
+- `docs/adr/ADR-019-stage-gate-investment-model.md`
+- `docs/adr/ADR-010-outcome-driven-architecture.md`
+- `docs/adr/ADR-011-revenue-first-operating-model.md`
+- `docs/adr/ADR-012-venture-digital-twin.md`
+- `docs/adr/ADR-013-business-intelligence-domain.md`
+- `docs/adr/ADR-014-value-graph.md`
 - `docs/architecture/ventureos-architecture.md`
-- `docs/architecture/capability-registry.md`
-- `docs/architecture/agent-registry.md`
+- `docs/architecture/domain-model.md`
 - `docs/architecture/execution-orchestrator.md`
+- `docs/architecture/founder-command-center.md`
+- `docs/architecture/resource-domain.md`
+- `docs/architecture/system-components.md`
+- `docs/architecture/event-architecture.md`
+- `docs/architecture/database-architecture.md`
 - `docs/architecture/observability.md`
-- `docs/contracts/audit-ledger-spec.md`
-- `docs/contracts/decision-ledger-spec.md`
-- `docs/contracts/evidence-ledger-spec.md`
+- `docs/architecture/asset-registry.md`
 - `docs/governance/cost-governance.md`
-- `docs/runtime/runtime-autonomy-levels.md`
 - `docs/project/ventureos-system-bible.md`
+- `docs/project/ventureos-manifesto.md`
 - `docs/project/project-context.md`
 - `docs/project/session-handoff.md`
 - `docs/project/decision-history.md`
+- `docs/project-management/milestones.md`
 - `docs/project-management/current-focus.md`
 - `docs/project-management/known-risks.md`
+- `README.md`
 
 ## ADRs Added
 
-- `docs/adr/ADR-009-claude-red-team-review-001.md`
+- `docs/adr/ADR-010-outcome-driven-architecture.md`
+- `docs/adr/ADR-011-revenue-first-operating-model.md`
+- `docs/adr/ADR-012-venture-digital-twin.md`
+- `docs/adr/ADR-013-business-intelligence-domain.md`
+- `docs/adr/ADR-014-value-graph.md`
+- `docs/adr/ADR-015-enterprise-value-engine.md`
+- `docs/adr/ADR-016-capital-allocation-engine.md`
+- `docs/adr/ADR-017-investment-engine.md`
+- `docs/adr/ADR-018-opportunity-score.md`
+- `docs/adr/ADR-019-stage-gate-investment-model.md`
 
 ## Open Tasks
 
-- Review Claude Red Team Review #001 documentation changes.
+- Review Architecture Audit #005 Enterprise Value and Capital Allocation changes.
+- Update Phase 1 specification if needed to reflect Enterprise Value-first and outcome-driven architecture.
 - Review `docs/phases/phase-1-system-foundation.md`.
 - Decide whether Phase 1 is approved for implementation.
 - Expand Phase 2 Governance Core specification after Phase 1 approval path is clear.
 - Define approval thresholds.
 - Define cost thresholds and token budget policy.
 - Define autonomy transition evidence requirements.
+- Define revenue KPI formulas and reporting boundaries.
+- Define Venture Health calculation models.
+- Define Digital Twin data boundaries.
+- Define Value Graph and Founder Decision Graph relationship rules.
+- Define Enterprise Value calculation boundaries.
+- Define capital allocation thresholds and portfolio budget rules.
+- Define investment recommendation score thresholds.
+- Define Stage Gate evidence and approval requirements.
+- Define external startup investment evaluation boundaries.
 - Draft implementation-ready policy requirements after approval.
 - Keep this file updated at the end of each work session.
 
 ## Recommended Next Step
 
-Review and approve or revise `docs/phases/phase-1-system-foundation.md`.
+Review Architecture Audit #005, then approve or revise `docs/phases/phase-1-system-foundation.md`.
 
 ## Questions For Founder
 
@@ -83,7 +142,8 @@ Review and approve or revise `docs/phases/phase-1-system-foundation.md`.
 - Read `docs/design/README.md` before design or UI-related work.
 - Read `docs/adr/ADR-004-capability-first-execution-model.md` before architecture or execution-model work.
 - Read `docs/architecture/context-map.md` before architecture work.
-- Read ADR-005 through ADR-009 before architecture work.
+- Read ADR-005 through ADR-014 before architecture work.
+- Read ADR-015 through ADR-019 before Enterprise Value, capital allocation, investment, opportunity scoring, or Stage Gate work.
 - Read `docs/phases/phase-1-system-foundation.md` before any Phase 1 implementation discussion.
 - Confirm that no production code is requested before proceeding.
 - Continue from the approved architecture; do not restart or reinterpret the project.

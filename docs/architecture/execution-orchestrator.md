@@ -56,6 +56,20 @@ Implementation may be:
 - Cost Governance may be used as a Policy Engine approval input.
 - Failed execution must be contained and routed to recovery rules when required.
 
+## Profit Awareness
+
+The Execution Orchestrator must eventually become cost-aware.
+
+Future execution path selection may consider:
+
+- Policy.
+- Quality.
+- Latency.
+- Cost.
+- Expected business value.
+
+The cheapest execution is not always correct. The most expensive execution is not always justified.
+
 ## Open Questions
 
 - What execution state model is required for Phase -1?

@@ -6,7 +6,11 @@ Source Of Truth: This file is the highest-level source of truth for why VentureO
 
 ## Mission
 
-VentureOS exists to help a founder discover, validate, launch, operate, optimize, and scale profitable digital businesses under strict founder governance.
+VentureOS exists to maximize long-term Enterprise Value while preserving Founder control, governance, transparency, and capital discipline.
+
+Revenue is an important KPI. Enterprise Value is the primary objective.
+
+The purpose of VentureOS is measurable value creation. Every subsystem ultimately exists to increase Enterprise Value.
 
 ## Vision
 
@@ -14,13 +18,17 @@ VentureOS is a founder-owned autonomous company operating system designed to mov
 
 ## Core Philosophy
 
-The system exists to protect founder judgment while increasing operating leverage across Organizations, Portfolios, and Ventures. Automation is useful only when it is evidence-based, governed, reversible, and owned by the founder.
+The system exists to protect founder judgment while increasing measurable enterprise value across Organizations, Portfolios, and Ventures. Automation is useful only when it is evidence-based, governed, reversible, owned by the founder, and tied to business outcomes.
 
 ## Core Principles
 
 - Evidence before action.
 - No build before validation.
+- Enterprise Value before revenue.
+- Capital discipline before scale.
 - Profit before activity.
+- Outcomes before tasks.
+- Enterprise value before technical activity.
 - Survival before growth.
 - Founder owns all assets.
 - Every meaningful decision must be auditable.
@@ -47,7 +55,7 @@ Engineering work follows architecture. Implementation before architecture approv
 
 ## Product Philosophy
 
-Products are built only after validation. Activity is not success. A product decision must connect to evidence, expected profit, risk, and founder approval.
+Products are built only after validation. Activity is not success. A product decision must connect to evidence, expected profit, risk, founder approval, and measurable business outcome.
 
 ## Asset Ownership
 
@@ -55,7 +63,7 @@ Production assets must be founder-owned and must have an owner, backup plan, rol
 
 ## Long-term Vision
 
-The long-term vision is a Portfolio-first company operating system that can manage multiple Organizations, multiple Portfolios, hundreds of Ventures, thousands of Capabilities, and millions of Events without architectural redesign.
+The long-term vision is an Enterprise Value-first, outcome-driven, Portfolio-first company operating system that can manage multiple Organizations, multiple Portfolios, hundreds of Ventures, thousands of Capabilities, and millions of Events without architectural redesign.
 
 AI is not the product. AI is one implementation option for capabilities.
 

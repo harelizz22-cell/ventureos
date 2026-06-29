@@ -6,11 +6,11 @@ Source Of Truth: This file is the source of truth for project milestones.
 
 ## Current Milestone
 
-Architecture Audit #003 strategic expansion complete.
+Architecture Audit #005 Enterprise Value and Capital Allocation complete.
 
 ## Next Milestone
 
-Founder and Chief Architect review of strategic architecture expansion, then review of `docs/phases/phase-1-system-foundation.md`.
+Founder and Chief Architect review of Enterprise Value and Capital Allocation architecture, then review of `docs/phases/phase-1-system-foundation.md`.
 
 ## Status
 

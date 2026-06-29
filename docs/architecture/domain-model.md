@@ -19,6 +19,7 @@ Define the Domain-first business model.
 - Operations
 - Legal
 - Governance
+- Business Intelligence
 - Knowledge
 - Identity
 - Resources
@@ -40,3 +41,4 @@ Every Domain owns:
 
 Capabilities must belong to a Domain. Implementations do not define Domains.
 
+Every Domain must be able to connect its Capabilities, Policies, Events, Workflows, Data, Interfaces, and future implementations to measurable business outcomes where meaningful.

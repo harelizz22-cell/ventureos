@@ -22,12 +22,20 @@ These definitions are architectural vocabulary. All future documents must use th
 - Event: A meaningful runtime fact emitted by VentureOS for auditability, coordination, observability, and decoupled subscription.
 - Autonomy Level: A configured runtime permission level that defines what the system may observe, recommend, request, or execute.
 - Execution Orchestrator: The architecture component that owns execution flow, capability invocation, governance enforcement, approval waiting, retries, timeouts, failure containment, event coordination, recovery triggering, and execution state tracking.
+- Business Outcome: A measurable result that contributes to revenue, profit, growth, risk reduction, operational quality, or enterprise value.
+- Enterprise Value: The long-term measurable value of a company or portfolio created through revenue, profit, assets, defensibility, growth, and operational maturity.
+- Capital: Financial and economic resources available for allocation across Ventures, Capabilities, investments, infrastructure, tools, and operations.
+- Capital Allocation: The governed recommendation or decision process for assigning capital to the highest expected Enterprise Value use.
+- Investment: A governed allocation of capital into an internal Venture, external startup, acquisition, partnership, capability, infrastructure, or growth opportunity.
+- Opportunity Score: An evidence-linked metric used to compare opportunities by market size, competition, execution complexity, founder confidence, evidence quality, expected revenue, expected profit, strategic alignment, risk, expected ROI, time to revenue, and capital required.
 
 ## Current Architecture Posture
 
-VentureOS is a Company Operating System, not an AI Operating System. AI is an execution mechanism, not the identity of the system.
+VentureOS is an Enterprise Value-first Company Operating System, not an AI Operating System. AI is an execution mechanism, not the identity of the system.
 
-VentureOS is Portfolio-first and capability-first, not agent-first. A single venture is simply a portfolio containing one venture. Agents are implementation details.
+VentureOS exists to maximize long-term Enterprise Value while preserving Founder control, governance, transparency, and capital discipline. Revenue is an important KPI, but Enterprise Value is the primary objective.
+
+VentureOS is outcome-driven, Portfolio-first, and capability-first, not task-driven, workflow-driven, or agent-driven. A single venture is simply a portfolio containing one venture. Agents are implementation details.
 
 The architecture hierarchy is:
 
@@ -43,11 +51,16 @@ The architecture is configured for Autonomy Level 1: Assisted Mode and must rema
 
 The long-term architecture must support multiple Organizations, multiple Portfolios, hundreds of Ventures, thousands of Capabilities, and millions of Events without architectural redesign.
 
+VentureOS measures success by business outcomes, not technical activity. Every Capability must contribute toward measurable business outcomes. Every Workflow must exist because it creates business value. Every autonomous action must be traceable to a measurable objective.
+
+VentureOS does not measure success by revenue alone. Revenue matters because it contributes to Enterprise Value.
+
 ## Technical Source Of Truth Map
 
 - Context map: `docs/architecture/context-map.md`
 - Organization and Portfolio model: `docs/architecture/organization-portfolio-model.md`
 - Domain model: `docs/architecture/domain-model.md`
+- Business Intelligence Domain: `docs/architecture/business-intelligence.md`
 - Knowledge Domain: `docs/architecture/knowledge-domain.md`
 - Identity Domain: `docs/architecture/identity-domain.md`
 - Resource Domain: `docs/architecture/resource-domain.md`
@@ -56,6 +69,19 @@ The long-term architecture must support multiple Organizations, multiple Portfol
 - Event architecture: `docs/architecture/event-architecture.md`
 - Database architecture: `docs/architecture/database-architecture.md`
 - Asset Registry: `docs/architecture/asset-registry.md`
+- Venture Timeline: `docs/architecture/venture-timeline.md`
+- Venture Health Model: `docs/architecture/venture-health-model.md`
+- Venture Digital Twin: `docs/architecture/venture-digital-twin.md`
+- Value Graph: `docs/architecture/value-graph.md`
+- Founder Decision Graph: `docs/architecture/founder-decision-graph.md`
+- Revenue KPIs: `docs/architecture/revenue-kpis.md`
+- Enterprise Value Engine: `docs/architecture/enterprise-value-engine.md`
+- Capital Allocation Engine: `docs/architecture/capital-allocation-engine.md`
+- Investment Engine: `docs/architecture/investment-engine.md`
+- Opportunity Engine: `docs/architecture/opportunity-engine.md`
+- Opportunity Score: `docs/architecture/opportunity-score.md`
+- Stage Gate Investment Model: `docs/architecture/stage-gate-investment-model.md`
+- Capital Governance: `docs/governance/capital-governance.md`
 - Cost Governance: `docs/governance/cost-governance.md`
 - Runtime behavior: `docs/runtime/`
 - Tool Gateway: `docs/architecture/tool-gateway.md`
@@ -77,6 +103,12 @@ Technical implementation work must trace to this architecture index, an accepted
 Implementation may be performed by an AI Agent, human, external API, internal service, or future execution engine.
 
 Every future capability must be multi-venture aware and must identify its owning Domain.
+
+Every Capability must contribute toward measurable business outcomes. Every Workflow must exist because it creates business value. Every autonomous action must be traceable to a measurable objective.
+
+Every Capital allocation and investment recommendation must include Evidence, governance evaluation, expected ROI, risk, approval requirements, and expected Enterprise Value impact.
+
+VentureOS must not autonomously transfer money or execute investments.
 
 All execution paths must pass through the Policy Engine. No Capability, Agent, Workflow, Tool, Service, or External Provider may self-approve execution.
 

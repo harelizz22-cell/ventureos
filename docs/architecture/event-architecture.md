@@ -16,6 +16,19 @@ Everything meaningful emits events. Future systems must subscribe to events inst
 - Organization Created.
 - Portfolio Created.
 - Venture Created.
+- Idea Created.
+- Research Started.
+- Validation Started.
+- Validation Completed.
+- Founder Approved.
+- Development Started.
+- Infrastructure Ready.
+- Landing Page Published.
+- Traffic Started.
+- First Lead.
+- First Customer.
+- Revenue Generated.
+- Scaling Started.
 - Capability Registered.
 - Capability Executed.
 - Decision proposed.
@@ -40,3 +53,5 @@ Everything meaningful emits events. Future systems must subscribe to events inst
 Event contracts must be documented in `docs/contracts/event-contract-template.md` before implementation.
 
 Meaningful execution, evidence, decision, policy, asset, recovery, and audit behavior must emit events.
+
+Every major system event must be visible in the Venture Timeline.

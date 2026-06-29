@@ -6,7 +6,7 @@ Source Of Truth: This file is the source of truth for current project focus.
 
 ## Focus
 
-Claude Red Team Review #001 is applied. Current focus is reviewing the review changes and `docs/phases/phase-1-system-foundation.md`.
+Architecture Audit #005 is applied. Current focus is reviewing Enterprise Value and Capital Allocation architecture, then `docs/phases/phase-1-system-foundation.md`.
 
 Phase 1 is documentation/specification only. No implementation is approved yet.
 
@@ -15,6 +15,8 @@ Phase 1 is documentation/specification only. No implementation is approved yet.
 - Phase 1 System Foundation specification drafted.
 - Architecture Audit #003 strategic expansion completed.
 - Claude Red Team Review #001 documentation fixes applied.
+- Architecture Audit #004 revenue-first operating system completed.
+- Architecture Audit #005 Enterprise Value and Capital Allocation completed.
 - Phase 2 Governance Core placeholder created.
 - Phase 3 Policy Engine placeholder created.
 - Phase 4 Execution Orchestrator placeholder created.
@@ -22,6 +24,9 @@ Phase 1 is documentation/specification only. No implementation is approved yet.
 - Capability-first execution model remains the governing constraint.
 - Organization, Portfolio-first, Domain-first, and Event-first architecture are now governing constraints.
 - Policy Engine fail-closed behavior, autonomy levels, ledger integrity, and Cost Governance are now governing constraints.
+- Enterprise Value-first, outcome-driven architecture is now a governing constraint.
+- Revenue is an important KPI, but Enterprise Value is the primary objective.
+- Capital Allocation Engine, Investment Engine, Opportunity Score, Stage Gate Investment Model, and Capital Governance are now governing constraints.
 
 ## Current Architecture Work Items
 
@@ -29,6 +34,37 @@ Phase 1 is documentation/specification only. No implementation is approved yet.
 - Define cost thresholds and token budget policy.
 - Define autonomy transition evidence requirements.
 - Expand Policy Engine governance behavior in Phase 2.
+- Define revenue KPI formulas and Enterprise Value reporting boundaries.
+- Define Venture Health calculation models.
+- Define Digital Twin data boundaries.
+- Define Value Graph and Founder Decision Graph relationship rules.
+- Define Enterprise Value calculation boundaries.
+- Define capital allocation thresholds and portfolio budget rules.
+- Define investment recommendation score thresholds.
+- Define Stage Gate evidence and approval requirements.
+- Define external startup investment evaluation boundaries.
+
+## Completed Architecture Audit #005
+
+- Enterprise Value-first mission recorded.
+- Revenue recorded as important KPI, not the primary optimization objective.
+- Enterprise Value Engine created.
+- Capital Allocation Engine created.
+- Investment Engine created.
+- Opportunity Engine expanded for internal opportunities, external startup investments, acquisitions, and partnerships.
+- Opportunity Score documented.
+- Stage Gate Investment Model documented.
+- Capital Governance documented.
+- No autonomous money movement rule documented.
+- External investment support documented as recommendation-only.
+
+## Completed Architecture Audit #004
+
+- Revenue-first mission recorded during Architecture Audit #004 and superseded as primary objective by Architecture Audit #005.
+- Outcome-driven architecture recorded.
+- Business Intelligence Domain created.
+- Venture Timeline, Venture Health Model, Digital Twin, Value Graph, Founder Decision Graph, and Revenue KPIs documented.
+- Resource economics and profit awareness documented.
 
 ## Completed Architecture Audit #002
 

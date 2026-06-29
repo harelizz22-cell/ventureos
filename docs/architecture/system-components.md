@@ -26,9 +26,22 @@ Source Of Truth: This file is the source of truth for approved core architecture
 - Knowledge Domain
 - Identity Domain
 - Resource Domain
+- Business Intelligence Domain
 - Recovery System
 - Founder Operating Console
 - Founder Command Center
+- Venture Timeline
+- Venture Health Model
+- Venture Digital Twin
+- Value Graph
+- Founder Decision Graph
+- Revenue KPIs
+- Enterprise Value Engine
+- Capital Allocation Engine
+- Investment Engine
+- Opportunity Engine
+- Opportunity Score
+- Stage Gate Investment Model
 
 ## Rule
 

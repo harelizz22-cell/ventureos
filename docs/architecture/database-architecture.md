@@ -14,6 +14,7 @@ Supabase Postgres is the preferred future database direction.
 - Portfolios.
 - Ventures.
 - Business Domains.
+- Business Intelligence.
 - Governance.
 - Evidence.
 - Decisions.
@@ -22,6 +23,14 @@ Supabase Postgres is the preferred future database direction.
 - Agents.
 - Assets.
 - Resources.
+- Revenue.
+- Expenses.
+- Venture Timeline.
+- Venture Health.
+- Venture Digital Twin.
+- Value Graph.
+- Founder Decision Graph.
+- Executive KPIs.
 - Events.
 - Workflows and executions.
 - State.

@@ -4,7 +4,7 @@ Parent: Repository root.
 
 Source Of Truth: `docs/project/ventureos-system-bible.md`
 
-VentureOS is a Founder-Owned Autonomous Venture Operating System. Its purpose is to discover, validate, launch, operate, optimize, and scale profitable digital businesses under strict founder governance.
+VentureOS is a Founder-Owned Autonomous Company Operating System. It exists to maximize long-term Enterprise Value while preserving Founder control, governance, transparency, and capital discipline.
 
 This repository is currently architecture-first. It contains the documentation architecture, governance rules, decision records, agent contracts, phase plans, and contract templates required before any production implementation begins.
 
@@ -36,6 +36,11 @@ Use this rule for where information belongs:
 
 - Why VentureOS exists belongs in `docs/project/ventureos-system-bible.md` and the concise philosophy belongs in `docs/project/ventureos-manifesto.md`.
 - How VentureOS is technically structured belongs in `docs/architecture/`, starting with `docs/architecture/context-map.md`.
+- Enterprise Value architecture belongs in `docs/architecture/enterprise-value-engine.md`.
+- Capital allocation architecture belongs in `docs/architecture/capital-allocation-engine.md` and capital governance belongs in `docs/governance/capital-governance.md`.
+- Investment recommendation architecture belongs in `docs/architecture/investment-engine.md`.
+- Opportunity scoring belongs in `docs/architecture/opportunity-score.md`.
+- Venture lifecycle investment gates belong in `docs/architecture/stage-gate-investment-model.md`.
 - How VentureOS behaves during execution belongs in `docs/runtime/`.
 - How VentureOS should look, feel, and behave as an interface belongs in `docs/design/`.
 - Architecture decisions belong in `docs/adr/`.

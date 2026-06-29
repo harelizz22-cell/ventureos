@@ -273,17 +273,21 @@ Define controlled access from the system to AI providers.
 
 ### Objective
 
-Define how business opportunities are captured, assessed, and moved through states.
+Define how business opportunities, external startup investments, acquisitions, and partnerships are captured, assessed, scored, and moved through states.
 
 ### Inputs
 
 - Opportunity state machine.
 - Evidence requirements.
 - Decision requirements.
+- Enterprise Value requirements.
+- Capital Governance requirements.
 
 ### Outputs
 
 - Opportunity record requirements.
+- Opportunity Score requirements.
+- Investment recommendation inputs.
 - Opportunity transition criteria.
 - Validation readiness rules.
 
@@ -292,10 +296,13 @@ Define how business opportunities are captured, assessed, and moved through stat
 - State Machine.
 - Evidence Engine.
 - Decision Engine.
+- Capital Allocation Engine.
 
 ### Acceptance Criteria
 
 - Opportunities cannot bypass evidence requirements.
+- Investment recommendations cannot bypass governance requirements.
+- Opportunity Scores are explainable and evidence-linked.
 - State transitions are documented.
 - Build proposals require validation readiness.
 
@@ -424,7 +431,7 @@ Define the controlled transition from Assisted Mode to bounded semi-autonomous e
 
 ### Objective
 
-Define requirements for future autonomous venture operations under founder governance.
+Define requirements for future autonomous company operations under founder governance.
 
 ### Inputs
 

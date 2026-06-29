@@ -22,7 +22,7 @@ Phase 1 specification drafted. Implementation not approved.
 
 ## Architecture Status
 
-Claude Red Team Review #001 applied. Architecture-first repository foundation exists. VentureOS is a Company Operating System, Portfolio-first, Domain-first, capability-first, Event-first, governance-fail-closed, and configured for Autonomy Level 1: Assistant. No production application code is approved.
+Architecture Audit #005 completed. Architecture-first repository foundation exists. VentureOS is an Enterprise Value-first, outcome-driven Company Operating System, Portfolio-first, Domain-first, capability-first, Event-first, governance-fail-closed, and configured for Autonomy Level 1: Assistant. Revenue is an important KPI, but Enterprise Value is the primary objective. No production application code is approved.
 
 ## Design Status
 
@@ -54,15 +54,15 @@ Founder.
 
 ## Last ADR
 
-`ADR-009-claude-red-team-review-001.md`
+`ADR-019-stage-gate-investment-model.md`
 
 ## Current Goal
 
-Review Claude Red Team Review #001 documentation changes and then review `docs/phases/phase-1-system-foundation.md` before any implementation begins.
+Review Architecture Audit #005 Enterprise Value and Capital Allocation changes and then review `docs/phases/phase-1-system-foundation.md` before any implementation begins.
 
 ## Next Milestone
 
-Founder and Chief Architect review of the Phase 1 System Foundation specification.
+Founder and Chief Architect review of Enterprise Value and Capital Allocation architecture, then Phase 1 System Foundation specification.
 
 ## Current Risks
 
@@ -78,6 +78,10 @@ Founder and Chief Architect review of the Phase 1 System Foundation specificatio
 - Policy Engine fail-closed behavior is documented but not implemented.
 - Cost Governance is documented but budget thresholds are not defined.
 - Autonomy levels are documented but transition evidence remains open.
+- Business Intelligence, Venture Timeline, Venture Health, Venture Digital Twin, Value Graph, Founder Decision Graph, and Revenue KPIs are documented at placeholder level and require Phase-level expansion.
+- Enterprise Value Engine, Capital Allocation Engine, Investment Engine, Opportunity Engine, Opportunity Score, Stage Gate Investment Model, and Capital Governance are documented at placeholder level and require Phase-level expansion.
+- Capital allocation thresholds, investment limits, and portfolio budget rules are not yet defined.
+- External startup investment support is documented as recommendation-only and requires governance detail before implementation.
 
 ## Current Blockers
 
@@ -100,7 +104,12 @@ Founder and Chief Architect review of the Phase 1 System Foundation specificatio
 - Event contract priority and retention rules.
 - Cost thresholds and token budget policy.
 - Autonomy transition evidence requirements.
+- Revenue KPI formulas and Enterprise Value reporting boundaries.
+- Venture Health calculation models.
+- Digital Twin data boundaries.
+- Value Graph and Founder Decision Graph relationship rules.
+- Capital allocation formulas, investment recommendation thresholds, stage gate criteria, and Opportunity Score weighting.
 
 ## Last Updated
 
-2026-06-28
+2026-06-29

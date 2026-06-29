@@ -20,6 +20,9 @@ Cost Governance applies to:
 - Workflow costs.
 - Retry costs.
 - Token budgets.
+- Developer time.
+- Founder time.
+- Third-party costs.
 - Future budget enforcement.
 - Future optimization engine.
 
@@ -31,6 +34,8 @@ Cost Governance applies to:
 - Retry behavior must account for cost.
 - Token budgets are governance inputs, not prompt suggestions.
 - Cost optimization must not bypass evidence, decision, approval, audit, or recovery rules.
+- The cheapest execution is not always correct.
+- The most expensive execution is not always justified.
 
 ## Future Budget Enforcement
 
@@ -49,4 +54,3 @@ A future optimization engine may recommend lower-cost execution paths. It may no
 - No budget schema.
 - No implementation code.
 - No secrets or account values.
-

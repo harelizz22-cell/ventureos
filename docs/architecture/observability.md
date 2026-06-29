@@ -12,6 +12,8 @@ Observability ensures meaningful actions, decisions, policy outcomes, state tran
 
 Every meaningful decision and production action must be auditable.
 
+Observability must support business health, not only technical status. Founder-facing observability must make money, risk, growth, approvals, blockers, daily change, and expected outcomes visible without requiring log inspection.
+
 Audit is append-only. Audit entries cannot be edited.
 
 Evidence, Decision, and Audit are separate architectural concerns:

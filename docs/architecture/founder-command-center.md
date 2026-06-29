@@ -10,6 +10,20 @@ Founder Operating Console is the primary product entry. Founder Command Center i
 
 The Founder Command Center is the founder-facing control surface for approvals, portfolio and venture status, evidence review, decisions, risks, spending thresholds, capability status, execution status, and production asset health.
 
+## Founder Visibility Requirement
+
+The Founder Operating Console must answer within five seconds:
+
+- Where is my money?
+- Where is my risk?
+- Where is my growth?
+- What requires my approval?
+- What is blocked?
+- What changed today?
+- What is the expected outcome?
+
+The Founder should never need to inspect logs to understand business health.
+
 ## Rule
 
 The Founder Command Center must preserve founder authority and decision auditability.

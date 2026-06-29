@@ -22,3 +22,15 @@ Source Of Truth: This file is the source of truth for project-management risk tr
 - Autonomy transition criteria may remain too vague.
 - Cost Governance may remain documented but unenforced without thresholds.
 - Ledger integrity may be weakened if Evidence, Decision, and Audit concerns are merged in implementation.
+- Revenue KPI language may remain conceptual unless KPI formulas are defined.
+- Enterprise Value may remain conceptual unless calculation boundaries and reporting rules are defined.
+- Capital Allocation Engine may be under-specified unless portfolio budget rules, thresholds, and approval paths are defined.
+- Investment Engine may be misunderstood as execution authority unless recommendation-only boundaries stay explicit.
+- Opportunity Score may become misleading unless weighting, evidence requirements, confidence, and review rules are defined.
+- Stage Gate Investment Model may become a naming-only lifecycle unless transition criteria are specified.
+- External startup investment support may create governance risk if financial execution is not sufficiently separated from recommendations.
+- Autonomous money movement must remain blocked unless Founder-defined governance explicitly authorizes future behavior.
+- Outcome-driven architecture may regress into workflow activity metrics.
+- Business Intelligence may become reporting-only instead of strategy-driving.
+- Venture Health scores may become misleading without clear calculation models.
+- Digital Twin and Value Graph scope may expand too quickly without phase boundaries.
