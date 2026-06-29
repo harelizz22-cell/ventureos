@@ -28,6 +28,20 @@ No production application code may be written before architecture approval. Init
 - `docs/project-management/` - milestones, release planning, focus, future ideas, technical debt, and known risks.
 - `apps/`, `services/`, `agents/`, `workflows/`, `database/`, `infrastructure/`, `tests/` - reserved implementation areas. They must remain non-production until the approved phase plan permits implementation.
 
+## Repository Root Structure
+
+- `docs/` - documentation architecture, governance, decisions, contracts, project state, and approved phase planning.
+- `apps/` - reserved for future application entry points after implementation approval.
+- `services/` - reserved for future backend or domain services after implementation approval.
+- `infrastructure/` - reserved for future infrastructure definitions after implementation approval.
+- `agents/` - reserved for future agent implementation assets after implementation approval.
+- `workflows/` - reserved for future workflow implementation assets after implementation approval.
+- `database/` - reserved for future database assets after implementation approval.
+- `tests/` - reserved for future validation and test assets after implementation approval.
+- `scripts/` - reserved for future project scripts after approval.
+- `tools/` - reserved for future internal project tools after approval.
+- `archive/` - reserved for historical or superseded materials that should be preserved outside active source-of-truth documentation.
+
 ## Documentation Hierarchy
 
 The highest-level project document is `docs/project/ventureos-system-bible.md`.

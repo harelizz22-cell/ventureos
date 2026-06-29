@@ -6,6 +6,9 @@ Source Of Truth: This file is the source of truth for the latest work-session ha
 
 ## Completed Today
 
+- Repository root structure normalized at `/Users/harelitzhaki/VentureOS`.
+- Added reserved root folders for `scripts`, `tools`, and `archive`.
+- Documented repository root structure in the root README.
 - Architecture Audit #005 completed.
 - Updated mission to Enterprise Value-first, outcome-driven company operating system.
 - Recorded Revenue as an important KPI and Enterprise Value as the primary objective.
@@ -89,6 +92,9 @@ Source Of Truth: This file is the source of truth for the latest work-session ha
 - `docs/project-management/current-focus.md`
 - `docs/project-management/known-risks.md`
 - `README.md`
+- `scripts/README.md`
+- `tools/README.md`
+- `archive/README.md`
 
 ## ADRs Added
 
