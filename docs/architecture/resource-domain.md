@@ -35,6 +35,7 @@ The Resource Domain defines resources consumed by VentureOS execution.
 - Future cost tracking must be supported.
 - Resource usage must be auditable when meaningful.
 - Secrets are tracked only as metadata; secrets must not be stored in documentation.
+- Resource Domain remains the write owner for asset and resource allocation state unless explicitly changed by ADR.
 
 ## Placeholder Status
 

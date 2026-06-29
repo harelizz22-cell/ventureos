@@ -23,3 +23,11 @@ Evidence, Decision, and Audit are separate architectural concerns:
 - Audit records what happened.
 
 Evidence must exist before Decision. Decision without Evidence is invalid. Evidence never changes historical Decision records.
+
+## Observability To Evidence Bridge
+
+Observability signals may be promoted to Evidence for Decisions only through a governed promotion process.
+
+Raw telemetry must not automatically become Evidence.
+
+Example: Agent error rate may become Evidence for Agent deprecation after governed promotion.

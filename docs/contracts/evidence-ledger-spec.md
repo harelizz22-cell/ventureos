@@ -62,6 +62,12 @@ Evidence must exist before Decision. Decision without Evidence is invalid.
 
 Evidence never changes historical Decision records. If evidence changes later, a new evidence record and follow-up decision are required.
 
+When Knowledge is referenced as Evidence for a Decision, the referenced Knowledge version must be immutable or snapshot-pinned.
+
+Evidence must never depend on mutable current-state content.
+
+Observability signals may be promoted to Evidence for Decisions only through a governed promotion process. Raw telemetry must not automatically become Evidence.
+
 ## Future Database Mapping Note
 
 Future database design must map these required fields without weakening evidence quality, source, timestamp, confidence, or audit requirements.

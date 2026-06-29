@@ -55,6 +55,14 @@ Implementation may be:
 - Every execution consumes Resources.
 - Cost Governance may be used as a Policy Engine approval input.
 - Failed execution must be contained and routed to recovery rules when required.
+- At startup, execution requests must not be accepted until Policy Engine health is confirmed.
+- If the Policy Engine becomes unavailable, new execution must stop fail-closed.
+
+## Policy Response Handling
+
+Policy Engine decision outcomes are Approved, Denied, Pending Founder Approval, Pending Delegated Approval, Blocked By Governance, and Fail Closed.
+
+The Execution Orchestrator owns waiting and continuation behavior after Policy Engine response.
 
 ## Profit Awareness
 

@@ -39,6 +39,16 @@ VentureOS is Portfolio-first. A single venture is simply a portfolio containing 
 
 The system must never assume a single company. Every future capability must be multi-venture aware.
 
+## Explicit Venture Scope Rule
+
+Every Capability invocation, Execution, Evidence record, Decision record, Audit record, Event, Tool call, AI call, Asset, Cost record, and Investment recommendation must carry explicit scope:
+
+- `organization_id`
+- `portfolio_id`
+- `venture_id`
+
+No global default Venture scope is allowed.
+
 ## Long-Term Requirement
 
 The architecture must support multiple Organizations, multiple Portfolios, and hundreds of Ventures without redesign.

@@ -40,3 +40,9 @@ Supabase Postgres is the preferred future database direction.
 ## Rule
 
 No database schema is approved until phase requirements and data contracts are reviewed.
+
+No global default Venture scope is allowed.
+
+Every future data model for Capability invocation, Execution, Evidence, Decision, Audit, Event, Tool call, AI call, Asset, Cost record, and Investment recommendation must preserve explicit `organization_id`, `portfolio_id`, and `venture_id` scope.
+
+No Domain may read or write another Domain's database, tables, or in-memory state directly.

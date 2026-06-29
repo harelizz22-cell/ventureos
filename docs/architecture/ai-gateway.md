@@ -15,3 +15,8 @@ The AI Gateway is the only permitted path from the system to AI providers.
 - Provider-specific behavior must remain behind the gateway abstraction.
 - AI usage must be auditable where meaningful decisions or actions are affected.
 
+## Open Decision
+
+Should AI Gateway enforce per-Venture token and cost budgets in real time, or report usage after execution for Policy Engine and Cost Governance response?
+
+This is not decided yet.

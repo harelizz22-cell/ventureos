@@ -24,6 +24,24 @@ Capabilities belong to Domains and must be multi-venture aware.
 - Resource requirements.
 - Event requirements.
 
+## Single Ownership Rule
+
+Every Capability has exactly one owning Domain.
+
+Co-owned Capabilities are not allowed. If multiple Domains are involved, the work must be split into multiple Capabilities coordinated by a Workflow or the Execution Orchestrator.
+
+## Scope Rule
+
+Every Capability invocation must carry explicit `organization_id`, `portfolio_id`, and `venture_id` scope.
+
+No global default Venture scope is allowed.
+
+## Versioning Rule
+
+Capability contracts must be versioned.
+
+Breaking Capability contract changes require a new version, migration plan, ADR if architecturally significant, and compatibility window where required.
+
 ## Rule
 
 Capabilities do not grant execution authority by themselves. Capability invocation is routed through the Execution Orchestrator and governed before execution.

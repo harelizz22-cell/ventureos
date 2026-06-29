@@ -13,7 +13,19 @@ State machines control lifecycle transitions for opportunities, agents, approval
 - Opportunity lifecycle.
 - Agent lifecycle.
 
+## State Machine Standard
+
+Every state machine must define:
+
+- States.
+- Allowed transitions.
+- Transition actor.
+- Required evidence.
+- Required approval.
+- Emitted event.
+- Audit requirement.
+- Rollback or recovery behavior.
+
 ## Rule
 
 No workflow should rely on informal status text when a formal state is required.
-

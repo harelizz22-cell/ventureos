@@ -26,3 +26,8 @@ Runtime docs live in `docs/runtime/` and define operating behavior such as runti
 - `docs/runtime/runtime-tool-execution.md`
 - `docs/runtime/runtime-autonomy-levels.md`
 
+## Startup Fail-Closed Rule
+
+At startup, Execution Orchestrator must not accept execution requests until Policy Engine health is confirmed.
+
+If Policy Engine becomes unavailable, new execution must stop fail-closed.

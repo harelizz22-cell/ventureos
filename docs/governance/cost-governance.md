@@ -43,6 +43,8 @@ Future Policy Engine rules may use Cost Governance as an approval input.
 
 Examples of future policy inputs include budget remaining, estimated execution cost, retry cost exposure, AI token usage, infrastructure spend, and portfolio-level cost limits.
 
+Open decision: Should AI Gateway enforce per-Venture token and cost budgets in real time, or report usage after execution for Policy Engine and Cost Governance response?
+
 ## Future Optimization Engine
 
 A future optimization engine may recommend lower-cost execution paths. It may not override governance or founder approval.

@@ -14,6 +14,19 @@ Agents are implementation details for capabilities. They are not the primary arc
 
 AI is not the product. AI Agents are one implementation option among humans, APIs, internal services, and future execution engines.
 
+## Agent Identity Requirements
+
+Agents are first-class identities in the Identity Domain.
+
+Agents are not anonymous code acting on behalf of a human.
+
+Every Agent Registry record must connect to an Identity record and define:
+
+- Allowed scope.
+- Autonomy ceiling.
+- Capability permissions.
+- Audit attribution.
+
 ## Rule
 
 Agents cannot modify their own contract, approve themselves, or grant themselves new capabilities.

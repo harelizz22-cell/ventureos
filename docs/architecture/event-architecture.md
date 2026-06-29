@@ -48,6 +48,36 @@ Everything meaningful emits events. Future systems must subscribe to events inst
 - Execution Failed.
 - Execution Retried.
 
+## Event Envelope Standard
+
+Every Event must use a standard envelope with:
+
+- `event_id`
+- `event_type`
+- `occurred_at`
+- `source_domain`
+- `source_component`
+- `organization_id`
+- `portfolio_id`
+- `venture_id`
+- `actor_id`
+- `correlation_id`
+- `causation_id`
+- `payload`
+- `schema_version`
+
+## Scope Rule
+
+Every Event must carry explicit `organization_id`, `portfolio_id`, and `venture_id` scope.
+
+No global default Venture scope is allowed.
+
+## Versioning Rule
+
+Event payloads must be versioned.
+
+Breaking Event payload changes require a new version, migration plan, ADR if architecturally significant, and compatibility window where required.
+
 ## Rule
 
 Event contracts must be documented in `docs/contracts/event-contract-template.md` before implementation.

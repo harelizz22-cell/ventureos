@@ -28,6 +28,8 @@ This document covers operating behavior for autonomy levels. It does not authori
 - Runtime actions must follow policy, evidence, approval, audit, and recovery rules.
 - All execution paths must pass through the Policy Engine.
 - If the Policy Engine is unavailable, VentureOS fails closed.
+- At startup, Execution Orchestrator must not accept execution requests until Policy Engine health is confirmed.
+- If Policy Engine becomes unavailable, new execution must stop fail-closed.
 
 ## Level 0: Observer
 

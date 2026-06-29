@@ -25,7 +25,10 @@ The Knowledge Domain is the central knowledge system for VentureOS.
 
 Knowledge must preserve source, context, auditability, and relationship to evidence or decisions where meaningful.
 
+When Knowledge is referenced as Evidence for a Decision, the referenced Knowledge version must be immutable or snapshot-pinned.
+
+Evidence must never depend on mutable current-state content.
+
 ## Placeholder Status
 
 This is an architecture placeholder. It does not define storage, schema, embeddings, or implementation.
-

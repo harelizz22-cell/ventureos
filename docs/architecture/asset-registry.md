@@ -36,3 +36,9 @@ Every asset must have:
 Every production asset must be founder-owned and auditable. Secrets Metadata may describe the existence and ownership of secrets, but secrets themselves must not be stored in documentation.
 
 Assets must be linkable to Venture Digital Twin, Value Graph, and Venture Timeline records where meaningful.
+
+Asset Registry is a read projection over Resource Domain data unless explicitly changed by ADR.
+
+Resource Domain remains the write owner for asset and resource allocation state.
+
+Asset Registry exists for fast query and Founder Operating Console visibility.

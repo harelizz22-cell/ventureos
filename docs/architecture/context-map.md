@@ -34,6 +34,16 @@ Founder
 
 Capabilities are invoked through the Execution Orchestrator. Implementation may be AI, human, API, internal service, or future engine.
 
+## Domain Interaction Model
+
+Domains never share state directly.
+
+Allowed interaction channels are governed Capability invocation through the Execution Orchestrator and Policy Engine, and Published Events through Event Architecture.
+
+No Domain may read or write another Domain's database, tables, or in-memory state directly.
+
+Domains may only be added to this Context Map after their Domain Declaration is accepted.
+
 ## Runtime Model
 
 Everything meaningful emits events. Future systems must subscribe to events instead of tightly coupling services.
