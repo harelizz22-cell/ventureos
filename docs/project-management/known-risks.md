@@ -30,6 +30,10 @@ Source Of Truth: This file is the source of truth for project-management risk tr
 - Stage Gate Investment Model may become a naming-only lifecycle unless transition criteria are specified.
 - External startup investment support may create governance risk if financial execution is not sufficiently separated from recommendations.
 - Autonomous money movement must remain blocked unless Founder-defined governance explicitly authorizes future behavior.
+- Thesis Engine may become subjective unless compliance scoring and exception handling are defined.
+- Portfolio Diversification may remain conceptual unless exposure thresholds and correlated risk models are defined.
+- Learning Engine may create misleading patterns unless updates are evidence-backed, reviewed, and auditable.
+- Hypothesis Engine may become a formality unless success criteria, kill criteria, validation plans, and Thesis alignment are enforced.
 - Outcome-driven architecture may regress into workflow activity metrics.
 - Business Intelligence may become reporting-only instead of strategy-driving.
 - Venture Health scores may become misleading without clear calculation models.

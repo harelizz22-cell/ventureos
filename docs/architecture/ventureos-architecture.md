@@ -28,6 +28,10 @@ These definitions are architectural vocabulary. All future documents must use th
 - Capital Allocation: The governed recommendation or decision process for assigning capital to the highest expected Enterprise Value use.
 - Investment: A governed allocation of capital into an internal Venture, external startup, acquisition, partnership, capability, infrastructure, or growth opportunity.
 - Opportunity Score: An evidence-linked metric used to compare opportunities by market size, competition, execution complexity, founder confidence, evidence quality, expected revenue, expected profit, strategic alignment, risk, expected ROI, time to revenue, and capital required.
+- Thesis: The Founder and Organization investment/build strategy defining preferred and excluded markets, business models, geography, risk tolerance, capital range, return expectations, time horizon, and strategic constraints.
+- Hypothesis: An explicit, testable business assumption for a Venture before validation, including problem, audience, solution, assumptions, success criteria, kill criteria, validation plan, expected ROI, and Thesis alignment.
+- Portfolio Diversification: The architecture concern that monitors concentration risk across sector, geography, stage, technology, capital, providers, revenue models, and correlated risks.
+- Learning: Evidence-backed conversion of outcomes into reusable knowledge for future strategy, scoring, recommendations, and governance.
 
 ## Current Architecture Posture
 
@@ -78,6 +82,10 @@ VentureOS does not measure success by revenue alone. Revenue matters because it 
 - Enterprise Value Engine: `docs/architecture/enterprise-value-engine.md`
 - Capital Allocation Engine: `docs/architecture/capital-allocation-engine.md`
 - Investment Engine: `docs/architecture/investment-engine.md`
+- Thesis Engine: `docs/architecture/thesis-engine.md`
+- Portfolio Diversification: `docs/architecture/portfolio-diversification.md`
+- Learning Engine: `docs/architecture/learning-engine.md`
+- Hypothesis Engine: `docs/architecture/hypothesis-engine.md`
 - Opportunity Engine: `docs/architecture/opportunity-engine.md`
 - Opportunity Score: `docs/architecture/opportunity-score.md`
 - Stage Gate Investment Model: `docs/architecture/stage-gate-investment-model.md`
@@ -107,6 +115,12 @@ Every future capability must be multi-venture aware and must identify its owning
 Every Capability must contribute toward measurable business outcomes. Every Workflow must exist because it creates business value. Every autonomous action must be traceable to a measurable objective.
 
 Every Capital allocation and investment recommendation must include Evidence, governance evaluation, expected ROI, risk, approval requirements, and expected Enterprise Value impact.
+
+No Venture may move from idea to validation without an approved hypothesis.
+
+No Venture, external investment, acquisition, or capital allocation may proceed without Thesis alignment review.
+
+Learning updates must be evidence-backed and auditable.
 
 VentureOS must not autonomously transfer money or execute investments.
 

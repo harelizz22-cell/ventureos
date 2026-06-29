@@ -10,7 +10,9 @@ The Investment Engine evaluates external and internal investment opportunities.
 
 ## Responsibilities
 
+- Thesis alignment review input
 - Opportunity scoring
+- Portfolio diversification analysis
 - Risk evaluation
 - Expected ROI
 - Capital recommendation
@@ -43,7 +45,10 @@ Financial execution always requires Founder-defined governance.
 
 The Investment Engine generates governed recommendations. It never executes investments.
 
+No external investment, acquisition, or capital allocation recommendation may proceed without Thesis alignment review.
+
+Investment recommendations must consider Portfolio Diversification where meaningful.
+
 ## Placeholder Status
 
 This is an architecture placeholder. It does not define financial integrations, investment transactions, external data integrations, schemas, or implementation.
-

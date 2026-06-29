@@ -10,6 +10,7 @@ The Capital Allocation Engine optimizes where capital should be allocated across
 
 ## Responsibilities
 
+- Thesis alignment review input
 - Investment planning
 - Budget allocation
 - Budget reallocation
@@ -18,6 +19,7 @@ The Capital Allocation Engine optimizes where capital should be allocated across
 - Opportunity comparison
 - Capital efficiency
 - Portfolio optimization
+- Portfolio diversification analysis
 - Return on capital analysis
 
 ## Portfolio Capital Management
@@ -36,7 +38,10 @@ The system must eventually answer:
 
 The Capital Allocation Engine generates governed recommendations. It does not execute investments or move money.
 
+No capital allocation may proceed without Thesis alignment review.
+
+Capital allocation recommendations must consider Portfolio Diversification, expected ROI, risk, approval requirements, and expected Enterprise Value impact.
+
 ## Placeholder Status
 
 This is an architecture placeholder. It does not define allocation formulas, investment execution, financial integrations, schemas, or implementation.
-

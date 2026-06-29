@@ -6,7 +6,7 @@ Source Of Truth: This file is the source of truth for current project focus.
 
 ## Focus
 
-Architecture Audit #005 is applied. Current focus is reviewing Enterprise Value and Capital Allocation architecture, then `docs/phases/phase-1-system-foundation.md`.
+Architecture Audit #006 is applied. Current focus is reviewing Strategic Thinking Engines architecture, then `docs/phases/phase-1-system-foundation.md`.
 
 Phase 1 is documentation/specification only. No implementation is approved yet.
 
@@ -17,6 +17,7 @@ Phase 1 is documentation/specification only. No implementation is approved yet.
 - Claude Red Team Review #001 documentation fixes applied.
 - Architecture Audit #004 revenue-first operating system completed.
 - Architecture Audit #005 Enterprise Value and Capital Allocation completed.
+- Architecture Audit #006 Strategic Thinking Engines completed.
 - Phase 2 Governance Core placeholder created.
 - Phase 3 Policy Engine placeholder created.
 - Phase 4 Execution Orchestrator placeholder created.
@@ -27,6 +28,7 @@ Phase 1 is documentation/specification only. No implementation is approved yet.
 - Enterprise Value-first, outcome-driven architecture is now a governing constraint.
 - Revenue is an important KPI, but Enterprise Value is the primary objective.
 - Capital Allocation Engine, Investment Engine, Opportunity Score, Stage Gate Investment Model, and Capital Governance are now governing constraints.
+- Thesis Engine, Portfolio Diversification, Learning Engine, and Hypothesis Engine are now governing constraints.
 
 ## Current Architecture Work Items
 
@@ -43,6 +45,23 @@ Phase 1 is documentation/specification only. No implementation is approved yet.
 - Define investment recommendation score thresholds.
 - Define Stage Gate evidence and approval requirements.
 - Define external startup investment evaluation boundaries.
+- Define Thesis compliance scoring.
+- Define Hypothesis approval workflow and validation readiness criteria.
+- Define Portfolio Diversification thresholds and correlated risk model.
+- Define Learning Engine update governance and evidence promotion flow.
+
+## Completed Architecture Audit #006
+
+- Thesis Engine documented.
+- Portfolio Diversification documented.
+- Learning Engine documented.
+- Hypothesis Engine documented.
+- ADR-025 through ADR-028 added.
+- No Venture can move from idea to validation without an approved hypothesis.
+- No Venture, external investment, acquisition, or capital allocation can proceed without Thesis alignment review.
+- Learning updates must be evidence-backed and auditable.
+- Enterprise Value remains the primary objective.
+- No autonomous money movement rule preserved.
 
 ## Completed Architecture Audit #005
 

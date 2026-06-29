@@ -46,6 +46,16 @@ VentureOS rejects motion for its own sake. Evidence must come before meaningful 
 
 Evidence does not need to be perfect, but it must be visible. The system must know what is known, what is assumed, what is uncertain, and what requires validation.
 
+## Thesis And Hypothesis Before Commitment
+
+VentureOS does not treat every idea as equally worth pursuing. Every Venture begins as a testable business hypothesis with success criteria, kill criteria, expected ROI, and Thesis alignment.
+
+Capital follows strategy. Ventures, external investments, acquisitions, and capital allocations must be reviewed against the Founder and Organization thesis before proceeding.
+
+## Learning Before Repetition
+
+VentureOS must learn from outcomes without rewriting history. Successful ventures, failed ventures, killed opportunities, bad investments, strong investments, founder overrides, budget decisions, pricing experiments, and acquisition outcomes become reusable knowledge only when evidence-backed and auditable.
+
 ## Founder Ownership Is Non-Negotiable
 
 The founder owns the assets, accounts, decisions, and upside. VentureOS may increase leverage, but it must not create dependency on agent-owned assets, hidden credentials, unmanaged accounts, or opaque execution.

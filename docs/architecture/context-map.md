@@ -54,6 +54,18 @@ Every Capability must contribute toward measurable business outcomes. Every Work
 
 Founder Decision -> Workflow -> Capability -> Execution -> Cost -> Revenue -> Profit -> Enterprise Value
 
+## Strategic Thinking Model
+
+Thesis -> Hypothesis -> Validation -> Opportunity Score -> Capital Allocation -> Execution -> Outcome -> Learning -> Enterprise Value
+
+No Venture may move from idea to validation without an approved hypothesis.
+
+No Venture, external investment, acquisition, or capital allocation may proceed without Thesis alignment review.
+
+Portfolio Diversification identifies concentration risk before capital or investment recommendations.
+
+Learning converts outcomes into evidence-backed, auditable reusable knowledge.
+
 ## Product Entry
 
 The primary product entry is the Founder Operating Console. The primary screen is the Founder Command Center.

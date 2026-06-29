@@ -23,9 +23,13 @@ The system exists to protect founder judgment while increasing measurable enterp
 ## Core Principles
 
 - Evidence before action.
+- Hypothesis before validation.
+- Thesis before capital allocation.
 - No build before validation.
 - Enterprise Value before revenue.
 - Capital discipline before scale.
+- Diversification before concentration.
+- Learning before repetition.
 - Profit before activity.
 - Outcomes before tasks.
 - Enterprise value before technical activity.
@@ -56,6 +60,12 @@ Engineering work follows architecture. Implementation before architecture approv
 ## Product Philosophy
 
 Products are built only after validation. Activity is not success. A product decision must connect to evidence, expected profit, risk, founder approval, and measurable business outcome.
+
+Every Venture starts as an explicit business hypothesis. No Venture may move from idea to validation without an approved hypothesis.
+
+Every Venture, external investment, acquisition, or capital allocation must pass Thesis alignment review before proceeding.
+
+Learning from outcomes must be evidence-backed and auditable.
 
 ## Asset Ownership
 

@@ -6,6 +6,11 @@ Source Of Truth: This file is the source of truth for the latest work-session ha
 
 ## Completed Today
 
+- Architecture Audit #006 completed.
+- Added Thesis Engine, Portfolio Diversification, Learning Engine, and Hypothesis Engine architecture placeholders.
+- Added ADR-025 through ADR-028.
+- Recorded hypothesis-before-validation, Thesis-before-capital, evidence-backed learning, and diversification risk rules.
+- Preserved Enterprise Value as the primary objective and no autonomous money movement rule.
 - Repository root structure normalized at `/Users/harelitzhaki/VentureOS`.
 - Added reserved root folders for `scripts`, `tools`, and `archive`.
 - Documented repository root structure in the root README.
@@ -44,6 +49,13 @@ Source Of Truth: This file is the source of truth for the latest work-session ha
 - Opportunity Engine may evaluate internal opportunities, external startups, acquisitions, and partnerships but may only recommend.
 - No VentureOS component may autonomously transfer money or execute investments.
 - Investment recommendations require evidence, governance, expected ROI, risk, approval requirements, and expected Enterprise Value impact.
+- Thesis Engine is first-class.
+- Portfolio Diversification is first-class.
+- Learning Engine is first-class.
+- Hypothesis Engine is first-class.
+- No Venture may move from idea to validation without an approved hypothesis.
+- No Venture, external investment, acquisition, or capital allocation may proceed without Thesis alignment review.
+- Learning updates must be evidence-backed and auditable.
 
 ## Files Updated
 
@@ -95,9 +107,21 @@ Source Of Truth: This file is the source of truth for the latest work-session ha
 - `scripts/README.md`
 - `tools/README.md`
 - `archive/README.md`
+- `docs/architecture/thesis-engine.md`
+- `docs/architecture/portfolio-diversification.md`
+- `docs/architecture/learning-engine.md`
+- `docs/architecture/hypothesis-engine.md`
+- `docs/adr/ADR-025-thesis-engine.md`
+- `docs/adr/ADR-026-portfolio-diversification.md`
+- `docs/adr/ADR-027-learning-engine.md`
+- `docs/adr/ADR-028-hypothesis-engine.md`
 
 ## ADRs Added
 
+- `docs/adr/ADR-025-thesis-engine.md`
+- `docs/adr/ADR-026-portfolio-diversification.md`
+- `docs/adr/ADR-027-learning-engine.md`
+- `docs/adr/ADR-028-hypothesis-engine.md`
 - `docs/adr/ADR-010-outcome-driven-architecture.md`
 - `docs/adr/ADR-011-revenue-first-operating-model.md`
 - `docs/adr/ADR-012-venture-digital-twin.md`
@@ -128,12 +152,16 @@ Source Of Truth: This file is the source of truth for the latest work-session ha
 - Define investment recommendation score thresholds.
 - Define Stage Gate evidence and approval requirements.
 - Define external startup investment evaluation boundaries.
+- Define Thesis compliance scoring.
+- Define Hypothesis approval workflow and validation readiness criteria.
+- Define Portfolio Diversification thresholds and correlated risk model.
+- Define Learning Engine update governance and evidence promotion flow.
 - Draft implementation-ready policy requirements after approval.
 - Keep this file updated at the end of each work session.
 
 ## Recommended Next Step
 
-Review Architecture Audit #005, then approve or revise `docs/phases/phase-1-system-foundation.md`.
+Review Architecture Audit #006, then approve or revise `docs/phases/phase-1-system-foundation.md`.
 
 ## Questions For Founder
 
@@ -150,6 +178,7 @@ Review Architecture Audit #005, then approve or revise `docs/phases/phase-1-syst
 - Read `docs/architecture/context-map.md` before architecture work.
 - Read ADR-005 through ADR-014 before architecture work.
 - Read ADR-015 through ADR-019 before Enterprise Value, capital allocation, investment, opportunity scoring, or Stage Gate work.
+- Read ADR-025 through ADR-028 before Thesis, diversification, learning, hypothesis, or strategic thinking engine work.
 - Read `docs/phases/phase-1-system-foundation.md` before any Phase 1 implementation discussion.
 - Confirm that no production code is requested before proceeding.
 - Continue from the approved architecture; do not restart or reinterpret the project.
