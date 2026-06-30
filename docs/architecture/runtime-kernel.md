@@ -31,6 +31,8 @@ Execution reliability requirements are defined in `docs/architecture/execution-r
 
 Recovery governance requirements are defined in `docs/architecture/recovery-governance.md`.
 
+Enterprise isolation requirements are defined in `docs/architecture/enterprise-isolation.md`.
+
 ## Kernel Service: Execution Coordinator
 
 ### Purpose
@@ -82,6 +84,7 @@ Coordinate governed execution flow after Execution API intake and Policy Engine 
 - Must preserve policy decision, actor, scope, and approval context.
 - Must preserve policy version or policy snapshot used.
 - Must preserve idempotency, retry, timeout, and recovery context where meaningful.
+- Must preserve Organization, Portfolio, Venture, actor, Agent, Capability, Event, Memory, Knowledge, and AI context isolation where meaningful.
 - Must fail closed when governance is unavailable.
 
 ### Related Events

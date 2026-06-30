@@ -76,3 +76,8 @@ Source Of Truth: This file is the source of truth for project-management risk tr
 - Recovery Governance may be bypassed under urgency unless Founder approval, compliance review, capital sensitivity, and fail-closed rules remain enforced.
 - Reliability metrics may be treated as Evidence automatically unless Evidence Promotion remains required.
 - Idea Discovery Domain candidate may be mistaken for approved architecture unless candidate-only status remains explicit.
+- Multi-tenancy may be weakened if Organization, Portfolio, Venture, User, Agent, Capability, Knowledge, Runtime, Storage, Event, Memory, and AI context boundaries are not enforced consistently.
+- Cross-Venture Intelligence may leak raw Venture data unless aggregate analytics, benchmarking, shared learning, and reasoning remain Policy Engine governed.
+- Global Search may leak unauthorized metadata, snippets, counts, or existence signals unless search isolation remains explicit.
+- Enterprise Identity may be confused with authentication-only access unless authorization remains Policy Engine enforced.
+- Data ownership may be confused with unrestricted access unless ownership and authorization remain separate.

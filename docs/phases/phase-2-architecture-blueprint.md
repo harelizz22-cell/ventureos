@@ -147,6 +147,8 @@ Replay must preserve audit integrity and must not rewrite historical Decisions.
 
 ## Workstream 7: Cross-Venture Query Governance
 
+Status: Completed as part of Phase 2 Workstream 04 Enterprise Scale Architecture.
+
 Define governed portfolio-wide intelligence for:
 
 - Business Intelligence.
@@ -202,6 +204,8 @@ Compliance Gate must apply to regulated domains, investor marketplace capabiliti
 No regulated financial activity is approved by Phase 2.
 
 ## Workstream 11: Multi-Tenancy Isolation Model
+
+Status: Completed as part of Phase 2 Workstream 04 Enterprise Scale Architecture.
 
 Define isolation architecture:
 
@@ -283,6 +287,8 @@ Define Audit Ledger query architecture:
 Audit query capability must preserve append-only integrity and access governance.
 
 ## Workstream 17: Recovery Governance Model
+
+Status: Completed as part of Phase 2 Workstream 03 Execution Reliability.
 
 Define Recovery as governed architecture:
 

@@ -66,6 +66,14 @@ Business Intelligence may provide inputs to Strategic Review Domain, Dynamic Rev
 
 Business Intelligence may use Enterprise Knowledge Graph, Organizational Memory, Learning Engine, and Reasoning Engine outputs for governed analysis. It must preserve the distinction between facts, Evidence, Decisions, assumptions, forecasts, opinions, learning, and reasoning outputs.
 
+Cross-Venture Intelligence is defined in `docs/architecture/cross-venture-intelligence.md`.
+
+Business Intelligence may use aggregate analytics, portfolio KPIs, trend detection, pattern recognition, governed cross-Venture reasoning, Evidence aggregation, benchmarking, and shared learning only when Policy Engine allows it.
+
+Raw Venture data must not leak between Ventures unless policy explicitly allows.
+
+Cross-Organization Business Intelligence is forbidden unless explicitly governed.
+
 ## Placeholder Status
 
 This is an architecture placeholder. It does not define analytics schemas, dashboards, reports, models, or implementation.

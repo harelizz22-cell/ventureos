@@ -74,6 +74,8 @@ Graph entries referenced as Evidence must trace to Evidence records that satisfy
 - Evidence-linked graph entries must preserve freshness and quality status where meaningful.
 - Decision-linked graph entries must preserve Decision authority and audit trail.
 - Cross-venture graph traversal must follow Cross-Venture Query Governance.
+- Cross-tenant graph traversal is forbidden unless explicitly governed.
+- Graph access must preserve Data Ownership Model, Enterprise Isolation, and Policy Engine authorization.
 - Regulated, investor, medical, financial, biotech, security, and legal knowledge must remain compliance-gated where required.
 
 ## Relationship To Other Components

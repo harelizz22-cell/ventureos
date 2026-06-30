@@ -44,6 +44,12 @@ Reasoning outputs may not become Evidence automatically. They may become Candida
 
 Knowledge referenced as Evidence must satisfy Evidence Freshness and Quality Model requirements, including source quality, timestamp, freshness, suitability, and corroboration where meaningful.
 
+Knowledge must preserve tenant, Organization, Portfolio, Venture, actor, source, classification, and authorization boundaries.
+
+Global Search may retrieve Knowledge only through Policy Engine-authorized access.
+
+Cross-Venture Knowledge use must follow Cross-Venture Intelligence and Enterprise Isolation rules.
+
 ## Placeholder Status
 
 This is an architecture placeholder. It does not define storage, schema, embeddings, or implementation.

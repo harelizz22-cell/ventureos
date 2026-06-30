@@ -11,10 +11,10 @@ VentureOS is an Enterprise Value-first, founder-owned Company Operating System f
 ## Current Status
 
 - Current Phase: Phase 2, documentation and architecture specification only.
-- Current Workstream: Phase 2 Workstream 07 Cross-Venture Query Governance.
-- Current Architecture Version: Phase 2 Workstream 03 completed; latest accepted ADR is ADR-062.
-- Current Documentation Version: Documentation foundation; latest completed workstream is Phase 2 Workstream 03.
-- Latest Commit: `c5fef17` before this Workstream 03 update.
+- Current Workstream: Phase 2 Workstream 08 Founder Unavailability and Governance Escalation.
+- Current Architecture Version: Phase 2 Workstream 04 completed; latest accepted ADR is ADR-068.
+- Current Documentation Version: Documentation foundation; latest completed workstream is Phase 2 Workstream 04.
+- Latest Commit: `c55e7a6` before this Workstream 04 update.
 - Repository Root: `/Users/harelitzhaki/VentureOS`
 - GitHub Remote: `https://github.com/harelizz22-cell/ventureos.git`
 - Current Branch: `main`
@@ -49,16 +49,15 @@ Completed Workstreams:
 - Phase 2 Workstream 01B: Enterprise Knowledge Graph, Organizational Memory, and Reasoning Engine.
 - Phase 2 Workstream 02: Policy, Governance, Evidence, Autonomy, and Project Memory Sync.
 - Phase 2 Workstream 03: Execution Reliability.
+- Phase 2 Workstream 04: Enterprise Scale Architecture.
 
-Current Workstream: Phase 2 Workstream 07 Cross-Venture Query Governance.
+Current Workstream: Phase 2 Workstream 08 Founder Unavailability and Governance Escalation.
 
 Remaining Workstreams:
 
-- Cross-Venture Query Governance.
 - Founder Unavailability and Governance Escalation.
 - Learning Quarantine Model.
 - Compliance Gate Runtime Mechanism.
-- Multi-Tenancy Isolation Model.
 - Capital Reservation and Conflict Model.
 - Exit Management Capability.
 - Legal and Compliance Runtime Domain Planning.
@@ -100,14 +99,15 @@ High-level roadmap only:
 - 2026-06-30: Completed Phase 2 Workstream 02 Policy, Evidence, Autonomy, and Memory Sync.
 - 2026-06-30: Created Project Dashboard.
 - 2026-06-30: Completed Phase 2 Workstream 03 Execution Reliability.
+- 2026-06-30: Completed Phase 2 Workstream 04 Enterprise Scale Architecture.
 
 ## Current Focus
 
-Start Phase 2 Workstream 07 Cross-Venture Query Governance.
+Start Phase 2 Workstream 08 Founder Unavailability and Governance Escalation.
 
 ## Next Workstream
 
-Cross-Venture Query Governance will define governed portfolio-wide intelligence across Business Intelligence, Learning Engine, Capital Allocation Engine, Portfolio Diversification, Opportunity Score, and Enterprise Value Engine while preserving venture isolation, explicit scope, policy evaluation, auditability, and role restrictions.
+Founder Unavailability and Governance Escalation will define Founder timeout, emergency governance mode, fail-closed behavior, escalation rules, pending decision handling, and recovery after Founder returns without creating a Deputy Founder model.
 
 ## Open Questions
 
@@ -115,11 +115,9 @@ Cross-Venture Query Governance will define governed portfolio-wide intelligence 
 - Policy threshold definitions.
 - Cost thresholds and token budget policy.
 - Autonomy transition evidence requirements.
-- Cross-venture query governance.
 - Founder unavailability and escalation rules.
 - Learning quarantine workflow.
 - Compliance Gate runtime mechanism.
-- Multi-tenancy isolation model.
 - Capital reservation and conflict rules.
 - Exit Management capability boundaries.
 - Legal and Compliance runtime planning.
@@ -146,6 +144,8 @@ These architectural decisions must not change without a new ADR:
 - No autonomous money movement without approved governance and legal/compliance structure.
 - No new strategic concepts should be added until Phase 2 is completed and reviewed.
 - Future Architecture Candidates are not approved architecture and must not enter active Phase 2 without external review and a new approval path.
+- No Organization may access another Organization's information unless explicitly governed.
+- Policy Engine remains the enforcement point for enterprise authorization, cross-Venture intelligence, search, analytics, runtime access, and AI context access.
 
 ## Current Core Domains
 
@@ -223,6 +223,12 @@ These architectural decisions must not change without a new ADR:
 - Execution Reliability
 - Recovery Governance
 - Execution Reliability Metrics
+- Multi-Tenancy Architecture
+- Data Ownership Model
+- Cross-Venture Intelligence
+- Global Search
+- Enterprise Isolation
+- Enterprise Identity Model
 
 ## Future Components
 
@@ -236,7 +242,6 @@ These architectural decisions must not change without a new ADR:
 - Milestone Capital Release
 - Investor Marketplace Compliance
 - Compliance Gate Runtime Mechanism
-- Multi-Tenancy Isolation Model
 - Capital Reservation and Conflict Model
 - Exit Management Capability
 - Legal and Compliance Runtime Domain Planning
@@ -246,16 +251,16 @@ These architectural decisions must not change without a new ADR:
 
 ## Latest ADRs
 
-- ADR-053: Policy Engine Consistency Model
-- ADR-054: Evidence Freshness And Quality Model
-- ADR-055: Autonomy Governance Model
-- ADR-056: AI Output Classification
-- ADR-057: Event Ordering And Replay Model
-- ADR-058: Project Memory Sync
 - ADR-059: Execution Reliability
 - ADR-060: Recovery Governance
 - ADR-061: Idempotency And Retry Model
 - ADR-062: Failure And Compensation Model
+- ADR-063: Multi-Tenancy Architecture
+- ADR-064: Data Ownership Model
+- ADR-065: Cross-Venture Intelligence
+- ADR-066: Global Search
+- ADR-067: Enterprise Isolation
+- ADR-068: Enterprise Identity Model
 
 ## Latest Claude Review
 
@@ -282,7 +287,7 @@ Status of Findings: Accepted and applied through ADR-009 and later Phase 2 archi
 
 - Git Status: Clean before this dashboard update.
 - Branch: `main`
-- Last Commit: `c5fef17 Create Project Dashboard`
+- Last Commit: `c55e7a6 Phase 2 Workstream 03 Execution Reliability`
 - Repository Root: `/Users/harelitzhaki/VentureOS`
 - GitHub Remote: `https://github.com/harelizz22-cell/ventureos.git`
 

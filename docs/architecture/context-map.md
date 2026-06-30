@@ -44,6 +44,16 @@ No Domain may read or write another Domain's database, tables, or in-memory stat
 
 Domains may only be added to this Context Map after their Domain Declaration is accepted.
 
+## Enterprise Scale Model
+
+Organization is the primary tenant boundary.
+
+Multi-Tenancy Architecture, Data Ownership Model, Enterprise Isolation, Enterprise Identity Model, Cross-Venture Intelligence, and Global Search define how VentureOS scales across multiple Organizations, Portfolios, Ventures, users, Agents, Capabilities, Knowledge, runtime contexts, Events, memory, search, analytics, and AI context.
+
+No Organization may access another Organization's information unless explicitly governed.
+
+Raw Venture data must not leak between Ventures unless Policy Engine explicitly allows governed aggregation, comparison, search, reasoning, or shared learning.
+
 ## Runtime Model
 
 Everything meaningful emits events. Future systems must subscribe to events instead of tightly coupling services.

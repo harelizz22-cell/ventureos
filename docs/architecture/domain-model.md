@@ -50,6 +50,14 @@ Every Domain owns:
 - Interfaces
 - Future implementations
 
+## Enterprise Scale Responsibilities
+
+Domains must preserve Organization, Portfolio, Venture, actor, policy, Event, Evidence, Decision, Audit, Knowledge, and runtime scope.
+
+Domain behavior must follow Multi-Tenancy Architecture, Data Ownership Model, Enterprise Isolation, Enterprise Identity Model, Cross-Venture Intelligence, and Global Search rules where applicable.
+
+No Domain may expose cross-tenant or cross-Venture data unless Policy Engine explicitly allows it.
+
 ## Domain Declaration Standard
 
 Every Domain must have an accepted Domain Declaration before it may be added to the Context Map.

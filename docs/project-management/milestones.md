@@ -6,11 +6,11 @@ Source Of Truth: This file is the source of truth for project milestones.
 
 ## Current Milestone
 
-Phase 2 Workstream 03 Execution Reliability complete.
+Phase 2 Workstream 04 Enterprise Scale Architecture complete.
 
 ## Next Milestone
 
-Phase 2 Workstream 07 Cross-Venture Query Governance.
+Phase 2 Workstream 08 Founder Unavailability and Governance Escalation.
 
 ## Status
 

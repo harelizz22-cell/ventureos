@@ -22,7 +22,7 @@ Phase 2 started. Documentation and architecture specification only. Implementati
 
 ## Architecture Status
 
-Phase 2 Workstream 03 Execution Reliability completed. Phase 2 Workstream 02 Policy, Governance, Evidence, Autonomy, and Project Memory Sync completed. Phase 2 Workstream 01B Enterprise Knowledge Graph, Organizational Memory, and Reasoning Engine completed. Phase 2 Workstream 01 Runtime Kernel and Strategic Review Architecture completed. Phase 2 started with official Architecture Principles. Phase 2 Architecture Blueprint created from accepted Red Team findings. Architecture-first repository foundation exists. VentureOS is an Enterprise Value-first, outcome-driven Company Operating System, Portfolio-first, Domain-first, capability-first, Event-first, governance-fail-closed, and configured for Autonomy Level 1: Assistant. Revenue is an important KPI, but Enterprise Value is the primary objective. Future investor marketplace, funding readiness, syndicated funding, and milestone capital release architecture are documented as future-phase, governance-gated, compliance-gated, evidence-based concerns. Idea Discovery Domain is recorded only as a future architecture candidate and is not approved architecture, not part of Phase 2, and deferred until Phase 2 is completed and externally reviewed. No production application code is approved. No regulated financial activity is approved.
+Phase 2 Workstream 04 Enterprise Scale Architecture completed. Phase 2 Workstream 03 Execution Reliability completed. Phase 2 Workstream 02 Policy, Governance, Evidence, Autonomy, and Project Memory Sync completed. Phase 2 Workstream 01B Enterprise Knowledge Graph, Organizational Memory, and Reasoning Engine completed. Phase 2 Workstream 01 Runtime Kernel and Strategic Review Architecture completed. Phase 2 started with official Architecture Principles. Phase 2 Architecture Blueprint created from accepted Red Team findings. Architecture-first repository foundation exists. VentureOS is an Enterprise Value-first, outcome-driven Company Operating System, Portfolio-first, Domain-first, capability-first, Event-first, governance-fail-closed, enterprise-isolated, and configured for Autonomy Level 1: Assistant. Revenue is an important KPI, but Enterprise Value is the primary objective. Future investor marketplace, funding readiness, syndicated funding, and milestone capital release architecture are documented as future-phase, governance-gated, compliance-gated, evidence-based concerns. Idea Discovery Domain is recorded only as a future architecture candidate and is not approved architecture, not part of Phase 2, and deferred until Phase 2 is completed and externally reviewed. No production application code is approved. No regulated financial activity is approved.
 
 ## Repository Structure Status
 
@@ -60,15 +60,15 @@ Founder.
 
 ## Last ADR
 
-`ADR-062-failure-and-compensation-model.md`
+`ADR-068-enterprise-identity-model.md`
 
 ## Current Goal
 
-Begin Phase 2 Workstream 07 Cross-Venture Query Governance.
+Begin Phase 2 Workstream 08 Founder Unavailability and Governance Escalation.
 
 ## Next Milestone
 
-Phase 2 Workstream 07 Cross-Venture Query Governance.
+Phase 2 Workstream 08 Founder Unavailability and Governance Escalation.
 
 ## Current Risks
 
@@ -93,11 +93,12 @@ Phase 2 Workstream 07 Cross-Venture Query Governance.
 - Future Funding Engine, Investment Marketplace, Investor Intelligence, Investment Readiness, Investment Dossier, Syndicated Funding Model, Milestone Capital Release, and Investor Marketplace Compliance are documented at placeholder level and require legal/compliance review before any implementation.
 - Investor marketplace architecture may be misunderstood as approval to raise funds unless the future-only and compliance-gated boundary remains explicit.
 - Phase 2 critical runtime gaps are now identified but not yet fully expanded into concern-specific architecture documents.
-- Cross-venture query governance, multi-tenancy isolation, capital reservation, recovery governance, and agent evolution governance require detailed architecture before implementation.
+- Capital reservation and agent evolution governance require detailed architecture before implementation.
 - Runtime Kernel and Strategic Review Domain are documented but require future implementation-phase acceptance criteria before any code.
 - Enterprise Knowledge Graph, Organizational Memory, and Reasoning Engine are documented but require future implementation-phase acceptance criteria before any code.
 - Policy Engine Consistency Model, Evidence Freshness and Quality Model, Autonomy Governance Model, AI Output Classification, Event Ordering and Replay Model, and Project Memory Sync are documented but require future implementation-phase acceptance criteria before any code.
 - Execution Reliability, Recovery Governance, and Execution Reliability Metrics are documented but require future implementation-phase acceptance criteria before any code.
+- Multi-Tenancy Architecture, Data Ownership Model, Cross-Venture Intelligence, Global Search, Enterprise Isolation, and Enterprise Identity Model are documented but require future implementation-phase acceptance criteria before any code.
 - No new strategic concepts should be added until Phase 2 is completed and reviewed.
 
 ## Current Blockers
@@ -138,11 +139,9 @@ Phase 2 Workstream 07 Cross-Venture Query Governance.
 - Investment Dossier review and approval process.
 - Syndicated funding legal model.
 - Milestone capital release governance and unused capital handling.
-- Cross-venture query governance.
 - Founder unavailability and escalation rules.
 - Learning quarantine workflow.
 - Compliance Gate runtime mechanism.
-- Multi-tenancy isolation model.
 - Capital reservation and conflict rules.
 - Exit Management capability boundaries.
 - Legal and Compliance runtime planning.

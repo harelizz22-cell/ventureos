@@ -55,12 +55,15 @@ AI Output Classification requirements are defined in `docs/architecture/ai-outpu
 ## Governance Requirements
 
 - Reasoning outputs must preserve scope and actor context.
+- Reasoning outputs must preserve Organization, Portfolio, Venture, tenant, Knowledge, Memory, Evidence, and AI context isolation.
 - Reasoning must distinguish facts, Evidence, Decisions, assumptions, forecasts, opinions, and learning.
 - Reasoning must surface contradictions rather than hide them.
 - Reasoning must preserve material dissent where relevant.
 - Reasoning output must identify limitations and hallucination risk where AI-generated.
 - Reasoning cannot approve Venture validation, capital allocation, investment, acquisition, funding, execution, or strategy.
 - Founder or approved governance policy remains final decision authority.
+- Cross-Venture reasoning must follow Cross-Venture Intelligence rules.
+- Cross-Organization reasoning is forbidden unless explicitly governed.
 
 ## Relationship To Other Components
 

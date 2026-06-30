@@ -83,6 +83,12 @@ VentureOS must not claim it can legally raise funds, sell securities, hold inves
 - Context map: `docs/architecture/context-map.md`
 - Organization and Portfolio model: `docs/architecture/organization-portfolio-model.md`
 - Domain model: `docs/architecture/domain-model.md`
+- Multi-Tenancy Architecture: `docs/architecture/multi-tenancy-architecture.md`
+- Data Ownership Model: `docs/architecture/data-ownership-model.md`
+- Enterprise Isolation: `docs/architecture/enterprise-isolation.md`
+- Enterprise Identity Model: `docs/architecture/enterprise-identity-model.md`
+- Cross-Venture Intelligence: `docs/architecture/cross-venture-intelligence.md`
+- Global Search: `docs/architecture/global-search.md`
 - Business Intelligence Domain: `docs/architecture/business-intelligence.md`
 - Strategic Review Domain: `docs/architecture/strategic-review-domain.md`
 - Knowledge Domain: `docs/architecture/knowledge-domain.md`
@@ -157,9 +163,9 @@ Technical implementation work must trace to this architecture index, an accepted
 
 Phase 2 has started with `docs/architecture/architecture-principles.md` as the official non-negotiable architecture principles document.
 
-Phase 2 Workstream 02 completes Policy Engine consistency, Evidence freshness and quality, Autonomy Governance, AI Output Classification, Event Ordering and Replay, and Project Memory Sync.
+Phase 2 Workstream 04 completes Enterprise Scale Architecture.
 
-The next Phase 2 workstream is Cross-Venture Query Governance.
+The next Phase 2 workstream is Founder Unavailability and Governance Escalation.
 
 Implementation may be performed by an AI Agent, human, external API, internal service, or future execution engine.
 
@@ -211,7 +217,13 @@ Event replay must preserve audit integrity and must not rewrite historical Decis
 
 Execution Reliability, Recovery Governance, and Execution Reliability Metrics define failure classification, retry, idempotency, compensation, rollback, forward recovery, Dead Letter handling, timeout, circuit breaker, incident, audit, recovery evidence, and reliability measurement requirements before implementation.
 
-Compliance Gate, Capital Reservation, Learning Quarantine, Event Replay, Cross-Venture Query Governance, Multi-Tenancy Isolation, and Agent Evolution Governance must be defined before related implementation begins.
+Enterprise Scale architecture is completed through Multi-Tenancy Architecture, Data Ownership Model, Cross-Venture Intelligence, Global Search, Enterprise Isolation, and Enterprise Identity Model.
+
+No Organization may access another Organization's information unless explicitly governed.
+
+Policy Engine remains the enforcement point for enterprise-scale authorization, search, analytics, runtime access, cross-Venture intelligence, and governed data access.
+
+Compliance Gate, Capital Reservation, Learning Quarantine, Event Replay, and Agent Evolution Governance must be defined before related implementation begins.
 
 All execution paths must pass through the Policy Engine. No Capability, Agent, Workflow, Tool, Service, or External Provider may self-approve execution.
 

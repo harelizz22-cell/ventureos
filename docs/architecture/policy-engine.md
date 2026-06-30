@@ -69,3 +69,11 @@ Autonomy governance is enforced through Policy Engine evaluation. No autonomy es
 Policy Engine evaluates reliability-sensitive actions including retry, compensation, rollback, forward recovery, Dead Letter escalation, circuit breaker override, incident response, and recovery replay where required.
 
 Capital-sensitive, compliance-sensitive, customer-impacting, production-asset, or irreversible recovery must fail closed unless required approval and review are present.
+
+## Enterprise Scale Enforcement
+
+Policy Engine remains the enforcement point for tenant access, Organization boundaries, Portfolio boundaries, Venture boundaries, User access, Agent access, Capability access, Knowledge access, Global Search, Cross-Venture Intelligence, runtime access, memory access, Event subscription, analytics access, and AI context authorization.
+
+No Organization may access another Organization's information unless explicitly governed.
+
+Raw Venture data must not leak between Ventures unless Policy Engine explicitly allows it.
