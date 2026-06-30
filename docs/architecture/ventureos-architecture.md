@@ -127,6 +127,9 @@ VentureOS must not claim it can legally raise funds, sell securities, hold inves
 - Execution API: `docs/architecture/execution-api.md`
 - Execution Scheduler: `docs/architecture/execution-scheduler.md`
 - Resource Coordinator: `docs/architecture/resource-coordinator.md`
+- Execution Reliability: `docs/architecture/execution-reliability.md`
+- Recovery Governance: `docs/architecture/recovery-governance.md`
+- Execution Reliability Metrics: `docs/architecture/execution-reliability-metrics.md`
 - Policy Engine Consistency Model: `docs/architecture/policy-engine-consistency-model.md`
 - Evidence Freshness and Quality Model: `docs/architecture/evidence-freshness-quality-model.md`
 - Autonomy Governance Model: `docs/architecture/autonomy-governance-model.md`
@@ -206,7 +209,9 @@ Autonomy promotion requires governance approval, Evidence, auditability, scope, 
 
 Event replay must preserve audit integrity and must not rewrite historical Decisions, Evidence, or Audit records.
 
-Compliance Gate, Capital Reservation, Learning Quarantine, Event Replay, Cross-Venture Query Governance, Multi-Tenancy Isolation, Recovery Governance, and Agent Evolution Governance must be defined before related implementation begins.
+Execution Reliability, Recovery Governance, and Execution Reliability Metrics define failure classification, retry, idempotency, compensation, rollback, forward recovery, Dead Letter handling, timeout, circuit breaker, incident, audit, recovery evidence, and reliability measurement requirements before implementation.
+
+Compliance Gate, Capital Reservation, Learning Quarantine, Event Replay, Cross-Venture Query Governance, Multi-Tenancy Isolation, and Agent Evolution Governance must be defined before related implementation begins.
 
 All execution paths must pass through the Policy Engine. No Capability, Agent, Workflow, Tool, Service, or External Provider may self-approve execution.
 

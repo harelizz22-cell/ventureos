@@ -6,6 +6,16 @@ Source Of Truth: This file is the source of truth for the latest work-session ha
 
 ## Completed Today
 
+- Phase 2 Workstream 03 completed.
+- Execution Reliability architecture created.
+- Recovery Governance architecture created.
+- Execution Reliability Metrics architecture created.
+- Added ADR-059 through ADR-062.
+- Recorded failure taxonomy, retry policies, idempotency model, compensation model, rollback policy, forward recovery policy, Dead Letter Queue architecture, timeout handling, circuit breaker architecture, retry backoff strategy, partial failure handling, long-running execution handling, recovery checkpoints, escalation model, incident creation rules, audit requirements, and recovery evidence requirements.
+- Recorded recovery initiation, automatic recovery, governed recovery, Founder approval cases, compliance review cases, capital-sensitive recovery, recovery audit, recovery replay, and recovery safety.
+- Recorded reliability metrics for success rate, failure rate, retry rate, recovery success rate, mean recovery time, execution latency, timeout frequency, Dead Letter volume, and incident frequency.
+- Recorded Idea Discovery Domain only as a Future Architecture Candidate in Project Dashboard and Yuri Session Restart.
+- Confirmed the Future Architecture Candidate is not approved architecture, not part of Phase 2, and intentionally deferred until Phase 2 is completed and externally reviewed.
 - Phase 2 Workstream 02 completed.
 - Policy Engine Consistency Model created.
 - Evidence Freshness and Quality Model created.
@@ -152,6 +162,14 @@ Source Of Truth: This file is the source of truth for the latest work-session ha
 - AI output is never Evidence by default.
 - No autonomy escalation may occur without governance approval.
 - Event replay must preserve audit integrity and must not rewrite historical Decisions.
+- Execution Reliability is first-class.
+- Recovery Governance is first-class.
+- Execution Reliability Metrics are first-class.
+- Idempotency is required before retry for governed side-effecting execution.
+- Compensation, rollback, and forward recovery must preserve Evidence, Decision, Audit, Policy, Event, and Recovery Governance boundaries.
+- Recovery must fail closed when policy, approval, Evidence, compliance review, capital sensitivity, idempotency, or recovery impact cannot be established.
+- Reliability metrics are observability signals and do not become Evidence automatically.
+- Idea Discovery Domain is a Future Architecture Candidate only and is not active Phase 2 architecture.
 - Next Phase 2 workstream is Cross-Venture Query Governance.
 
 ## Files Updated
@@ -235,7 +253,11 @@ Source Of Truth: This file is the source of truth for the latest work-session ha
 - `docs/architecture/autonomy-governance-model.md`
 - `docs/architecture/ai-output-classification.md`
 - `docs/architecture/event-ordering-replay-model.md`
+- `docs/architecture/execution-reliability.md`
+- `docs/architecture/recovery-governance.md`
+- `docs/architecture/execution-reliability-metrics.md`
 - `docs/project/yuri-session-restart.md`
+- `docs/project/project-dashboard.md`
 - `docs/architecture/policy-engine.md`
 - `docs/architecture/execution-api.md`
 - `docs/contracts/evidence-ledger-spec.md`
@@ -280,9 +302,17 @@ Source Of Truth: This file is the source of truth for the latest work-session ha
 - `docs/adr/ADR-056-ai-output-classification.md`
 - `docs/adr/ADR-057-event-ordering-replay-model.md`
 - `docs/adr/ADR-058-project-memory-sync.md`
+- `docs/adr/ADR-059-execution-reliability.md`
+- `docs/adr/ADR-060-recovery-governance.md`
+- `docs/adr/ADR-061-idempotency-and-retry-model.md`
+- `docs/adr/ADR-062-failure-and-compensation-model.md`
 
 ## ADRs Added
 
+- `docs/adr/ADR-059-execution-reliability.md`
+- `docs/adr/ADR-060-recovery-governance.md`
+- `docs/adr/ADR-061-idempotency-and-retry-model.md`
+- `docs/adr/ADR-062-failure-and-compensation-model.md`
 - `docs/adr/ADR-053-policy-engine-consistency-model.md`
 - `docs/adr/ADR-054-evidence-freshness-quality-model.md`
 - `docs/adr/ADR-055-autonomy-governance-model.md`
@@ -372,7 +402,6 @@ Source Of Truth: This file is the source of truth for the latest work-session ha
 - Define Legal and Compliance runtime planning.
 - Define Opportunity Score audit and bias detection.
 - Define Audit Ledger query model.
-- Define Recovery Governance model.
 - Define Agent Evolution Governance.
 - Define Runtime Kernel implementation acceptance criteria.
 - Define Strategic Review recommendation workflow details.
@@ -419,6 +448,7 @@ Do not add new strategic concepts before Phase 2 is completed and reviewed.
 - Read ADR-041 through ADR-048 before Runtime Kernel or Strategic Review architecture work.
 - Read ADR-049 through ADR-052 before Knowledge Domain, Enterprise Knowledge Graph, Organizational Memory, Learning Engine, or Reasoning Engine work.
 - Read ADR-053 through ADR-058 before Policy Engine consistency, Evidence quality, Autonomy Governance, AI Output Classification, Event Replay, or project memory sync work.
+- Read ADR-059 through ADR-062 before Execution Reliability, Recovery Governance, retries, idempotency, compensation, rollback, or reliability metrics work.
 - Read `docs/project/yuri-session-restart.md` when starting a new Yuri session.
 - Read `docs/phases/phase-1-system-foundation.md` before any Phase 1 implementation discussion.
 - Confirm that no production code is requested before proceeding.

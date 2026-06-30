@@ -27,6 +27,10 @@ The Runtime Kernel must not decide whether a business idea is good, whether capi
 
 Runtime Kernel must preserve Policy Engine consistency, autonomy governance, and Event ordering/replay boundaries. It must fail closed when governance consistency is unavailable.
 
+Execution reliability requirements are defined in `docs/architecture/execution-reliability.md`.
+
+Recovery governance requirements are defined in `docs/architecture/recovery-governance.md`.
+
 ## Kernel Service: Execution Coordinator
 
 ### Purpose
@@ -60,6 +64,7 @@ Coordinate governed execution flow after Execution API intake and Policy Engine 
 - Execution coordination state.
 - Execution events.
 - Failure or recovery trigger.
+- Reliability state update where meaningful.
 
 ### Failure Modes
 
@@ -69,11 +74,14 @@ Coordinate governed execution flow after Execution API intake and Policy Engine 
 - Policy changes during execution.
 - Policy evaluator disagreement.
 - Missing policy snapshot.
+- Idempotency conflict.
+- Partial execution failure.
 
 ### Governance Requirements
 
 - Must preserve policy decision, actor, scope, and approval context.
 - Must preserve policy version or policy snapshot used.
+- Must preserve idempotency, retry, timeout, and recovery context where meaningful.
 - Must fail closed when governance is unavailable.
 
 ### Related Events
@@ -105,6 +113,10 @@ Decide what governed execution runs, waits, pauses, or is deferred.
 - Rate-limit-aware scheduling.
 - Human-approval-aware scheduling.
 - Emergency pause support.
+- Timeout-aware scheduling.
+- Long-running execution checkpoint awareness.
+- Circuit breaker pause awareness.
+- Dead Letter escalation awareness.
 
 ### Non-Responsibilities
 
@@ -134,11 +146,15 @@ Decide what governed execution runs, waits, pauses, or is deferred.
 - Resource unavailable.
 - Rate limit exceeded.
 - Pending approval timeout.
+- Circuit breaker open.
+- Dead Letter threshold reached.
+- Long-running execution heartbeat missing.
 
 ### Governance Requirements
 
 - May schedule only already governed execution requests.
 - Must preserve fairness and auditability.
+- Must not reschedule failed execution without retry eligibility, idempotency, and policy context.
 
 ### Related Events
 
@@ -146,6 +162,8 @@ Decide what governed execution runs, waits, pauses, or is deferred.
 - Execution Scheduled.
 - Execution Paused.
 - Execution Deferred.
+- Execution Timed Out.
+- Execution Sent To Dead Letter.
 
 ### Related Ledgers
 
@@ -287,12 +305,18 @@ Manage governed recovery coordination for failed or unsafe execution.
 - Trigger recovery audit records.
 - Escalate recovery failures.
 - Coordinate incident and emergency pause behavior where required.
+- Coordinate retry, compensation, rollback, and forward recovery paths.
+- Preserve recovery checkpoints.
+- Route Dead Letter cases to escalation.
+- Apply Recovery Governance requirements.
 
 ### Non-Responsibilities
 
 - Bypassing Policy Engine.
 - Making business decisions.
 - Silently undoing audit history.
+- Retrying without idempotency.
+- Recovering capital-sensitive or compliance-sensitive cases without required approval.
 
 ### Inputs
 
@@ -300,6 +324,9 @@ Manage governed recovery coordination for failed or unsafe execution.
 - Policy requirements.
 - Recovery plan.
 - Incident state.
+- Failure taxonomy.
+- Recovery evidence.
+- Idempotency context.
 
 ### Outputs
 
@@ -307,6 +334,10 @@ Manage governed recovery coordination for failed or unsafe execution.
 - Recovery completed event.
 - Recovery failed event.
 - Escalation request.
+- Compensation requested event.
+- Rollback requested event.
+- Forward recovery requested event.
+- Dead Letter escalation.
 
 ### Failure Modes
 
@@ -314,11 +345,17 @@ Manage governed recovery coordination for failed or unsafe execution.
 - Recovery action denied by Policy Engine.
 - Rollback unavailable.
 - Compensation failed.
+- Idempotency cannot be proven.
+- Recovery evidence missing.
+- Capital-sensitive recovery requires approval.
+- Compliance review required.
 
 ### Governance Requirements
 
 - Recovery actions pass through Policy Engine where required.
 - Recovery audit records are mandatory.
+- Recovery must preserve Evidence, Decision, Audit, Event, and policy context.
+- Recovery must fail closed when approval, compliance review, capital governance, or idempotency is unresolved.
 
 ### Related Events
 
@@ -326,6 +363,10 @@ Manage governed recovery coordination for failed or unsafe execution.
 - Recovery Completed.
 - Recovery Failed.
 - Incident Raised.
+- Compensation Started.
+- Rollback Started.
+- Forward Recovery Started.
+- Dead Letter Created.
 
 ### Related Ledgers
 

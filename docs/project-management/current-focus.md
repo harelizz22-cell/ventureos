@@ -6,7 +6,7 @@ Source Of Truth: This file is the source of truth for current project focus.
 
 ## Focus
 
-Phase 2 Workstream 02 Policy, Governance, Evidence, Autonomy, and Project Memory Sync completed. Current focus is starting Phase 2 Workstream 07 Cross-Venture Query Governance.
+Phase 2 Workstream 03 Execution Reliability completed. Current focus is starting Phase 2 Workstream 07 Cross-Venture Query Governance.
 
 Phase 2 is documentation/specification only. No implementation is approved yet.
 
@@ -24,6 +24,8 @@ Phase 2 is documentation/specification only. No implementation is approved yet.
 - Phase 2 Workstream 01 Runtime Kernel and Strategic Review Architecture completed.
 - Phase 2 Workstream 01B Enterprise Knowledge Graph, Organizational Memory, and Reasoning Engine completed.
 - Phase 2 Workstream 02 Policy, Governance, Evidence, Autonomy, and Project Memory Sync completed.
+- Phase 2 Workstream 03 Execution Reliability completed.
+- Idea Discovery Domain recorded only as a future architecture candidate, not approved architecture, not part of Phase 2, and deferred until Phase 2 is completed and externally reviewed.
 - Phase 2 Governance Core placeholder created.
 - Phase 3 Policy Engine placeholder created.
 - Phase 4 Execution Orchestrator placeholder created.
@@ -80,7 +82,6 @@ Phase 2 is documentation/specification only. No implementation is approved yet.
 - Define Legal and Compliance runtime planning.
 - Define Opportunity Score audit and bias detection.
 - Define Audit Ledger query model.
-- Define Recovery Governance model.
 - Define Agent Evolution Governance.
 
 ## Completed Phase 2 Workstream 02
@@ -98,6 +99,17 @@ Phase 2 is documentation/specification only. No implementation is approved yet.
 - AI output lifecycle recorded as Draft -> Recommendation -> Candidate Evidence -> Verified Evidence.
 - Event replay recorded as audit-preserving and not allowed to rewrite historical Decisions.
 - No production code, dependencies, integrations, secrets, implementation, or new strategic concepts added.
+
+## Completed Phase 2 Workstream 03
+
+- Execution Reliability documented.
+- Recovery Governance documented.
+- Execution Reliability Metrics documented.
+- ADR-059 through ADR-062 added.
+- Failure taxonomy, retries, idempotency, compensation, rollback, forward recovery, Dead Letter handling, timeout handling, circuit breakers, partial failure, long-running execution, recovery checkpoints, escalation, incident creation, audit, and recovery evidence requirements recorded.
+- Future Architecture Candidate recorded separately in project dashboard and Yuri restart only.
+- No Future Architecture Candidate added to active Phase 2 Blueprint.
+- No production code, dependencies, integrations, secrets, or implementation added.
 
 ## Completed Phase 2 Workstream 01B
 

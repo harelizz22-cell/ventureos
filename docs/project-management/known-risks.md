@@ -70,3 +70,9 @@ Source Of Truth: This file is the source of truth for project-management risk tr
 - Autonomy safe mode and emergency mode may be misused unless Policy Engine enforcement and Founder control remain explicit.
 - Event replay may be mistaken for history rewriting unless replay audit and historical Decision boundaries remain enforced.
 - Yuri Session Restart may drift unless updated after major architecture workstreams.
+- Execution Reliability may be treated as infrastructure-only unless retry, recovery, idempotency, audit, and governance rules remain explicit.
+- Retry behavior may create duplicate side effects unless idempotency keys and retry eligibility are enforced.
+- Compensation may be mistaken for erasing history unless audit preservation remains explicit.
+- Recovery Governance may be bypassed under urgency unless Founder approval, compliance review, capital sensitivity, and fail-closed rules remain enforced.
+- Reliability metrics may be treated as Evidence automatically unless Evidence Promotion remains required.
+- Idea Discovery Domain candidate may be mistaken for approved architecture unless candidate-only status remains explicit.

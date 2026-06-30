@@ -86,6 +86,8 @@ Recovery Manager may use Event replay to rebuild state, diagnose incidents, coor
 
 Recovery replay must preserve governance, Evidence, Decision, and Audit boundaries.
 
+Recovery replay must follow `docs/architecture/recovery-governance.md` and must preserve recovery audit, recovery evidence, original Event identity, policy snapshot, and replay reason.
+
 ## Rule
 
 Event replay must preserve audit integrity and must not rewrite historical Decisions.

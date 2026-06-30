@@ -19,6 +19,9 @@ Policy consistency requirements are defined in `docs/architecture/policy-engine-
 - Require risk review.
 - Require auditor review.
 - Require rollback plan.
+- Require recovery plan.
+- Require compensation review.
+- Require incident creation.
 
 ## Decision Outcomes
 
@@ -60,3 +63,9 @@ If policy propagation is uncertain, required policy versions are missing, policy
 Runtime components must not select the more permissive result when policy evaluators disagree.
 
 Autonomy governance is enforced through Policy Engine evaluation. No autonomy escalation may occur without governance approval.
+
+## Reliability Governance
+
+Policy Engine evaluates reliability-sensitive actions including retry, compensation, rollback, forward recovery, Dead Letter escalation, circuit breaker override, incident response, and recovery replay where required.
+
+Capital-sensitive, compliance-sensitive, customer-impacting, production-asset, or irreversible recovery must fail closed unless required approval and review are present.

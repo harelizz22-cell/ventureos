@@ -24,6 +24,7 @@ No Capability, Agent, Tool, Workflow, Service, or external provider may bypass t
 - Attach `actor_id`.
 - Create `correlation_id`.
 - Create `causation_id`.
+- Attach idempotency key where required.
 - Request Policy Engine evaluation.
 - Attach policy version or policy snapshot evaluated.
 - Pass accepted requests into Runtime Kernel.
@@ -34,6 +35,12 @@ No Capability, Agent, Tool, Workflow, Service, or external provider may bypass t
 The Execution API must reject requests that lack scope, actor identity, Capability reference, policy evaluation path, or audit context.
 
 The Execution API must reject or fail closed requests when policy version, policy snapshot, evaluator consistency, or required governance context cannot be established.
+
+The Execution API must reject retryable or side-effecting requests that require idempotency but lack an idempotency key or equivalent identity.
+
+## Reliability Requirements
+
+Execution API must preserve timeout expectations, retry eligibility, idempotency context, correlation, causation, actor, scope, and policy snapshot so Runtime Kernel can apply Execution Reliability.
 
 ## Non-Goals
 

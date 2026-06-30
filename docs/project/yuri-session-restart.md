@@ -13,7 +13,7 @@ Allow a future ChatGPT/Yuri session to resume VentureOS without losing context, 
 - Repository root: `/Users/harelitzhaki/VentureOS`
 - GitHub remote: `https://github.com/harelizz22-cell/ventureos.git`
 - Current phase: Phase 2
-- Latest completed workstream: Phase 2 Workstream 02
+- Latest completed workstream: Phase 2 Workstream 03
 - Current workstream: Phase 2 Workstream 07 Cross-Venture Query Governance
 
 ## Source Of Truth Hierarchy
@@ -65,6 +65,7 @@ Completed Phase 2 work:
 - Workstream 01 completed: Runtime Kernel and Strategic Review architecture.
 - Workstream 01B completed: Enterprise Knowledge Graph, Organizational Memory, and Reasoning Engine.
 - Workstream 02 completed: Policy Engine Consistency Model, Evidence Freshness and Quality Model, Autonomy Governance Model, AI Output Classification, Event Ordering and Replay Model, and Project Memory Sync.
+- Workstream 03 completed: Execution Reliability, Recovery Governance, and Execution Reliability Metrics.
 
 No implementation is approved.
 
@@ -164,6 +165,40 @@ No new strategic concepts should be added until Phase 2 is completed and reviewe
 
 Continue only from accepted Phase 2 Blueprint workstreams unless Founder or Chief Architect explicitly changes direction.
 
+# Future Architecture Candidates
+
+## Candidate: Idea Discovery Domain
+
+Purpose: Future autonomous opportunity discovery before Strategic Review.
+
+High-level future architecture:
+
+- Dynamic Discovery Council
+
+Potential future participants:
+
+- Market Discovery
+- Problem Discovery
+- Customer Pain Discovery
+- Technology Discovery
+- Trend Discovery
+- Patent Intelligence
+- Research Intelligence
+- Competitive Intelligence
+- Investment Opportunity Discovery
+
+Future pipeline:
+
+Discovery -> Hypothesis -> Strategic Review -> Investment Memo -> Founder Decision -> Execution
+
+Important:
+
+This is NOT approved architecture.
+
+This is NOT part of Phase 2.
+
+This is intentionally deferred until Phase 2 is completed and externally reviewed.
+
 ## Next Expected Workstreams
 
 After Phase 2 Workstream 02, the next expected workstreams are:
@@ -178,7 +213,6 @@ After Phase 2 Workstream 02, the next expected workstreams are:
 - Legal and Compliance Runtime Domain Planning
 - Opportunity Score Audit and Bias Detection
 - Audit Ledger Query Model
-- Recovery Governance Model
 - Agent Evolution Governance
 
 ## Yuri Restart Prompt

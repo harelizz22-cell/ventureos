@@ -31,3 +31,11 @@ Observability signals may be promoted to Evidence for Decisions only through a g
 Raw telemetry must not automatically become Evidence.
 
 Example: Agent error rate may become Evidence for Agent deprecation after governed promotion.
+
+## Execution Reliability Observability
+
+Observability must support Execution Reliability Metrics, including success rate, failure rate, retry rate, recovery success rate, mean recovery time, execution latency, timeout frequency, Dead Letter volume, and incident frequency.
+
+Reliability metrics are observability signals. They may become Evidence for Decisions only through governed Evidence Promotion.
+
+Incident, recovery, retry, timeout, circuit breaker, and Dead Letter signals must preserve scope, policy snapshot, correlation, causation, and audit references where meaningful.

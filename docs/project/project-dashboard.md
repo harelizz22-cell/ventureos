@@ -12,9 +12,9 @@ VentureOS is an Enterprise Value-first, founder-owned Company Operating System f
 
 - Current Phase: Phase 2, documentation and architecture specification only.
 - Current Workstream: Phase 2 Workstream 07 Cross-Venture Query Governance.
-- Current Architecture Version: Phase 2 Workstream 02 completed; latest accepted ADR is ADR-058.
-- Current Documentation Version: Documentation foundation; latest completed workstream is Phase 2 Workstream 02.
-- Latest Commit: `eeb173d` before this dashboard update.
+- Current Architecture Version: Phase 2 Workstream 03 completed; latest accepted ADR is ADR-062.
+- Current Documentation Version: Documentation foundation; latest completed workstream is Phase 2 Workstream 03.
+- Latest Commit: `c5fef17` before this Workstream 03 update.
 - Repository Root: `/Users/harelitzhaki/VentureOS`
 - GitHub Remote: `https://github.com/harelizz22-cell/ventureos.git`
 - Current Branch: `main`
@@ -48,6 +48,7 @@ Completed Workstreams:
 - Phase 2 Workstream 01: Runtime Kernel and Strategic Review.
 - Phase 2 Workstream 01B: Enterprise Knowledge Graph, Organizational Memory, and Reasoning Engine.
 - Phase 2 Workstream 02: Policy, Governance, Evidence, Autonomy, and Project Memory Sync.
+- Phase 2 Workstream 03: Execution Reliability.
 
 Current Workstream: Phase 2 Workstream 07 Cross-Venture Query Governance.
 
@@ -63,7 +64,6 @@ Remaining Workstreams:
 - Legal and Compliance Runtime Domain Planning.
 - Opportunity Score Audit and Bias Detection.
 - Audit Ledger Query Model.
-- Recovery Governance Model.
 - Agent Evolution Governance.
 
 ### Future Phases
@@ -98,6 +98,8 @@ High-level roadmap only:
 - 2026-06-30: Completed Phase 2 Workstream 01 Runtime Kernel and Strategic Review.
 - 2026-06-30: Completed Phase 2 Workstream 01B Knowledge, Memory, and Reasoning.
 - 2026-06-30: Completed Phase 2 Workstream 02 Policy, Evidence, Autonomy, and Memory Sync.
+- 2026-06-30: Created Project Dashboard.
+- 2026-06-30: Completed Phase 2 Workstream 03 Execution Reliability.
 
 ## Current Focus
 
@@ -123,7 +125,6 @@ Cross-Venture Query Governance will define governed portfolio-wide intelligence 
 - Legal and Compliance runtime planning.
 - Opportunity Score audit and bias detection.
 - Audit Ledger query and export model.
-- Recovery Governance model.
 - Agent Evolution Governance model.
 
 ## Frozen Decisions
@@ -144,6 +145,7 @@ These architectural decisions must not change without a new ADR:
 - AI output is not Evidence until promoted through governance.
 - No autonomous money movement without approved governance and legal/compliance structure.
 - No new strategic concepts should be added until Phase 2 is completed and reviewed.
+- Future Architecture Candidates are not approved architecture and must not enter active Phase 2 without external review and a new approval path.
 
 ## Current Core Domains
 
@@ -218,6 +220,9 @@ These architectural decisions must not change without a new ADR:
 - Evidence Ledger
 - Audit Ledger
 - Project Memory Sync
+- Execution Reliability
+- Recovery Governance
+- Execution Reliability Metrics
 
 ## Future Components
 
@@ -236,21 +241,21 @@ These architectural decisions must not change without a new ADR:
 - Exit Management Capability
 - Legal and Compliance Runtime Domain Planning
 - Audit Ledger Query Model
-- Recovery Governance Model
 - Agent Evolution Governance
+- Idea Discovery Domain candidate
 
 ## Latest ADRs
 
-- ADR-049: Enterprise Knowledge Graph
-- ADR-050: Organizational Memory
-- ADR-051: Reasoning Engine
-- ADR-052: Knowledge, Memory, Learning, And Reasoning Separation
 - ADR-053: Policy Engine Consistency Model
 - ADR-054: Evidence Freshness And Quality Model
 - ADR-055: Autonomy Governance Model
 - ADR-056: AI Output Classification
 - ADR-057: Event Ordering And Replay Model
 - ADR-058: Project Memory Sync
+- ADR-059: Execution Reliability
+- ADR-060: Recovery Governance
+- ADR-061: Idempotency And Retry Model
+- ADR-062: Failure And Compensation Model
 
 ## Latest Claude Review
 
@@ -277,7 +282,7 @@ Status of Findings: Accepted and applied through ADR-009 and later Phase 2 archi
 
 - Git Status: Clean before this dashboard update.
 - Branch: `main`
-- Last Commit: `eeb173d Phase 2 Workstream 02 Policy Evidence Autonomy Memory Sync`
+- Last Commit: `c5fef17 Create Project Dashboard`
 - Repository Root: `/Users/harelitzhaki/VentureOS`
 - GitHub Remote: `https://github.com/harelizz22-cell/ventureos.git`
 
@@ -305,3 +310,37 @@ Every new session must begin by reading:
 1. `docs/project/project-dashboard.md`
 2. `docs/project/yuri-session-restart.md`
 3. Follow the documented reading order.
+
+# Future Architecture Candidates
+
+## Candidate: Idea Discovery Domain
+
+Purpose: Future autonomous opportunity discovery before Strategic Review.
+
+High-level future architecture:
+
+- Dynamic Discovery Council
+
+Potential future participants:
+
+- Market Discovery
+- Problem Discovery
+- Customer Pain Discovery
+- Technology Discovery
+- Trend Discovery
+- Patent Intelligence
+- Research Intelligence
+- Competitive Intelligence
+- Investment Opportunity Discovery
+
+Future pipeline:
+
+Discovery -> Hypothesis -> Strategic Review -> Investment Memo -> Founder Decision -> Execution
+
+Important:
+
+This is NOT approved architecture.
+
+This is NOT part of Phase 2.
+
+This is intentionally deferred until Phase 2 is completed and externally reviewed.
