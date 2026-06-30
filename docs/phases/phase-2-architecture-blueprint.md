@@ -66,6 +66,8 @@ No new strategic concepts should be added until Phase 2 is completed and reviewe
 
 ## Workstream 2: Policy Engine Consistency Model
 
+Status: Completed as part of Phase 2 Workstream 02 Policy, Governance, Evidence, Autonomy, and Project Memory Sync.
+
 Define the Policy Engine consistency model:
 
 - Policy versioning.
@@ -75,10 +77,13 @@ Define the Policy Engine consistency model:
 - Policy evaluation consistency.
 - Governance lag rules.
 - Audit record for policy version used.
+- Behavior when two policy evaluators disagree.
 
 Every governed execution must record which policy version or policy snapshot was evaluated.
 
 ## Workstream 3: Evidence Freshness And Quality Model
+
+Status: Completed as part of Phase 2 Workstream 02 Policy, Governance, Evidence, Autonomy, and Project Memory Sync.
 
 Define the Evidence model for:
 
@@ -89,10 +94,13 @@ Define the Evidence model for:
 - Confidence.
 - Corroboration requirements.
 - Stale evidence handling.
+- Evidence suitability by decision category.
 
 Evidence used for Decisions must identify freshness and quality status where meaningful.
 
 ## Workstream 4: Autonomy Governance Model
+
+Status: Completed as part of Phase 2 Workstream 02 Policy, Governance, Evidence, Autonomy, and Project Memory Sync.
 
 Define runtime autonomy governance:
 
@@ -102,12 +110,15 @@ Define runtime autonomy governance:
 - Promotion rules.
 - Demotion rules.
 - Safe mode.
-- Partial autonomy per Domain, Capability, and Venture.
+- Emergency mode.
+- Partial autonomy per Domain, Capability, Venture, and Organization.
 - Runtime enforcement through Policy Engine.
 
 Autonomy never overrides governance, Evidence, approval, audit, recovery, or Founder authority.
 
 ## Workstream 5: AI Output Classification
+
+Status: Completed as part of Phase 2 Workstream 02 Policy, Governance, Evidence, Autonomy, and Project Memory Sync.
 
 Define the AI output lifecycle:
 
@@ -119,6 +130,8 @@ Promotion must require source review, confidence assessment, evidence quality ev
 
 ## Workstream 6: Event Ordering And Replay Model
 
+Status: Completed as part of Phase 2 Workstream 02 Policy, Governance, Evidence, Autonomy, and Project Memory Sync.
+
 Define event ordering and replay architecture:
 
 - Event envelope.
@@ -128,6 +141,7 @@ Define event ordering and replay architecture:
 - Schema versioning.
 - Audit behavior on duplicate events.
 - Audit behavior on out-of-order events.
+- Recovery usage.
 
 Replay must preserve audit integrity and must not rewrite historical Decisions.
 

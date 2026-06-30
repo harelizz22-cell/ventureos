@@ -8,6 +8,8 @@ Source Of Truth: This file is the source of truth for Policy Engine architecture
 
 The Policy Engine evaluates proposed actions against governance rules.
 
+Policy consistency requirements are defined in `docs/architecture/policy-engine-consistency-model.md`.
+
 ## Outcomes
 
 - Allow.
@@ -48,3 +50,13 @@ At startup, the Execution Orchestrator must not accept execution requests until 
 If the Policy Engine becomes unavailable, new execution must stop fail-closed.
 
 Cost Governance may be used as an approval input.
+
+## Consistency Requirements
+
+Every governed request must record the policy version or policy snapshot evaluated.
+
+If policy propagation is uncertain, required policy versions are missing, policy snapshots cannot be produced, or policy evaluators disagree, the affected request must fail closed.
+
+Runtime components must not select the more permissive result when policy evaluators disagree.
+
+Autonomy governance is enforced through Policy Engine evaluation. No autonomy escalation may occur without governance approval.

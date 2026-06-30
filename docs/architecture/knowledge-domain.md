@@ -42,6 +42,8 @@ Evidence must never depend on mutable current-state content.
 
 Reasoning outputs may not become Evidence automatically. They may become Candidate Evidence only through AI Output Classification and Evidence Promotion governance.
 
+Knowledge referenced as Evidence must satisfy Evidence Freshness and Quality Model requirements, including source quality, timestamp, freshness, suitability, and corroboration where meaningful.
+
 ## Placeholder Status
 
 This is an architecture placeholder. It does not define storage, schema, embeddings, or implementation.

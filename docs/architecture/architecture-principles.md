@@ -134,4 +134,4 @@ Enforcement rule: Recovery actions must pass Policy Engine evaluation where requ
 
 Phase 2 starts with these Architecture Principles as the governing baseline.
 
-The next Phase 2 workstream is Execution Orchestrator Decomposition.
+The next Phase 2 workstream is Cross-Venture Query Governance.

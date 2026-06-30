@@ -12,6 +12,8 @@ Define how VentureOS runtime behavior is constrained by autonomy level.
 
 This document covers operating behavior for autonomy levels. It does not authorize higher autonomy levels or implementation.
 
+Autonomy governance rules are defined in `docs/architecture/autonomy-governance-model.md`.
+
 ## Non-goals
 
 - No autonomous execution implementation.
@@ -23,6 +25,7 @@ This document covers operating behavior for autonomy levels. It does not authori
 
 - Current configuration starts at Autonomy Level 1: Assistant.
 - Higher autonomy levels require founder approval.
+- Higher autonomy levels require governance approval, Evidence, auditability, scope, and rollback path.
 - Autonomy does not override governance.
 - Agents cannot self-approve autonomy expansion.
 - Runtime actions must follow policy, evidence, approval, audit, and recovery rules.
@@ -30,6 +33,8 @@ This document covers operating behavior for autonomy levels. It does not authori
 - If the Policy Engine is unavailable, VentureOS fails closed.
 - At startup, Execution Orchestrator must not accept execution requests until Policy Engine health is confirmed.
 - If Policy Engine becomes unavailable, new execution must stop fail-closed.
+- No autonomy escalation is valid without governance approval.
+- Autonomy may be scoped partially by Organization, Portfolio, Venture, Domain, and Capability.
 
 ## Level 0: Observer
 

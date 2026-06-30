@@ -50,12 +50,15 @@ The required lifecycle remains:
 
 Draft -> Recommendation -> Candidate Evidence -> Verified Evidence
 
+AI Output Classification requirements are defined in `docs/architecture/ai-output-classification.md`.
+
 ## Governance Requirements
 
 - Reasoning outputs must preserve scope and actor context.
 - Reasoning must distinguish facts, Evidence, Decisions, assumptions, forecasts, opinions, and learning.
 - Reasoning must surface contradictions rather than hide them.
 - Reasoning must preserve material dissent where relevant.
+- Reasoning output must identify limitations and hallucination risk where AI-generated.
 - Reasoning cannot approve Venture validation, capital allocation, investment, acquisition, funding, execution, or strategy.
 - Founder or approved governance policy remains final decision authority.
 

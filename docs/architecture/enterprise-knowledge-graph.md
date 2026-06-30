@@ -64,11 +64,14 @@ All graph entries must trace back to approved source records, including Evidence
 
 Graph relationships may improve discoverability and reasoning, but they do not replace source records.
 
+Graph entries referenced as Evidence must trace to Evidence records that satisfy freshness, quality, source, timestamp, suitability, and corroboration requirements.
+
 ## Governance Requirements
 
 - Every graph entry must identify source, scope, classification, and provenance.
 - Every graph relationship must be explainable from approved source records.
 - Evidence-linked graph entries must preserve Evidence source and version where meaningful.
+- Evidence-linked graph entries must preserve freshness and quality status where meaningful.
 - Decision-linked graph entries must preserve Decision authority and audit trail.
 - Cross-venture graph traversal must follow Cross-Venture Query Governance.
 - Regulated, investor, medical, financial, biotech, security, and legal knowledge must remain compliance-gated where required.

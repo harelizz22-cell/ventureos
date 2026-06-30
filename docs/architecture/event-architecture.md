@@ -10,6 +10,8 @@ VentureOS adopts Event-first runtime. Events represent meaningful system facts t
 
 Everything meaningful emits events. Future systems must subscribe to events instead of tightly coupling services.
 
+Event ordering and replay requirements are defined in `docs/architecture/event-ordering-replay-model.md`.
+
 ## Event Categories
 
 - Evidence recorded.
@@ -77,6 +79,14 @@ No global default Venture scope is allowed.
 Event payloads must be versioned.
 
 Breaking Event payload changes require a new version, migration plan, ADR if architecturally significant, and compatibility window where required.
+
+## Ordering And Replay Rule
+
+Events must preserve per-entity ordering where meaningful.
+
+Duplicate and out-of-order Events must not silently corrupt state.
+
+Replay must be marked as replay and must not rewrite historical Decisions, Evidence, or Audit records.
 
 ## Rule
 

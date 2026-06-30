@@ -8,6 +8,8 @@ Source Of Truth: This file is the source of truth for Evidence Ledger contract r
 
 The Evidence Ledger records evidence used to evaluate opportunities, support decisions, validate assumptions, and audit meaningful action.
 
+Evidence freshness and quality requirements are defined in `docs/architecture/evidence-freshness-quality-model.md`.
+
 ## Scope
 
 This specification defines the documentation contract for evidence records. It does not define database schema, API endpoints, implementation code, or vendor-specific storage.
@@ -24,6 +26,10 @@ This specification defines the documentation contract for evidence records. It d
 - Claim supported or challenged
 - Confidence level
 - Quality assessment
+- Quality tier
+- Freshness status
+- Freshness window
+- Expiration status
 - Related opportunity
 - Related decision
 - Reviewer
@@ -34,6 +40,8 @@ This specification defines the documentation contract for evidence records. It d
 
 Evidence must distinguish observed facts, assumptions, interpretations, and conclusions. Weak or incomplete evidence may be recorded, but it must not be treated as validated proof.
 
+Evidence must identify quality tier, source quality, collection timestamp, freshness status, and suitability for the Decision category where meaningful.
+
 ## Source Requirements
 
 Evidence records must identify where the evidence came from and whether the source is primary, secondary, internal, external, estimated, or founder-provided.
@@ -41,6 +49,8 @@ Evidence records must identify where the evidence came from and whether the sour
 ## Timestamp Requirements
 
 Evidence records must include the time they were captured or created. Time-sensitive evidence must identify when it may become stale.
+
+Expired, withdrawn, superseded, or stale Evidence must be visibly marked before it is used for new Decisions.
 
 ## Confidence Requirements
 
@@ -67,6 +77,8 @@ When Knowledge is referenced as Evidence for a Decision, the referenced Knowledg
 Evidence must never depend on mutable current-state content.
 
 Observability signals may be promoted to Evidence for Decisions only through a governed promotion process. Raw telemetry must not automatically become Evidence.
+
+AI-generated content cannot become Evidence without promotion governance. AI output follows Draft -> Recommendation -> Candidate Evidence -> Verified Evidence.
 
 ## Future Database Mapping Note
 

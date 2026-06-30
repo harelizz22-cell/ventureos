@@ -55,11 +55,15 @@ Governance is a design constraint, not an afterthought. The system must prevent 
 
 All execution paths must pass through the Policy Engine. If governance is unavailable, VentureOS fails closed and execution is not permitted.
 
+Policy evaluation must be versioned, snapshot-aware, auditable, and fail-closed when consistency cannot be proven.
+
 Future investor marketplace and funding capabilities are governance-gated, compliance-gated, evidence-based, not enabled in MVP, and not autonomous money movement.
 
 ## Autonomy Philosophy
 
 VentureOS must be autonomy-ready, but it starts in Assisted Mode. Higher autonomy levels require evidence, governance, review, approval, monitoring, and recovery capability.
+
+No autonomy escalation may occur without governance approval, explicit scope, auditability, and rollback path.
 
 ## Engineering Philosophy
 

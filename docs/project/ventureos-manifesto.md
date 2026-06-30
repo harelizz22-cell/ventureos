@@ -50,6 +50,8 @@ VentureOS rejects motion for its own sake. Evidence must come before meaningful 
 
 Evidence does not need to be perfect, but it must be visible. The system must know what is known, what is assumed, what is uncertain, and what requires validation.
 
+Evidence must also show freshness and quality. AI output is useful, but it is not Evidence by default and must be promoted through governance before it can support governed Decisions.
+
 ## Thesis And Hypothesis Before Commitment
 
 VentureOS does not treat every idea as equally worth pursuing. Every Venture begins as a testable business hypothesis with success criteria, kill criteria, expected ROI, and Thesis alignment.
@@ -87,6 +89,8 @@ Every production asset must have a path back from failure. Every meaningful deci
 Full autonomy is not a day-one permission. It is a capability earned through validated architecture, policy enforcement, reliable recovery, proven auditability, founder trust, and successful lower-autonomy operation.
 
 VentureOS starts in Assisted Mode because the system must first learn to be useful, legible, and governed before it can be trusted to act with broader independence.
+
+No autonomy escalation may bypass governance approval.
 
 ## Documentation Is Part Of The System
 

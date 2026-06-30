@@ -127,6 +127,11 @@ VentureOS must not claim it can legally raise funds, sell securities, hold inves
 - Execution API: `docs/architecture/execution-api.md`
 - Execution Scheduler: `docs/architecture/execution-scheduler.md`
 - Resource Coordinator: `docs/architecture/resource-coordinator.md`
+- Policy Engine Consistency Model: `docs/architecture/policy-engine-consistency-model.md`
+- Evidence Freshness and Quality Model: `docs/architecture/evidence-freshness-quality-model.md`
+- Autonomy Governance Model: `docs/architecture/autonomy-governance-model.md`
+- AI Output Classification: `docs/architecture/ai-output-classification.md`
+- Event Ordering and Replay Model: `docs/architecture/event-ordering-replay-model.md`
 - Tool Gateway: `docs/architecture/tool-gateway.md`
 - AI Gateway: `docs/architecture/ai-gateway.md`
 - Execution Orchestrator: `docs/architecture/execution-orchestrator.md`
@@ -149,7 +154,9 @@ Technical implementation work must trace to this architecture index, an accepted
 
 Phase 2 has started with `docs/architecture/architecture-principles.md` as the official non-negotiable architecture principles document.
 
-The next Phase 2 workstream is Execution Orchestrator Decomposition.
+Phase 2 Workstream 02 completes Policy Engine consistency, Evidence freshness and quality, Autonomy Governance, AI Output Classification, Event Ordering and Replay, and Project Memory Sync.
+
+The next Phase 2 workstream is Cross-Venture Query Governance.
 
 Implementation may be performed by an AI Agent, human, external API, internal service, or future execution engine.
 
@@ -192,6 +199,12 @@ Phase 2 Architecture Blueprint must close critical runtime architecture gaps bef
 AI output must follow Draft -> Recommendation -> Candidate Evidence -> Verified Evidence. AI output must never enter Evidence Ledger directly without promotion governance.
 
 Policy evaluation must preserve policy version or policy snapshot used.
+
+Evidence used for Decisions must identify freshness, quality, source, timestamp, suitability, and corroboration where meaningful.
+
+Autonomy promotion requires governance approval, Evidence, auditability, scope, and rollback path. No autonomy escalation may occur without governance approval.
+
+Event replay must preserve audit integrity and must not rewrite historical Decisions, Evidence, or Audit records.
 
 Compliance Gate, Capital Reservation, Learning Quarantine, Event Replay, Cross-Venture Query Governance, Multi-Tenancy Isolation, Recovery Governance, and Agent Evolution Governance must be defined before related implementation begins.
 

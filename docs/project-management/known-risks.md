@@ -64,3 +64,9 @@ Source Of Truth: This file is the source of truth for project-management risk tr
 - Reasoning Engine outputs may be mistaken for final Decisions or Evidence unless recommendation-only and Evidence Promotion boundaries are enforced.
 - Learning Engine, Knowledge Domain, Enterprise Knowledge Graph, Organizational Memory, and Reasoning Engine boundaries may blur unless their separate source-of-truth documents remain authoritative.
 - Strategic concept expansion may continue before Phase 2 is completed and reviewed unless the concept freeze is enforced.
+- Policy snapshot implementation may become inconsistent unless Workstream 02 consistency rules are carried into future implementation acceptance criteria.
+- Evidence quality tiers may be treated as automatic approval unless Decision-category suitability and reviewer governance remain explicit.
+- AI output may be over-trusted unless Draft, Recommendation, Candidate Evidence, and Verified Evidence classification remains enforced.
+- Autonomy safe mode and emergency mode may be misused unless Policy Engine enforcement and Founder control remain explicit.
+- Event replay may be mistaken for history rewriting unless replay audit and historical Decision boundaries remain enforced.
+- Yuri Session Restart may drift unless updated after major architecture workstreams.

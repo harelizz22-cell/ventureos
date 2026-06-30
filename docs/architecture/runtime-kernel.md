@@ -25,6 +25,8 @@ The Runtime Kernel must be dumb in the correct way:
 
 The Runtime Kernel must not decide whether a business idea is good, whether capital should be allocated, whether an investment should be approved, or what strategy should be created.
 
+Runtime Kernel must preserve Policy Engine consistency, autonomy governance, and Event ordering/replay boundaries. It must fail closed when governance consistency is unavailable.
+
 ## Kernel Service: Execution Coordinator
 
 ### Purpose
@@ -48,6 +50,7 @@ Coordinate governed execution flow after Execution API intake and Policy Engine 
 
 - Accepted execution request.
 - Policy Engine decision.
+- Policy version or policy snapshot.
 - Scope context.
 - Capability contract.
 
@@ -64,10 +67,13 @@ Coordinate governed execution flow after Execution API intake and Policy Engine 
 - Invalid Capability contract.
 - Execution dependency unavailable.
 - Policy changes during execution.
+- Policy evaluator disagreement.
+- Missing policy snapshot.
 
 ### Governance Requirements
 
 - Must preserve policy decision, actor, scope, and approval context.
+- Must preserve policy version or policy snapshot used.
 - Must fail closed when governance is unavailable.
 
 ### Related Events
@@ -215,12 +221,15 @@ Coordinate event emission, correlation, causation, ordering, and replay handoff.
 - Coordinate correlation and causation identifiers.
 - Support event ordering and replay requirements.
 - Route duplicate or out-of-order events to audit behavior.
+- Preserve per-entity ordering expectations.
+- Route schema version mismatches to governed handling.
 
 ### Non-Responsibilities
 
 - Changing business state without execution authority.
 - Deciding business meaning of events.
 - Rewriting audit history.
+- Rewriting historical Decisions during replay.
 
 ### Inputs
 
@@ -228,12 +237,14 @@ Coordinate event emission, correlation, causation, ordering, and replay handoff.
 - Policy outcomes.
 - Approval outcomes.
 - Recovery triggers.
+- Event schema version.
 
 ### Outputs
 
 - Published events.
 - Event audit records.
 - Replay coordination signals.
+- Duplicate or out-of-order handling signal.
 
 ### Failure Modes
 
@@ -241,11 +252,13 @@ Coordinate event emission, correlation, causation, ordering, and replay handoff.
 - Out-of-order event.
 - Missing schema version.
 - Event publication failure.
+- Replay inconsistency.
 
 ### Governance Requirements
 
 - Must preserve auditability and schema versioning.
 - Must not rewrite historical Decisions.
+- Replay must mark replayed Events and preserve original Event identity.
 
 ### Related Events
 
@@ -253,6 +266,9 @@ Coordinate event emission, correlation, causation, ordering, and replay handoff.
 - State Changed.
 - Policy Evaluated.
 - Event Replay Requested.
+- Event Replay Completed.
+- Duplicate Event Detected.
+- Out Of Order Event Detected.
 
 ### Related Ledgers
 

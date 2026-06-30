@@ -6,11 +6,11 @@ Source Of Truth: This file is the source of truth for project milestones.
 
 ## Current Milestone
 
-Phase 2 Workstream 01B Enterprise Knowledge Graph, Organizational Memory, and Reasoning Engine complete.
+Phase 2 Workstream 02 Policy, Governance, Evidence, Autonomy, and Project Memory Sync complete.
 
 ## Next Milestone
 
-Phase 2 Workstream 02 Policy Engine Consistency Model.
+Phase 2 Workstream 07 Cross-Venture Query Governance.
 
 ## Status
 
