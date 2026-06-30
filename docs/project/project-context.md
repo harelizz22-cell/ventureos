@@ -22,7 +22,7 @@ Phase 2 started. Documentation and architecture specification only. Implementati
 
 ## Architecture Status
 
-Phase 2 started with official Architecture Principles. Phase 2 Architecture Blueprint created from accepted Red Team findings. Architecture-first repository foundation exists. VentureOS is an Enterprise Value-first, outcome-driven Company Operating System, Portfolio-first, Domain-first, capability-first, Event-first, governance-fail-closed, and configured for Autonomy Level 1: Assistant. Revenue is an important KPI, but Enterprise Value is the primary objective. Future investor marketplace, funding readiness, syndicated funding, and milestone capital release architecture are documented as future-phase, governance-gated, compliance-gated, evidence-based concerns. No production application code is approved. No regulated financial activity is approved.
+Phase 2 Workstream 01 Runtime Kernel and Strategic Review Architecture completed. Phase 2 started with official Architecture Principles. Phase 2 Architecture Blueprint created from accepted Red Team findings. Architecture-first repository foundation exists. VentureOS is an Enterprise Value-first, outcome-driven Company Operating System, Portfolio-first, Domain-first, capability-first, Event-first, governance-fail-closed, and configured for Autonomy Level 1: Assistant. Revenue is an important KPI, but Enterprise Value is the primary objective. Future investor marketplace, funding readiness, syndicated funding, and milestone capital release architecture are documented as future-phase, governance-gated, compliance-gated, evidence-based concerns. No production application code is approved. No regulated financial activity is approved.
 
 ## Repository Structure Status
 
@@ -60,15 +60,15 @@ Founder.
 
 ## Last ADR
 
-`ADR-040-learning-quarantine-model.md`
+`ADR-048-investment-memo-generator.md`
 
 ## Current Goal
 
-Start Phase 2 cleanly by applying Architecture Principles, then begin Execution Orchestrator Decomposition.
+Begin Phase 2 Workstream 02 Policy Engine Consistency Model.
 
 ## Next Milestone
 
-Phase 2 Execution Orchestrator Decomposition architecture workstream.
+Phase 2 Workstream 02 Policy Engine Consistency Model.
 
 ## Current Risks
 
@@ -93,7 +93,8 @@ Phase 2 Execution Orchestrator Decomposition architecture workstream.
 - Future Funding Engine, Investment Marketplace, Investor Intelligence, Investment Readiness, Investment Dossier, Syndicated Funding Model, Milestone Capital Release, and Investor Marketplace Compliance are documented at placeholder level and require legal/compliance review before any implementation.
 - Investor marketplace architecture may be misunderstood as approval to raise funds unless the future-only and compliance-gated boundary remains explicit.
 - Phase 2 critical runtime gaps are now identified but not yet fully expanded into concern-specific architecture documents.
-- Execution Orchestrator decomposition, Policy Engine consistency, Evidence freshness, AI output classification, event replay, multi-tenancy isolation, capital reservation, recovery governance, and agent evolution governance require detailed architecture before implementation.
+- Policy Engine consistency, Evidence freshness, AI output classification, event replay, multi-tenancy isolation, capital reservation, recovery governance, and agent evolution governance require detailed architecture before implementation.
+- Runtime Kernel and Strategic Review Domain are documented but require future implementation-phase acceptance criteria before any code.
 
 ## Current Blockers
 
@@ -133,7 +134,6 @@ Phase 2 Execution Orchestrator Decomposition architecture workstream.
 - Investment Dossier review and approval process.
 - Syndicated funding legal model.
 - Milestone capital release governance and unused capital handling.
-- Execution Orchestrator sub-responsibility boundaries.
 - Policy snapshot and consistency model.
 - Evidence freshness and quality tiers.
 - AI output promotion governance.
@@ -150,6 +150,8 @@ Phase 2 Execution Orchestrator Decomposition architecture workstream.
 - Audit Ledger query and export model.
 - Recovery Governance model.
 - Agent Evolution Governance model.
+- Runtime Kernel implementation acceptance criteria.
+- Strategic Review recommendation workflow details.
 
 ## Last Updated
 

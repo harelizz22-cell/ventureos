@@ -35,6 +35,8 @@ The Execution Orchestrator owns waiting and continuation behavior after Policy E
 
 Policies must be explicit, versioned, testable, and auditable.
 
+Execution API must request Policy Engine evaluation before accepted requests enter Runtime Kernel.
+
 All execution paths must pass through the Policy Engine.
 
 No Capability, Agent, Workflow, Tool, Service, or External Provider may self-approve execution.

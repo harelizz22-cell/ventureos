@@ -6,11 +6,11 @@ Source Of Truth: This file is the source of truth for project milestones.
 
 ## Current Milestone
 
-Phase 2 Architecture Blueprint created.
+Phase 2 Workstream 01 Runtime Kernel and Strategic Review Architecture complete.
 
 ## Next Milestone
 
-Founder and Chief Architect review of Phase 2 Architecture Blueprint, then decide which critical architecture gaps must close before implementation planning.
+Phase 2 Workstream 02 Policy Engine Consistency Model.
 
 ## Status
 

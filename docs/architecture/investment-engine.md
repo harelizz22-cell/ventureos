@@ -46,6 +46,8 @@ Financial execution always requires Founder-defined governance.
 
 Future investor marketplace participation requires Investment Readiness review, Investment Dossier preparation, legal/compliance gating, and Founder approval.
 
+Major investment and capital recommendations should use Strategic Review Domain, Dynamic Review Council, Debate Engine, Consensus Engine, and Investment Memo Generator where required by policy.
+
 ## Rule
 
 The Investment Engine generates governed recommendations. It never executes investments.

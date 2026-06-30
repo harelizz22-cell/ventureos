@@ -44,7 +44,7 @@ Breaking Capability contract changes require a new version, migration plan, ADR 
 
 ## Rule
 
-Capabilities do not grant execution authority by themselves. Capability invocation is routed through the Execution Orchestrator and governed before execution.
+Capabilities do not grant execution authority by themselves. Capability invocation is routed through Execution API, evaluated by Policy Engine, coordinated by Runtime Kernel, and governed before execution.
 
 Agents, humans, APIs, internal services, and future execution engines may implement capabilities, but they do not define the capability architecture.
 
@@ -55,6 +55,8 @@ Capabilities never depend on specific Agents. Agents execute Capabilities.
 Future execution engines must be interchangeable.
 
 Every Capability execution path must pass through the Policy Engine. If the Policy Engine is unavailable, no Capability execution is permitted.
+
+No Capability may bypass Execution API.
 
 Every future capability must preserve the hierarchy:
 

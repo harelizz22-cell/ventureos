@@ -47,6 +47,10 @@ Capital allocation recommendations must consider Portfolio Diversification, expe
 
 Future funding and capital release recommendations are governance-gated and compliance-gated. The Capital Allocation Engine does not hold funds, release funds, execute securities transactions, or move money.
 
+Major capital decisions require a formal internal Investment Memo where required by policy.
+
+Investment Memo is an internal governed review artifact and not a legal offering document.
+
 ## Placeholder Status
 
 This is an architecture placeholder. It does not define allocation formulas, investment execution, financial integrations, schemas, or implementation.

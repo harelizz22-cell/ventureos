@@ -59,6 +59,8 @@ Business Intelligence must support Thesis Engine, Hypothesis Engine, Portfolio D
 
 Business Intelligence may support future investor marketplace and funding analysis only as evidence-based, compliance-gated reporting. It must not recommend guaranteed returns or authorize regulated financial activity.
 
+Business Intelligence may provide inputs to Strategic Review Domain, Dynamic Review Council, Debate Engine, Consensus Engine, and Investment Memo Generator. It does not make final business decisions.
+
 ## Placeholder Status
 
 This is an architecture placeholder. It does not define analytics schemas, dashboards, reports, models, or implementation.

@@ -30,6 +30,8 @@ Enterprise Value remains the primary objective. Founder governance remains non-n
 
 ## Workstream 1: Execution Orchestrator Decomposition
 
+Status: Completed as Phase 2 Workstream 01 Runtime Kernel and Strategic Review Architecture.
+
 Split the overloaded Execution Orchestrator into architectural sub-responsibilities:
 
 - Execution Coordinator: Owns execution flow sequencing and implementation routing.
@@ -37,10 +39,14 @@ Split the overloaded Execution Orchestrator into architectural sub-responsibilit
 - Recovery Manager: Owns recovery trigger routing, compensation, rollback coordination, and recovery failure escalation.
 - Event Coordinator: Owns event emission coordination, event ordering requirements, correlation, and replay coordination.
 - Execution State Tracker: Owns execution state, state transitions, audit linkage, and runtime status visibility.
+- Execution Scheduler: Owns governed scheduling, queue management, fairness, cost/resource/rate-limit awareness, and emergency pause support.
+- Resource Coordinator: Owns pre-execution resource availability checks and coordination with Resource Domain, Cost Governance, Capital Allocation, Capital Reservation, Policy Engine, and Execution Scheduler.
 
 Phase 2 must define boundaries, ownership, failure modes, and interactions for each responsibility.
 
 No implementation is authorized.
+
+Strategic Review Domain is documented as the recommendation layer for structured opportunity review. Runtime Kernel does not make business decisions.
 
 ## Workstream 2: Policy Engine Consistency Model
 

@@ -41,6 +41,8 @@ Future investor marketplace exposure must also align with Founder, Organization,
 
 Thesis Engine does not authorize fundraising, securities transactions, investor access, capital custody, or money movement.
 
+Thesis alignment is an input to Strategic Review Domain, Dynamic Review Council, Consensus Engine, and Investment Memo Generator.
+
 ## Placeholder Status
 
 This is an architecture placeholder. It does not define scoring weights, schemas, UI, integrations, financial execution, or implementation.

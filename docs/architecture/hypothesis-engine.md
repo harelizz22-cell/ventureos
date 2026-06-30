@@ -41,6 +41,8 @@ Hypothesis approval supports governed validation. It does not authorize producti
 
 No Venture may enter Investment Readiness review unless its hypothesis, validation results, success criteria, kill criteria, and evidence status are reviewable.
 
+Hypothesis maturity is an input to Strategic Review Domain and Investment Memo Generator.
+
 ## Placeholder Status
 
 This is an architecture placeholder. It does not define hypothesis schemas, validation workflow implementation, UI, scoring formulas, or production code.

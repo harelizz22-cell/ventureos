@@ -40,6 +40,8 @@ Opportunity Score must include Thesis alignment for Ventures, external investmen
 
 Opportunity Score may support future investor marketplace comparison only after compliance gating. It must not promise investment returns, sell securities, process investments, or override Investment Readiness review.
 
+Opportunity Score may inform Strategic Review Domain, Debate Engine, Consensus Engine, and Investment Memo Generator. It must remain explainable and must not replace dissent, Evidence quality, or Founder approval.
+
 ## Placeholder Status
 
 This is an architecture placeholder. It does not define scoring weights, formulas, schemas, UI, or implementation.

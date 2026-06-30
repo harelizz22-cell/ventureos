@@ -43,7 +43,10 @@ Source Of Truth: This file is the source of truth for project-management risk tr
 - Investor Intelligence may be mistaken for regulated investment advice unless recommendation-only and compliance review boundaries remain explicit.
 - Public fundraising, investor access, or investor communications may trigger securities regulation without approved legal/compliance framework.
 - Phase 2 Blueprint may be mistaken for implementation approval unless the documentation-only boundary remains explicit.
-- Execution Orchestrator may remain overloaded unless sub-responsibility boundaries are completed.
+- Runtime Kernel service boundaries may drift unless future implementation acceptance criteria preserve the documented split.
+- Strategic Review Domain may be mistaken for final decision authority unless recommendation-only boundaries remain explicit.
+- Investment Memo may be mistaken for a legal offering document unless internal-artifact boundaries remain explicit.
+- Debate and dissent may be flattened unless material dissent recording is enforced.
 - Policy decisions may become hard to audit unless policy versioning and snapshots are defined.
 - AI outputs may pollute Evidence Ledger unless output classification and promotion governance are enforced.
 - Event replay may weaken audit integrity unless duplicate and out-of-order event behavior is defined.

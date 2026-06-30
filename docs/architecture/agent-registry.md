@@ -35,4 +35,6 @@ Agents do not own execution flow. Execution flow belongs to `docs/architecture/e
 
 Agents execute Capabilities. Capabilities never depend on specific Agents.
 
-Agents may not self-approve execution. Agent execution paths must pass through the Policy Engine.
+Agents may not self-approve execution. Agent execution paths must enter through Execution API and pass through the Policy Engine.
+
+Agents may participate in Dynamic Review Council, Debate Engine, Consensus Engine, and Investment Memo preparation, but they do not self-approve, make final decisions, or bypass Evidence requirements.

@@ -22,6 +22,9 @@ These definitions are architectural vocabulary. All future documents must use th
 - Event: A meaningful runtime fact emitted by VentureOS for auditability, coordination, observability, and decoupled subscription.
 - Autonomy Level: A configured runtime permission level that defines what the system may observe, recommend, request, or execute.
 - Execution Orchestrator: The architecture component that owns execution flow, capability invocation, governance enforcement, approval waiting, retries, timeouts, failure containment, event coordination, recovery triggering, and execution state tracking.
+- Runtime Kernel: The execution foundation that runs the system by coordinating policy, execution, scheduling, state, approvals, events, recovery, and resources without making business decisions.
+- Execution API: The single governed entry point for all Capability execution requests.
+- Strategic Review Domain: The Domain responsible for structured business review before VentureOS recommends building, investing, funding, scaling, pausing, or exiting.
 - Business Outcome: A measurable result that contributes to revenue, profit, growth, risk reduction, operational quality, or enterprise value.
 - Enterprise Value: The long-term measurable value of a company or portfolio created through revenue, profit, assets, defensibility, growth, and operational maturity.
 - Capital: Financial and economic resources available for allocation across Ventures, Capabilities, investments, infrastructure, tools, and operations.
@@ -78,6 +81,7 @@ VentureOS must not claim it can legally raise funds, sell securities, hold inves
 - Organization and Portfolio model: `docs/architecture/organization-portfolio-model.md`
 - Domain model: `docs/architecture/domain-model.md`
 - Business Intelligence Domain: `docs/architecture/business-intelligence.md`
+- Strategic Review Domain: `docs/architecture/strategic-review-domain.md`
 - Knowledge Domain: `docs/architecture/knowledge-domain.md`
 - Identity Domain: `docs/architecture/identity-domain.md`
 - Resource Domain: `docs/architecture/resource-domain.md`
@@ -113,6 +117,10 @@ VentureOS must not claim it can legally raise funds, sell securities, hold inves
 - Cost Governance: `docs/governance/cost-governance.md`
 - Investor Marketplace Compliance: `docs/governance/investor-marketplace-compliance.md`
 - Runtime behavior: `docs/runtime/`
+- Runtime Kernel: `docs/architecture/runtime-kernel.md`
+- Execution API: `docs/architecture/execution-api.md`
+- Execution Scheduler: `docs/architecture/execution-scheduler.md`
+- Resource Coordinator: `docs/architecture/resource-coordinator.md`
 - Tool Gateway: `docs/architecture/tool-gateway.md`
 - AI Gateway: `docs/architecture/ai-gateway.md`
 - Execution Orchestrator: `docs/architecture/execution-orchestrator.md`
@@ -124,6 +132,10 @@ VentureOS must not claim it can legally raise funds, sell securities, hold inves
 - Agent evolution: `docs/architecture/agent-evolution.md`
 - Founder Command Center: `docs/architecture/founder-command-center.md`
 - Observability: `docs/architecture/observability.md`
+- Dynamic Review Council: `docs/architecture/dynamic-review-council.md`
+- Debate Engine: `docs/architecture/debate-engine.md`
+- Consensus Engine: `docs/architecture/consensus-engine.md`
+- Investment Memo Generator: `docs/architecture/investment-memo-generator.md`
 
 ## Architecture Rule
 
@@ -134,6 +146,14 @@ Phase 2 has started with `docs/architecture/architecture-principles.md` as the o
 The next Phase 2 workstream is Execution Orchestrator Decomposition.
 
 Implementation may be performed by an AI Agent, human, external API, internal service, or future execution engine.
+
+Execution Orchestrator is decomposed under VentureOS Runtime Kernel. Runtime Kernel does not make business decisions.
+
+All Capability execution requests must enter through Execution API.
+
+Strategic Review Domain owns structured opportunity review. Dynamic Review Council provides multi-perspective review. Debate and dissent are first-class architecture concepts.
+
+Investment Memo is the formal internal review artifact before major capital decisions.
 
 Every future capability must be multi-venture aware and must identify its owning Domain.
 

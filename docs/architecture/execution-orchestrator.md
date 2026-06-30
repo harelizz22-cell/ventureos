@@ -12,6 +12,12 @@ The Execution Orchestrator owns VentureOS execution flow. It coordinates executi
 
 VentureOS is Portfolio-first and capability-first, not agent-first. The Execution Orchestrator invokes capabilities and may route execution through AI, human, API, internal service, or future engine implementations.
 
+Execution Orchestrator is now decomposed under VentureOS Runtime Kernel.
+
+Runtime Kernel services are documented in `docs/architecture/runtime-kernel.md`.
+
+All Capability execution requests must enter through `docs/architecture/execution-api.md`.
+
 ## Responsibilities
 
 - Workflow execution.
@@ -45,7 +51,9 @@ Implementation may be:
 
 - Agents do not own execution flow.
 - CEO Agent must not orchestrate the system.
+- Runtime Kernel runs the system but does not make business decisions.
 - Governance must be enforced before governed execution.
+- No Capability, Agent, Tool, Workflow, Service, or external provider may bypass Execution API.
 - All execution paths must pass through the Policy Engine.
 - No Capability, Agent, Workflow, Tool, Service, or External Provider may self-approve execution.
 - If the Policy Engine is unavailable, VentureOS must fail closed.
