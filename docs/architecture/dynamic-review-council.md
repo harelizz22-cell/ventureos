@@ -41,6 +41,12 @@ They do not bypass Evidence requirements.
 - Required expertise gaps.
 - Escalation needs.
 
+## Knowledge And Reasoning Inputs
+
+The Dynamic Review Council may use Enterprise Knowledge Graph relationships, Organizational Memory records, Learning Engine outputs, and Reasoning Engine recommendations to select relevant perspectives and identify expertise gaps.
+
+These inputs are advisory. Council participants remain participants only and do not self-approve, bypass Policy Engine, or bypass Evidence requirements.
+
 ## Placeholder Status
 
 This is architecture documentation only. It does not define staffing, agent implementation, prompts, routing logic, or services.

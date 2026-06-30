@@ -22,6 +22,9 @@ Opportunity Score is a first-class executive metric used to compare internal and
 - Hypothesis quality
 - Portfolio diversification impact
 - Learning pattern fit
+- Organizational Memory pattern fit
+- Enterprise Knowledge Graph relationship context
+- Reasoning output where policy permits
 - Investment readiness
 - Funding readiness
 - Investor suitability considerations
@@ -41,6 +44,8 @@ Opportunity Score must include Thesis alignment for Ventures, external investmen
 Opportunity Score may support future investor marketplace comparison only after compliance gating. It must not promise investment returns, sell securities, process investments, or override Investment Readiness review.
 
 Opportunity Score may inform Strategic Review Domain, Debate Engine, Consensus Engine, and Investment Memo Generator. It must remain explainable and must not replace dissent, Evidence quality, or Founder approval.
+
+Opportunity Score may use Reasoning Engine outputs, Organizational Memory, and Enterprise Knowledge Graph relationships as governed inputs, but it must preserve source citations and classification. Reasoning output does not become Evidence automatically.
 
 ## Placeholder Status
 

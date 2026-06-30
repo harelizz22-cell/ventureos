@@ -22,7 +22,7 @@ Phase 2 started. Documentation and architecture specification only. Implementati
 
 ## Architecture Status
 
-Phase 2 Workstream 01 Runtime Kernel and Strategic Review Architecture completed. Phase 2 started with official Architecture Principles. Phase 2 Architecture Blueprint created from accepted Red Team findings. Architecture-first repository foundation exists. VentureOS is an Enterprise Value-first, outcome-driven Company Operating System, Portfolio-first, Domain-first, capability-first, Event-first, governance-fail-closed, and configured for Autonomy Level 1: Assistant. Revenue is an important KPI, but Enterprise Value is the primary objective. Future investor marketplace, funding readiness, syndicated funding, and milestone capital release architecture are documented as future-phase, governance-gated, compliance-gated, evidence-based concerns. No production application code is approved. No regulated financial activity is approved.
+Phase 2 Workstream 01B Enterprise Knowledge Graph, Organizational Memory, and Reasoning Engine completed. Phase 2 Workstream 01 Runtime Kernel and Strategic Review Architecture completed. Phase 2 started with official Architecture Principles. Phase 2 Architecture Blueprint created from accepted Red Team findings. Architecture-first repository foundation exists. VentureOS is an Enterprise Value-first, outcome-driven Company Operating System, Portfolio-first, Domain-first, capability-first, Event-first, governance-fail-closed, and configured for Autonomy Level 1: Assistant. Revenue is an important KPI, but Enterprise Value is the primary objective. Future investor marketplace, funding readiness, syndicated funding, and milestone capital release architecture are documented as future-phase, governance-gated, compliance-gated, evidence-based concerns. No production application code is approved. No regulated financial activity is approved.
 
 ## Repository Structure Status
 
@@ -60,7 +60,7 @@ Founder.
 
 ## Last ADR
 
-`ADR-048-investment-memo-generator.md`
+`ADR-052-knowledge-memory-learning-reasoning-separation.md`
 
 ## Current Goal
 
@@ -95,6 +95,8 @@ Phase 2 Workstream 02 Policy Engine Consistency Model.
 - Phase 2 critical runtime gaps are now identified but not yet fully expanded into concern-specific architecture documents.
 - Policy Engine consistency, Evidence freshness, AI output classification, event replay, multi-tenancy isolation, capital reservation, recovery governance, and agent evolution governance require detailed architecture before implementation.
 - Runtime Kernel and Strategic Review Domain are documented but require future implementation-phase acceptance criteria before any code.
+- Enterprise Knowledge Graph, Organizational Memory, and Reasoning Engine are documented but require future implementation-phase acceptance criteria before any code.
+- No new strategic concepts should be added until Phase 2 is completed and reviewed.
 
 ## Current Blockers
 
@@ -152,7 +154,10 @@ Phase 2 Workstream 02 Policy Engine Consistency Model.
 - Agent Evolution Governance model.
 - Runtime Kernel implementation acceptance criteria.
 - Strategic Review recommendation workflow details.
+- Enterprise Knowledge Graph source record and classification rules.
+- Organizational Memory retention and scope rules.
+- Reasoning Engine citation, confidence, uncertainty, and dissent rules.
 
 ## Last Updated
 
-2026-06-29
+2026-06-30

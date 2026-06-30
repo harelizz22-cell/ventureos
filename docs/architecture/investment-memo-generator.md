@@ -33,6 +33,8 @@ The memo format uses professional venture capital operating patterns as architec
 - Recommendation.
 - Approval requirements.
 
+Where relevant, the memo should include Organizational Memory context, Enterprise Knowledge Graph relationship context, Learning Engine outputs, and Reasoning Engine recommendations with source citations, assumptions, confidence, uncertainty, and dissent.
+
 ## Rule
 
 Investment Memo is not a legal offering document.
@@ -42,6 +44,8 @@ It is an internal governed decision artifact unless future compliance explicitly
 ## Governance Requirements
 
 Investment Memo must preserve evidence, assumptions, forecasts, dissent, legal/compliance review status, and approval requirements.
+
+Reasoning output included in an Investment Memo must remain classified as reasoning unless promoted through Evidence governance. The memo must not convert reasoning output into Evidence automatically.
 
 ## Placeholder Status
 

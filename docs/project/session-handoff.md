@@ -6,6 +6,17 @@ Source Of Truth: This file is the source of truth for the latest work-session ha
 
 ## Completed Today
 
+- Phase 2 Workstream 01B completed.
+- Enterprise Knowledge Graph architecture created.
+- Organizational Memory architecture created.
+- Reasoning Engine architecture created.
+- Added ADR-049 through ADR-052.
+- Recorded that Learning Engine remains separate from Organizational Memory, Enterprise Knowledge Graph, Reasoning Engine, and Knowledge Domain.
+- Recorded that Knowledge Domain remains separate and owns knowledge assets and retrieval capabilities.
+- Recorded that Reasoning Engine makes recommendations only and does not make final Decisions.
+- Recorded that reasoning outputs do not become Evidence automatically and may become Candidate Evidence only through AI Output Classification and Evidence Promotion governance.
+- Recorded that all reasoning outputs must cite source knowledge, Evidence records, assumptions, confidence, uncertainty, and dissent where relevant.
+- Recorded that no new strategic concepts should be added until Phase 2 is completed and reviewed.
 - Phase 2 Workstream 01 started and completed.
 - Runtime Kernel architecture created.
 - Execution API architecture created.
@@ -105,6 +116,15 @@ Source Of Truth: This file is the source of truth for the latest work-session ha
 - Dynamic Review Council provides multi-perspective review.
 - Debate and dissent are first-class architecture concepts.
 - Investment Memo is the formal internal review artifact before major capital decisions.
+- Enterprise Knowledge Graph is first-class.
+- Organizational Memory is first-class.
+- Reasoning Engine is first-class.
+- Enterprise Knowledge Graph is the governed relationship layer across approved knowledge and architecture entities.
+- Organizational Memory is the durable history layer.
+- Reasoning Engine produces explainable recommendations only and does not make final Decisions.
+- Learning Engine, Knowledge Domain, Enterprise Knowledge Graph, Organizational Memory, and Reasoning Engine remain separate concerns.
+- Reasoning outputs do not become Evidence automatically.
+- No new strategic concepts should be added until Phase 2 is completed and reviewed.
 - Next Phase 2 workstream is Policy Engine Consistency Model.
 
 ## Files Updated
@@ -180,6 +200,13 @@ Source Of Truth: This file is the source of truth for the latest work-session ha
 - `docs/architecture/debate-engine.md`
 - `docs/architecture/consensus-engine.md`
 - `docs/architecture/investment-memo-generator.md`
+- `docs/architecture/enterprise-knowledge-graph.md`
+- `docs/architecture/organizational-memory.md`
+- `docs/architecture/reasoning-engine.md`
+- `docs/architecture/knowledge-domain.md`
+- `docs/architecture/domain-model.md`
+- `docs/architecture/value-graph.md`
+- `docs/architecture/venture-digital-twin.md`
 - `docs/adr/ADR-025-thesis-engine.md`
 - `docs/adr/ADR-026-portfolio-diversification.md`
 - `docs/adr/ADR-027-learning-engine.md`
@@ -204,9 +231,17 @@ Source Of Truth: This file is the source of truth for the latest work-session ha
 - `docs/adr/ADR-046-dynamic-review-council.md`
 - `docs/adr/ADR-047-debate-consensus-and-dissent.md`
 - `docs/adr/ADR-048-investment-memo-generator.md`
+- `docs/adr/ADR-049-enterprise-knowledge-graph.md`
+- `docs/adr/ADR-050-organizational-memory.md`
+- `docs/adr/ADR-051-reasoning-engine.md`
+- `docs/adr/ADR-052-knowledge-memory-learning-reasoning-separation.md`
 
 ## ADRs Added
 
+- `docs/adr/ADR-049-enterprise-knowledge-graph.md`
+- `docs/adr/ADR-050-organizational-memory.md`
+- `docs/adr/ADR-051-reasoning-engine.md`
+- `docs/adr/ADR-052-knowledge-memory-learning-reasoning-separation.md`
 - `docs/adr/ADR-041-runtime-kernel.md`
 - `docs/adr/ADR-042-execution-api.md`
 - `docs/adr/ADR-043-execution-scheduler.md`
@@ -290,12 +325,17 @@ Source Of Truth: This file is the source of truth for the latest work-session ha
 - Define Agent Evolution Governance.
 - Define Runtime Kernel implementation acceptance criteria.
 - Define Strategic Review recommendation workflow details.
+- Define Enterprise Knowledge Graph source record and classification rules.
+- Define Organizational Memory retention and scope rules.
+- Define Reasoning Engine citation, confidence, uncertainty, dissent, and Evidence Promotion rules.
 - Draft implementation-ready policy requirements after approval.
 - Keep this file updated at the end of each work session.
 
 ## Recommended Next Step
 
 Start Phase 2 Workstream 02 Policy Engine Consistency Model using `docs/architecture/architecture-principles.md`, `docs/phases/phase-2-architecture-blueprint.md`, and `docs/architecture/policy-engine.md`.
+
+Do not add new strategic concepts before Phase 2 is completed and reviewed.
 
 ## Questions For Founder
 
@@ -317,6 +357,7 @@ Start Phase 2 Workstream 02 Policy Engine Consistency Model using `docs/architec
 - Read ADR-035 through ADR-040 and `docs/phases/phase-2-architecture-blueprint.md` before Phase 2 runtime governance architecture work.
 - Read `docs/architecture/architecture-principles.md` before all Phase 2 architecture work.
 - Read ADR-041 through ADR-048 before Runtime Kernel or Strategic Review architecture work.
+- Read ADR-049 through ADR-052 before Knowledge Domain, Enterprise Knowledge Graph, Organizational Memory, Learning Engine, or Reasoning Engine work.
 - Read `docs/phases/phase-1-system-foundation.md` before any Phase 1 implementation discussion.
 - Confirm that no production code is requested before proceeding.
 - Continue from the approved architecture; do not restart or reinterpret the project.

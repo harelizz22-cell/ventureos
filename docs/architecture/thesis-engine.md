@@ -43,6 +43,8 @@ Thesis Engine does not authorize fundraising, securities transactions, investor 
 
 Thesis alignment is an input to Strategic Review Domain, Dynamic Review Council, Consensus Engine, and Investment Memo Generator.
 
+Thesis alignment reasoning may use Enterprise Knowledge Graph, Organizational Memory, Learning Engine, and Reasoning Engine outputs where policy permits. Reasoning output must cite sources, assumptions, confidence, uncertainty, and dissent where relevant and does not become Evidence automatically.
+
 ## Placeholder Status
 
 This is an architecture placeholder. It does not define scoring weights, schemas, UI, integrations, financial execution, or implementation.

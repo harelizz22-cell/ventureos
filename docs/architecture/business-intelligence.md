@@ -18,6 +18,9 @@ The Business Intelligence Domain turns VentureOS operating data into executive i
 - Hypothesis outcome analysis
 - Portfolio diversification insight
 - Learning outcome analysis
+- Organizational Memory analysis
+- Enterprise Knowledge Graph relationship analysis
+- Reasoning output review
 - Funding readiness insight
 - Investment readiness insight
 - Investor marketplace insight
@@ -60,6 +63,8 @@ Business Intelligence must support Thesis Engine, Hypothesis Engine, Portfolio D
 Business Intelligence may support future investor marketplace and funding analysis only as evidence-based, compliance-gated reporting. It must not recommend guaranteed returns or authorize regulated financial activity.
 
 Business Intelligence may provide inputs to Strategic Review Domain, Dynamic Review Council, Debate Engine, Consensus Engine, and Investment Memo Generator. It does not make final business decisions.
+
+Business Intelligence may use Enterprise Knowledge Graph, Organizational Memory, Learning Engine, and Reasoning Engine outputs for governed analysis. It must preserve the distinction between facts, Evidence, Decisions, assumptions, forecasts, opinions, learning, and reasoning outputs.
 
 ## Placeholder Status
 

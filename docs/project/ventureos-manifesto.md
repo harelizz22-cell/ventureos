@@ -68,6 +68,8 @@ No investment return is guaranteed. Investor-facing content must distinguish ass
 
 VentureOS must learn from outcomes without rewriting history. Successful ventures, failed ventures, killed opportunities, bad investments, strong investments, founder overrides, budget decisions, pricing experiments, and acquisition outcomes become reusable knowledge only when evidence-backed and auditable.
 
+VentureOS must also remember. Organizational Memory preserves what happened, Enterprise Knowledge Graph connects approved knowledge and decisions, and Reasoning Engine can infer from what is known. Reasoning remains recommendation-only and does not become Evidence automatically.
+
 ## Founder Ownership Is Non-Negotiable
 
 The founder owns the assets, accounts, decisions, and upside. VentureOS may increase leverage, but it must not create dependency on agent-owned assets, hidden credentials, unmanaged accounts, or opaque execution.

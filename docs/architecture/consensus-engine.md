@@ -37,6 +37,8 @@ It produces governed recommendations only.
 
 Consensus must preserve dissent, evidence quality, approval requirements, and uncertainty. Founder or approved governance policy makes final decisions.
 
+Consensus may incorporate Reasoning Engine outputs, Enterprise Knowledge Graph context, Organizational Memory records, and Learning Engine outputs, but it must preserve their classification. Reasoning output is advisory and may not be treated as Evidence unless promoted through AI Output Classification and Evidence Promotion governance.
+
 ## Placeholder Status
 
 This is architecture documentation only. It does not define scoring formulas, models, services, or implementation.

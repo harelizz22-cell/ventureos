@@ -35,6 +35,9 @@ These definitions are architectural vocabulary. All future documents must use th
 - Hypothesis: An explicit, testable business assumption for a Venture before validation, including problem, audience, solution, assumptions, success criteria, kill criteria, validation plan, expected ROI, and Thesis alignment.
 - Portfolio Diversification: The architecture concern that monitors concentration risk across sector, geography, stage, technology, capital, providers, revenue models, and correlated risks.
 - Learning: Evidence-backed conversion of outcomes into reusable knowledge for future strategy, scoring, recommendations, and governance.
+- Enterprise Knowledge Graph: The structured relationship layer connecting approved facts, Evidence, Decisions, Ventures, Markets, outcomes, risks, and architecture entities.
+- Organizational Memory: The durable historical memory layer that preserves what happened and what VentureOS remembers over time.
+- Reasoning Engine: The explainable reasoning component that derives recommendations from approved knowledge, memory, Evidence, and current context without making final Decisions.
 - Funding Round: A future governed planning object for capital target, milestone funding plan, investor commitments, readiness status, and evidence-based release recommendations.
 - Investment Marketplace: A future compliance-gated capability for exposing selected, reviewed Venture opportunities to qualified investors through evidence-based dossiers.
 - Investment Readiness: A future review gate that determines whether a Venture is mature enough to be shown to investors.
@@ -83,6 +86,9 @@ VentureOS must not claim it can legally raise funds, sell securities, hold inves
 - Business Intelligence Domain: `docs/architecture/business-intelligence.md`
 - Strategic Review Domain: `docs/architecture/strategic-review-domain.md`
 - Knowledge Domain: `docs/architecture/knowledge-domain.md`
+- Enterprise Knowledge Graph: `docs/architecture/enterprise-knowledge-graph.md`
+- Organizational Memory: `docs/architecture/organizational-memory.md`
+- Reasoning Engine: `docs/architecture/reasoning-engine.md`
 - Identity Domain: `docs/architecture/identity-domain.md`
 - Resource Domain: `docs/architecture/resource-domain.md`
 - System layers: `docs/architecture/system-layers.md`
@@ -166,6 +172,12 @@ No Venture may move from idea to validation without an approved hypothesis.
 No Venture, external investment, acquisition, or capital allocation may proceed without Thesis alignment review.
 
 Learning updates must be evidence-backed and auditable.
+
+Enterprise Knowledge Graph, Organizational Memory, and Reasoning Engine are adopted as Phase 2 architecture gap fixes. They do not replace Learning Engine, do not make autonomous decisions, and strengthen long-term organizational intelligence.
+
+Knowledge Domain owns knowledge assets and retrieval capabilities. Enterprise Knowledge Graph connects approved knowledge and architecture entities. Organizational Memory preserves durable history. Reasoning Engine produces explainable recommendations from approved knowledge, memory, Evidence, and context.
+
+Reasoning outputs must cite source knowledge, Evidence records, assumptions, confidence, uncertainty, and dissent where relevant. Reasoning outputs do not become Evidence automatically and may become Candidate Evidence only through AI Output Classification and Evidence Promotion governance.
 
 VentureOS must not autonomously transfer money or execute investments.
 

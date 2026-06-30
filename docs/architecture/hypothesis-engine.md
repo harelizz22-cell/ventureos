@@ -43,6 +43,8 @@ No Venture may enter Investment Readiness review unless its hypothesis, validati
 
 Hypothesis maturity is an input to Strategic Review Domain and Investment Memo Generator.
 
+Hypothesis challenge may use Organizational Memory, Enterprise Knowledge Graph relationships, Learning Engine outcomes, and Reasoning Engine outputs to identify similar past ventures, repeated assumptions, contradictions, risks, and validation gaps. These inputs do not replace hypothesis approval or Evidence requirements.
+
 ## Placeholder Status
 
 This is an architecture placeholder. It does not define hypothesis schemas, validation workflow implementation, UI, scoring formulas, or production code.

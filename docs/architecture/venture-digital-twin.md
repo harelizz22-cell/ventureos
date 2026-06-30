@@ -32,6 +32,8 @@ Future simulation engine capabilities may use the Digital Twin. Simulation does 
 
 Future investor marketplace data in the Digital Twin must remain compliance-gated and must distinguish assumptions, evidence, forecasts, and confirmed facts.
 
+The Digital Twin may reference Organizational Memory and Enterprise Knowledge Graph relationships for historical and contextual state. Reasoning Engine outputs may inform simulations and recommendations, but they do not override governance, Evidence, approval, or audit requirements.
+
 ## Placeholder Status
 
 This is an architecture placeholder. It does not define simulation models, schemas, UI, or implementation.

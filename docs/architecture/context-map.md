@@ -66,6 +66,14 @@ Portfolio Diversification identifies concentration risk before capital or invest
 
 Learning converts outcomes into evidence-backed, auditable reusable knowledge.
 
+## Knowledge, Memory, And Reasoning Model
+
+Knowledge Domain owns knowledge assets and retrieval capabilities.
+
+Organizational Memory preserves what happened and what VentureOS remembers. Enterprise Knowledge Graph connects approved facts, Evidence, Decisions, Ventures, Markets, outcomes, and related entities. Learning Engine converts outcomes into reusable learning. Reasoning Engine infers from approved knowledge, memory, Evidence, and current context.
+
+Reasoning outputs are recommendations only. They do not become Evidence automatically and may become Candidate Evidence only through AI Output Classification and Evidence Promotion governance.
+
 ## Future Investor Marketplace Model
 
 Opportunity -> Investment Readiness -> Investment Dossier -> Compliance Gate -> Investor Marketplace -> Funding Round -> Milestone Capital Release -> Outcome Tracking

@@ -10,6 +10,10 @@ The Learning Engine converts outcomes into reusable knowledge.
 
 It helps VentureOS improve future recommendations, hypotheses, thesis refinement, Opportunity Scores, capital allocation, and Enterprise Value analysis without weakening evidence, governance, or Founder control.
 
+Learning Engine answers: "What did we learn from outcomes?"
+
+It does not replace Organizational Memory, Enterprise Knowledge Graph, Reasoning Engine, or Knowledge Domain.
+
 ## Learns From
 
 The Learning Engine must learn from:
@@ -35,6 +39,15 @@ Learning may recommend updates to Knowledge, Thesis, Opportunity Score assumptio
 Learning updates must be evidence-backed and auditable.
 
 Learning recommendations do not override Founder approval, governance, evidence requirements, or source-of-truth documentation.
+
+## Separation Of Concerns
+
+- Organizational Memory answers: "What happened and what do we remember?"
+- Enterprise Knowledge Graph answers: "How are facts, Evidence, Decisions, Ventures, Markets, and outcomes connected?"
+- Reasoning Engine answers: "What can we infer from what we know?"
+- Knowledge Domain owns knowledge assets and retrieval capabilities.
+
+These are separate concerns. Do not merge them.
 
 ## Placeholder Status
 

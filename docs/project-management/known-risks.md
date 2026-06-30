@@ -59,3 +59,8 @@ Source Of Truth: This file is the source of truth for project-management risk tr
 - Business Intelligence may become reporting-only instead of strategy-driving.
 - Venture Health scores may become misleading without clear calculation models.
 - Digital Twin and Value Graph scope may expand too quickly without phase boundaries.
+- Enterprise Knowledge Graph may become an ungoverned data dump unless source record, classification, scope, and provenance rules are enforced.
+- Organizational Memory may be confused with temporary Agent memory unless durability, scope, auditability, and reuse boundaries remain explicit.
+- Reasoning Engine outputs may be mistaken for final Decisions or Evidence unless recommendation-only and Evidence Promotion boundaries are enforced.
+- Learning Engine, Knowledge Domain, Enterprise Knowledge Graph, Organizational Memory, and Reasoning Engine boundaries may blur unless their separate source-of-truth documents remain authoritative.
+- Strategic concept expansion may continue before Phase 2 is completed and reviewed unless the concept freeze is enforced.

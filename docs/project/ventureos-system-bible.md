@@ -75,6 +75,8 @@ Every Venture, external investment, acquisition, or capital allocation must pass
 
 Learning from outcomes must be evidence-backed and auditable.
 
+Organizational intelligence must be durable and governed. Enterprise Knowledge Graph connects approved knowledge and architecture entities. Organizational Memory preserves what happened and what VentureOS remembers. Reasoning Engine produces explainable recommendations from approved knowledge, memory, Evidence, and context. These concerns do not replace Learning Engine and do not make autonomous decisions.
+
 Future funding and investor marketplace architecture may explain opportunities, readiness, risk, evidence, and milestone-based capital plans to qualified audiences only after legal/compliance review. VentureOS must not claim it can legally raise funds, sell securities, hold investor money, or execute investments without the appropriate legal entity, licensing, jurisdictional review, and compliance framework.
 
 No guaranteed return language is allowed.

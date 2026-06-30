@@ -48,6 +48,22 @@ No implementation is authorized.
 
 Strategic Review Domain is documented as the recommendation layer for structured opportunity review. Runtime Kernel does not make business decisions.
 
+## Workstream 1B: Enterprise Knowledge Graph, Organizational Memory, And Reasoning
+
+Status: Completed as Phase 2 Workstream 01B Enterprise Knowledge Graph, Organizational Memory, and Reasoning Engine.
+
+This workstream closes a Phase 2 architecture gap for long-term organizational intelligence before implementation begins.
+
+- Enterprise Knowledge Graph defines the governed relationship layer across approved facts, Evidence, Decisions, Ventures, Markets, outcomes, risks, and architecture entities.
+- Organizational Memory defines the durable historical memory layer for what happened and what VentureOS remembers.
+- Reasoning Engine defines explainable reasoning and recommendation outputs from approved knowledge, memory, Evidence, and current context.
+- Learning Engine remains separate and answers what VentureOS learned from outcomes.
+- Knowledge Domain remains separate and owns knowledge assets and retrieval capabilities.
+
+Reasoning outputs do not become Evidence automatically. They may become Candidate Evidence only through AI Output Classification and Evidence Promotion governance.
+
+No new strategic concepts should be added until Phase 2 is completed and reviewed.
+
 ## Workstream 2: Policy Engine Consistency Model
 
 Define the Policy Engine consistency model:

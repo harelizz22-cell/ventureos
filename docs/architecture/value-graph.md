@@ -27,6 +27,8 @@ VentureOS must eventually explain why value was created, not only what happened.
 
 The Value Graph must not treat forecasts or expected ROI as confirmed value.
 
+Enterprise Knowledge Graph may connect Value Graph nodes to Evidence, Decisions, Ventures, Markets, Learning, Risk, and Outcomes. Reasoning Engine may use those relationships to recommend explanations, but reasoning output must not be treated as confirmed value or Evidence automatically.
+
 ## Placeholder Status
 
 This is an architecture placeholder. It does not define graph storage, algorithms, UI, analytics models, or implementation.

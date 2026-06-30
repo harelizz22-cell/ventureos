@@ -6,7 +6,7 @@ Source Of Truth: This file is the source of truth for current project focus.
 
 ## Focus
 
-Phase 2 Workstream 01 Runtime Kernel and Strategic Review Architecture completed. Current focus is starting Phase 2 Workstream 02 Policy Engine Consistency Model.
+Phase 2 Workstream 01B Enterprise Knowledge Graph, Organizational Memory, and Reasoning Engine completed. Current focus is starting Phase 2 Workstream 02 Policy Engine Consistency Model.
 
 Phase 2 is documentation/specification only. No implementation is approved yet.
 
@@ -22,6 +22,7 @@ Phase 2 is documentation/specification only. No implementation is approved yet.
 - Phase 2 Architecture Blueprint created from accepted Red Team findings.
 - Architecture Principles created.
 - Phase 2 Workstream 01 Runtime Kernel and Strategic Review Architecture completed.
+- Phase 2 Workstream 01B Enterprise Knowledge Graph, Organizational Memory, and Reasoning Engine completed.
 - Phase 2 Governance Core placeholder created.
 - Phase 3 Policy Engine placeholder created.
 - Phase 4 Execution Orchestrator placeholder created.
@@ -38,6 +39,7 @@ Phase 2 is documentation/specification only. No implementation is approved yet.
 - Phase 2 Architecture Blueprint is now the governing workstream list for critical runtime architecture gaps.
 - Claude Red Team Architecture Review is input, not Source of Truth.
 - No implementation is approved.
+- No new strategic concepts should be added until Phase 2 is completed and reviewed.
 - Next Phase 2 workstream is Policy Engine Consistency Model.
 
 ## Current Architecture Work Items
@@ -84,6 +86,19 @@ Phase 2 is documentation/specification only. No implementation is approved yet.
 - Define Audit Ledger query model.
 - Define Recovery Governance model.
 - Define Agent Evolution Governance.
+
+## Completed Phase 2 Workstream 01B
+
+- Enterprise Knowledge Graph documented.
+- Organizational Memory documented.
+- Reasoning Engine documented.
+- ADR-049 through ADR-052 added.
+- Learning Engine remains separate.
+- Knowledge Domain remains separate.
+- Reasoning Engine recorded as recommendation-only.
+- Reasoning outputs do not become Evidence automatically.
+- Reasoning outputs must cite sources, assumptions, confidence, uncertainty, and dissent where relevant.
+- No new strategic concepts should be added until Phase 2 is completed and reviewed.
 
 ## Completed Phase 2 Kickoff
 

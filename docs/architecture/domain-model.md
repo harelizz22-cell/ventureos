@@ -25,6 +25,19 @@ Define the Domain-first business model.
 - Resources
 - Analytics
 
+## Knowledge-Related Architecture Responsibilities
+
+The Knowledge Domain owns knowledge assets and retrieval capabilities.
+
+Enterprise Knowledge Graph, Organizational Memory, Learning Engine, and Reasoning Engine are distinct architecture concerns connected to the Knowledge Domain:
+
+- Enterprise Knowledge Graph defines relationships across approved knowledge and architecture entities.
+- Organizational Memory preserves durable historical memory.
+- Learning Engine converts outcomes into reusable learning.
+- Reasoning Engine derives explainable reasoning outputs from approved knowledge, memory, Evidence, and context.
+
+Do not merge these concerns.
+
 ## Domain Ownership
 
 Every Domain owns:

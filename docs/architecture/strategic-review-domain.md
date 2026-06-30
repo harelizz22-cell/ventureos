@@ -38,6 +38,7 @@ Founder or approved governance policy makes final decisions.
 - Capture evidence, assumptions, risks, dissent, and confidence.
 - Produce governed recommendations.
 - Produce internal Investment Memos for major capital decisions.
+- Use approved knowledge, Organizational Memory, Enterprise Knowledge Graph context, Learning Engine outputs, and Reasoning Engine recommendations where policy permits.
 
 ## Non-Responsibilities
 
@@ -46,6 +47,13 @@ Founder or approved governance policy makes final decisions.
 - Capital movement.
 - Runtime execution coordination.
 - Legal offering documents.
+- Treating reasoning output as Evidence without Evidence Promotion governance.
+
+## Knowledge And Reasoning Inputs
+
+Strategic Review Domain may consume Enterprise Knowledge Graph relationships, Organizational Memory records, Learning Engine outputs, and Reasoning Engine recommendations.
+
+These inputs strengthen long-term organizational intelligence and review quality, but they do not replace Evidence, Thesis review, Hypothesis approval, Debate, dissent, Founder approval, or approved governance policy.
 
 ## Placeholder Status
 
