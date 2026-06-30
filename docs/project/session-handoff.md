@@ -6,6 +6,10 @@ Source Of Truth: This file is the source of truth for the latest work-session ha
 
 ## Completed Today
 
+- Phase 2 started.
+- Architecture Principles created in `docs/architecture/architecture-principles.md`.
+- Recorded Architecture Principles as the non-negotiable architecture baseline.
+- Recorded next Phase 2 workstream as Execution Orchestrator Decomposition.
 - Phase 2 Architecture Blueprint created from accepted Red Team findings.
 - Added ADR-035 through ADR-040.
 - Recorded that Claude Red Team Architecture Review is input, not Source of Truth.
@@ -80,6 +84,8 @@ Source Of Truth: This file is the source of truth for the latest work-session ha
 - Compliance Gate must become enforceable runtime architecture before restricted capability implementation.
 - Capital Reservation Model must prevent overcommit before allocation implementation.
 - Learning Quarantine Model must prevent disputed learning from silently influencing recommendations.
+- Architecture Principles are non-negotiable Phase 2 architecture constraints.
+- Next Phase 2 workstream is Execution Orchestrator Decomposition.
 
 ## Files Updated
 
@@ -144,6 +150,7 @@ Source Of Truth: This file is the source of truth for the latest work-session ha
 - `docs/architecture/milestone-capital-release.md`
 - `docs/governance/investor-marketplace-compliance.md`
 - `docs/phases/phase-2-architecture-blueprint.md`
+- `docs/architecture/architecture-principles.md`
 - `docs/adr/ADR-025-thesis-engine.md`
 - `docs/adr/ADR-026-portfolio-diversification.md`
 - `docs/adr/ADR-027-learning-engine.md`
@@ -220,6 +227,7 @@ Source Of Truth: This file is the source of truth for the latest work-session ha
 - Define syndicated funding legal model.
 - Define milestone capital release governance and unused capital handling.
 - Complete Phase 2 Architecture Blueprint review.
+- Start Execution Orchestrator Decomposition.
 - Expand Execution Orchestrator decomposition into concern-specific architecture.
 - Define Policy Engine consistency model.
 - Define Evidence freshness and quality model.
@@ -242,7 +250,7 @@ Source Of Truth: This file is the source of truth for the latest work-session ha
 
 ## Recommended Next Step
 
-Review Phase 2 Architecture Blueprint, then decide which critical architecture workstreams must close before any implementation begins.
+Start Phase 2 Execution Orchestrator Decomposition using `docs/architecture/architecture-principles.md` and `docs/phases/phase-2-architecture-blueprint.md`.
 
 ## Questions For Founder
 
@@ -262,6 +270,7 @@ Review Phase 2 Architecture Blueprint, then decide which critical architecture w
 - Read ADR-025 through ADR-028 before Thesis, diversification, learning, hypothesis, or strategic thinking engine work.
 - Read ADR-029 through ADR-034 before future funding, investor marketplace, investment readiness, investment dossier, syndicated funding, or milestone capital release work.
 - Read ADR-035 through ADR-040 and `docs/phases/phase-2-architecture-blueprint.md` before Phase 2 runtime governance architecture work.
+- Read `docs/architecture/architecture-principles.md` before all Phase 2 architecture work.
 - Read `docs/phases/phase-1-system-foundation.md` before any Phase 1 implementation discussion.
 - Confirm that no production code is requested before proceeding.
 - Continue from the approved architecture; do not restart or reinterpret the project.

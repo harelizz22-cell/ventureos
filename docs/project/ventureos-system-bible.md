@@ -26,6 +26,8 @@ VentureOS is different from an AI agent app because AI is only one implementatio
 
 ## Core Principles
 
+The official non-negotiable architecture principles are defined in `docs/architecture/architecture-principles.md`.
+
 - Evidence before action.
 - Hypothesis before validation.
 - Thesis before capital allocation.

@@ -72,6 +72,7 @@ VentureOS must not claim it can legally raise funds, sell securities, hold inves
 
 ## Technical Source Of Truth Map
 
+- Architecture Principles: `docs/architecture/architecture-principles.md`
 - Phase 2 Architecture Blueprint: `docs/phases/phase-2-architecture-blueprint.md`
 - Context map: `docs/architecture/context-map.md`
 - Organization and Portfolio model: `docs/architecture/organization-portfolio-model.md`
@@ -127,6 +128,10 @@ VentureOS must not claim it can legally raise funds, sell securities, hold inves
 ## Architecture Rule
 
 Technical implementation work must trace to this architecture index, an accepted ADR, and an active phase specification.
+
+Phase 2 has started with `docs/architecture/architecture-principles.md` as the official non-negotiable architecture principles document.
+
+The next Phase 2 workstream is Execution Orchestrator Decomposition.
 
 Implementation may be performed by an AI Agent, human, external API, internal service, or future execution engine.
 
