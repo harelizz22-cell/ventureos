@@ -10,6 +10,10 @@ This repository is currently architecture-first. It contains the documentation a
 
 No production application code may be written before architecture approval. Initial operation is Autonomy Level 1: Assisted Mode. The architecture must remain autonomy-ready for future levels.
 
+## Primary Project Status
+
+Start with `docs/project/project-dashboard.md` for the current VentureOS project state, phase status, active workstream, repository health, latest ADRs, and required reading order.
+
 ## Repository Structure
 
 - `docs/project/` - project identity, system bible, current context, roadmap, handoff, and decision history.

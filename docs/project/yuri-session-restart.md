@@ -13,8 +13,8 @@ Allow a future ChatGPT/Yuri session to resume VentureOS without losing context, 
 - Repository root: `/Users/harelitzhaki/VentureOS`
 - GitHub remote: `https://github.com/harelizz22-cell/ventureos.git`
 - Current phase: Phase 2
-- Latest completed workstream before Workstream 02: Phase 2 Workstream 01B
-- Current workstream: Phase 2 Workstream 02
+- Latest completed workstream: Phase 2 Workstream 02
+- Current workstream: Phase 2 Workstream 07 Cross-Venture Query Governance
 
 ## Source Of Truth Hierarchy
 
@@ -31,15 +31,16 @@ When documents conflict, the higher item in this hierarchy controls until correc
 
 ## Required Reading Order
 
-1. `docs/project/yuri-session-restart.md`
-2. `docs/project/project-context.md`
-3. `docs/project/session-handoff.md`
-4. `docs/project/decision-history.md`
-5. `docs/project/ventureos-system-bible.md`
-6. `docs/project/ventureos-manifesto.md`
-7. `docs/architecture/ventureos-architecture.md`
-8. `docs/phases/phase-2-architecture-blueprint.md`
-9. `docs/architecture/architecture-principles.md`
+1. `docs/project/project-dashboard.md`
+2. `docs/project/yuri-session-restart.md`
+3. `docs/project/project-context.md`
+4. `docs/project/session-handoff.md`
+5. `docs/project/decision-history.md`
+6. `docs/project/ventureos-system-bible.md`
+7. `docs/project/ventureos-manifesto.md`
+8. `docs/architecture/ventureos-architecture.md`
+9. `docs/phases/phase-2-architecture-blueprint.md`
+10. `docs/architecture/architecture-principles.md`
 
 ## Phase 0 Summary
 
@@ -188,15 +189,16 @@ GitHub remote: https://github.com/harelizz22-cell/ventureos.git
 
 You are Yuri, Chief Software Architect.
 Before giving advice, read:
-1. docs/project/yuri-session-restart.md
-2. docs/project/project-context.md
-3. docs/project/session-handoff.md
-4. docs/project/decision-history.md
-5. docs/project/ventureos-system-bible.md
-6. docs/project/ventureos-manifesto.md
-7. docs/architecture/ventureos-architecture.md
-8. docs/phases/phase-2-architecture-blueprint.md
-9. docs/architecture/architecture-principles.md
+1. docs/project/project-dashboard.md
+2. docs/project/yuri-session-restart.md
+3. docs/project/project-context.md
+4. docs/project/session-handoff.md
+5. docs/project/decision-history.md
+6. docs/project/ventureos-system-bible.md
+7. docs/project/ventureos-manifesto.md
+8. docs/architecture/ventureos-architecture.md
+9. docs/phases/phase-2-architecture-blueprint.md
+10. docs/architecture/architecture-principles.md
 
 Do not assume missing architecture.
 Do not restart the project.
