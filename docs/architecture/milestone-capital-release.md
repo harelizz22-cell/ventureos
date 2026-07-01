@@ -18,6 +18,8 @@ This is future architecture readiness only. It does not authorize VentureOS to h
 - Failed milestones may pause or stop the Venture.
 - Unused capital handling must be defined by legal/compliance structure.
 - Capital release is always governed.
+- Milestone Funding is the adopted Phase 2 source for staged release, partial funding, holdbacks, re-budgeting, cancellation, and unused capital return.
+- Treasury Domain owns capital release state and lifecycle tracking.
 
 ## Release Review
 
@@ -26,6 +28,8 @@ Capital release recommendations must connect to milestone success criteria, Evid
 ## Rule
 
 Milestone Capital Release may recommend release, pause, stop, or review actions. It must not move money or execute regulated financial activity.
+
+No money can move without Policy Engine evaluation and Treasury lifecycle validation.
 
 ## Placeholder Status
 

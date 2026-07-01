@@ -25,6 +25,11 @@ Source Of Truth: This file is the source of truth for project-management risk tr
 - Revenue KPI language may remain conceptual unless KPI formulas are defined.
 - Enterprise Value may remain conceptual unless calculation boundaries and reporting rules are defined.
 - Capital Allocation Engine may be under-specified unless portfolio budget rules, thresholds, and approval paths are defined.
+- Treasury Domain may be bypassed if future implementation allows recommendation systems, agents, tools, services, or providers to reserve, release, track, or reconcile capital directly.
+- Capital Lifecycle may be weakened if Available, Reserved, Committed, Approved, Released, Spent, Verified, Recovered, Cancelled, and Closed states are collapsed during implementation.
+- Capital may be allocated twice unless Treasury lifecycle state, reservation conflicts, and Policy Engine enforcement are implemented consistently.
+- Treasury Security may remain conceptual unless multi-step approvals, segregation of duties, tamper detection, fraud detection, anomaly detection, high-value approval workflow, and emergency lock are carried into implementation acceptance criteria.
+- Founder Financial Dashboard may mislead the Founder unless confirmed facts, assumptions, forecasts, AI recommendations, reserved capital, committed capital, released capital, spent capital, verified spend, recovered capital, and cancelled capital are clearly distinguished.
 - Investment Engine may be misunderstood as execution authority unless recommendation-only boundaries stay explicit.
 - Opportunity Score may become misleading unless weighting, evidence requirements, confidence, and review rules are defined.
 - Stage Gate Investment Model may become a naming-only lifecycle unless transition criteria are specified.
@@ -52,7 +57,7 @@ Source Of Truth: This file is the source of truth for project-management risk tr
 - Event replay may weaken audit integrity unless duplicate and out-of-order event behavior is defined.
 - Cross-venture intelligence may violate venture isolation unless query governance is defined.
 - Learning records may continue influencing recommendations after dispute unless quarantine and withdrawal rules are defined.
-- Capital allocations may overcommit resources unless reservation and conflict rules are defined.
+- Capital allocations may overcommit resources unless reservation, lifecycle, and conflict rules are implemented consistently.
 - Recovery may bypass governance unless recovery actions, compensation, rollback, and escalation are defined.
 - Agent evolution may expand capabilities or autonomy without sufficient evidence unless promotion and rollback governance are defined.
 - Outcome-driven architecture may regress into workflow activity metrics.

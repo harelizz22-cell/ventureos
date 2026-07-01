@@ -6,6 +6,30 @@ Source Of Truth: This file is the source of truth for the latest work-session ha
 
 ## Completed Today
 
+- Phase 2 Workstream 05 completed.
+- Treasury Domain created.
+- Capital Lifecycle created.
+- Capital Allocation Governance created.
+- Treasury Security created.
+- Milestone Funding created.
+- Portfolio Governance created.
+- Treasury Risk Engine created.
+- Capital Stress Simulator created.
+- Founder Financial Dashboard created.
+- Added ADR-069 through ADR-076.
+- Recorded that Treasury is the only Domain responsible for protecting, reserving, releasing, tracking, and reconciling capital.
+- Recorded that Treasury never evaluates ideas, never creates strategy, never bypasses Policy Engine, and remains independent from AI reasoning.
+- Recorded Capital Lifecycle states: Available, Reserved, Committed, Approved, Released, Spent, Verified, Recovered, Cancelled, and Closed.
+- Recorded that no money can move without Policy Engine evaluation.
+- Recorded that no capital can be allocated twice.
+- Recorded that every dollar has a lifecycle and every financial action is auditable.
+- Recorded Treasury Security requirements for multi-step approvals, segregation of duties, cryptographic audit trail, immutable financial ledger, tamper detection, fraud detection, anomaly detection, high-value approval workflow, and emergency lock.
+- Recorded Milestone Funding requirements for partial funding, holdbacks, re-budgeting, fund cancellation, and unused capital return.
+- Recorded Portfolio Governance requirements for diversification, sector exposure, capital concentration, risk balancing, liquidity planning, expected return, portfolio health, and follow-on planning.
+- Recorded Treasury Risk Engine and Capital Stress Simulator financial risk requirements.
+- Recorded Founder Financial Dashboard visibility requirements.
+- Recorded that Founder retains final governance for capital-sensitive actions.
+- Recorded that no implementation, production code, dependencies, integrations, secrets, or regulated financial activity were added.
 - Phase 2 Workstream 04 completed.
 - Multi-Tenancy Architecture created.
 - Data Ownership Model created.
@@ -194,6 +218,21 @@ Source Of Truth: This file is the source of truth for the latest work-session ha
 - Enterprise Identity Model is first-class.
 - No Organization may access another Organization's information unless explicitly governed.
 - Policy Engine remains the enforcement point for enterprise-scale authorization and access.
+- Treasury Domain is first-class.
+- Capital Lifecycle is first-class.
+- Capital Allocation Governance is first-class.
+- Treasury Security is first-class.
+- Milestone Funding is first-class.
+- Portfolio Governance is first-class.
+- Treasury Risk Engine is first-class.
+- Capital Stress Simulator is first-class.
+- Founder Financial Dashboard is first-class.
+- Treasury owns capital protection, reservation, release, tracking, and reconciliation.
+- Treasury does not evaluate ideas, create strategy, or bypass Policy Engine.
+- No money can move without Policy Engine evaluation.
+- No capital can be allocated twice.
+- Every dollar has a lifecycle and every financial action is auditable.
+- Founder retains final governance for capital-sensitive actions.
 - Next Phase 2 workstream is Founder Unavailability and Governance Escalation.
 
 ## Files Updated
@@ -286,6 +325,15 @@ Source Of Truth: This file is the source of truth for the latest work-session ha
 - `docs/architecture/global-search.md`
 - `docs/architecture/enterprise-isolation.md`
 - `docs/architecture/enterprise-identity-model.md`
+- `docs/architecture/treasury-domain.md`
+- `docs/architecture/capital-lifecycle.md`
+- `docs/architecture/capital-allocation-governance.md`
+- `docs/architecture/treasury-security.md`
+- `docs/architecture/milestone-funding.md`
+- `docs/architecture/portfolio-governance.md`
+- `docs/architecture/treasury-risk-engine.md`
+- `docs/architecture/capital-stress-simulator.md`
+- `docs/architecture/founder-financial-dashboard.md`
 - `docs/project/yuri-session-restart.md`
 - `docs/project/project-dashboard.md`
 - `docs/architecture/policy-engine.md`
@@ -342,9 +390,25 @@ Source Of Truth: This file is the source of truth for the latest work-session ha
 - `docs/adr/ADR-066-global-search.md`
 - `docs/adr/ADR-067-enterprise-isolation.md`
 - `docs/adr/ADR-068-enterprise-identity-model.md`
+- `docs/adr/ADR-069-treasury-domain.md`
+- `docs/adr/ADR-070-capital-lifecycle.md`
+- `docs/adr/ADR-071-treasury-security.md`
+- `docs/adr/ADR-072-portfolio-governance.md`
+- `docs/adr/ADR-073-milestone-funding.md`
+- `docs/adr/ADR-074-treasury-risk-engine.md`
+- `docs/adr/ADR-075-capital-stress-simulator.md`
+- `docs/adr/ADR-076-founder-financial-dashboard.md`
 
 ## ADRs Added
 
+- `docs/adr/ADR-069-treasury-domain.md`
+- `docs/adr/ADR-070-capital-lifecycle.md`
+- `docs/adr/ADR-071-treasury-security.md`
+- `docs/adr/ADR-072-portfolio-governance.md`
+- `docs/adr/ADR-073-milestone-funding.md`
+- `docs/adr/ADR-074-treasury-risk-engine.md`
+- `docs/adr/ADR-075-capital-stress-simulator.md`
+- `docs/adr/ADR-076-founder-financial-dashboard.md`
 - `docs/adr/ADR-063-multi-tenancy-architecture.md`
 - `docs/adr/ADR-064-data-ownership-model.md`
 - `docs/adr/ADR-065-cross-venture-intelligence.md`
@@ -430,14 +494,9 @@ Source Of Truth: This file is the source of truth for the latest work-session ha
 - Define syndicated funding legal model.
 - Define milestone capital release governance and unused capital handling.
 - Complete Phase 2 Architecture Blueprint review.
-- Define Policy Engine consistency model.
-- Define Evidence freshness and quality model.
-- Define AI output classification and promotion governance.
-- Define Event ordering and replay model.
 - Define Founder unavailability and governance escalation.
 - Define Learning Quarantine workflow.
 - Define Compliance Gate runtime mechanism.
-- Define Capital Reservation and Conflict model.
 - Define Exit Management Capability group.
 - Define Legal and Compliance runtime planning.
 - Define Opportunity Score audit and bias detection.
@@ -448,7 +507,6 @@ Source Of Truth: This file is the source of truth for the latest work-session ha
 - Define Founder unavailability and governance escalation.
 - Define Learning Quarantine workflow.
 - Define Compliance Gate runtime mechanism.
-- Define Capital Reservation and Conflict model.
 - Define Exit Management Capability group.
 - Define Legal and Compliance runtime planning.
 - Define Opportunity Score audit and bias detection.
@@ -487,6 +545,7 @@ Do not add new strategic concepts before Phase 2 is completed and reviewed.
 - Read ADR-053 through ADR-058 before Policy Engine consistency, Evidence quality, Autonomy Governance, AI Output Classification, Event Replay, or project memory sync work.
 - Read ADR-059 through ADR-062 before Execution Reliability, Recovery Governance, retries, idempotency, compensation, rollback, or reliability metrics work.
 - Read ADR-063 through ADR-068 before Multi-Tenancy, Data Ownership, Cross-Venture Intelligence, Global Search, Enterprise Isolation, or Enterprise Identity work.
+- Read ADR-069 through ADR-076 before Treasury Domain, Capital Lifecycle, Treasury Security, Portfolio Governance, Milestone Funding, Treasury Risk Engine, Capital Stress Simulator, or Founder Financial Dashboard work.
 - Read `docs/project/yuri-session-restart.md` when starting a new Yuri session.
 - Read `docs/phases/phase-1-system-foundation.md` before any Phase 1 implementation discussion.
 - Confirm that no production code is requested before proceeding.

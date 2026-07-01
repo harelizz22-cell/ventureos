@@ -58,6 +58,10 @@ VentureOS does not treat every idea as equally worth pursuing. Every Venture beg
 
 Capital follows strategy. Ventures, external investments, acquisitions, and capital allocations must be reviewed against the Founder and Organization thesis before proceeding.
 
+Capital also follows governance. Treasury protects, reserves, releases, tracks, and reconciles capital. Treasury does not evaluate ideas, create strategy, or bypass Policy Engine.
+
+No money can move without Policy Engine evaluation. No capital can be allocated twice. Every dollar has a lifecycle.
+
 ## Future Funding And Investor Marketplace
 
 VentureOS may eventually expose selected Venture opportunities to qualified investors through Investment Readiness review, Investment Dossiers, compliance-gated access, syndicated funding models, and milestone-based capital release recommendations.

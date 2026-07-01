@@ -30,6 +30,10 @@ Enterprise Value is the primary optimization objective of VentureOS.
 - Funding readiness
 - Milestone execution quality
 - Investor-facing evidence quality
+- Capital lifecycle discipline
+- Treasury risk
+- Portfolio governance health
+- Stress simulation resilience
 
 ## Rule
 
@@ -40,6 +44,8 @@ Every subsystem ultimately exists to increase Enterprise Value while preserving 
 Thesis Engine, Hypothesis Engine, Portfolio Diversification, and Learning Engine support Enterprise Value evaluation. They do not replace governance, Founder approval, or the no autonomous money movement rule.
 
 Future investor marketplace and funding architecture may support Enterprise Value by making readiness, evidence, risk, capital needs, and milestones legible. It must remain future-phase, governance-gated, compliance-gated, and not autonomous money movement.
+
+Treasury Domain, Capital Lifecycle, Capital Allocation Governance, Treasury Security, Milestone Funding, Portfolio Governance, Treasury Risk Engine, Capital Stress Simulator, and Founder Financial Dashboard support Enterprise Value by preserving capital discipline and Founder governance. They do not replace Evidence, Policy Engine evaluation, or Founder approval.
 
 ## Placeholder Status
 

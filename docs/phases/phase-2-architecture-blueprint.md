@@ -220,6 +220,8 @@ Multi-tenancy must preserve explicit `organization_id`, `portfolio_id`, and `ven
 
 ## Workstream 12: Capital Reservation And Conflict Model
 
+Status: Completed as part of Phase 2 Workstream 05 Capital, Treasury, and Portfolio Governance.
+
 Define capital reservation architecture:
 
 - Capital reservations.

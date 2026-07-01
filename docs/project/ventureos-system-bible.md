@@ -59,6 +59,10 @@ Policy evaluation must be versioned, snapshot-aware, auditable, and fail-closed 
 
 Future investor marketplace and funding capabilities are governance-gated, compliance-gated, evidence-based, not enabled in MVP, and not autonomous money movement.
 
+Treasury Domain is the only Domain responsible for protecting, reserving, releasing, tracking, and reconciling capital. Treasury does not evaluate ideas, create strategy, or bypass Policy Engine.
+
+No money can move without Policy Engine evaluation. No capital can be allocated twice. Every dollar has a lifecycle and every financial action must be auditable.
+
 ## Autonomy Philosophy
 
 VentureOS must be autonomy-ready, but it starts in Assisted Mode. Higher autonomy levels require evidence, governance, review, approval, monitoring, and recovery capability.
@@ -82,6 +86,8 @@ Learning from outcomes must be evidence-backed and auditable.
 Organizational intelligence must be durable and governed. Enterprise Knowledge Graph connects approved knowledge and architecture entities. Organizational Memory preserves what happened and what VentureOS remembers. Reasoning Engine produces explainable recommendations from approved knowledge, memory, Evidence, and context. These concerns do not replace Learning Engine and do not make autonomous decisions.
 
 Future funding and investor marketplace architecture may explain opportunities, readiness, risk, evidence, and milestone-based capital plans to qualified audiences only after legal/compliance review. VentureOS must not claim it can legally raise funds, sell securities, hold investor money, or execute investments without the appropriate legal entity, licensing, jurisdictional review, and compliance framework.
+
+Treasury architecture protects capital through Capital Lifecycle, Capital Allocation Governance, Treasury Security, Milestone Funding, Portfolio Governance, Treasury Risk Engine, Capital Stress Simulator, and Founder Financial Dashboard. Founder retains final governance for capital-sensitive actions.
 
 No guaranteed return language is allowed.
 

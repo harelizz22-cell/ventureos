@@ -45,6 +45,9 @@ These definitions are architectural vocabulary. All future documents must use th
 - Compliance Gate: An enforceable runtime gate for restricted capability categories, legal approval records, investment marketplace gating, and regulated domain gating.
 - Capital Reservation: A governed record reserving capital for a proposed allocation without moving money or executing an investment.
 - Learning Quarantine: A governed state that prevents disputed, quarantined, or withdrawn learning from silently influencing future recommendations while preserving audit.
+- Treasury Domain: The Domain responsible for protecting, reserving, releasing, tracking, and reconciling capital without evaluating ideas, creating strategy, or bypassing Policy Engine.
+- Capital Lifecycle: The required state model for every dollar from Available through Closed so capital cannot be allocated twice and every financial action remains auditable.
+- Portfolio Governance: The capital governance concern that manages diversification, concentration, liquidity, risk balance, expected return, portfolio health, and follow-on planning.
 
 ## Current Architecture Posture
 
@@ -110,6 +113,15 @@ VentureOS must not claim it can legally raise funds, sell securities, hold inves
 - Revenue KPIs: `docs/architecture/revenue-kpis.md`
 - Enterprise Value Engine: `docs/architecture/enterprise-value-engine.md`
 - Capital Allocation Engine: `docs/architecture/capital-allocation-engine.md`
+- Treasury Domain: `docs/architecture/treasury-domain.md`
+- Capital Lifecycle: `docs/architecture/capital-lifecycle.md`
+- Capital Allocation Governance: `docs/architecture/capital-allocation-governance.md`
+- Treasury Security: `docs/architecture/treasury-security.md`
+- Milestone Funding: `docs/architecture/milestone-funding.md`
+- Portfolio Governance: `docs/architecture/portfolio-governance.md`
+- Treasury Risk Engine: `docs/architecture/treasury-risk-engine.md`
+- Capital Stress Simulator: `docs/architecture/capital-stress-simulator.md`
+- Founder Financial Dashboard: `docs/architecture/founder-financial-dashboard.md`
 - Investment Engine: `docs/architecture/investment-engine.md`
 - Thesis Engine: `docs/architecture/thesis-engine.md`
 - Portfolio Diversification: `docs/architecture/portfolio-diversification.md`
@@ -163,7 +175,7 @@ Technical implementation work must trace to this architecture index, an accepted
 
 Phase 2 has started with `docs/architecture/architecture-principles.md` as the official non-negotiable architecture principles document.
 
-Phase 2 Workstream 04 completes Enterprise Scale Architecture.
+Phase 2 Workstream 05 completes Capital, Treasury, and Portfolio Governance.
 
 The next Phase 2 workstream is Founder Unavailability and Governance Escalation.
 
@@ -182,6 +194,14 @@ Every future capability must be multi-venture aware and must identify its owning
 Every Capability must contribute toward measurable business outcomes. Every Workflow must exist because it creates business value. Every autonomous action must be traceable to a measurable objective.
 
 Every Capital allocation and investment recommendation must include Evidence, governance evaluation, expected ROI, risk, approval requirements, and expected Enterprise Value impact.
+
+Treasury Domain is adopted as the only Domain responsible for protecting, reserving, releasing, tracking, and reconciling capital. Treasury never evaluates ideas, never creates strategy, never bypasses Policy Engine, and remains independent from AI reasoning.
+
+Capital Lifecycle is adopted. Every dollar must have a lifecycle and every financial action must be auditable.
+
+No money can move without Policy Engine evaluation. No capital can be allocated twice. Founder retains final governance for capital-sensitive actions.
+
+Treasury Security, Capital Allocation Governance, Milestone Funding, Portfolio Governance, Treasury Risk Engine, Capital Stress Simulator, and Founder Financial Dashboard are adopted as Phase 2 Workstream 05 financial architecture.
 
 No Venture may move from idea to validation without an approved hypothesis.
 

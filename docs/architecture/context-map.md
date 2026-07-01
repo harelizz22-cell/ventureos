@@ -64,6 +64,14 @@ Every Capability must contribute toward measurable business outcomes. Every Work
 
 Founder Decision -> Workflow -> Capability -> Execution -> Cost -> Revenue -> Profit -> Enterprise Value
 
+## Capital Governance Model
+
+Capital Allocation recommendation -> Treasury reservation -> Policy Engine evaluation -> Founder or governed approval -> Capital Lifecycle transition -> Milestone Funding release -> Spend verification -> Audit
+
+Treasury Domain protects, reserves, releases, tracks, and reconciles capital. It does not evaluate ideas, create strategy, or bypass Policy Engine.
+
+No money can move without Policy Engine evaluation. No capital can be allocated twice. Every dollar has a lifecycle.
+
 ## Strategic Thinking Model
 
 Thesis -> Hypothesis -> Validation -> Opportunity Score -> Capital Allocation -> Execution -> Outcome -> Learning -> Enterprise Value

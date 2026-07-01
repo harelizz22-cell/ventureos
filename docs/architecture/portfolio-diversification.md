@@ -31,6 +31,10 @@ Portfolio Diversification must identify concentration risk before capital alloca
 
 Diversification analysis supports governed recommendations. It does not execute investments, move money, override Founder approval, or replace Thesis alignment review.
 
+Portfolio Governance is the adopted Phase 2 concern for applying diversification to capital concentration, risk balancing, liquidity planning, expected return, portfolio health, and follow-on planning.
+
+Portfolio Diversification informs Portfolio Governance and Capital Allocation Governance but does not reserve, release, or move capital.
+
 ## Placeholder Status
 
 This is an architecture placeholder. It does not define exposure thresholds, risk formulas, schemas, external data integrations, UI, or implementation.

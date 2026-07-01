@@ -13,7 +13,7 @@ Allow a future ChatGPT/Yuri session to resume VentureOS without losing context, 
 - Repository root: `/Users/harelitzhaki/VentureOS`
 - GitHub remote: `https://github.com/harelizz22-cell/ventureos.git`
 - Current phase: Phase 2
-- Latest completed workstream: Phase 2 Workstream 04
+- Latest completed workstream: Phase 2 Workstream 05
 - Current workstream: Phase 2 Workstream 08 Founder Unavailability and Governance Escalation
 
 ## Source Of Truth Hierarchy
@@ -67,6 +67,7 @@ Completed Phase 2 work:
 - Workstream 02 completed: Policy Engine Consistency Model, Evidence Freshness and Quality Model, Autonomy Governance Model, AI Output Classification, Event Ordering and Replay Model, and Project Memory Sync.
 - Workstream 03 completed: Execution Reliability, Recovery Governance, and Execution Reliability Metrics.
 - Workstream 04 completed: Multi-Tenancy Architecture, Data Ownership Model, Cross-Venture Intelligence, Global Search, Enterprise Isolation, and Enterprise Identity Model.
+- Workstream 05 completed: Treasury Domain, Capital Lifecycle, Capital Allocation Governance, Treasury Security, Milestone Funding, Portfolio Governance, Treasury Risk Engine, Capital Stress Simulator, and Founder Financial Dashboard.
 
 No implementation is approved.
 
@@ -129,6 +130,12 @@ Business architecture includes Thesis Engine, Hypothesis Engine, Opportunity Sco
 No Venture may move from idea to validation without an approved hypothesis.
 
 No Venture, external investment, acquisition, or capital allocation may proceed without Thesis alignment review.
+
+Treasury Domain is the only Domain responsible for protecting, reserving, releasing, tracking, and reconciling capital. Treasury never evaluates ideas, never creates strategy, never bypasses Policy Engine, and remains independent from AI reasoning.
+
+Capital Lifecycle is adopted. Every dollar has a lifecycle, no capital can be allocated twice, every financial action is auditable, and no money can move without Policy Engine evaluation.
+
+Portfolio Governance, Treasury Security, Milestone Funding, Treasury Risk Engine, Capital Stress Simulator, and Founder Financial Dashboard are adopted as capital governance architecture. Founder retains final governance for capital-sensitive actions.
 
 ## Current Funding And Investor Future Architecture
 
@@ -210,12 +217,11 @@ This is intentionally deferred until Phase 2 is completed and externally reviewe
 
 ## Next Expected Workstreams
 
-After Phase 2 Workstream 04, the next expected workstreams are:
+After Phase 2 Workstream 05, the next expected workstreams are:
 
 - Founder Unavailability and Governance Escalation
 - Learning Quarantine Model
 - Compliance Gate Runtime Mechanism
-- Capital Reservation and Conflict Model
 - Exit Management Capability
 - Legal and Compliance Runtime Domain Planning
 - Opportunity Score Audit and Bias Detection

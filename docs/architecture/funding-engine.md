@@ -27,11 +27,15 @@ This is future architecture readiness only. It does not authorize VentureOS to r
 
 Funding recommendations must connect to Evidence, Thesis alignment, Investment Readiness, Investment Dossier, capital requirements, milestone criteria, risk, governance requirements, legal/compliance status, and expected Enterprise Value impact.
 
+Funding recommendations must also respect Treasury Domain, Capital Lifecycle, Capital Allocation Governance, Milestone Funding, Portfolio Governance, Treasury Risk Engine, and Capital Stress Simulator requirements where applicable.
+
 ## Rule
 
 The Funding Engine may recommend funding actions, but must not execute regulated financial activity without approved legal/compliance framework.
 
 No autonomous money movement is allowed.
+
+No money can move without Policy Engine evaluation and Treasury lifecycle validation.
 
 ## Placeholder Status
 

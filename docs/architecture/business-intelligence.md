@@ -53,6 +53,10 @@ Examples:
 - Strongest Investment Readiness Scores
 - Funding plan performance
 - Milestone capital release outcomes
+- Treasury risk signals
+- Capital lifecycle health
+- Portfolio governance health
+- Capital stress simulation outcomes
 
 ## Rule
 
@@ -69,6 +73,8 @@ Business Intelligence may use Enterprise Knowledge Graph, Organizational Memory,
 Cross-Venture Intelligence is defined in `docs/architecture/cross-venture-intelligence.md`.
 
 Business Intelligence may use aggregate analytics, portfolio KPIs, trend detection, pattern recognition, governed cross-Venture reasoning, Evidence aggregation, benchmarking, and shared learning only when Policy Engine allows it.
+
+Business Intelligence may report Treasury Domain, Capital Lifecycle, Portfolio Governance, Treasury Risk Engine, Capital Stress Simulator, and Founder Financial Dashboard signals. It must not reserve, release, reconcile, or move capital.
 
 Raw Venture data must not leak between Ventures unless policy explicitly allows.
 

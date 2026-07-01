@@ -6,7 +6,7 @@ Source Of Truth: This file is the source of truth for project milestones.
 
 ## Current Milestone
 
-Phase 2 Workstream 04 Enterprise Scale Architecture complete.
+Phase 2 Workstream 05 Capital, Treasury, and Portfolio Governance complete.
 
 ## Next Milestone
 

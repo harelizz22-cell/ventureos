@@ -6,7 +6,7 @@ Source Of Truth: This file is the source of truth for current project focus.
 
 ## Focus
 
-Phase 2 Workstream 04 Enterprise Scale Architecture completed. Current focus is starting Phase 2 Workstream 08 Founder Unavailability and Governance Escalation.
+Phase 2 Workstream 05 Capital, Treasury, and Portfolio Governance completed. Current focus is starting Phase 2 Workstream 08 Founder Unavailability and Governance Escalation.
 
 Phase 2 is documentation/specification only. No implementation is approved yet.
 
@@ -26,6 +26,7 @@ Phase 2 is documentation/specification only. No implementation is approved yet.
 - Phase 2 Workstream 02 Policy, Governance, Evidence, Autonomy, and Project Memory Sync completed.
 - Phase 2 Workstream 03 Execution Reliability completed.
 - Phase 2 Workstream 04 Enterprise Scale Architecture completed.
+- Phase 2 Workstream 05 Capital, Treasury, and Portfolio Governance completed.
 - Idea Discovery Domain recorded only as a future architecture candidate, not approved architecture, not part of Phase 2, and deferred until Phase 2 is completed and externally reviewed.
 - Phase 2 Governance Core placeholder created.
 - Phase 3 Policy Engine placeholder created.
@@ -36,7 +37,7 @@ Phase 2 is documentation/specification only. No implementation is approved yet.
 - Policy Engine fail-closed behavior, autonomy levels, ledger integrity, and Cost Governance are now governing constraints.
 - Enterprise Value-first, outcome-driven architecture is now a governing constraint.
 - Revenue is an important KPI, but Enterprise Value is the primary objective.
-- Capital Allocation Engine, Investment Engine, Opportunity Score, Stage Gate Investment Model, and Capital Governance are now governing constraints.
+- Capital Allocation Engine, Investment Engine, Opportunity Score, Stage Gate Investment Model, Capital Governance, Treasury Domain, Capital Lifecycle, Capital Allocation Governance, Treasury Security, Milestone Funding, Portfolio Governance, Treasury Risk Engine, Capital Stress Simulator, and Founder Financial Dashboard are now governing constraints.
 - Thesis Engine, Portfolio Diversification, Learning Engine, and Hypothesis Engine are now governing constraints.
 - Future Funding Engine, Investment Marketplace, Investor Intelligence, Investment Readiness, Investment Dossier, Syndicated Funding Model, Milestone Capital Release, and Investor Marketplace Compliance are future-phase, governance-gated, compliance-gated architecture concerns.
 - No regulated financial activity is approved.
@@ -76,7 +77,6 @@ Phase 2 is documentation/specification only. No implementation is approved yet.
 - Define Founder Unavailability and Governance Escalation.
 - Define Learning Quarantine model.
 - Define Compliance Gate runtime mechanism.
-- Define Capital Reservation and Conflict model.
 - Define Exit Management Capability group.
 - Define Legal and Compliance runtime planning.
 - Define Opportunity Score audit and bias detection.

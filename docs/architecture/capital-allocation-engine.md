@@ -45,6 +45,12 @@ No capital allocation may proceed without Thesis alignment review.
 
 Capital allocation recommendations must consider Portfolio Diversification, expected ROI, risk, approval requirements, and expected Enterprise Value impact.
 
+Capital allocation recommendations must also consider Capital Allocation Governance, Portfolio Governance, Treasury Risk Engine output, Capital Stress Simulator output where policy requires it, and Capital Lifecycle state.
+
+The Capital Allocation Engine does not reserve, release, custody, recover, reconcile, or close capital. Treasury Domain owns capital protection and lifecycle state.
+
+No capital can be allocated twice.
+
 Future funding and capital release recommendations are governance-gated and compliance-gated. The Capital Allocation Engine does not hold funds, release funds, execute securities transactions, or move money.
 
 Major capital decisions require a formal internal Investment Memo where required by policy.

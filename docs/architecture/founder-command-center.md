@@ -35,3 +35,7 @@ AI may recommend prioritization, but may not approve decisions on behalf of the 
 Future investor marketplace and funding views must show Investment Readiness, dossier status, funding readiness, compliance status, investor communication records, capital target status, milestone release recommendations, and risk without enabling autonomous money movement.
 
 Founder Command Center must surface Strategic Review recommendations, dissent summary, required approvals, Investment Memo status, Runtime Kernel execution state, approval waits, recovery state, and resource blocks where meaningful.
+
+Founder Financial Dashboard is the founder-facing financial visibility layer inside Founder Command Center. It must show cash available, capital reserved, capital committed, capital released, expected runway, burn rate, portfolio allocation, ROI, Enterprise Value trend, investment pipeline, financial risk score, and upcoming funding decisions.
+
+Founder Financial Dashboard does not move money, approve capital by itself, or bypass Policy Engine.

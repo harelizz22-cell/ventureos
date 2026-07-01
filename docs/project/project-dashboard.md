@@ -12,9 +12,9 @@ VentureOS is an Enterprise Value-first, founder-owned Company Operating System f
 
 - Current Phase: Phase 2, documentation and architecture specification only.
 - Current Workstream: Phase 2 Workstream 08 Founder Unavailability and Governance Escalation.
-- Current Architecture Version: Phase 2 Workstream 04 completed; latest accepted ADR is ADR-068.
-- Current Documentation Version: Documentation foundation; latest completed workstream is Phase 2 Workstream 04.
-- Latest Commit: `c55e7a6` before this Workstream 04 update.
+- Current Architecture Version: Phase 2 Workstream 05 completed; latest accepted ADR is ADR-076.
+- Current Documentation Version: Documentation foundation; latest completed workstream is Phase 2 Workstream 05.
+- Latest Commit: `db43578` before this Workstream 05 update.
 - Repository Root: `/Users/harelitzhaki/VentureOS`
 - GitHub Remote: `https://github.com/harelizz22-cell/ventureos.git`
 - Current Branch: `main`
@@ -50,6 +50,7 @@ Completed Workstreams:
 - Phase 2 Workstream 02: Policy, Governance, Evidence, Autonomy, and Project Memory Sync.
 - Phase 2 Workstream 03: Execution Reliability.
 - Phase 2 Workstream 04: Enterprise Scale Architecture.
+- Phase 2 Workstream 05: Capital, Treasury, and Portfolio Governance.
 
 Current Workstream: Phase 2 Workstream 08 Founder Unavailability and Governance Escalation.
 
@@ -58,7 +59,6 @@ Remaining Workstreams:
 - Founder Unavailability and Governance Escalation.
 - Learning Quarantine Model.
 - Compliance Gate Runtime Mechanism.
-- Capital Reservation and Conflict Model.
 - Exit Management Capability.
 - Legal and Compliance Runtime Domain Planning.
 - Opportunity Score Audit and Bias Detection.
@@ -100,6 +100,7 @@ High-level roadmap only:
 - 2026-06-30: Created Project Dashboard.
 - 2026-06-30: Completed Phase 2 Workstream 03 Execution Reliability.
 - 2026-06-30: Completed Phase 2 Workstream 04 Enterprise Scale Architecture.
+- 2026-07-01: Completed Phase 2 Workstream 05 Capital, Treasury, and Portfolio Governance.
 
 ## Current Focus
 
@@ -118,7 +119,6 @@ Founder Unavailability and Governance Escalation will define Founder timeout, em
 - Founder unavailability and escalation rules.
 - Learning quarantine workflow.
 - Compliance Gate runtime mechanism.
-- Capital reservation and conflict rules.
 - Exit Management capability boundaries.
 - Legal and Compliance runtime planning.
 - Opportunity Score audit and bias detection.
@@ -194,6 +194,14 @@ These architectural decisions must not change without a new ADR:
 - Investment Engine
 - Stage Gate Investment Model
 - Portfolio Diversification
+- Treasury Domain
+- Capital Lifecycle
+- Capital Allocation Governance
+- Milestone Funding
+- Portfolio Governance
+- Treasury Risk Engine
+- Capital Stress Simulator
+- Founder Financial Dashboard
 - Learning Engine
 - Business Intelligence Domain
 - Venture Digital Twin
@@ -229,6 +237,7 @@ These architectural decisions must not change without a new ADR:
 - Global Search
 - Enterprise Isolation
 - Enterprise Identity Model
+- Treasury Security
 
 ## Future Components
 
@@ -242,7 +251,6 @@ These architectural decisions must not change without a new ADR:
 - Milestone Capital Release
 - Investor Marketplace Compliance
 - Compliance Gate Runtime Mechanism
-- Capital Reservation and Conflict Model
 - Exit Management Capability
 - Legal and Compliance Runtime Domain Planning
 - Audit Ledger Query Model
@@ -251,16 +259,16 @@ These architectural decisions must not change without a new ADR:
 
 ## Latest ADRs
 
-- ADR-059: Execution Reliability
-- ADR-060: Recovery Governance
-- ADR-061: Idempotency And Retry Model
-- ADR-062: Failure And Compensation Model
-- ADR-063: Multi-Tenancy Architecture
-- ADR-064: Data Ownership Model
-- ADR-065: Cross-Venture Intelligence
-- ADR-066: Global Search
 - ADR-067: Enterprise Isolation
 - ADR-068: Enterprise Identity Model
+- ADR-069: Treasury Domain
+- ADR-070: Capital Lifecycle
+- ADR-071: Treasury Security
+- ADR-072: Portfolio Governance
+- ADR-073: Milestone Funding
+- ADR-074: Treasury Risk Engine
+- ADR-075: Capital Stress Simulator
+- ADR-076: Founder Financial Dashboard
 
 ## Latest Claude Review
 
@@ -287,7 +295,7 @@ Status of Findings: Accepted and applied through ADR-009 and later Phase 2 archi
 
 - Git Status: Clean before this dashboard update.
 - Branch: `main`
-- Last Commit: `c55e7a6 Phase 2 Workstream 03 Execution Reliability`
+- Last Commit: `db43578 Phase 2 Workstream 04 Enterprise Scale`
 - Repository Root: `/Users/harelitzhaki/VentureOS`
 - GitHub Remote: `https://github.com/harelizz22-cell/ventureos.git`
 

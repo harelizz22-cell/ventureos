@@ -48,6 +48,8 @@ Future investor marketplace participation requires Investment Readiness review, 
 
 Major investment and capital recommendations should use Strategic Review Domain, Dynamic Review Council, Debate Engine, Consensus Engine, and Investment Memo Generator where required by policy.
 
+Treasury Domain owns capital protection, reservation, release, tracking, and reconciliation for approved investment-related capital actions. Investment Engine does not own Treasury functions.
+
 ## Rule
 
 The Investment Engine generates governed recommendations. It never executes investments.
@@ -55,6 +57,8 @@ The Investment Engine generates governed recommendations. It never executes inve
 No external investment, acquisition, or capital allocation recommendation may proceed without Thesis alignment review.
 
 Investment recommendations must consider Portfolio Diversification where meaningful.
+
+Investment recommendations must consider Capital Allocation Governance, Portfolio Governance, Treasury Risk Engine, Capital Stress Simulator, and Capital Lifecycle state where policy requires it.
 
 The Investment Engine must not claim VentureOS can legally raise funds, sell securities, hold investor money, or execute investments without approved legal/compliance structure.
 

@@ -54,6 +54,10 @@ If the Policy Engine becomes unavailable, new execution must stop fail-closed.
 
 Cost Governance may be used as an approval input.
 
+Treasury Domain, Capital Lifecycle, Capital Allocation Governance, Milestone Funding, Portfolio Governance, Treasury Security, Treasury Risk Engine, Capital Stress Simulator, and Founder Financial Dashboard must route capital-sensitive actions through Policy Engine.
+
+No money can move without Policy Engine evaluation.
+
 ## Consistency Requirements
 
 Every governed request must record the policy version or policy snapshot evaluated.
@@ -77,3 +81,9 @@ Policy Engine remains the enforcement point for tenant access, Organization boun
 No Organization may access another Organization's information unless explicitly governed.
 
 Raw Venture data must not leak between Ventures unless Policy Engine explicitly allows it.
+
+## Treasury Enforcement
+
+Policy Engine evaluates capital-sensitive actions including reservation, commitment, approval, release, spend verification, recovery, cancellation, closure, emergency freeze, high-value approval, re-budgeting, holdback release, and freeze removal where required.
+
+If policy, approval, lifecycle state, ledger state, treasury risk, or compliance status cannot be verified, the affected capital action must fail closed.
