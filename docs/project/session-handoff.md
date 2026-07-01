@@ -30,6 +30,11 @@ Source Of Truth: This file is the source of truth for the latest work-session ha
 - Recorded Founder Financial Dashboard visibility requirements.
 - Recorded that Founder retains final governance for capital-sensitive actions.
 - Recorded that no implementation, production code, dependencies, integrations, secrets, or regulated financial activity were added.
+- Recorded Timing Engine as a Future Architecture Candidate only.
+- Recorded Opportunity Strategy Engine as a Future Architecture Candidate only.
+- Recorded the future principle that VentureOS maximizes long-term Enterprise Value and creating a new company is only one possible strategy.
+- Recorded that validated opportunities should eventually evaluate all viable strategic alternatives before recommending execution.
+- Confirmed Timing Engine and Opportunity Strategy Engine are deferred to Phase 3, not approved architecture, not part of Phase 2, and intentionally deferred until after Phase 2 completion and Claude review.
 - Phase 2 Workstream 04 completed.
 - Multi-Tenancy Architecture created.
 - Data Ownership Model created.
@@ -210,6 +215,9 @@ Source Of Truth: This file is the source of truth for the latest work-session ha
 - Recovery must fail closed when policy, approval, Evidence, compliance review, capital sensitivity, idempotency, or recovery impact cannot be established.
 - Reliability metrics are observability signals and do not become Evidence automatically.
 - Idea Discovery Domain is a Future Architecture Candidate only and is not active Phase 2 architecture.
+- Timing Engine is a Future Architecture Candidate only and is not active Phase 2 architecture.
+- Opportunity Strategy Engine is a Future Architecture Candidate only and is not active Phase 2 architecture.
+- Future strategic alternatives after validation may include Build, Buy, Invest, Partner, License, Acquire Team, Wait, or Reject, but this is deferred to Phase 3 and does not alter active Phase 2 architecture.
 - Multi-Tenancy Architecture is first-class.
 - Data Ownership Model is first-class.
 - Cross-Venture Intelligence is first-class.

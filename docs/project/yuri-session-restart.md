@@ -215,6 +215,94 @@ This is NOT part of Phase 2.
 
 This is intentionally deferred until Phase 2 is completed and externally reviewed.
 
+## Candidate: Timing Engine
+
+Purpose: Evaluate market timing before recommending any action.
+
+Core question:
+
+"Why now?"
+
+The engine should determine whether VentureOS should:
+
+- Act now
+- Wait
+- Monitor
+- Re-evaluate later
+
+Possible future inputs:
+
+- Market maturity
+- Technology maturity
+- Regulation
+- Customer readiness
+- Macro trends
+- Competitive timing
+- Capital availability
+
+Status:
+
+Deferred to Phase 3.
+
+Important:
+
+This is NOT approved architecture.
+
+This is NOT part of Phase 2.
+
+This is intentionally deferred until after Phase 2 completion and Claude review.
+
+## Candidate: Opportunity Strategy Engine
+
+Purpose: Determine the best strategic action after an opportunity has been validated.
+
+Never assume that creating a new Venture is the best option.
+
+The engine must compare multiple strategies.
+
+Candidate strategies:
+
+- Build
+- Buy
+- Invest
+- Partner
+- License
+- Acquire Team
+- Wait
+- Reject
+
+Future output:
+
+Comparative Opportunity Analysis, including:
+
+- Expected Enterprise Value
+- Expected ROI
+- Required capital
+- Execution time
+- Confidence
+- Risk
+- Strategic fit
+
+Future architecture principle:
+
+VentureOS exists to maximize long-term Enterprise Value.
+
+Creating a new company is only one possible strategy.
+
+Whenever a validated opportunity is found, VentureOS should evaluate all viable strategic alternatives before recommending execution.
+
+Status:
+
+Deferred to Phase 3.
+
+Important:
+
+This is NOT approved architecture.
+
+This is NOT part of Phase 2.
+
+This is intentionally deferred until after Phase 2 completion and Claude review.
+
 ## Next Expected Workstreams
 
 After Phase 2 Workstream 05, the next expected workstreams are:
