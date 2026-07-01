@@ -48,6 +48,8 @@ These definitions are architectural vocabulary. All future documents must use th
 - Treasury Domain: The Domain responsible for protecting, reserving, releasing, tracking, and reconciling capital without evaluating ideas, creating strategy, or bypassing Policy Engine.
 - Capital Lifecycle: The required state model for every dollar from Available through Closed so capital cannot be allocated twice and every financial action remains auditable.
 - Portfolio Governance: The capital governance concern that manages diversification, concentration, liquidity, risk balance, expected return, portfolio health, and follow-on planning.
+- Observability: The architecture concern for metrics, logs, distributed tracing, health checks, diagnostics, dependency monitoring, incidents, operational dashboards, and readiness review.
+- System Health: A scoped operational health score with status, confidence, risk, trend, and recommended action.
 
 ## Current Architecture Posture
 
@@ -148,6 +150,13 @@ VentureOS must not claim it can legally raise funds, sell securities, hold inves
 - Execution Reliability: `docs/architecture/execution-reliability.md`
 - Recovery Governance: `docs/architecture/recovery-governance.md`
 - Execution Reliability Metrics: `docs/architecture/execution-reliability-metrics.md`
+- Observability Architecture: `docs/architecture/observability-architecture.md`
+- System Health Model: `docs/architecture/system-health-model.md`
+- Incident Management: `docs/architecture/incident-management.md`
+- Operations Dashboard: `docs/architecture/operations-dashboard.md`
+- Architecture Readiness: `docs/architecture/architecture-readiness.md`
+- Architecture Scorecard: `docs/project/architecture-scorecard.md`
+- Phase 2 Completion Checklist: `docs/phases/phase-2-completion-checklist.md`
 - Policy Engine Consistency Model: `docs/architecture/policy-engine-consistency-model.md`
 - Evidence Freshness and Quality Model: `docs/architecture/evidence-freshness-quality-model.md`
 - Autonomy Governance Model: `docs/architecture/autonomy-governance-model.md`
@@ -175,9 +184,9 @@ Technical implementation work must trace to this architecture index, an accepted
 
 Phase 2 has started with `docs/architecture/architecture-principles.md` as the official non-negotiable architecture principles document.
 
-Phase 2 Workstream 05 completes Capital, Treasury, and Portfolio Governance.
+Phase 2 Workstream 06 completes Observability and Operations.
 
-The next Phase 2 workstream is Founder Unavailability and Governance Escalation.
+Phase 2 implementation-readiness architecture work is complete and awaiting internal readiness review and external Claude Red Team review.
 
 Implementation may be performed by an AI Agent, human, external API, internal service, or future execution engine.
 
@@ -202,6 +211,14 @@ Capital Lifecycle is adopted. Every dollar must have a lifecycle and every finan
 No money can move without Policy Engine evaluation. No capital can be allocated twice. Founder retains final governance for capital-sensitive actions.
 
 Treasury Security, Capital Allocation Governance, Milestone Funding, Portfolio Governance, Treasury Risk Engine, Capital Stress Simulator, and Founder Financial Dashboard are adopted as Phase 2 Workstream 05 financial architecture.
+
+Observability Architecture, System Health Model, Incident Management, Operations Dashboard, Architecture Readiness, Architecture Scorecard, and Phase 2 Completion Checklist are adopted as Phase 2 Workstream 06 operational architecture.
+
+Operational visibility must include Metrics, Logs, Distributed Tracing, health checks, dependency monitoring, runtime diagnostics, execution diagnostics, policy diagnostics, treasury diagnostics, and AI diagnostics.
+
+System health must exist for Organization, Portfolio, Venture, Runtime, Execution, Workflow, Agent, Capability, Knowledge, Treasury, and Infrastructure.
+
+Phase 2 Completion Checklist records that no architectural blockers remain. Implementation remains blocked until internal readiness review, external Claude Red Team review, accepted review outcomes, and explicit implementation phase approval.
 
 No Venture may move from idea to validation without an approved hypothesis.
 

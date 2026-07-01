@@ -16,7 +16,7 @@ Close the critical architectural gaps identified by Red Team Review before syste
 
 ## Status
 
-Proposed. Documentation and architecture blueprint only.
+Phase 2 implementation-readiness architecture work is complete and awaiting internal readiness review and external Claude Red Team review.
 
 No implementation is authorized by this document.
 
@@ -164,6 +164,8 @@ Cross-venture queries must be scoped, policy-evaluated, auditable, and restricte
 
 ## Workstream 8: Founder Unavailability And Governance Escalation
 
+Status: Deferred to post-review implementation planning. Not an architectural blocker for Phase 2 review.
+
 Define Founder unavailability behavior without creating a Deputy Founder model:
 
 - Founder timeout.
@@ -177,6 +179,8 @@ Founder unavailability must not become a backdoor for system self-approval.
 
 ## Workstream 9: Learning Quarantine Model
 
+Status: Covered by ADR-040 as a required architecture concern and deferred to post-review implementation planning for detailed workflow. Not an architectural blocker for Phase 2 review.
+
 Define learning state controls:
 
 - Disputed learning record.
@@ -189,6 +193,8 @@ Define learning state controls:
 Learning quarantine must preserve historical audit while preventing disputed learning from silently influencing future recommendations.
 
 ## Workstream 10: Compliance Gate Runtime Mechanism
+
+Status: Covered by ADR-038 as a required runtime architecture concern and deferred to post-review implementation planning for detailed mechanism. Not an architectural blocker for Phase 2 review.
 
 Define Compliance Gate as enforceable runtime architecture:
 
@@ -235,6 +241,8 @@ Capital reservations are governance records. They do not move money and do not e
 
 ## Workstream 13: Exit Management Capability
 
+Status: Deferred to post-review implementation planning. Not an architectural blocker for Phase 2 review.
+
 Define Exit Management as a governed cross-domain Capability group. Do not create an Exit Domain yet.
 
 Exit Management must cover:
@@ -252,6 +260,8 @@ Exit Management must preserve Evidence, Decision, Audit, Founder approval, legal
 
 ## Workstream 14: Legal And Compliance Runtime Domain Planning
 
+Status: Deferred to post-review implementation planning. Not an architectural blocker for Phase 2 review.
+
 Define future Legal and Compliance runtime concerns:
 
 - Policies.
@@ -263,6 +273,8 @@ Define future Legal and Compliance runtime concerns:
 This is planning only. No legal advice, licensing, regulated workflow, or implementation is approved.
 
 ## Workstream 15: Opportunity Score Audit And Bias Detection
+
+Status: Deferred to post-review implementation planning. Not an architectural blocker for Phase 2 review.
 
 Define Opportunity Score audit requirements:
 
@@ -276,6 +288,8 @@ Define Opportunity Score audit requirements:
 Opportunity Score must remain governed comparison and must not override Founder approval, Investment Readiness, Thesis alignment, Evidence, or compliance gates.
 
 ## Workstream 16: Audit Ledger Query Model
+
+Status: Deferred to post-review implementation planning. Not an architectural blocker for Phase 2 review.
 
 Define Audit Ledger query architecture:
 
@@ -304,6 +318,8 @@ Recovery must not bypass governance, Evidence, approval, audit, cost, compliance
 
 ## Workstream 18: Agent Evolution Governance
 
+Status: Covered by ADR-003 and existing Agent Evolution architecture at governance level; deferred to post-review implementation planning for detailed runtime controls. Not an architectural blocker for Phase 2 review.
+
 Define agent evolution governance:
 
 - Agent promotion.
@@ -315,6 +331,22 @@ Define agent evolution governance:
 - Autonomy constraints.
 
 Agents cannot approve their own evolution, expand their own permissions, or raise their own autonomy level.
+
+## Workstream 06: Observability And Operations
+
+Status: Completed as Phase 2 Workstream 06 Observability and Operations.
+
+Defines operational architecture for:
+
+- Observability Architecture.
+- System Health Model.
+- Incident Management.
+- Operations Dashboard.
+- Architecture Readiness.
+- Architecture Scorecard.
+- Phase 2 Completion Checklist.
+
+This workstream completes implementation-readiness architecture documentation and moves Phase 2 into internal readiness review and external Claude Red Team review.
 
 ## Acceptance Criteria
 
@@ -337,6 +369,8 @@ Agents cannot approve their own evolution, expand their own permissions, or rais
 - Audit Ledger query model is defined.
 - Recovery governance is defined.
 - Agent evolution governance is defined.
+- Observability, health, incident management, operations dashboard, architecture readiness, architecture scorecard, and Phase 2 completion review are defined.
+- Phase 2 Completion Checklist records that no architectural blockers remain.
 
 ## Non-Goals
 
@@ -352,9 +386,6 @@ Agents cannot approve their own evolution, expand their own permissions, or rais
 
 ## Open Questions
 
-- Which workstreams must be completed before Phase 1 implementation approval?
-- Which workstreams belong in Phase 2 versus Phase -1 architecture foundation?
-- What minimum policy snapshot model is required for first implementation?
-- What evidence freshness tiers are required for MVP governance?
-- What safe mode behavior should be Founder-visible first?
-- What audit export requirements are needed for legal, investor, and regulator review?
+- What findings will internal readiness review produce?
+- What findings will external Claude Red Team review produce?
+- Which accepted review findings must be remediated before implementation phase approval?

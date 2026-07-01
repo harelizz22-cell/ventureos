@@ -86,3 +86,8 @@ Source Of Truth: This file is the source of truth for project-management risk tr
 - Global Search may leak unauthorized metadata, snippets, counts, or existence signals unless search isolation remains explicit.
 - Enterprise Identity may be confused with authentication-only access unless authorization remains Policy Engine enforced.
 - Data ownership may be confused with unrestricted access unless ownership and authorization remain separate.
+- Observability may be treated as optional implementation detail unless metrics, logs, traces, diagnostics, health checks, and incident linkage remain architecture requirements.
+- Operational dashboards may be mistaken for approval surfaces unless all actions route through Execution API and Policy Engine.
+- Health scores may become misleading unless status, confidence, risk, trend, recommended action, and source signal freshness remain visible.
+- Incident closure may become unsafe unless recovery verification and audit linkage are required.
+- Phase 2 completion may be mistaken for implementation approval unless internal readiness review, external Claude Red Team review, accepted outcomes, and explicit phase approval remain required.
