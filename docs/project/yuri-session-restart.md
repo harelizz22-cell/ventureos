@@ -31,16 +31,17 @@ When documents conflict, the higher item in this hierarchy controls until correc
 
 ## Required Reading Order
 
+Read:
+
 1. `docs/project/project-dashboard.md`
 2. `docs/project/yuri-session-restart.md`
-3. `docs/project/project-context.md`
-4. `docs/project/session-handoff.md`
-5. `docs/project/decision-history.md`
-6. `docs/project/ventureos-system-bible.md`
-7. `docs/project/ventureos-manifesto.md`
-8. `docs/architecture/ventureos-architecture.md`
-9. `docs/phases/phase-2-architecture-blueprint.md`
-10. `docs/architecture/architecture-principles.md`
+3. `docs/phases/phase-2-completion-checklist.md`
+4. `docs/project/architecture-scorecard.md`
+5. `docs/phases/phase-2-architecture-blueprint.md`
+6. `docs/architecture/ventureos-architecture.md`
+7. `docs/architecture/architecture-principles.md`
+
+Then continue from current project state.
 
 ## Phase 0 Summary
 
@@ -76,6 +77,8 @@ Phase 2 implementation-readiness architecture work is complete.
 Phase 2 is awaiting internal readiness review and external Claude Red Team review.
 
 No implementation is approved.
+
+No Phase 3 work should begin yet.
 
 ## Current Architecture Principles
 
@@ -192,6 +195,8 @@ AI output is never Evidence by default.
 AI Token Governance defines token budgets, scoped token limits, soft limits, hard limits, emergency override, Founder approval thresholds, cost attribution, forecasting, monitoring, waste detection, runaway execution detection, repeated prompt detection, low-value execution detection, model selection by cost/value, token efficiency scoring, audit, and escalation.
 
 Tokens are financial resources. AI Gateway must not allow unbounded token consumption. Token usage must be attributed to Organization, Portfolio, Venture, Capability, Agent, and Execution.
+
+Discovery / Research workloads have flexible but governed token budgets. They are expected high-token consumers because they collect intelligence for the VentureOS decision system, but they still require attribution, monitoring, soft budgets, anomaly detection, waste detection, Founder-configurable limits, escalation thresholds, research quality justification, cost-per-insight tracking, cost-per-evidence tracking, and stop conditions for runaway loops.
 
 ## Current Autonomy Architecture
 
@@ -335,6 +340,10 @@ After Phase 2 Workstream 06, the next expected work is:
 - External Claude Red Team review.
 - Acceptance or remediation of review findings.
 - Explicit approval before any implementation phase.
+
+Internal readiness review comes first. Claude Red Team Review comes after internal readiness review.
+
+No Phase 3 work should begin yet.
 
 ## Yuri Restart Prompt
 

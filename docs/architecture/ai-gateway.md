@@ -27,9 +27,14 @@ AI token usage governance is defined in `docs/architecture/ai-token-governance.m
 - AI Gateway must enforce token budget checks, soft limits, hard limits, emergency override rules, and Founder approval thresholds where policy requires them.
 - AI Gateway must produce token usage records for Treasury and Cost Governance.
 - AI Gateway must support token usage forecasting, token usage monitoring, waste detection, runaway execution detection, repeated prompt detection, low-value execution detection, model selection by cost/value, token efficiency scoring, token usage audit, and escalation.
+- AI Gateway must recognize workload classes: Discovery / Research, Strategic Review, Runtime Execution, Treasury / Capital, Compliance / Legal, and Founder Command.
+- Discovery / Research workloads may receive high-flexibility token budgets, but AI Gateway must still enforce attribution, monitoring, soft budgets, anomaly detection, waste detection, Founder-configurable limits, escalation thresholds, research quality justification, cost-per-insight tracking, cost-per-evidence tracking, and stop conditions for runaway loops.
+- No workload may have unlimited token usage.
 
 ## Token Governance Decision
 
 AI Gateway must enforce bounded token usage before and during governed AI execution where policy requires it. It must also report token usage after execution to Cost Governance, Treasury, Observability, and Audit where applicable.
 
 Token budget rules are no longer an open decision.
+
+Discovery / Research flexibility is an approved budget class, not an exemption from governance.

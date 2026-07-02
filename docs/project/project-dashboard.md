@@ -14,7 +14,7 @@ VentureOS is an Enterprise Value-first, founder-owned Company Operating System f
 - Current Workstream: Phase 2 internal readiness review and external Claude Red Team review.
 - Current Architecture Version: Phase 2 Workstream 06 plus AI Token Governance final gap fix completed; latest accepted ADR is ADR-083.
 - Current Documentation Version: Documentation foundation; Phase 2 implementation-readiness architecture complete.
-- Latest Commit: `760df4e` before this AI Token Governance update.
+- Latest Commit: `1a8d14e` before this final context sync.
 - Repository Root: `/Users/harelitzhaki/VentureOS`
 - GitHub Remote: `https://github.com/harelizz22-cell/ventureos.git`
 - Current Branch: `main`
@@ -98,6 +98,7 @@ High-level roadmap only:
 - 2026-07-01: Completed Phase 2 Workstream 06 Observability and Operations.
 - 2026-07-01: Created Architecture Scorecard and Phase 2 Completion Checklist.
 - 2026-07-02: Added AI Token Governance final Phase 2 gap fix.
+- 2026-07-02: Completed final Phase 2 context sync before new Yuri session.
 
 ## Current Focus
 
@@ -106,6 +107,8 @@ Complete internal readiness review and external Claude Red Team review.
 ## Next Workstream
 
 Phase 2 review will verify architecture completeness, consistency, governance, scalability, security, capital governance, knowledge management, AI governance, operational readiness, maintainability, and future readiness before implementation planning.
+
+Internal readiness review is next. Claude Red Team Review follows internal readiness review. No Phase 3 work should begin yet.
 
 ## Open Questions
 
@@ -137,6 +140,8 @@ These architectural decisions must not change without a new ADR:
 - Policy Engine remains the enforcement point for enterprise authorization, cross-Venture intelligence, search, analytics, runtime access, and AI context access.
 - AI Gateway must not allow unbounded token consumption.
 - Tokens are financial resources and token usage must be attributed to Organization, Portfolio, Venture, Capability, Agent, and Execution.
+- Discovery / Research workloads have flexible but governed token budgets.
+- Future Architecture Candidates remain deferred: Idea Discovery Domain, Timing Engine, and Opportunity Strategy Engine.
 
 ## Current Core Domains
 

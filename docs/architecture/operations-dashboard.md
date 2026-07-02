@@ -69,13 +69,17 @@ Capital Exposure shows available, reserved, committed, approved, released, spent
 
 AI Token Usage shows token consumption by Organization, Portfolio, Venture, Capability, Agent, and Execution.
 
-AI Token Usage must show budget state, soft-limit status, hard-limit status, approval thresholds, cost attribution, forecast variance, and waste signals where applicable.
+AI Token Usage must show workload class, budget state, soft-limit status, hard-limit status, approval thresholds, cost attribution, forecast variance, and waste signals where applicable.
+
+Discovery / Research views must show flexible-budget status, research quality justification, cost per insight, cost per evidence item, anomaly signals, escalation thresholds, and runaway loop stop conditions.
 
 ## Token Budget Alerts
 
 Token Budget Alerts show soft limit warnings, hard limit blocks, runaway execution detection, repeated prompt detection, low-value execution detection, emergency override use, and missing token usage records.
 
 Token Budget Alerts do not authorize additional token budget.
+
+No dashboard view may grant unlimited token usage.
 
 ## Enterprise Value Trend
 

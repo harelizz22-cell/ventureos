@@ -94,3 +94,5 @@ Source Of Truth: This file is the source of truth for project-management risk tr
 - AI token usage may create uncontrolled waste unless AI Gateway enforces bounded token consumption and Policy Engine evaluates high-cost AI execution.
 - Token cost ownership may become unclear unless usage is attributed to Organization, Portfolio, Venture, Capability, Agent, and Execution.
 - Autonomous systems may expand spend unless token budget increases require governance approval.
+- Discovery / Research flexible token budgets may be mistaken for unlimited usage unless monitoring, soft budgets, anomaly detection, waste detection, Founder-configurable limits, escalation thresholds, cost-per-insight tracking, cost-per-evidence tracking, and runaway loop stop conditions remain explicit.
+- Phase 3 may begin prematurely unless internal readiness review and Claude Red Team Review are completed first.

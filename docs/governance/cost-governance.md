@@ -41,6 +41,8 @@ Cost Governance applies to:
 - Tokens are financial resources.
 - Token usage must be attributed to Organization, Portfolio, Venture, Capability, Agent, and Execution.
 - Token limits must allow operational breathing room but prevent uncontrolled waste.
+- Discovery / Research workloads are allowed breathing room through high-flexibility, high-monitoring token budgets.
+- No workload has unlimited token usage.
 - Founder may configure token approval thresholds.
 - No autonomous system may increase token budget without governance approval.
 - Cost optimization must not bypass evidence, decision, approval, audit, or recovery rules.
@@ -57,6 +59,8 @@ Examples of future policy inputs include budget remaining, estimated execution c
 AI Gateway must enforce bounded token usage where policy requires it and report token usage records to Cost Governance, Treasury, Observability, and Audit where applicable.
 
 Token budgets must support soft limits, hard limits, emergency override, Founder approval thresholds, forecasting, monitoring, waste detection, runaway execution detection, repeated prompt detection, low-value execution detection, model selection by cost/value, efficiency scoring, audit, and escalation.
+
+Discovery / Research token governance must support research quality justification, cost-per-insight tracking, cost-per-evidence tracking, anomaly detection, and stop conditions for runaway loops.
 
 ## Future Optimization Engine
 

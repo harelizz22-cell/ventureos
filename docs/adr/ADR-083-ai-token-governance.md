@@ -18,18 +18,27 @@ Token usage must be attributed to Organization, Portfolio, Venture, Capability, 
 
 AI Gateway must not allow unbounded token consumption.
 
+Discovery / Research workloads receive a flexible budget exception because they are expected to be high-token consumers that collect intelligence for the broader VentureOS decision system.
+
+Flexible Discovery / Research budgets are still governed. They require attribution, monitoring, soft budgets, anomaly detection, waste detection, Founder-configurable limits, escalation thresholds, research quality justification, cost-per-insight tracking, cost-per-evidence tracking, and stop conditions for runaway loops.
+
+No workload has unlimited token spending.
+
 ## Alternatives
 
 - Defer token governance to implementation.
 - Let AI Gateway only report token usage after execution.
 - Treat token budgets as informal prompt guidance.
 - Apply only global token limits without Organization, Portfolio, Venture, Capability, Agent, and Execution attribution.
+- Give Discovery / Research unlimited token usage because research is exploratory.
 
 ## Rationale
 
 Token usage is cost-bearing resource consumption and must be governed before high-cost AI execution can be safely planned.
 
 Soft limits allow operational breathing room. Hard limits prevent uncontrolled waste. Founder approval thresholds preserve human authority.
+
+Discovery / Research needs more breathing room than strict execution classes, but unbounded research would violate capital discipline and cost governance.
 
 ## Risks
 
@@ -38,6 +47,7 @@ Soft limits allow operational breathing room. Hard limits prevent uncontrolled w
 - Forecasting may be inaccurate.
 - Model selection may optimize cost at the expense of quality if governance is poorly designed.
 - Token usage audit may expose sensitive prompt details if not scoped carefully.
+- Discovery / Research flexible budgets may be abused unless cost-per-insight, cost-per-evidence, anomaly detection, and stop conditions are enforced.
 
 ## Consequences
 
@@ -45,6 +55,8 @@ Soft limits allow operational breathing room. Hard limits prevent uncontrolled w
 - Policy Engine evaluates high-cost AI execution against token budget rules.
 - Treasury and Cost Governance receive token usage records.
 - Founder may configure approval thresholds.
+- Discovery / Research may use high-flexibility, high-monitoring token budgets.
+- Cost per insight and cost per evidence item become review signals where meaningful.
 - No autonomous system may increase token budget without governance approval.
 
 ## Enforcement

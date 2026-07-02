@@ -131,6 +131,8 @@ Phase 2 is awaiting internal readiness review and external Claude Red Team revie
 
 AI Token Governance was added as a final Phase 2 gap fix before readiness review.
 
+Discovery / Research workloads have flexible but governed token budgets. No workload has unlimited token usage.
+
 ## Validation
 
 - No production code added.

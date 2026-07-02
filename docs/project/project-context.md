@@ -22,7 +22,7 @@ Phase 2 started. Documentation and architecture specification only. Implementati
 
 ## Architecture Status
 
-Phase 2 Workstream 06 Observability and Operations completed. AI Token Governance final Phase 2 gap fix completed. Phase 2 Workstream 05 Capital, Treasury, and Portfolio Governance completed. Phase 2 Workstream 04 Enterprise Scale Architecture completed. Phase 2 Workstream 03 Execution Reliability completed. Phase 2 Workstream 02 Policy, Governance, Evidence, Autonomy, and Project Memory Sync completed. Phase 2 Workstream 01B Enterprise Knowledge Graph, Organizational Memory, and Reasoning Engine completed. Phase 2 Workstream 01 Runtime Kernel and Strategic Review Architecture completed. Phase 2 started with official Architecture Principles. Phase 2 Architecture Blueprint created from accepted Red Team findings. Architecture-first repository foundation exists. Phase 2 implementation-readiness architecture work is complete and awaiting internal readiness review and external Claude Red Team review. VentureOS is an Enterprise Value-first, outcome-driven Company Operating System, Portfolio-first, Domain-first, capability-first, Event-first, governance-fail-closed, enterprise-isolated, treasury-governed, operations-aware, token-governed, and configured for Autonomy Level 1: Assistant. Revenue is an important KPI, but Enterprise Value is the primary objective. Future investor marketplace, funding readiness, syndicated funding, and milestone capital release architecture are documented as future-phase, governance-gated, compliance-gated, evidence-based concerns. Idea Discovery Domain, Timing Engine, and Opportunity Strategy Engine are recorded only as future architecture candidates and are not approved architecture, not part of Phase 2, and deferred until after Phase 2 completion and Claude review. No production application code is approved. No regulated financial activity is approved.
+Phase 2 Workstream 06 Observability and Operations completed. AI Token Governance final Phase 2 gap fix completed. Discovery / Research workloads have flexible but governed token budgets. Phase 2 Workstream 05 Capital, Treasury, and Portfolio Governance completed. Phase 2 Workstream 04 Enterprise Scale Architecture completed. Phase 2 Workstream 03 Execution Reliability completed. Phase 2 Workstream 02 Policy, Governance, Evidence, Autonomy, and Project Memory Sync completed. Phase 2 Workstream 01B Enterprise Knowledge Graph, Organizational Memory, and Reasoning Engine completed. Phase 2 Workstream 01 Runtime Kernel and Strategic Review Architecture completed. Phase 2 started with official Architecture Principles. Phase 2 Architecture Blueprint created from accepted Red Team findings. Architecture-first repository foundation exists. Phase 2 implementation-readiness architecture work is complete and awaiting internal readiness review first, then external Claude Red Team review. VentureOS is an Enterprise Value-first, outcome-driven Company Operating System, Portfolio-first, Domain-first, capability-first, Event-first, governance-fail-closed, enterprise-isolated, treasury-governed, operations-aware, token-governed, and configured for Autonomy Level 1: Assistant. Revenue is an important KPI, but Enterprise Value is the primary objective. Future investor marketplace, funding readiness, syndicated funding, and milestone capital release architecture are documented as future-phase, governance-gated, compliance-gated, evidence-based concerns. Idea Discovery Domain, Timing Engine, and Opportunity Strategy Engine are recorded only as future architecture candidates and are not approved architecture, not part of Phase 2, and deferred until after Phase 2 completion and Claude review. No Phase 3 work should begin yet. No production application code is approved. No regulated financial activity is approved.
 
 ## Repository Structure Status
 
@@ -64,11 +64,11 @@ Founder.
 
 ## Current Goal
 
-Complete internal readiness review and external Claude Red Team review.
+Complete internal Phase 2 readiness review, then run external Claude Red Team review.
 
 ## Next Milestone
 
-Phase 2 internal readiness review and external Claude Red Team review.
+Phase 2 internal readiness review, followed by external Claude Red Team review.
 
 ## Current Risks
 

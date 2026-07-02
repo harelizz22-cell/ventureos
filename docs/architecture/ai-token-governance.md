@@ -22,6 +22,56 @@ AI Token Governance is a governance and cost-control architecture concern. It do
 - Token limits must allow operational breathing room but prevent uncontrolled waste.
 - Founder may configure approval thresholds.
 - No autonomous system may increase token budget without governance approval.
+- Discovery / Research workloads are expected to be high-token consumers and require flexible budgets because they collect intelligence that feeds the VentureOS decision system.
+- Flexible does not mean unbounded.
+- Discovery / Research token usage must still have attribution, monitoring, soft budgets, anomaly detection, waste detection, Founder-configurable limits, escalation thresholds, research quality justification, cost-per-insight tracking, cost-per-evidence tracking, and stop conditions for runaway loops.
+
+## Workload Classes
+
+### Discovery / Research
+
+Class: High-flexibility, high-monitoring.
+
+Discovery / Research workloads collect intelligence for Strategic Review, Evidence, Knowledge, Thesis review, Hypothesis review, market understanding, risk evaluation, and future decisions.
+
+Rules:
+
+- Discovery / Research may have larger soft budgets than other workload classes.
+- Discovery / Research must never have unlimited token usage.
+- Discovery / Research requires attribution, monitoring, anomaly detection, waste detection, escalation thresholds, and stop conditions.
+- Discovery / Research must include research quality justification when exceeding normal soft budgets.
+- Discovery / Research must track cost per insight and cost per evidence item where meaningful.
+- Discovery / Research hard limits must still exist and must fail closed when budget state cannot be verified.
+
+### Strategic Review
+
+Class: Medium-flexibility, evidence-bound.
+
+Strategic Review workloads may use meaningful token budgets for analysis, debate, dissent, evidence comparison, and Investment Memo support, but must remain tied to Evidence, Thesis, Hypothesis, risk, expected ROI, and Enterprise Value.
+
+### Runtime Execution
+
+Class: Policy-budgeted.
+
+Runtime Execution workloads use token budgets determined by Policy Engine, Resource Coordinator, Execution Scheduler, AI Gateway, and Cost Governance requirements.
+
+### Treasury / Capital
+
+Class: Strict-budgeted.
+
+Treasury / Capital workloads require strict token budgets because they affect financial governance, capital visibility, and capital-sensitive decision support.
+
+### Compliance / Legal
+
+Class: Strict and auditable.
+
+Compliance / Legal workloads require strict, auditable token use with high attribution, source handling, and review visibility.
+
+### Founder Command
+
+Class: Responsive but monitored.
+
+Founder Command workloads should remain responsive to Founder needs while preserving monitoring, attribution, escalation thresholds, and budget visibility.
 
 ## Token Budgets
 
@@ -172,6 +222,8 @@ Token usage monitoring tracks estimated, reserved, actual, cumulative, anomalous
 
 Monitoring must feed Observability, Operations Dashboard, Cost Governance, Treasury, Policy Engine, and Audit where applicable.
 
+Discovery / Research monitoring must additionally track research quality justification, cost per insight, cost per evidence item, anomaly signals, and runaway loop stop conditions.
+
 ## Waste Detection
 
 Waste detection identifies token usage that does not produce proportional business, evidence, operational, recovery, or governance value.
@@ -188,11 +240,15 @@ Waste signals:
 
 Waste detection is a signal, not an automatic Decision.
 
+Discovery / Research waste detection must distinguish necessary exploration from repeated, low-quality, duplicative, or unsupported token consumption.
+
 ## Runaway Execution Detection
 
 Runaway execution detection identifies token-consuming execution that exceeds expected time, iterations, token growth, retry count, output churn, or policy bounds.
 
 Runaway behavior must trigger pause, escalation, incident creation, or hard-limit enforcement where policy requires it.
+
+Discovery / Research runaway loops must have stop conditions even when flexible soft budgets are configured.
 
 ## Repeated Prompt Detection
 

@@ -26,6 +26,7 @@ Define how VentureOS decides what execution runs, waits, pauses, or is deferred.
 - Token-budget-aware scheduling.
 - AI cost exposure awareness.
 - Runaway AI execution pause awareness.
+- Workload-class-aware AI scheduling.
 
 ## Rule
 
@@ -60,6 +61,8 @@ The Scheduler may only retry, resume, or reschedule execution when retry eligibi
 The Scheduler must respect circuit breaker state, timeout policy, recovery checkpoints, and emergency pause status.
 
 The Scheduler must also respect AI token hard limits, Founder approval thresholds, emergency override expiry, and token budget availability.
+
+Discovery / Research scheduling may allow longer or larger token-consuming work than strict workload classes, but must preserve monitoring, checkpoints, escalation thresholds, and stop conditions for runaway loops.
 
 ## Placeholder Status
 

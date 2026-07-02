@@ -93,7 +93,7 @@ Improvement Opportunities:
 
 Current Score: 5
 
-Reason: AI output classification, autonomy governance, reasoning boundaries, Evidence Promotion, Policy Engine enforcement, AI Token Governance, bounded token usage, token attribution, and no self-approval are documented.
+Reason: AI output classification, autonomy governance, reasoning boundaries, Evidence Promotion, Policy Engine enforcement, AI Token Governance, bounded token usage, token attribution, Discovery / Research flexible-but-governed budgets, and no self-approval are documented.
 
 Improvement Opportunities:
 
@@ -103,7 +103,7 @@ Improvement Opportunities:
 
 Current Score: 5
 
-Reason: Observability Architecture, System Health Model, Incident Management, Operations Dashboard, Architecture Readiness, token usage monitoring, reliability, and recovery architecture are documented.
+Reason: Observability Architecture, System Health Model, Incident Management, Operations Dashboard, Architecture Readiness, token usage monitoring, Discovery / Research cost-per-insight and cost-per-evidence tracking, reliability, and recovery architecture are documented.
 
 Improvement Opportunities:
 

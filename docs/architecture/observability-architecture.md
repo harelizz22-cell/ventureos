@@ -78,6 +78,7 @@ Metric categories:
 - Token usage by Organization, Portfolio, Venture, Capability, Agent, and Execution.
 - Token soft-limit and hard-limit events.
 - Token waste, repeated prompt, low-value execution, and runaway execution signals.
+- Discovery / Research cost per insight, cost per evidence item, anomaly signals, research quality justification, and runaway loop stop conditions.
 - Evidence freshness.
 - Incident frequency.
 
@@ -144,6 +145,8 @@ AI diagnostics must preserve the rule that AI output is not Evidence until promo
 AI diagnostics must include token usage forecasting, token usage monitoring, cost attribution, model selection by cost/value, token efficiency scoring, token limit state, and token escalation state where applicable.
 
 Observability must surface when AI Gateway cannot provide bounded token usage, attribution, or usage records.
+
+Observability must distinguish workload classes so Discovery / Research high-token usage is monitored as expected exploration rather than automatically treated as waste.
 
 ## Audit Requirements
 

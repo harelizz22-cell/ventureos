@@ -6,7 +6,7 @@ Source Of Truth: This file is the source of truth for current project focus.
 
 ## Focus
 
-Phase 2 Workstream 06 Observability and Operations completed. Current focus is Phase 2 internal readiness review and external Claude Red Team review.
+Phase 2 Workstream 06 Observability and Operations completed. AI Token Governance final context sync completed. Current focus is internal Phase 2 readiness review, followed by external Claude Red Team review.
 
 Phase 2 is documentation/specification only. No implementation is approved yet.
 
@@ -29,6 +29,8 @@ Phase 2 is documentation/specification only. No implementation is approved yet.
 - Phase 2 Workstream 05 Capital, Treasury, and Portfolio Governance completed.
 - Phase 2 Workstream 06 Observability and Operations completed.
 - AI Token Governance final Phase 2 gap fix completed.
+- Discovery / Research token budget exception documented as flexible but governed.
+- Final Phase 2 context sync completed before new Yuri session.
 - Architecture Scorecard created.
 - Phase 2 Completion Checklist created.
 - Idea Discovery Domain recorded only as a future architecture candidate, not approved architecture, not part of Phase 2, and deferred until Phase 2 is completed and externally reviewed.
@@ -52,13 +54,16 @@ Phase 2 is documentation/specification only. No implementation is approved yet.
 - Phase 2 implementation-readiness architecture work is complete.
 - Phase 2 is awaiting internal readiness review and external Claude Red Team review.
 - AI Token Governance is included in Phase 2 readiness review.
+- No Phase 3 work should begin yet.
+- Future candidates remain deferred: Idea Discovery Domain, Timing Engine, and Opportunity Strategy Engine.
 
 ## Current Architecture Work Items
 
 - Complete internal readiness review.
-- Complete external Claude Red Team review.
+- Complete external Claude Red Team review after internal readiness review.
 - Accept or remediate review findings.
 - Require explicit approval before any implementation phase.
+- Keep Phase 3 work blocked until review outcomes are accepted.
 
 ## Completed Phase 2 Workstream 06
 
@@ -89,6 +94,8 @@ Phase 2 is documentation/specification only. No implementation is approved yet.
 - Policy Engine high-cost AI execution evaluation recorded.
 - Treasury and Cost Governance token usage record requirements recorded.
 - No autonomous token budget increase without governance approval recorded.
+- Discovery / Research flexible but governed token budgets recorded.
+- No unlimited token usage recorded.
 - No production code, dependencies, integrations, secrets, implementation, deployment, or new strategic concepts added.
 
 ## Completed Phase 2 Workstream 02

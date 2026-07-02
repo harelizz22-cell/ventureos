@@ -16,6 +16,13 @@ Source Of Truth: This file is the source of truth for the latest work-session ha
 - Recorded that Policy Engine evaluates token budget rules before high-cost AI execution.
 - Recorded that Treasury and Cost Governance receive token usage records.
 - Recorded that no autonomous system may increase token budget without governance approval.
+- Recorded Discovery / Research workloads as high-flexibility, high-monitoring token workloads.
+- Recorded that Discovery / Research needs breathing room but never unlimited token usage.
+- Recorded Discovery / Research requirements for research quality justification, cost-per-insight tracking, cost-per-evidence tracking, and runaway loop stop conditions.
+- Synced Yuri Session Restart reading order for the next ChatGPT/Yuri session.
+- Recorded next step as internal Phase 2 readiness review, followed by Claude Red Team Review.
+- Recorded that no Phase 3 work should begin yet.
+- Confirmed future candidates remain deferred: Idea Discovery Domain, Timing Engine, and Opportunity Strategy Engine.
 - Phase 2 Workstream 06 completed.
 - Observability Architecture created.
 - System Health Model created.
@@ -262,6 +269,11 @@ Source Of Truth: This file is the source of truth for the latest work-session ha
 - Token usage must be attributed to Organization, Portfolio, Venture, Capability, Agent, and Execution.
 - AI Gateway must not allow unbounded token consumption.
 - No autonomous system may increase token budget without governance approval.
+- Discovery / Research workloads have flexible but governed token budgets.
+- No workload has unlimited token usage.
+- Internal Phase 2 readiness review is next.
+- Claude Red Team Review follows internal readiness review.
+- No Phase 3 work should begin yet.
 - Multi-Tenancy Architecture is first-class.
 - Data Ownership Model is first-class.
 - Cross-Venture Intelligence is first-class.
@@ -537,6 +549,7 @@ Source Of Truth: This file is the source of truth for the latest work-session ha
 - Complete external Claude Red Team review.
 - Accept or remediate review findings.
 - Prepare implementation phase approval request only after review outcomes are accepted.
+- Keep Phase 3 work blocked until review outcomes are accepted and explicit approval exists.
 - Keep this file updated at the end of each work session.
 
 ## Recommended Next Step
