@@ -6,7 +6,7 @@ Source Of Truth: This file is the source of truth for VentureOS architecture rea
 
 ## Purpose
 
-Score the current VentureOS architecture before internal readiness review and external Claude Red Team review.
+Score the current VentureOS architecture after internal readiness review and before external Claude Red Team review.
 
 Scores are architectural review signals. They do not authorize implementation.
 
@@ -22,11 +22,10 @@ Scores are architectural review signals. They do not authorize implementation.
 
 Current Score: 5
 
-Reason: Phase 2 architecture workstreams, operational architecture, AI Token Governance, readiness checklist, and ADR coverage are documented for review.
+Reason: Phase 2 architecture workstreams, operational architecture, AI Token Governance, Financial Feedback Loop, AI Model Registry, readiness checklist, and ADR coverage are documented for review.
 
 Improvement Opportunities:
 
-- Confirm review findings from internal readiness review.
 - Apply accepted external Claude Red Team findings after review.
 
 ## Consistency
@@ -73,7 +72,7 @@ Improvement Opportunities:
 
 Current Score: 5
 
-Reason: Treasury Domain, Capital Lifecycle, Capital Allocation Governance, Treasury Security, Milestone Funding, Portfolio Governance, Treasury Risk Engine, Capital Stress Simulator, Founder Financial Dashboard, and AI token financial-resource reporting are documented.
+Reason: Treasury Domain, Capital Lifecycle, Capital Allocation Governance, Treasury Security, Milestone Funding, Portfolio Governance, Treasury Risk Engine, Capital Stress Simulator, Founder Financial Dashboard, AI token financial-resource reporting, Financial Feedback Loop, and AI model cost visibility are documented.
 
 Improvement Opportunities:
 
@@ -83,7 +82,7 @@ Improvement Opportunities:
 
 Current Score: 5
 
-Reason: Knowledge Domain, Enterprise Knowledge Graph, Organizational Memory, Learning Engine, Reasoning Engine, Evidence Promotion, and AI output boundaries are separated.
+Reason: Knowledge Domain, Enterprise Knowledge Graph, Organizational Memory, Learning Engine, Financial Feedback Loop, Reasoning Engine, Evidence Promotion, and AI output boundaries are separated. Learning is evidence-backed and does not automatically change policy.
 
 Improvement Opportunities:
 
@@ -93,7 +92,7 @@ Improvement Opportunities:
 
 Current Score: 5
 
-Reason: AI output classification, autonomy governance, reasoning boundaries, Evidence Promotion, Policy Engine enforcement, AI Token Governance, bounded token usage, token attribution, Discovery / Research flexible-but-governed budgets, and no self-approval are documented.
+Reason: AI output classification, autonomy governance, reasoning boundaries, Evidence Promotion, Policy Engine enforcement, AI Token Governance, AI Model Registry, bounded token usage, token attribution, approved model enforcement, governed model selection, Discovery / Research flexible-but-governed budgets, and no self-approval are documented.
 
 Improvement Opportunities:
 
@@ -103,11 +102,11 @@ Improvement Opportunities:
 
 Current Score: 5
 
-Reason: Observability Architecture, System Health Model, Incident Management, Operations Dashboard, Architecture Readiness, token usage monitoring, Discovery / Research cost-per-insight and cost-per-evidence tracking, reliability, and recovery architecture are documented.
+Reason: Observability Architecture, System Health Model, Incident Management, Operations Dashboard, Architecture Readiness, token usage monitoring, AI model performance visibility, Discovery / Research cost-per-insight and cost-per-evidence tracking, reliability, and recovery architecture are documented.
 
 Improvement Opportunities:
 
-- Validate operational coverage through internal readiness review.
+- Apply accepted operational findings from Claude Red Team Review.
 
 ## Maintainability
 
@@ -131,6 +130,8 @@ Improvement Opportunities:
 
 ## Overall Status
 
-Architecture is ready for internal readiness review and external Claude Red Team review.
+Internal readiness review is complete. Architecture is ready for external Claude Red Team Review.
+
+No unresolved architectural gaps identified during the internal readiness review.
 
 No production implementation is approved by this scorecard.

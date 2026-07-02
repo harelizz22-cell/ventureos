@@ -12,6 +12,8 @@ AI output classification is defined in `docs/architecture/ai-output-classificati
 
 AI token usage governance is defined in `docs/architecture/ai-token-governance.md`.
 
+AI Model Registry is defined in `docs/architecture/ai-model-registry.md`.
+
 ## Rules
 
 - AI provider access must be gateway-controlled.
@@ -30,6 +32,9 @@ AI token usage governance is defined in `docs/architecture/ai-token-governance.m
 - AI Gateway must recognize workload classes: Discovery / Research, Strategic Review, Runtime Execution, Treasury / Capital, Compliance / Legal, and Founder Command.
 - Discovery / Research workloads may receive high-flexibility token budgets, but AI Gateway must still enforce attribution, monitoring, soft budgets, anomaly detection, waste detection, Founder-configurable limits, escalation thresholds, research quality justification, cost-per-insight tracking, cost-per-evidence tracking, and stop conditions for runaway loops.
 - No workload may have unlimited token usage.
+- AI Gateway may invoke only approved models from AI Model Registry.
+- AI Gateway must fail closed when model approval status, security classification, policy suitability, or cost profile cannot be verified.
+- AI Gateway must preserve model identity, workload class, cost profile, and policy context in audit records where meaningful.
 
 ## Token Governance Decision
 
@@ -38,3 +43,9 @@ AI Gateway must enforce bounded token usage before and during governed AI execut
 Token budget rules are no longer an open decision.
 
 Discovery / Research flexibility is an approved budget class, not an exemption from governance.
+
+## Model Governance Decision
+
+Model selection is governed by AI Model Registry and Policy Engine.
+
+Provider-specific availability does not mean model approval.

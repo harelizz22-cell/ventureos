@@ -41,6 +41,10 @@ The Enterprise Knowledge Graph stores and connects approved records about:
 - Exit
 - Acquisition
 - Playbook
+- Expected ROI
+- Actual ROI
+- Variance Analysis
+- Financial Feedback Loop
 
 ## Knowledge Classification
 
@@ -84,6 +88,7 @@ Graph entries referenced as Evidence must trace to Evidence records that satisfy
 - Enterprise Knowledge Graph owns the relationship model across approved knowledge and architecture entities.
 - Organizational Memory preserves durable history.
 - Learning Engine converts outcomes into reusable learning.
+- Financial Feedback Loop turns capital allocation outcomes into evidence-backed learning and reusable graph relationships.
 - Reasoning Engine consumes approved knowledge, memory, Evidence, and current context to produce explainable reasoning outputs.
 
 ## VC Pattern Recognition Readiness
@@ -108,6 +113,8 @@ This is not active implementation. It does not define models, graph storage, ran
 ## Rule
 
 Enterprise Knowledge Graph strengthens long-term organizational intelligence, but it does not make autonomous decisions, approve capital allocation, replace Evidence, or rewrite historical records.
+
+Financial feedback relationships may inform future investment decisions, but they do not automatically change policy.
 
 ## Placeholder Status
 

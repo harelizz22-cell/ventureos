@@ -20,6 +20,7 @@ Treasury never evaluates ideas. Treasury never creates strategy. Treasury never 
 - No autonomous money movement is allowed.
 - Tokens are financial resources.
 - Treasury must receive token usage records from AI Gateway and Cost Governance where token usage affects financial reporting, budget state, or capital discipline.
+- Treasury must receive AI model cost information where AI Model Registry and AI Gateway model selection affect financial reporting, budget state, or capital discipline.
 
 ## Treasury Controller
 
@@ -45,6 +46,7 @@ Inputs:
 - Founder or governed approval records.
 - Capital lifecycle state.
 - Token usage records where AI costs affect budget or financial reporting.
+- Model cost information where AI model choice affects budget or financial reporting.
 
 Outputs:
 
@@ -53,6 +55,7 @@ Outputs:
 - Audit records.
 - Escalation requests.
 - Token cost visibility records where applicable.
+- Model cost visibility records where applicable.
 
 Security requirements:
 

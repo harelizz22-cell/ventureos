@@ -34,11 +34,19 @@ Learning updates must link to Evidence, Decisions, Audit, and outcome records wh
 
 Learning may recommend updates to Knowledge, Thesis, Opportunity Score assumptions, capital allocation assumptions, or strategic constraints, but it does not silently rewrite historical records.
 
+Financial Feedback Loop is defined in `docs/architecture/financial-feedback-loop.md`.
+
+Capital allocation outcomes must become evidence-backed learning through expected ROI, actual ROI, variance analysis, attribution, and lessons learned.
+
 ## Rule
 
 Learning updates must be evidence-backed and auditable.
 
 Learning recommendations do not override Founder approval, governance, evidence requirements, or source-of-truth documentation.
+
+Learning never automatically changes policy.
+
+No completed Venture may exit the lifecycle without producing organizational learning.
 
 ## Separation Of Concerns
 

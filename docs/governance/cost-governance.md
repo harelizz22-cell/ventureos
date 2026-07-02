@@ -12,6 +12,8 @@ Cost Governance defines how VentureOS treats resource consumption, budget awaren
 
 AI Token Governance is defined in `docs/architecture/ai-token-governance.md`.
 
+AI Model Registry is defined in `docs/architecture/ai-model-registry.md`.
+
 ## Scope
 
 Cost Governance applies to:
@@ -45,6 +47,7 @@ Cost Governance applies to:
 - No workload has unlimited token usage.
 - Founder may configure token approval thresholds.
 - No autonomous system may increase token budget without governance approval.
+- AI model selection must account for cost profile, quality profile, workload class, and Policy Engine governance.
 - Cost optimization must not bypass evidence, decision, approval, audit, or recovery rules.
 - Cost optimization must not bypass legal/compliance review for future investor marketplace or funding activity.
 - The cheapest execution is not always correct.
@@ -61,6 +64,8 @@ AI Gateway must enforce bounded token usage where policy requires it and report 
 Token budgets must support soft limits, hard limits, emergency override, Founder approval thresholds, forecasting, monitoring, waste detection, runaway execution detection, repeated prompt detection, low-value execution detection, model selection by cost/value, efficiency scoring, audit, and escalation.
 
 Discovery / Research token governance must support research quality justification, cost-per-insight tracking, cost-per-evidence tracking, anomaly detection, and stop conditions for runaway loops.
+
+AI Model Registry cost profiles are Cost Governance inputs. Model cost information must be available to Treasury where it affects budget state or financial reporting.
 
 ## Future Optimization Engine
 

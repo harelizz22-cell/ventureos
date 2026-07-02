@@ -13,8 +13,8 @@ Allow a future ChatGPT/Yuri session to resume VentureOS without losing context, 
 - Repository root: `/Users/harelitzhaki/VentureOS`
 - GitHub remote: `https://github.com/harelizz22-cell/ventureos.git`
 - Current phase: Phase 2
-- Latest completed workstream: Phase 2 Workstream 06
-- Current workstream: Phase 2 internal readiness review and external Claude Red Team review
+- Latest completed workstream: Phase 2 final architecture hardening
+- Current workstream: Claude Red Team Review
 
 ## Source Of Truth Hierarchy
 
@@ -71,10 +71,12 @@ Completed Phase 2 work:
 - Workstream 05 completed: Treasury Domain, Capital Lifecycle, Capital Allocation Governance, Treasury Security, Milestone Funding, Portfolio Governance, Treasury Risk Engine, Capital Stress Simulator, and Founder Financial Dashboard.
 - Workstream 06 completed: Observability Architecture, System Health Model, Incident Management, Operations Dashboard, Architecture Readiness, Architecture Scorecard, and Phase 2 Completion Checklist.
 - Final Phase 2 gap fix completed: AI Token Governance.
+- Internal readiness review completed.
+- Final architecture hardening completed: Financial Feedback Loop and AI Model Registry.
 
 Phase 2 implementation-readiness architecture work is complete.
 
-Phase 2 is awaiting internal readiness review and external Claude Red Team review.
+Phase 2 is awaiting Claude Red Team Review.
 
 No implementation is approved.
 
@@ -136,6 +138,10 @@ Revenue is an important KPI, but Enterprise Value is the primary objective.
 
 Business architecture includes Thesis Engine, Hypothesis Engine, Opportunity Score, Enterprise Value Engine, Capital Allocation Engine, Investment Engine, Stage Gate Investment Model, Portfolio Diversification, Learning Engine, Venture Digital Twin, Value Graph, Venture Timeline, Venture Health Model, and Founder Decision Graph.
 
+Financial Feedback Loop closes the capital allocation learning cycle. Every completed capital allocation must compare expected ROI against actual ROI, analyze variance, attribute success or failure, generate evidence-backed lessons, update Learning Engine, connect reusable knowledge to Enterprise Knowledge Graph, and inform future investment decisions.
+
+No completed Venture may exit the lifecycle without producing organizational learning. Learning never automatically changes policy.
+
 No Venture may move from idea to validation without an approved hypothesis.
 
 No Venture, external investment, acquisition, or capital allocation may proceed without Thesis alignment review.
@@ -191,6 +197,8 @@ Evidence Freshness and Quality Model defines evidence quality tiers, source qual
 AI Output Classification defines Draft -> Recommendation -> Candidate Evidence -> Verified Evidence.
 
 AI output is never Evidence by default.
+
+AI Model Registry governs every AI model used by VentureOS. AI Gateway may invoke only approved models, Policy Engine governs model selection, Treasury receives model cost information, Observability tracks model performance, and Reasoning Engine records which model produced every AI-generated recommendation.
 
 AI Token Governance defines token budgets, scoped token limits, soft limits, hard limits, emergency override, Founder approval thresholds, cost attribution, forecasting, monitoring, waste detection, runaway execution detection, repeated prompt detection, low-value execution detection, model selection by cost/value, token efficiency scoring, audit, and escalation.
 
@@ -334,14 +342,13 @@ This is intentionally deferred until after Phase 2 completion and Claude review.
 
 ## Next Expected Workstreams
 
-After Phase 2 Workstream 06, the next expected work is:
+After Phase 2 final architecture hardening, the next expected work is:
 
-- Internal readiness review.
 - External Claude Red Team review.
 - Acceptance or remediation of review findings.
 - Explicit approval before any implementation phase.
 
-Internal readiness review comes first. Claude Red Team Review comes after internal readiness review.
+Internal readiness review is complete. Claude Red Team Review comes next.
 
 No Phase 3 work should begin yet.
 

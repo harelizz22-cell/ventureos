@@ -52,6 +52,8 @@ Draft -> Recommendation -> Candidate Evidence -> Verified Evidence
 
 AI Output Classification requirements are defined in `docs/architecture/ai-output-classification.md`.
 
+AI Model Registry requirements are defined in `docs/architecture/ai-model-registry.md`.
+
 ## Governance Requirements
 
 - Reasoning outputs must preserve scope and actor context.
@@ -60,6 +62,7 @@ AI Output Classification requirements are defined in `docs/architecture/ai-outpu
 - Reasoning must surface contradictions rather than hide them.
 - Reasoning must preserve material dissent where relevant.
 - Reasoning output must identify limitations and hallucination risk where AI-generated.
+- Reasoning output must record which approved model produced the recommendation where AI generated it.
 - Reasoning cannot approve Venture validation, capital allocation, investment, acquisition, funding, execution, or strategy.
 - Founder or approved governance policy remains final decision authority.
 - Cross-Venture reasoning must follow Cross-Venture Intelligence rules.
@@ -98,6 +101,8 @@ This is not active implementation. It does not define models, prompts, ranking l
 Reasoning Engine does not create final Decisions.
 
 It produces explainable reasoning outputs and recommendations only.
+
+Reasoning Engine may only use models approved for reasoning workloads by AI Model Registry and Policy Engine.
 
 ## Placeholder Status
 

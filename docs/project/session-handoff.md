@@ -6,6 +6,19 @@ Source Of Truth: This file is the source of truth for the latest work-session ha
 
 ## Completed Today
 
+- Phase 2 final architecture hardening completed.
+- Internal readiness review completed.
+- Financial Feedback Loop created.
+- AI Model Registry created.
+- Added ADR-084 and ADR-085.
+- Recorded that every completed Venture must produce organizational learning.
+- Recorded expected ROI versus actual ROI, variance analysis, success attribution, failure attribution, investment confidence calibration, strategy improvement, capital efficiency learning, portfolio learning, and reusable knowledge generation.
+- Recorded that Learning remains evidence-backed and never automatically changes policy.
+- Recorded that AI Gateway may invoke only approved models.
+- Recorded that Policy Engine governs model selection.
+- Recorded that Treasury receives AI model cost visibility.
+- Recorded that Reasoning Engine must record which model produced every AI-generated recommendation.
+- Recorded that Phase 2 architecture is now awaiting Claude Red Team Review.
 - AI Token Governance final Phase 2 gap fix completed.
 - AI Token Governance created.
 - Added ADR-083.
@@ -20,7 +33,7 @@ Source Of Truth: This file is the source of truth for the latest work-session ha
 - Recorded that Discovery / Research needs breathing room but never unlimited token usage.
 - Recorded Discovery / Research requirements for research quality justification, cost-per-insight tracking, cost-per-evidence tracking, and runaway loop stop conditions.
 - Synced Yuri Session Restart reading order for the next ChatGPT/Yuri session.
-- Recorded next step as internal Phase 2 readiness review, followed by Claude Red Team Review.
+- Recorded next step as Claude Red Team Review after completed internal Phase 2 readiness review.
 - Recorded that no Phase 3 work should begin yet.
 - Confirmed future candidates remain deferred: Idea Discovery Domain, Timing Engine, and Opportunity Strategy Engine.
 - Phase 2 Workstream 06 completed.
@@ -39,7 +52,7 @@ Source Of Truth: This file is the source of truth for the latest work-session ha
 - Recorded Founder operational visibility for System Health, Portfolio Health, Execution Queue, Policy Violations, Treasury Alerts, Open Incidents, Running Executions, Failed Executions, Capital Exposure, and Enterprise Value Trend.
 - Recorded architecture readiness categories for Governance, Security, Runtime, Knowledge, Treasury, Policy, Evidence, AI, Portfolio, Operations, and Documentation.
 - Recorded that Phase 2 implementation-readiness architecture work is complete.
-- Recorded that Phase 2 is awaiting internal readiness review and external Claude Red Team review.
+- Recorded that internal readiness review is complete and Phase 2 is awaiting Claude Red Team Review.
 - Recorded that no architectural blockers remain.
 - Recorded that no implementation, production code, dependencies, integrations, secrets, or deployment were added or approved.
 - Phase 2 Workstream 05 completed.
@@ -262,7 +275,8 @@ Source Of Truth: This file is the source of truth for the latest work-session ha
 - Architecture Scorecard is first-class.
 - Phase 2 Completion Checklist is first-class.
 - Phase 2 implementation-readiness architecture work is complete.
-- Phase 2 is awaiting internal readiness review and external Claude Red Team review.
+- Internal readiness review is complete.
+- Phase 2 is awaiting Claude Red Team Review.
 - Implementation remains blocked until review outcomes are accepted and a future implementation phase is explicitly approved.
 - AI Token Governance is first-class.
 - Tokens are financial resources.
@@ -271,8 +285,8 @@ Source Of Truth: This file is the source of truth for the latest work-session ha
 - No autonomous system may increase token budget without governance approval.
 - Discovery / Research workloads have flexible but governed token budgets.
 - No workload has unlimited token usage.
-- Internal Phase 2 readiness review is next.
-- Claude Red Team Review follows internal readiness review.
+- Claude Red Team Review is next.
+- Internal Phase 2 readiness review is complete.
 - No Phase 3 work should begin yet.
 - Multi-Tenancy Architecture is first-class.
 - Data Ownership Model is first-class.
@@ -474,6 +488,8 @@ Source Of Truth: This file is the source of truth for the latest work-session ha
 ## ADRs Added
 
 - `docs/adr/ADR-083-ai-token-governance.md`
+- `docs/adr/ADR-084-financial-feedback-loop.md`
+- `docs/adr/ADR-085-ai-model-registry.md`
 - `docs/adr/ADR-077-observability-architecture.md`
 - `docs/adr/ADR-078-system-health-model.md`
 - `docs/adr/ADR-079-incident-management.md`
@@ -545,7 +561,6 @@ Source Of Truth: This file is the source of truth for the latest work-session ha
 
 ## Open Tasks
 
-- Complete internal readiness review.
 - Complete external Claude Red Team review.
 - Accept or remediate review findings.
 - Prepare implementation phase approval request only after review outcomes are accepted.
@@ -554,7 +569,7 @@ Source Of Truth: This file is the source of truth for the latest work-session ha
 
 ## Recommended Next Step
 
-Start Phase 2 internal readiness review using `docs/project/architecture-scorecard.md`, `docs/phases/phase-2-completion-checklist.md`, `docs/project/project-dashboard.md`, `docs/architecture/ventureos-architecture.md`, and accepted ADRs.
+Start Claude Red Team Review using `docs/project/architecture-scorecard.md`, `docs/phases/phase-2-completion-checklist.md`, `docs/project/project-dashboard.md`, `docs/architecture/ventureos-architecture.md`, and accepted ADRs.
 
 Do not add new strategic concepts before Phase 2 is completed and reviewed.
 
@@ -585,6 +600,8 @@ Do not add new strategic concepts before Phase 2 is completed and reviewed.
 - Read ADR-069 through ADR-076 before Treasury Domain, Capital Lifecycle, Treasury Security, Portfolio Governance, Milestone Funding, Treasury Risk Engine, Capital Stress Simulator, or Founder Financial Dashboard work.
 - Read ADR-077 through ADR-082 before Observability, System Health, Incident Management, Operations Dashboard, Architecture Readiness, or Phase 2 completion review work.
 - Read ADR-083 before AI Gateway token use, Cost Governance, token budgets, AI model cost/value, token usage monitoring, or token budget approval work.
+- Read ADR-084 before Financial Feedback Loop, expected-versus-actual ROI, variance learning, capital efficiency learning, or capital allocation outcome learning work.
+- Read ADR-085 before AI Model Registry, approved model selection, model deprecation, model suitability, model benchmark history, or AI model cost visibility work.
 - Read `docs/project/yuri-session-restart.md` when starting a new Yuri session.
 - Read `docs/phases/phase-1-system-foundation.md` before any Phase 1 implementation discussion.
 - Confirm that no production code is requested before proceeding.
