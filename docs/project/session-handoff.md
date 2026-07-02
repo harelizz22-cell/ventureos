@@ -6,6 +6,26 @@ Source Of Truth: This file is the source of truth for the latest work-session ha
 
 ## Completed Today
 
+- Phase 2.1 Claude Red Team Remediation Pack completed.
+- Claude Red Team Review returned Approved with Conditions.
+- Accepted remediation items were applied.
+- Added ADR-086 through ADR-098.
+- Phase 2 Post-Review Decision Backlog created.
+- Documented Policy Engine Degradation Model.
+- Documented Policy Approval Validity Window.
+- Documented Recovery Capital Governance.
+- Documented AI Evidence Promotion Queue Governance.
+- Documented De Facto Venture Termination.
+- Documented Token Budget Reservation Model.
+- Documented Dissent Preservation.
+- Documented Reasoning Input Freshness.
+- Documented Scheduler Fairness Model.
+- Documented Organizational Memory Retention.
+- Documented Capital Stress Escalation.
+- Documented Founder Unavailability fail-closed constraint.
+- Documented Reasoning-to-Evidence Runtime Enforcement.
+- Recorded next step as second Claude review or Phase 2 final sign-off decision.
+- Recorded that Phase 3 has not started.
 - Phase 2 final architecture hardening completed.
 - Internal readiness review completed.
 - Financial Feedback Loop created.
@@ -18,7 +38,7 @@ Source Of Truth: This file is the source of truth for the latest work-session ha
 - Recorded that Policy Engine governs model selection.
 - Recorded that Treasury receives AI model cost visibility.
 - Recorded that Reasoning Engine must record which model produced every AI-generated recommendation.
-- Recorded that Phase 2 architecture is now awaiting Claude Red Team Review.
+- Recorded that Phase 2 architecture moved to Claude Red Team Review, which later returned Approved with Conditions.
 - AI Token Governance final Phase 2 gap fix completed.
 - AI Token Governance created.
 - Added ADR-083.
@@ -52,7 +72,7 @@ Source Of Truth: This file is the source of truth for the latest work-session ha
 - Recorded Founder operational visibility for System Health, Portfolio Health, Execution Queue, Policy Violations, Treasury Alerts, Open Incidents, Running Executions, Failed Executions, Capital Exposure, and Enterprise Value Trend.
 - Recorded architecture readiness categories for Governance, Security, Runtime, Knowledge, Treasury, Policy, Evidence, AI, Portfolio, Operations, and Documentation.
 - Recorded that Phase 2 implementation-readiness architecture work is complete.
-- Recorded that internal readiness review is complete and Phase 2 is awaiting Claude Red Team Review.
+- Recorded that internal readiness review is complete and Phase 2 moved to Claude Red Team Review, which later returned Approved with Conditions.
 - Recorded that no architectural blockers remain.
 - Recorded that no implementation, production code, dependencies, integrations, secrets, or deployment were added or approved.
 - Phase 2 Workstream 05 completed.
@@ -276,7 +296,8 @@ Source Of Truth: This file is the source of truth for the latest work-session ha
 - Phase 2 Completion Checklist is first-class.
 - Phase 2 implementation-readiness architecture work is complete.
 - Internal readiness review is complete.
-- Phase 2 is awaiting Claude Red Team Review.
+- Phase 2.1 remediation is complete.
+- Phase 2 is awaiting second Claude review or final sign-off decision.
 - Implementation remains blocked until review outcomes are accepted and a future implementation phase is explicitly approved.
 - AI Token Governance is first-class.
 - Tokens are financial resources.
@@ -490,6 +511,19 @@ Source Of Truth: This file is the source of truth for the latest work-session ha
 - `docs/adr/ADR-083-ai-token-governance.md`
 - `docs/adr/ADR-084-financial-feedback-loop.md`
 - `docs/adr/ADR-085-ai-model-registry.md`
+- `docs/adr/ADR-086-policy-engine-degradation-model.md`
+- `docs/adr/ADR-087-policy-approval-validity-window.md`
+- `docs/adr/ADR-088-recovery-capital-governance.md`
+- `docs/adr/ADR-089-ai-evidence-promotion-queue.md`
+- `docs/adr/ADR-090-de-facto-venture-termination.md`
+- `docs/adr/ADR-091-token-budget-reservation-model.md`
+- `docs/adr/ADR-092-dissent-preservation.md`
+- `docs/adr/ADR-093-reasoning-input-freshness.md`
+- `docs/adr/ADR-094-scheduler-fairness-model.md`
+- `docs/adr/ADR-095-organizational-memory-retention.md`
+- `docs/adr/ADR-096-capital-stress-escalation.md`
+- `docs/adr/ADR-097-founder-unavailability-fail-closed.md`
+- `docs/adr/ADR-098-reasoning-to-evidence-enforcement.md`
 - `docs/adr/ADR-077-observability-architecture.md`
 - `docs/adr/ADR-078-system-health-model.md`
 - `docs/adr/ADR-079-incident-management.md`
@@ -561,7 +595,7 @@ Source Of Truth: This file is the source of truth for the latest work-session ha
 
 ## Open Tasks
 
-- Complete external Claude Red Team review.
+- Decide whether to run second Claude review or proceed to Phase 2 final sign-off.
 - Accept or remediate review findings.
 - Prepare implementation phase approval request only after review outcomes are accepted.
 - Keep Phase 3 work blocked until review outcomes are accepted and explicit approval exists.
@@ -602,6 +636,7 @@ Do not add new strategic concepts before Phase 2 is completed and reviewed.
 - Read ADR-083 before AI Gateway token use, Cost Governance, token budgets, AI model cost/value, token usage monitoring, or token budget approval work.
 - Read ADR-084 before Financial Feedback Loop, expected-versus-actual ROI, variance learning, capital efficiency learning, or capital allocation outcome learning work.
 - Read ADR-085 before AI Model Registry, approved model selection, model deprecation, model suitability, model benchmark history, or AI model cost visibility work.
+- Read ADR-086 through ADR-098 before Phase 2.1 remediation, policy degradation, approval TTL, recovery capital governance, AI evidence promotion, de facto Venture termination, token reservation, dissent preservation, reasoning freshness, scheduler fairness, memory retention, capital stress escalation, Founder unavailability, or Reasoning-to-Evidence enforcement work.
 - Read `docs/project/yuri-session-restart.md` when starting a new Yuri session.
 - Read `docs/phases/phase-1-system-foundation.md` before any Phase 1 implementation discussion.
 - Confirm that no production code is requested before proceeding.

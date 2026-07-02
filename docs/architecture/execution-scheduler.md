@@ -64,6 +64,42 @@ The Scheduler must also respect AI token hard limits, Founder approval threshold
 
 Discovery / Research scheduling may allow longer or larger token-consuming work than strict workload classes, but must preserve monitoring, checkpoints, escalation thresholds, and stop conditions for runaway loops.
 
+## Approval Validity Scheduling
+
+Execution Scheduler must not start work from an expired approval.
+
+Before execution start, Scheduler must confirm approval TTL, policy snapshot validity, resource check validity, token reservation state, capital reservation state where applicable, and required human approval status.
+
+If a resource check fails after approval, Scheduler must cancel, requeue, or route the request for re-evaluation. It must not start execution based on stale approval.
+
+## Scheduler Fairness Model
+
+Scheduler must preserve fairness across Ventures, Portfolios, and governed priority classes.
+
+Fairness policy must balance:
+
+- Weighted priority.
+- Emergency priority.
+- Recovery priority.
+- Starvation prevention.
+- Venture fairness.
+- Portfolio fairness.
+- Treasury-sensitive priority handling.
+
+Weighted priority may consider policy urgency, approval age, business impact, recovery state, resource reservation expiry, and Founder-visible urgency.
+
+Emergency priority may preempt ordinary execution only to restrict risk, preserve audit, prevent loss, or protect capital. Emergency priority must not expand authority.
+
+Recovery priority may move governed recovery work ahead of ordinary execution when needed to restore safety, preserve audit, release reservations, or resolve incidents.
+
+Starvation prevention must detect requests that remain queued too long and require re-prioritization, escalation, or explicit explanation.
+
+Venture fairness prevents a single Venture from consuming disproportionate execution capacity unless policy-approved priority justifies it.
+
+Portfolio fairness prevents one Portfolio from starving another Portfolio unless approved governance priority justifies it.
+
+Treasury-sensitive priority handling may prioritize reservation expiry, capital-risk events, budget conflict resolution, and financial incident recovery, but it does not approve capital actions or money movement.
+
 ## Placeholder Status
 
 This is architecture documentation only. It does not define queues, services, infrastructure, algorithms, or implementation.

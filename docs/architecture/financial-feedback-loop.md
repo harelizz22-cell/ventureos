@@ -142,6 +142,18 @@ Reusable knowledge must distinguish:
 - Learning recommendations may inform future investment decisions but do not approve them.
 - Policy changes require explicit governance approval.
 
+## De Facto Venture Termination
+
+Financial Feedback Loop must run when a Venture is formally ended or informally abandoned.
+
+De facto termination detection must identify Ventures that are dormant, inactive, abandoned, or materially no longer operating even if no formal shutdown Decision exists.
+
+De facto termination must trigger archive review and mandatory learning extraction.
+
+Learning extraction must compare expected ROI with actual ROI, identify variance, attribute success or failure, document capital efficiency learning, and create reusable knowledge where Evidence exists.
+
+Informal termination must create an Audit record that identifies detection reason, Venture state, last meaningful activity, owner, archive review trigger, learning extraction status, and unresolved approval needs.
+
 ## Placeholder Status
 
 This is architecture documentation only. It does not define ROI formulas, valuation models, database schemas, analytics jobs, services, integrations, dependencies, or implementation.

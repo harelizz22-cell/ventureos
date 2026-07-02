@@ -74,6 +74,20 @@ Rules:
 - Follow-on plans must be explicit.
 - Follow-on plans must be evaluated against capital lifecycle, treasury risk, stress simulations, and Founder constraints.
 
+## Capital Stress Escalation
+
+Portfolio Governance must surface capital stress severity across Ventures and Portfolios.
+
+Low and moderate stress may produce recommendations.
+
+High stress requires Treasury review.
+
+Severe stress requires Founder review.
+
+Critical stress may trigger emergency freeze where policy requires it.
+
+Portfolio Governance must distinguish optional recommendation from mandatory action and must not convert stress recommendations into autonomous capital movement.
+
 ## Placeholder Status
 
 This is architecture documentation only. It does not define investment formulas, securities activity, legal structures, fund administration, schemas, integrations, or implementation.

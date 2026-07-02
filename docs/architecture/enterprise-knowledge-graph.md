@@ -70,6 +70,34 @@ Graph relationships may improve discoverability and reasoning, but they do not r
 
 Graph entries referenced as Evidence must trace to Evidence records that satisfy freshness, quality, source, timestamp, suitability, and corroboration requirements.
 
+## Node Freshness
+
+Knowledge Graph nodes must preserve freshness status where the underlying source record supports it.
+
+Freshness status may include:
+
+- Current
+- Aging
+- Stale
+- Expired
+- Superseded
+- Withdrawn
+- Unknown
+
+Stale node declaration is required when a node is used for reasoning, Strategic Review, capital allocation analysis, or governed recommendations.
+
+Superseded knowledge must link to the superseding source record where known.
+
+Reasoning Engine outputs must identify material stale, superseded, expired, withdrawn, or unknown-freshness graph nodes.
+
+## Memory Retention Classification
+
+Enterprise Knowledge Graph must distinguish active memory, historical memory, and archived memory relationships when connecting Organizational Memory records.
+
+Operational graph traversal should prefer active memory unless historical or archived context is explicitly requested, authorized, and classified.
+
+Archived memory may inform historical analysis but must not be treated as current operational context.
+
 ## Governance Requirements
 
 - Every graph entry must identify source, scope, classification, and provenance.

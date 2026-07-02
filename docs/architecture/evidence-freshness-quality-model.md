@@ -76,6 +76,16 @@ Evidence may be:
 
 Expired, withdrawn, or superseded Evidence must not support new Decisions unless a governance rule explicitly allows historical context use.
 
+## Knowledge Graph Node Freshness
+
+Enterprise Knowledge Graph nodes used for reasoning or governed recommendations must expose freshness status from their source records where available.
+
+Reasoning outputs must declare whether material Knowledge Graph nodes are current, aging, stale, expired, superseded, withdrawn, or unknown.
+
+Stale, expired, superseded, withdrawn, or unknown-freshness nodes may be used as historical context only when explicitly classified and governed.
+
+Superseded knowledge must link to the superseding source record where known.
+
 ## Corroboration Requirements
 
 High-risk Decisions may require multiple independent Evidence records.

@@ -54,6 +54,36 @@ Resource Coordinator must not allow high-cost AI execution to start when token b
 
 Discovery / Research workloads may receive larger soft-budget breathing room, but Resource Coordinator must still require attribution, monitoring, hard limits, escalation thresholds, and stop conditions for runaway loops.
 
+## Approval And Resource Re-Validation
+
+Resource Coordinator must re-check required resources after approval and before execution start.
+
+If resource availability changes after approval, execution must not start until the request is cancelled, requeued, or re-evaluated with current resource context.
+
+Approval TTL does not preserve stale resource availability.
+
+Resource checks must include capital reservation, token reservation, quota, rate limit, compute, human dependency, and time-window status where applicable.
+
+## Token Budget Reservation
+
+Token-consuming execution must reserve token budget before execution starts when policy requires reservation.
+
+Token reservation records must include Organization, Portfolio, Venture, Capability, Agent, Execution, workload class, budget source, reservation amount, expiry, release conditions, and correlation ID.
+
+Reservation expiry releases unused reserved tokens back to the applicable budget scope.
+
+Reservation release must occur when execution completes, is cancelled, fails before consumption, is requeued, or expires.
+
+Over-consumption must stop, pause, or escalate execution according to hard limits, approved override, and Policy Engine outcome.
+
+Race conditions must be handled by treating reservation state as authoritative. If concurrent requests would exceed the most restrictive applicable limit, the later or lower-priority request must wait, requeue, or fail closed.
+
+Inheritance and override order:
+
+Organization -> Portfolio -> Venture -> Capability -> Agent -> Execution
+
+The most restrictive applicable limit wins unless an approved governance override exists.
+
 ## Placeholder Status
 
 This is architecture documentation only. It does not define resource schemas, quotas, integrations, services, or implementation.

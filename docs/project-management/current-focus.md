@@ -6,7 +6,7 @@ Source Of Truth: This file is the source of truth for current project focus.
 
 ## Focus
 
-Phase 2 Workstream 06 Observability and Operations completed. AI Token Governance final context sync completed. Current focus is internal Phase 2 readiness review, followed by external Claude Red Team review.
+Phase 2.1 Claude Red Team Remediation Pack completed. Claude Red Team Review returned Approved with Conditions and accepted remediation items were applied. Current focus is second Claude review or Phase 2 final sign-off decision.
 
 Phase 2 is documentation/specification only. No implementation is approved yet.
 
@@ -31,6 +31,11 @@ Phase 2 is documentation/specification only. No implementation is approved yet.
 - AI Token Governance final Phase 2 gap fix completed.
 - Discovery / Research token budget exception documented as flexible but governed.
 - Final Phase 2 context sync completed before new Yuri session.
+- Phase 2 final architecture hardening completed.
+- Claude Red Team Review returned Approved with Conditions.
+- Phase 2.1 Claude Red Team Remediation Pack completed.
+- ADR-086 through ADR-098 added.
+- Phase 2 post-review decision backlog created for implementation-gated decisions.
 - Architecture Scorecard created.
 - Phase 2 Completion Checklist created.
 - Idea Discovery Domain recorded only as a future architecture candidate, not approved architecture, not part of Phase 2, and deferred until Phase 2 is completed and externally reviewed.
@@ -52,18 +57,36 @@ Phase 2 is documentation/specification only. No implementation is approved yet.
 - No implementation is approved.
 - No new strategic concepts should be added until Phase 2 is completed and reviewed.
 - Phase 2 implementation-readiness architecture work is complete.
-- Phase 2 is awaiting internal readiness review and external Claude Red Team review.
+- Phase 2.1 remediation is complete.
+- Phase 2 is awaiting second Claude review or final sign-off decision.
 - AI Token Governance is included in Phase 2 readiness review.
 - No Phase 3 work should begin yet.
 - Future candidates remain deferred: Idea Discovery Domain, Timing Engine, and Opportunity Strategy Engine.
 
 ## Current Architecture Work Items
 
-- Complete internal readiness review.
-- Complete external Claude Red Team review after internal readiness review.
-- Accept or remediate review findings.
+- Decide whether to run second Claude review or proceed to Phase 2 final sign-off.
 - Require explicit approval before any implementation phase.
 - Keep Phase 3 work blocked until review outcomes are accepted.
+
+## Completed Phase 2.1 Claude Red Team Remediation
+
+- Policy Engine Degradation Model documented.
+- Policy Approval Validity Window documented.
+- Recovery Capital Governance documented.
+- AI Evidence Promotion Queue Governance documented.
+- De Facto Venture Termination documented.
+- Token Budget Reservation Model documented.
+- Dissent Preservation documented.
+- Reasoning Input Freshness documented.
+- Scheduler Fairness Model documented.
+- Organizational Memory Retention documented.
+- Capital Stress Escalation documented.
+- Founder Unavailability fail-closed constraint documented.
+- Reasoning-to-Evidence Runtime Enforcement documented.
+- Phase 2 Post-Review Decision Backlog created.
+- ADR-086 through ADR-098 added.
+- No production code, dependencies, integrations, secrets, implementation, deployment, or Phase 3 work added.
 
 ## Completed Phase 2 Workstream 06
 

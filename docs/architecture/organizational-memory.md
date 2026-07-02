@@ -66,6 +66,22 @@ Memory records must preserve meaningful scope:
 
 No global default Venture scope is allowed.
 
+## Retention Model
+
+Organizational Memory must classify memory by operational status:
+
+- Active memory: current, operationally relevant memory that may support current recommendations.
+- Historical memory: preserved past context used for comparison, learning, audit, and trend analysis.
+- Archived memory: retained memory no longer active for operations but preserved for audit, learning, compliance, or historical analysis.
+
+Retention policy must define how memory moves from active to historical to archived.
+
+Archival model must preserve source records, Evidence links, Decision links, Audit links, scope, classification, and reason for archival.
+
+Operational versus historical classification must be visible to Reasoning Engine and Enterprise Knowledge Graph.
+
+Archived memory must not be used as current operational context unless explicitly requested, classified, and governed.
+
 ## Relationship To Other Components
 
 - Knowledge Domain owns knowledge assets and retrieval capabilities.

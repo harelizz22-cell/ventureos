@@ -77,6 +77,16 @@ Forward recovery may be preferred when rollback would increase risk, damage audi
 
 Forward recovery must be governed, auditable, and evidence-supported where meaningful.
 
+## Scheduler Fairness Reliability
+
+Execution reliability must treat starvation, unfair queue dominance, recovery starvation, emergency priority misuse, and treasury-sensitive priority inversion as reliability risks.
+
+Fairness failures may require incident creation, policy review, queue rebalancing, requeue, or escalation.
+
+Recovery priority may preempt ordinary work only when recovery is governed, idempotency is known, approval state is valid, and resource state can be verified.
+
+Emergency priority must preserve fail-closed behavior and may restrict execution, not expand authority.
+
 ## Dead Letter Queue Architecture
 
 Dead Letter Queue is the architectural holding area for failed execution messages, events, or requests that cannot safely complete or retry.

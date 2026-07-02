@@ -76,6 +76,16 @@ Capital-sensitive recovery must pass Policy Engine, Cost Governance, Capital Gov
 
 Recovery must not move money or execute investments autonomously.
 
+Treasury must be notified before capital-sensitive recovery starts and after it completes, fails, compensates, rolls back, or is abandoned.
+
+Capital-sensitive recovery requires Evidence showing the original failure, affected capital state, requested recovery action, expected capital impact, rollback or compensation plan, and approval path.
+
+Approval path must include Policy Engine evaluation, Treasury review, and Founder or authorized governance approval where thresholds require it.
+
+Compensation or rollback that changes capital state must preserve the original capital record, create a corrective capital event, and link both records through Audit.
+
+Recovery audit must record actor, trigger, affected capital lifecycle state, Evidence, approval, policy snapshot, Treasury notification, compensation or rollback handling, outcome, and correlation ID.
+
 ## Recovery Audit
 
 Recovery audit records must include:

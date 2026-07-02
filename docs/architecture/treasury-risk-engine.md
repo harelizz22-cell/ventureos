@@ -56,6 +56,18 @@ Budget overrun evaluation compares actual or projected spend against approved bu
 - High-risk capital actions require governed review.
 - Capital-sensitive execution must fail closed when Treasury Risk Engine cannot evaluate required risk inputs.
 
+## Capital Stress Escalation
+
+Treasury Risk Engine must preserve capital stress severity levels from Capital Stress Simulator.
+
+Severity levels must distinguish optional recommendation from mandatory action.
+
+Mandatory Treasury review is required when risk exceeds policy-defined runway, liquidity, reservation, lifecycle, concentration, budget overrun, or capital integrity thresholds.
+
+Mandatory Founder review is required when risk threatens Enterprise Value, capital discipline, follow-on viability, material portfolio health, or policy-defined high-risk exposure.
+
+Emergency freeze is required when capital state cannot be verified, double allocation is suspected, capital integrity is at risk, or uncontrolled financial exposure is detected.
+
 ## Placeholder Status
 
 This is architecture documentation only. It does not define risk formulas, models, data pipelines, external financial integrations, schemas, secrets, or implementation.

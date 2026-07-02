@@ -44,6 +44,16 @@ Token budget rules are no longer an open decision.
 
 Discovery / Research flexibility is an approved budget class, not an exemption from governance.
 
+## Token Reservation Enforcement
+
+AI Gateway must verify required token reservation before token-consuming execution starts.
+
+AI Gateway must enforce reservation amount, expiry, release condition, workload class, inheritance rules, hard limits, approved overrides, and attribution during execution.
+
+If reservation state is missing, expired, over-consumed, or inconsistent, AI Gateway must pause, stop, escalate, or fail closed according to Policy Engine outcome.
+
+AI Gateway must report reservation consumption, unused release, expiry, and over-consumption events to Treasury, Cost Governance, Observability, and Audit where applicable.
+
 ## Model Governance Decision
 
 Model selection is governed by AI Model Registry and Policy Engine.

@@ -6,7 +6,7 @@ Source Of Truth: This file is the source of truth for VentureOS architecture rea
 
 ## Purpose
 
-Score the current VentureOS architecture after internal readiness review and before external Claude Red Team review.
+Score the current VentureOS architecture after Phase 2.1 Claude Red Team remediation.
 
 Scores are architectural review signals. They do not authorize implementation.
 
@@ -22,11 +22,11 @@ Scores are architectural review signals. They do not authorize implementation.
 
 Current Score: 5
 
-Reason: Phase 2 architecture workstreams, operational architecture, AI Token Governance, Financial Feedback Loop, AI Model Registry, readiness checklist, and ADR coverage are documented for review.
+Reason: Phase 2 architecture workstreams, operational architecture, AI Token Governance, Financial Feedback Loop, AI Model Registry, Phase 2.1 remediation, readiness checklist, and ADR coverage through ADR-098 are documented for review.
 
 Improvement Opportunities:
 
-- Apply accepted external Claude Red Team findings after review.
+- Decide whether to run second Claude review or proceed to Phase 2 final sign-off.
 
 ## Consistency
 
@@ -42,7 +42,7 @@ Improvement Opportunities:
 
 Current Score: 5
 
-Reason: Policy before execution, Evidence before Decision, Founder control, autonomy governance, recovery governance, and fail-closed behavior are documented.
+Reason: Policy before execution, Evidence before Decision, Founder control, autonomy governance, recovery governance, policy degradation behavior, approval validity windows, Founder-unavailable fail-closed behavior, and fail-closed behavior are documented.
 
 Improvement Opportunities:
 
@@ -72,7 +72,7 @@ Improvement Opportunities:
 
 Current Score: 5
 
-Reason: Treasury Domain, Capital Lifecycle, Capital Allocation Governance, Treasury Security, Milestone Funding, Portfolio Governance, Treasury Risk Engine, Capital Stress Simulator, Founder Financial Dashboard, AI token financial-resource reporting, Financial Feedback Loop, and AI model cost visibility are documented.
+Reason: Treasury Domain, Capital Lifecycle, Capital Allocation Governance, Treasury Security, Milestone Funding, Portfolio Governance, Treasury Risk Engine, Capital Stress Simulator, Founder Financial Dashboard, AI token financial-resource reporting, token reservation, recovery capital governance, capital stress escalation, Financial Feedback Loop, and AI model cost visibility are documented.
 
 Improvement Opportunities:
 
@@ -82,7 +82,7 @@ Improvement Opportunities:
 
 Current Score: 5
 
-Reason: Knowledge Domain, Enterprise Knowledge Graph, Organizational Memory, Learning Engine, Financial Feedback Loop, Reasoning Engine, Evidence Promotion, and AI output boundaries are separated. Learning is evidence-backed and does not automatically change policy.
+Reason: Knowledge Domain, Enterprise Knowledge Graph, Organizational Memory, memory retention, Learning Engine, Financial Feedback Loop, de facto Venture termination learning, Reasoning Engine, reasoning input freshness, Evidence Promotion, and AI output boundaries are separated. Learning is evidence-backed and does not automatically change policy.
 
 Improvement Opportunities:
 
@@ -92,7 +92,7 @@ Improvement Opportunities:
 
 Current Score: 5
 
-Reason: AI output classification, autonomy governance, reasoning boundaries, Evidence Promotion, Policy Engine enforcement, AI Token Governance, AI Model Registry, bounded token usage, token attribution, approved model enforcement, governed model selection, Discovery / Research flexible-but-governed budgets, and no self-approval are documented.
+Reason: AI output classification, autonomy governance, reasoning boundaries, Evidence Promotion Queue, Reasoning-to-Evidence enforcement, Policy Engine enforcement, AI Token Governance, AI Model Registry, bounded token usage, token reservation, token attribution, approved model enforcement, governed model selection, Discovery / Research flexible-but-governed budgets, and no self-approval are documented.
 
 Improvement Opportunities:
 
@@ -102,11 +102,11 @@ Improvement Opportunities:
 
 Current Score: 5
 
-Reason: Observability Architecture, System Health Model, Incident Management, Operations Dashboard, Architecture Readiness, token usage monitoring, AI model performance visibility, Discovery / Research cost-per-insight and cost-per-evidence tracking, reliability, and recovery architecture are documented.
+Reason: Observability Architecture, System Health Model, Incident Management, Operations Dashboard, Architecture Readiness, token usage monitoring, AI model performance visibility, scheduler fairness, starvation visibility, Discovery / Research cost-per-insight and cost-per-evidence tracking, reliability, and recovery architecture are documented.
 
 Improvement Opportunities:
 
-- Apply accepted operational findings from Claude Red Team Review.
+- Define implementation acceptance tests only after implementation approval.
 
 ## Maintainability
 
@@ -130,8 +130,10 @@ Improvement Opportunities:
 
 ## Overall Status
 
-Internal readiness review is complete. Architecture is ready for external Claude Red Team Review.
+Claude Red Team Review returned Approved with Conditions. Accepted remediation items are applied in Phase 2.1.
 
-No unresolved architectural gaps identified during the internal readiness review.
+No unresolved architectural gaps identified after Phase 2.1 remediation.
+
+Next step is second Claude review or Phase 2 final sign-off decision.
 
 No production implementation is approved by this scorecard.

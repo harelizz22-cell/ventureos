@@ -54,6 +54,24 @@ Models correlated failure across Ventures, markets, providers, revenue channels,
 - Simulation output is not Evidence until promoted through governed Evidence processes.
 - Major capital allocation or release may require a fresh stress simulation when policy requires it.
 
+## Capital Stress Escalation
+
+Capital stress simulation must classify severity levels:
+
+- Low: visible advisory signal.
+- Moderate: recommended Treasury review.
+- High: mandatory Treasury review.
+- Severe: mandatory Founder review.
+- Critical: emergency freeze threshold.
+
+Mandatory Treasury review threshold is reached when stress output indicates material runway, reservation, liquidity, budget overrun, concentration, or capital lifecycle risk.
+
+Mandatory Founder review threshold is reached when stress output indicates material Enterprise Value risk, capital depletion risk, follow-on failure risk, major Venture failure risk, or policy-defined high-risk exposure.
+
+Emergency freeze threshold is reached when stress output indicates imminent capital integrity risk, double allocation risk, material unapproved exposure, or inability to verify capital state.
+
+Stress outputs must distinguish optional recommendations from mandatory actions. Optional recommendations advise; mandatory actions require governed review, freeze, pause, or escalation according to policy.
+
 ## Placeholder Status
 
 This is architecture documentation only. It does not define simulation models, formulas, external data feeds, financial integrations, schemas, secrets, or implementation.

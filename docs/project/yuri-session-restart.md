@@ -13,8 +13,8 @@ Allow a future ChatGPT/Yuri session to resume VentureOS without losing context, 
 - Repository root: `/Users/harelitzhaki/VentureOS`
 - GitHub remote: `https://github.com/harelizz22-cell/ventureos.git`
 - Current phase: Phase 2
-- Latest completed workstream: Phase 2 final architecture hardening
-- Current workstream: Claude Red Team Review
+- Latest completed workstream: Phase 2.1 Claude Red Team Remediation Pack
+- Current workstream: Phase 2 final sign-off decision or second Claude review
 
 ## Source Of Truth Hierarchy
 
@@ -73,10 +73,13 @@ Completed Phase 2 work:
 - Final Phase 2 gap fix completed: AI Token Governance.
 - Internal readiness review completed.
 - Final architecture hardening completed: Financial Feedback Loop and AI Model Registry.
+- Claude Red Team Review returned Approved with Conditions.
+- Phase 2.1 remediation completed and accepted remediation items were recorded in ADR-086 through ADR-098.
+- Phase 2 post-review decision backlog created for implementation-gated decisions.
 
 Phase 2 implementation-readiness architecture work is complete.
 
-Phase 2 is awaiting Claude Red Team Review.
+Phase 2 is awaiting second Claude review or final sign-off decision.
 
 No implementation is approved.
 
@@ -342,13 +345,12 @@ This is intentionally deferred until after Phase 2 completion and Claude review.
 
 ## Next Expected Workstreams
 
-After Phase 2 final architecture hardening, the next expected work is:
+After Phase 2.1 Claude remediation, the next expected work is:
 
-- External Claude Red Team review.
-- Acceptance or remediation of review findings.
+- Second Claude review or Phase 2 final sign-off decision.
 - Explicit approval before any implementation phase.
 
-Internal readiness review is complete. Claude Red Team Review comes next.
+Claude Red Team Review returned Approved with Conditions and accepted remediation has been applied.
 
 No Phase 3 work should begin yet.
 

@@ -113,6 +113,16 @@ Required controls:
 - Founder approval is required for high-value, exceptional, irreversible, or policy-defined capital actions.
 - Treasury must fail closed when lifecycle state, approval state, policy state, or ledger state is inconsistent.
 
+## Recovery Capital Governance
+
+Capital-sensitive recovery includes recovery that affects Available, Reserved, Committed, Approved, Released, Spent, Verified, Recovered, Cancelled, or Closed capital state.
+
+Capital-sensitive recovery must notify Treasury, preserve Evidence, pass Policy Engine, and follow Founder or delegated approval thresholds where required.
+
+Compensation or rollback must not erase the original capital lifecycle event. It must create a corrective lifecycle event linked to the original through Audit.
+
+If capital state cannot be verified during recovery, recovery must fail closed or escalate.
+
 ## Audit Requirements
 
 Each transition must record:

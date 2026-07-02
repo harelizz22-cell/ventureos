@@ -29,6 +29,8 @@ No Capability, Agent, Tool, Workflow, Service, or external provider may bypass t
 - Attach policy version or policy snapshot evaluated.
 - Pass accepted requests into Runtime Kernel.
 - Reject requests with missing governance context.
+- Attach approval TTL where approval is required.
+- Require approval re-validation before execution start.
 
 ## Governance Requirements
 
@@ -37,6 +39,28 @@ The Execution API must reject requests that lack scope, actor identity, Capabili
 The Execution API must reject or fail closed requests when policy version, policy snapshot, evaluator consistency, or required governance context cannot be established.
 
 The Execution API must reject retryable or side-effecting requests that require idempotency but lack an idempotency key or equivalent identity.
+
+## Approval Validity Window
+
+Approved execution requests must preserve approval TTL, approval timestamp, approving authority, policy snapshot, scope, and resource assumptions.
+
+Before an approved request starts execution, Execution API or the Runtime Kernel must re-validate:
+
+- Approval TTL.
+- Approval authority.
+- Policy snapshot or current valid policy requirement.
+- Resource availability.
+- Token reservation state where AI execution is involved.
+- Capital reservation state where capital-sensitive execution is involved.
+- Scope and actor context.
+
+If approval expires, resource checks fail after approval, token reservation cannot be verified, capital reservation cannot be verified, or policy context changes materially, execution must not start.
+
+The request must follow a governed cancellation, requeue, or re-evaluation path.
+
+## Founder Unavailability Constraint
+
+Until Founder Unavailability architecture is formally approved, Execution API must fail closed for execution requiring Founder approval when Founder is unavailable. It must not infer delegated approval, auto-approve pending requests, or expand authority under emergency mode.
 
 ## Reliability Requirements
 

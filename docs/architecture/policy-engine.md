@@ -52,6 +52,8 @@ At startup, the Execution Orchestrator must not accept execution requests until 
 
 If the Policy Engine becomes unavailable, new execution must stop fail-closed.
 
+Founder-unavailable state must fail closed until Founder Unavailability architecture is formally approved. No delegated approval may be inferred from Founder unavailability.
+
 Cost Governance may be used as an approval input.
 
 AI Token Governance may be used as an approval input.
@@ -68,7 +70,36 @@ If policy propagation is uncertain, required policy versions are missing, policy
 
 Runtime components must not select the more permissive result when policy evaluators disagree.
 
+Policy Engine must support degraded mode states defined in `docs/architecture/policy-engine-consistency-model.md`.
+
+When Policy Engine is degraded, it must distinguish degraded-but-acceptable execution from degraded-to-fail-closed execution. Capital-sensitive, compliance-sensitive, autonomy-expanding, production-asset, cross-Organization, irreversible, or Founder-approval-sensitive execution must fail closed when required policy confidence cannot be proven.
+
+Every degraded policy evaluation must create an Audit record with degraded state, evaluator coverage, snapshot freshness, latency status, threshold used, outcome, actor, scope, and correlation ID.
+
 Autonomy governance is enforced through Policy Engine evaluation. No autonomy escalation may occur without governance approval.
+
+## Approval Validity Window
+
+Policy approvals must have a validity window.
+
+Approval TTL identifies how long an approval may remain valid before execution start.
+
+Before execution starts, the governing policy snapshot, approval status, resource status, token reservation state, and scope must be re-validated.
+
+If the approval TTL expires before execution starts, Execution API, Execution Scheduler, or Runtime Kernel must cancel, requeue, or request re-evaluation according to policy.
+
+If resource checks fail after approval, execution must not start. The request must be cancelled, requeued, or re-evaluated with a new policy and resource context.
+
+Approval validity windows do not authorize execution after governance, resource, capital, or token context changes.
+
+## Founder Unavailability Constraint
+
+Until Founder Unavailability architecture is formally approved:
+
+- Founder-unavailable state must fail closed.
+- No delegated approval is allowed only because the Founder is unavailable.
+- Pending Founder approvals remain pending.
+- Emergency mode may restrict execution, pause execution, preserve audit, or surface risk, but it must not expand authority.
 
 ## Reliability Governance
 

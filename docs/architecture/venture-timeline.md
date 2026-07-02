@@ -23,6 +23,12 @@ The Venture Timeline is a first-class chronological operational timeline for eve
 - First Customer
 - Revenue Generated
 - Scaling Started
+- Dormant
+- Inactive
+- Abandoned
+- De Facto Termination Detected
+- Archive Review Triggered
+- Mandatory Learning Extracted
 
 ## Rules
 
@@ -30,8 +36,9 @@ The Venture Timeline is a first-class chronological operational timeline for eve
 - Every major system event must be visible in the Venture Timeline.
 - Timeline is part of the Founder Operating Console.
 - Timeline events must preserve auditability and event references where available.
+- Dormant, inactive, abandoned, and de facto termination states must be visible on the Venture Timeline.
+- Informal termination must create an auditable timeline event and trigger archive review.
 
 ## Placeholder Status
 
 This is an architecture placeholder. It does not define UI, event schema, database schema, or implementation.
-

@@ -79,6 +79,12 @@ In safe mode, VentureOS may observe, report, preserve audit, surface pending app
 
 Emergency mode is a governed response to severe risk, incident, policy conflict, or recovery event.
 
+Until Founder Unavailability architecture is formally approved, emergency mode may only restrict execution, pause execution, preserve audit, create visibility, or request review.
+
+Emergency mode must not expand authority, grant delegated approval, bypass Founder approval, or approve pending Founder-required actions.
+
+Founder-unavailable state must fail closed. Pending approvals remain pending.
+
 Emergency mode must preserve Founder control, audit, evidence, policy, recovery, and fail-closed behavior.
 
 Emergency mode must not become a bypass for self-approval.

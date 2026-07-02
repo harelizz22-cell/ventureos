@@ -54,6 +54,8 @@ AI Output Classification requirements are defined in `docs/architecture/ai-outpu
 
 AI Model Registry requirements are defined in `docs/architecture/ai-model-registry.md`.
 
+Evidence Ledger must reject direct Reasoning outputs. Reasoning output requires source classification and a promotion record before any Evidence write.
+
 ## Governance Requirements
 
 - Reasoning outputs must preserve scope and actor context.
@@ -63,6 +65,7 @@ AI Model Registry requirements are defined in `docs/architecture/ai-model-regist
 - Reasoning must preserve material dissent where relevant.
 - Reasoning output must identify limitations and hallucination risk where AI-generated.
 - Reasoning output must record which approved model produced the recommendation where AI generated it.
+- Reasoning output must include freshness status for each material Knowledge Graph node, Evidence record, Memory record, or Learning record used.
 - Reasoning cannot approve Venture validation, capital allocation, investment, acquisition, funding, execution, or strategy.
 - Founder or approved governance policy remains final decision authority.
 - Cross-Venture reasoning must follow Cross-Venture Intelligence rules.
@@ -76,6 +79,30 @@ AI Model Registry requirements are defined in `docs/architecture/ai-model-regist
 - Learning Engine provides evidence-backed learnings from outcomes.
 - Reasoning Engine consumes approved knowledge and memory to produce reasoning outputs.
 - Strategic Review Domain may use Reasoning Engine outputs as inputs to Debate, Consensus, and Investment Memo artifacts.
+
+## Reasoning Input Freshness
+
+Reasoning Engine must evaluate input freshness before producing governed recommendations.
+
+Freshness status must be included in every reasoning output.
+
+Freshness status must identify:
+
+- Current inputs.
+- Aging inputs.
+- Stale inputs.
+- Expired inputs.
+- Superseded inputs.
+- Withdrawn inputs.
+- Unknown freshness inputs.
+
+Knowledge Graph node freshness must be read from Enterprise Knowledge Graph source records and Evidence freshness metadata where available.
+
+Stale node declaration is required when a material reasoning input is stale, expired, superseded, withdrawn, or missing freshness metadata.
+
+Superseded knowledge handling must prefer the latest approved source record unless historical context is explicitly requested and classified.
+
+Reasoning output must not hide stale or superseded inputs behind an aggregate confidence score.
 
 ## VC Pattern Recognition Readiness
 

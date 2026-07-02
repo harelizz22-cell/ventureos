@@ -33,6 +33,18 @@ Recovery governance requirements are defined in `docs/architecture/recovery-gove
 
 Enterprise isolation requirements are defined in `docs/architecture/enterprise-isolation.md`.
 
+## Founder Unavailability Constraint
+
+Until Founder Unavailability architecture is formally approved:
+
+- Founder-unavailable state must fail closed.
+- No delegated approval is allowed only because the Founder is unavailable.
+- Pending approvals remain pending.
+- Emergency mode may only restrict execution, pause execution, preserve audit, or surface risk.
+- Emergency mode must not expand authority.
+
+Runtime Kernel must not infer approval, reassign approval authority, or continue Founder-required execution when Founder availability cannot be verified.
+
 ## Kernel Service: Execution Coordinator
 
 ### Purpose

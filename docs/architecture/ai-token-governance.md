@@ -91,6 +91,46 @@ Budget dimensions:
 
 Token budgets are governance inputs, not prompt suggestions.
 
+## Token Budget Reservation Model
+
+Token-consuming execution must reserve token budget before execution starts when policy requires reservation.
+
+Reservation records must include:
+
+- Organization
+- Portfolio
+- Venture
+- Capability
+- Agent
+- Execution
+- Workload class
+- Budget source
+- Reserved token amount
+- Reservation expiry
+- Reservation release condition
+- Approval or override reference where applicable
+- Correlation ID
+
+Reservation expiry releases unused reserved tokens back to the applicable budget scope.
+
+Reservation release occurs when execution completes, is cancelled, fails before consumption, is requeued, or expires.
+
+Over-consumption behavior:
+
+- Soft-limit over-consumption requires monitoring, warning, and possible escalation.
+- Hard-limit over-consumption must pause, stop, or fail closed unless an approved governance override exists.
+- Runaway over-consumption must trigger anomaly detection, waste detection, escalation, and stop conditions.
+
+AI Gateway must enforce token budget state after reservation and during execution. Reservation approval is not permission for unlimited consumption.
+
+Race condition handling must prevent concurrent executions from consuming the same budget capacity. When concurrent reservations conflict, the most restrictive applicable limit and policy priority decide whether work waits, requeues, or fails closed.
+
+Inheritance and override order:
+
+Organization -> Portfolio -> Venture -> Capability -> Agent -> Execution
+
+The most restrictive applicable limit wins unless an approved governance override exists.
+
 ## Per-Organization Limits
 
 Organization limits define the maximum token exposure for an Organization across all Portfolios, Ventures, Capabilities, Agents, and Executions.

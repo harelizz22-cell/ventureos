@@ -78,6 +78,28 @@ Evidence must never depend on mutable current-state content.
 
 Observability signals may be promoted to Evidence for Decisions only through a governed promotion process. Raw telemetry must not automatically become Evidence.
 
+## AI Evidence Promotion Queue
+
+AI-generated Candidate Evidence must pass through a governed promotion queue before it may become Verified Evidence.
+
+Candidate Evidence is never treated as Verified Evidence.
+
+Promotion queue records must preserve source output, source classification, source citations, scope, reviewer, delegation authority, review status, and promotion, denial, or deferral reason.
+
+Batch promotion is allowed only when policy permits compatible Evidence category, source type, scope, risk, and decision category. Batch promotion must not hide individual evidence quality, freshness, source, uncertainty, or denial reasons.
+
+Denied promotion and deferred promotion must create Audit records.
+
+Promotion backlog must be visible, prioritized, and escalated where delay affects governed Decisions.
+
+## Reasoning-To-Evidence Enforcement
+
+Evidence Ledger must reject direct Reasoning Engine outputs.
+
+Reasoning output may enter Evidence Ledger only after a promotion record exists, source classification is present, and the required promotion path has approved the write.
+
+Reasoning output without promotion remains reasoning, not Evidence.
+
 AI-generated content cannot become Evidence without promotion governance. AI output follows Draft -> Recommendation -> Candidate Evidence -> Verified Evidence.
 
 ## Future Database Mapping Note

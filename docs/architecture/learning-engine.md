@@ -48,6 +48,10 @@ Learning never automatically changes policy.
 
 No completed Venture may exit the lifecycle without producing organizational learning.
 
+De facto Venture termination, including dormant, inactive, or abandoned Ventures, must trigger mandatory learning extraction before archive closure.
+
+Informal termination learning must link to Venture Timeline, Venture Health, Audit, Evidence, Decisions, and Financial Feedback Loop records where meaningful.
+
 ## Separation Of Concerns
 
 - Organizational Memory answers: "What happened and what do we remember?"

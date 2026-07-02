@@ -21,6 +21,8 @@ Treasury never evaluates ideas. Treasury never creates strategy. Treasury never 
 - Tokens are financial resources.
 - Treasury must receive token usage records from AI Gateway and Cost Governance where token usage affects financial reporting, budget state, or capital discipline.
 - Treasury must receive AI model cost information where AI Model Registry and AI Gateway model selection affect financial reporting, budget state, or capital discipline.
+- Treasury must be notified for capital-sensitive recovery before recovery starts and after recovery completes, fails, compensates, rolls back, or is abandoned.
+- Treasury must receive token reservation, release, expiry, and over-consumption records where AI token usage affects budget state or financial reporting.
 
 ## Treasury Controller
 
@@ -47,6 +49,8 @@ Inputs:
 - Capital lifecycle state.
 - Token usage records where AI costs affect budget or financial reporting.
 - Model cost information where AI model choice affects budget or financial reporting.
+- Capital-sensitive recovery requests, Evidence, approval path, compensation or rollback plan, and outcome.
+- Token reservation records, reservation releases, reservation expiry, and token over-consumption events.
 
 Outputs:
 
@@ -56,6 +60,8 @@ Outputs:
 - Escalation requests.
 - Token cost visibility records where applicable.
 - Model cost visibility records where applicable.
+- Capital-sensitive recovery visibility records.
+- Token reservation visibility records.
 
 Security requirements:
 

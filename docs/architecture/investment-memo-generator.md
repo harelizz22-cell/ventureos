@@ -29,6 +29,10 @@ The memo format uses professional venture capital operating patterns as architec
 - Milestone plan.
 - Risks.
 - Dissent.
+- Minority opinion.
+- Strongest counter-argument.
+- Dissent confidence.
+- Founder override linkage where applicable.
 - Legal/compliance review.
 - Recommendation.
 - Approval requirements.
@@ -46,6 +50,18 @@ It is an internal governed decision artifact unless future compliance explicitly
 Investment Memo must preserve evidence, assumptions, forecasts, dissent, legal/compliance review status, and approval requirements.
 
 Reasoning output included in an Investment Memo must remain classified as reasoning unless promoted through Evidence governance. The memo must not convert reasoning output into Evidence automatically.
+
+## Dissent Preservation
+
+Investment Memo must preserve material dissent from Debate Engine, Consensus Engine, Dynamic Review Council, Strategic Review Domain, Reasoning Engine outputs, and human reviewers where applicable.
+
+Every governed Investment Memo must include minority opinion or explicitly state that no material minority opinion was identified.
+
+Every governed Investment Memo must include the strongest counter-argument to the recommended action.
+
+Dissent confidence must be recorded so Founder can distinguish weak concerns from high-confidence objections.
+
+If Founder overrides dissent, the Founder Decision must link to the dissent record.
 
 ## Placeholder Status
 

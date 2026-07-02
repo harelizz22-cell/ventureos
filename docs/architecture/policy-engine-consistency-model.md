@@ -76,6 +76,42 @@ During governance lag:
 - Policy snapshot identity must be recorded.
 - Execution may continue only if the active snapshot is valid for the request category.
 
+## Degraded Policy Evaluation
+
+Policy Engine degradation is a governed runtime state where policy evaluation is available but operating below normal confidence, coverage, latency, or freshness expectations.
+
+Degraded mode states:
+
+- Normal: required evaluators, current snapshots, and latency targets are satisfied.
+- Degraded Monitor: a non-critical evaluator, dependency, or latency signal is below target, but required policy confidence remains intact.
+- Degraded Restricted: reduced evaluator count, stale snapshot risk, or elevated latency exists and only low-risk, reversible, non-capital, non-compliance-sensitive execution may continue.
+- Degraded Fail Closed: policy confidence cannot be proven, required evaluators are unavailable, snapshots are stale beyond allowed tolerance, or latency prevents reliable evaluation.
+
+Reduced evaluator count behavior:
+
+- If optional evaluators are unavailable, Policy Engine may continue only when the remaining evaluator set satisfies the degraded-but-acceptable threshold.
+- If required evaluators are unavailable, affected execution must fail closed.
+- Policy Engine must not substitute a more permissive evaluator for a missing restrictive evaluator.
+
+Stale snapshot behavior:
+
+- Current valid snapshots may continue within an explicit freshness tolerance.
+- Stale snapshots may support only low-risk execution when policy allows degraded restricted operation.
+- Capital-sensitive, compliance-sensitive, autonomy-expanding, production-asset, cross-Organization, or irreversible execution must fail closed when snapshots are stale.
+
+Elevated latency behavior:
+
+- Elevated latency may pause scheduling, require requeue, or require re-evaluation.
+- If latency prevents timely approval validation, execution must not start.
+- Emergency mode may restrict execution during latency degradation but must not expand authority.
+
+Thresholds:
+
+- Degraded-but-acceptable threshold means required policy confidence, scope, approval authority, snapshot freshness, and audit record creation remain intact.
+- Degraded-to-fail-closed threshold is reached when any required policy input, evaluator, snapshot, authority, approval, or audit path cannot be verified.
+
+Every degraded policy evaluation must create an Audit record identifying degraded state, affected evaluators, snapshot status, latency status, threshold used, outcome, actor, scope, and correlation ID.
+
 ## Disagreement Between Evaluators
 
 If two policy evaluators disagree, VentureOS must fail closed for the affected request.

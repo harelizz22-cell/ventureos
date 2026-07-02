@@ -95,4 +95,16 @@ Source Of Truth: This file is the source of truth for project-management risk tr
 - Token cost ownership may become unclear unless usage is attributed to Organization, Portfolio, Venture, Capability, Agent, and Execution.
 - Autonomous systems may expand spend unless token budget increases require governance approval.
 - Discovery / Research flexible token budgets may be mistaken for unlimited usage unless monitoring, soft budgets, anomaly detection, waste detection, Founder-configurable limits, escalation thresholds, cost-per-insight tracking, cost-per-evidence tracking, and runaway loop stop conditions remain explicit.
-- Phase 3 may begin prematurely unless internal readiness review and Claude Red Team Review are completed first.
+- Token reservations may be mismanaged unless expiry, release, over-consumption, race condition handling, and most-restrictive-limit rules are carried into implementation acceptance criteria.
+- Policy degradation may be misused unless degraded-but-acceptable and degraded-to-fail-closed thresholds remain explicit.
+- Stale approvals may start execution unless approval TTL and pre-start re-validation are implemented consistently.
+- Capital-sensitive recovery may bypass Treasury unless notification, Evidence, approval path, compensation, rollback, and audit requirements remain explicit.
+- Candidate Evidence may be mistaken for Verified Evidence unless promotion queue, denial audit, deferral audit, and Evidence Ledger rejection rules remain enforced.
+- Dormant or abandoned Ventures may lose learning unless de facto termination detection triggers archive review and mandatory learning extraction.
+- Strategic review may flatten dissent unless minority opinion, strongest counter-argument, dissent confidence, and Founder override linkage remain required.
+- Reasoning outputs may become stale or misleading unless input freshness and superseded knowledge declarations are preserved.
+- Scheduler priorities may starve Ventures or Portfolios unless fairness, recovery priority, emergency priority, and treasury-sensitive priority handling are governed.
+- Organizational Memory may confuse active, historical, and archived memory unless retention classification is preserved.
+- Capital stress outputs may be ignored unless mandatory Treasury review, mandatory Founder review, and emergency freeze thresholds are enforced.
+- Founder unavailability may be misused to expand authority unless founder-unavailable state fails closed until formal architecture is approved.
+- Phase 3 may begin prematurely unless Phase 2.1 remediation, second Claude review or final sign-off decision, and explicit implementation approval are completed first.

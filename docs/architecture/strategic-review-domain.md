@@ -36,6 +36,7 @@ Founder or approved governance policy makes final decisions.
 - Assemble structured opportunity reviews.
 - Coordinate multi-perspective review.
 - Capture evidence, assumptions, risks, dissent, and confidence.
+- Preserve minority opinion, strongest counter-argument, dissent confidence, and Founder override linkage.
 - Produce governed recommendations.
 - Produce internal Investment Memos for major capital decisions.
 - Use approved knowledge, Organizational Memory, Enterprise Knowledge Graph context, Learning Engine outputs, and Reasoning Engine recommendations where policy permits.
@@ -54,6 +55,18 @@ Founder or approved governance policy makes final decisions.
 Strategic Review Domain may consume Enterprise Knowledge Graph relationships, Organizational Memory records, Learning Engine outputs, and Reasoning Engine recommendations.
 
 These inputs strengthen long-term organizational intelligence and review quality, but they do not replace Evidence, Thesis review, Hypothesis approval, Debate, dissent, Founder approval, or approved governance policy.
+
+## Dissent Preservation
+
+Strategic Review Domain must preserve dissent as a first-class review artifact.
+
+Minority opinion is required for governed reviews unless no material dissent exists.
+
+The strongest counter-argument must be preserved even when final recommendation confidence is high.
+
+Dissent confidence must be visible to Founder and reviewers.
+
+Founder override linkage must connect later Founder Decisions to the dissent they accepted, rejected, or overrode.
 
 ## Placeholder Status
 

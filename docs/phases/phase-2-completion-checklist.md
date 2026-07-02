@@ -6,7 +6,7 @@ Source Of Truth: This file is the source of truth for Phase 2 completion review.
 
 ## Purpose
 
-Verify Phase 2 architecture work after internal readiness review and before external Claude Red Team review.
+Verify Phase 2 architecture work after Phase 2.1 Claude Red Team remediation.
 
 Phase 2 completion does not authorize production code, dependencies, integrations, secrets, deployment, or implementation.
 
@@ -21,6 +21,7 @@ Phase 2 completion does not authorize production code, dependencies, integration
 - Phase 2 Workstream 04: Enterprise Scale Architecture.
 - Phase 2 Workstream 05: Capital, Treasury, and Portfolio Governance.
 - Phase 2 Workstream 06: Observability and Operations.
+- Phase 2.1: Claude Red Team Remediation Pack.
 
 ## Major Architecture Components
 
@@ -72,6 +73,7 @@ Phase 2 completion does not authorize production code, dependencies, integration
 - Architecture Readiness.
 - Architecture Scorecard.
 - Phase 2 Completion Checklist.
+- Phase 2 Post-Review Decision Backlog.
 
 ## Phase 2 ADRs
 
@@ -126,6 +128,19 @@ Phase 2 completion does not authorize production code, dependencies, integration
 - ADR-083: AI Token Governance.
 - ADR-084: Financial Feedback Loop.
 - ADR-085: AI Model Registry.
+- ADR-086: Policy Engine Degradation Model.
+- ADR-087: Policy Approval Validity Window.
+- ADR-088: Recovery Capital Governance.
+- ADR-089: AI Evidence Promotion Queue.
+- ADR-090: De Facto Venture Termination.
+- ADR-091: Token Budget Reservation Model.
+- ADR-092: Dissent Preservation.
+- ADR-093: Reasoning Input Freshness.
+- ADR-094: Scheduler Fairness Model.
+- ADR-095: Organizational Memory Retention.
+- ADR-096: Capital Stress Escalation.
+- ADR-097: Founder Unavailability Fail Closed.
+- ADR-098: Reasoning-To-Evidence Enforcement.
 
 ## Remaining Blockers
 
@@ -135,13 +150,19 @@ Internal readiness review is complete.
 
 No unresolved architectural gaps identified during the internal readiness review.
 
-Phase 2 is awaiting external Claude Red Team Review before implementation planning may be approved.
+Claude Red Team Review returned Approved with Conditions.
+
+Accepted remediation items were applied in Phase 2.1.
+
+Phase 2 is awaiting second Claude review or final sign-off decision before implementation planning may be approved.
 
 AI Token Governance was added as a final Phase 2 gap fix before readiness review.
 
 Financial Feedback Loop and AI Model Registry were added as final architecture hardening items after internal readiness review.
 
 Discovery / Research workloads have flexible but governed token budgets. No workload has unlimited token usage.
+
+Phase 2 post-review decision backlog exists. Backlog items are not blocking Phase 2 closure, but they block affected implementation.
 
 ## Validation
 
@@ -154,6 +175,8 @@ Discovery / Research workloads have flexible but governed token budgets. No work
 
 ## Review Gate
 
-Phase 2 is complete for architecture specification and ready for external Claude Red Team Review.
+Phase 2 is complete for architecture specification after Phase 2.1 accepted remediation.
 
-Implementation remains blocked until review outcomes are accepted and a future implementation phase is explicitly approved.
+Implementation remains blocked until Phase 2 final sign-off decision, accepted review outcomes, and a future implementation phase are explicitly approved.
+
+Phase 3 has not started.

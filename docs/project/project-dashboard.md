@@ -11,10 +11,10 @@ VentureOS is an Enterprise Value-first, founder-owned Company Operating System f
 ## Current Status
 
 - Current Phase: Phase 2, documentation and architecture specification only.
-- Current Workstream: Claude Red Team Review.
-- Current Architecture Version: Phase 2 final architecture hardening completed; latest accepted ADR is ADR-085.
+- Current Workstream: Phase 2 final sign-off decision or second Claude review.
+- Current Architecture Version: Phase 2.1 Claude remediation completed; latest accepted ADR is ADR-098.
 - Current Documentation Version: Documentation foundation; Phase 2 implementation-readiness architecture complete.
-- Latest Commit: Pending `Phase 2 Final Architecture Hardening`.
+- Latest Commit: Pending `Phase 2.1 Claude Remediation Pack`.
 - Repository Root: `/Users/harelitzhaki/VentureOS`
 - GitHub Remote: `https://github.com/harelizz22-cell/ventureos.git`
 - Current Branch: `main`
@@ -52,12 +52,13 @@ Completed Workstreams:
 - Phase 2 Workstream 04: Enterprise Scale Architecture.
 - Phase 2 Workstream 05: Capital, Treasury, and Portfolio Governance.
 - Phase 2 Workstream 06: Observability and Operations.
+- Phase 2.1: Claude Red Team Remediation Pack.
 
-Current Workstream: Claude Red Team Review.
+Current Workstream: Phase 2 final sign-off decision or second Claude review.
 
 Remaining Workstreams:
 
-No active Phase 2 architecture workstreams remain before external review.
+No active Phase 2 architecture workstreams remain before final sign-off decision.
 
 ### Future Phases
 
@@ -101,20 +102,22 @@ High-level roadmap only:
 - 2026-07-02: Completed final Phase 2 context sync before new Yuri session.
 - 2026-07-02: Completed internal Phase 2 readiness review.
 - 2026-07-02: Added final architecture hardening items: Financial Feedback Loop and AI Model Registry.
+- 2026-07-02: Claude Red Team Review returned Approved with Conditions.
+- 2026-07-02: Completed Phase 2.1 Claude Red Team Remediation Pack.
 
 ## Current Focus
 
-Complete Claude Red Team Review.
+Decide whether to run a second Claude review or proceed to Phase 2 final sign-off.
 
 ## Next Workstream
 
-Claude Red Team Review will independently challenge Phase 2 architecture completeness, consistency, governance, scalability, security, capital governance, knowledge management, AI governance, operational readiness, maintainability, and future readiness before implementation planning.
+Phase 2.1 remediation applied all accepted conditions from Claude Red Team Review.
 
-Internal readiness review is completed. Claude Red Team Review is next. No Phase 3 work should begin yet.
+Next step is second Claude review or Phase 2 final sign-off decision. No Phase 3 work should begin yet.
 
 ## Open Questions
 
-- External Claude Red Team review findings.
+- Whether to run second Claude review or proceed to Phase 2 final sign-off.
 - Implementation phase approval process after review.
 
 ## Frozen Decisions
@@ -148,6 +151,8 @@ These architectural decisions must not change without a new ADR:
 - No completed Venture may exit the lifecycle without producing organizational learning.
 - Learning never automatically changes policy.
 - Financial return learning must be evidence-backed.
+- Phase 2.1 remediation is accepted architecture after documentation and ADR recording.
+- Phase 2 post-review decision backlog is implementation-gated and does not block Phase 2 closure.
 - Future Architecture Candidates remain deferred: Idea Discovery Domain, Timing Engine, and Opportunity Strategy Engine.
 
 ## Current Core Domains
@@ -276,42 +281,47 @@ These architectural decisions must not change without a new ADR:
 
 ## Latest ADRs
 
-- ADR-077: Observability Architecture
-- ADR-078: System Health Model
-- ADR-079: Incident Management
-- ADR-080: Architecture Readiness
-- ADR-081: Operational Dashboard
-- ADR-082: Phase 2 Completion
-- ADR-083: AI Token Governance
-- ADR-084: Financial Feedback Loop
-- ADR-085: AI Model Registry
+- ADR-089: AI Evidence Promotion Queue
+- ADR-090: De Facto Venture Termination
+- ADR-091: Token Budget Reservation Model
+- ADR-092: Dissent Preservation
+- ADR-093: Reasoning Input Freshness
+- ADR-094: Scheduler Fairness Model
+- ADR-095: Organizational Memory Retention
+- ADR-096: Capital Stress Escalation
+- ADR-097: Founder Unavailability Fail Closed
+- ADR-098: Reasoning-To-Evidence Enforcement
 
 ## Latest Claude Review
 
-Date: 2026-06-28.
+Date: 2026-07-02.
 
-Score: Not recorded in repository documentation.
+Score: Approved with Conditions.
 
 Major Findings:
 
-- Capability-first consistency.
-- Portfolio-first consistency.
-- Organization layer correctness.
-- Event-driven architecture gaps.
-- Execution Orchestrator ownership.
-- Governance bypass risks.
-- Agent-first regression.
-- Missing ADRs.
-- Documentation contradictions.
-- Unclear source-of-truth hierarchy.
+- Policy Engine degradation behavior required.
+- Policy approval validity window required.
+- Recovery capital governance required.
+- AI Evidence Promotion Queue governance required.
+- De facto Venture termination handling required.
+- Token budget reservation required.
+- Dissent preservation required.
+- Reasoning input freshness required.
+- Scheduler fairness required.
+- Organizational Memory retention required.
+- Capital stress escalation required.
+- Founder unavailability must fail closed until formally approved.
+- Reasoning-to-Evidence runtime enforcement required.
+- Missing implementation-gated decisions should move to backlog.
 
-Status of Findings: Accepted and applied through ADR-009 and later Phase 2 architecture work. Claude Red Team Architecture Review is input, not Source of Truth.
+Status of Findings: Approved with Conditions. Accepted remediation items applied through Phase 2.1 and ADR-086 through ADR-098. Claude Red Team Architecture Review is input, not Source of Truth.
 
 ## Repository Health
 
-- Git Status: Documentation changes pending final hardening commit.
+- Git Status: Documentation changes pending Phase 2.1 remediation commit.
 - Branch: `main`
-- Last Commit: Pending `Phase 2 Final Architecture Hardening`
+- Last Commit: Pending `Phase 2.1 Claude Remediation Pack`
 - Repository Root: `/Users/harelitzhaki/VentureOS`
 - GitHub Remote: `https://github.com/harelizz22-cell/ventureos.git`
 
