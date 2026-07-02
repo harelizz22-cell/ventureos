@@ -24,6 +24,8 @@ Founder should always see:
 - Failed Executions.
 - Capital Exposure.
 - Enterprise Value Trend.
+- AI Token Usage.
+- Token Budget Alerts.
 
 ## System Health
 
@@ -62,6 +64,18 @@ Failed Executions show failure taxonomy, retry eligibility, idempotency state, r
 ## Capital Exposure
 
 Capital Exposure shows available, reserved, committed, approved, released, spent, verified, recovered, cancelled, and closed capital where applicable.
+
+## AI Token Usage
+
+AI Token Usage shows token consumption by Organization, Portfolio, Venture, Capability, Agent, and Execution.
+
+AI Token Usage must show budget state, soft-limit status, hard-limit status, approval thresholds, cost attribution, forecast variance, and waste signals where applicable.
+
+## Token Budget Alerts
+
+Token Budget Alerts show soft limit warnings, hard limit blocks, runaway execution detection, repeated prompt detection, low-value execution detection, emergency override use, and missing token usage records.
+
+Token Budget Alerts do not authorize additional token budget.
 
 ## Enterprise Value Trend
 

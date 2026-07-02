@@ -43,6 +43,7 @@ Phase 2 completion does not authorize production code, dependencies, integration
 - Evidence Freshness and Quality Model.
 - Autonomy Governance Model.
 - AI Output Classification.
+- AI Token Governance.
 - Event Ordering and Replay Model.
 - Execution Reliability.
 - Recovery Governance.
@@ -120,12 +121,15 @@ Phase 2 completion does not authorize production code, dependencies, integration
 - ADR-080: Architecture Readiness.
 - ADR-081: Operational Dashboard.
 - ADR-082: Phase 2 Completion.
+- ADR-083: AI Token Governance.
 
 ## Remaining Blockers
 
 No architectural blockers remain.
 
 Phase 2 is awaiting internal readiness review and external Claude Red Team review before implementation planning may be approved.
+
+AI Token Governance was added as a final Phase 2 gap fix before readiness review.
 
 ## Validation
 

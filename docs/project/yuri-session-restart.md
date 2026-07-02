@@ -69,6 +69,7 @@ Completed Phase 2 work:
 - Workstream 04 completed: Multi-Tenancy Architecture, Data Ownership Model, Cross-Venture Intelligence, Global Search, Enterprise Isolation, and Enterprise Identity Model.
 - Workstream 05 completed: Treasury Domain, Capital Lifecycle, Capital Allocation Governance, Treasury Security, Milestone Funding, Portfolio Governance, Treasury Risk Engine, Capital Stress Simulator, and Founder Financial Dashboard.
 - Workstream 06 completed: Observability Architecture, System Health Model, Incident Management, Operations Dashboard, Architecture Readiness, Architecture Scorecard, and Phase 2 Completion Checklist.
+- Final Phase 2 gap fix completed: AI Token Governance.
 
 Phase 2 implementation-readiness architecture work is complete.
 
@@ -178,6 +179,8 @@ Operations Dashboard gives Founder visibility into System Health, Portfolio Heal
 
 Architecture Readiness, Architecture Scorecard, and Phase 2 Completion Checklist define review readiness. No architectural blockers remain, but implementation remains blocked until internal and external review outcomes are accepted and a future implementation phase is explicitly approved.
 
+AI Token Governance is included in readiness review as the final Phase 2 gap fix.
+
 ## Current Evidence And AI Architecture
 
 Evidence Freshness and Quality Model defines evidence quality tiers, source quality, collection timestamp, freshness window, expiration model, corroboration requirements, stale evidence handling, suitability by Decision category, and AI-generated content boundaries.
@@ -185,6 +188,10 @@ Evidence Freshness and Quality Model defines evidence quality tiers, source qual
 AI Output Classification defines Draft -> Recommendation -> Candidate Evidence -> Verified Evidence.
 
 AI output is never Evidence by default.
+
+AI Token Governance defines token budgets, scoped token limits, soft limits, hard limits, emergency override, Founder approval thresholds, cost attribution, forecasting, monitoring, waste detection, runaway execution detection, repeated prompt detection, low-value execution detection, model selection by cost/value, token efficiency scoring, audit, and escalation.
+
+Tokens are financial resources. AI Gateway must not allow unbounded token consumption. Token usage must be attributed to Organization, Portfolio, Venture, Capability, Agent, and Execution.
 
 ## Current Autonomy Architecture
 

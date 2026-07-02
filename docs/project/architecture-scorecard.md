@@ -22,7 +22,7 @@ Scores are architectural review signals. They do not authorize implementation.
 
 Current Score: 5
 
-Reason: Phase 2 architecture workstreams, operational architecture, readiness checklist, and ADR coverage are documented for review.
+Reason: Phase 2 architecture workstreams, operational architecture, AI Token Governance, readiness checklist, and ADR coverage are documented for review.
 
 Improvement Opportunities:
 
@@ -73,7 +73,7 @@ Improvement Opportunities:
 
 Current Score: 5
 
-Reason: Treasury Domain, Capital Lifecycle, Capital Allocation Governance, Treasury Security, Milestone Funding, Portfolio Governance, Treasury Risk Engine, Capital Stress Simulator, and Founder Financial Dashboard are documented.
+Reason: Treasury Domain, Capital Lifecycle, Capital Allocation Governance, Treasury Security, Milestone Funding, Portfolio Governance, Treasury Risk Engine, Capital Stress Simulator, Founder Financial Dashboard, and AI token financial-resource reporting are documented.
 
 Improvement Opportunities:
 
@@ -93,17 +93,17 @@ Improvement Opportunities:
 
 Current Score: 5
 
-Reason: AI output classification, autonomy governance, reasoning boundaries, Evidence Promotion, Policy Engine enforcement, and no self-approval are documented.
+Reason: AI output classification, autonomy governance, reasoning boundaries, Evidence Promotion, Policy Engine enforcement, AI Token Governance, bounded token usage, token attribution, and no self-approval are documented.
 
 Improvement Opportunities:
 
-- Define provider-specific diagnostics only after implementation approval.
+- Define provider-specific diagnostics and token accounting details only after implementation approval.
 
 ## Operational Readiness
 
 Current Score: 5
 
-Reason: Observability Architecture, System Health Model, Incident Management, Operations Dashboard, Architecture Readiness, reliability, and recovery architecture are documented.
+Reason: Observability Architecture, System Health Model, Incident Management, Operations Dashboard, Architecture Readiness, token usage monitoring, reliability, and recovery architecture are documented.
 
 Improvement Opportunities:
 

@@ -75,6 +75,9 @@ Metric categories:
 - Approval wait time.
 - Treasury alert count.
 - AI output classification distribution.
+- Token usage by Organization, Portfolio, Venture, Capability, Agent, and Execution.
+- Token soft-limit and hard-limit events.
+- Token waste, repeated prompt, low-value execution, and runaway execution signals.
 - Evidence freshness.
 - Incident frequency.
 
@@ -137,6 +140,10 @@ Treasury diagnostics must never authorize money movement.
 AI diagnostics explain AI request scope, model or provider class, prompt classification, output classification, confidence, uncertainty, source citations, Evidence Promotion status, and policy constraints.
 
 AI diagnostics must preserve the rule that AI output is not Evidence until promoted.
+
+AI diagnostics must include token usage forecasting, token usage monitoring, cost attribution, model selection by cost/value, token efficiency scoring, token limit state, and token escalation state where applicable.
+
+Observability must surface when AI Gateway cannot provide bounded token usage, attribution, or usage records.
 
 ## Audit Requirements
 

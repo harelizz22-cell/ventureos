@@ -10,6 +10,8 @@ Cost is an architectural concern, not merely an operational concern.
 
 Cost Governance defines how VentureOS treats resource consumption, budget awareness, and future cost-based approval inputs.
 
+AI Token Governance is defined in `docs/architecture/ai-token-governance.md`.
+
 ## Scope
 
 Cost Governance applies to:
@@ -36,6 +38,11 @@ Cost Governance applies to:
 - Cost risk may require founder approval.
 - Retry behavior must account for cost.
 - Token budgets are governance inputs, not prompt suggestions.
+- Tokens are financial resources.
+- Token usage must be attributed to Organization, Portfolio, Venture, Capability, Agent, and Execution.
+- Token limits must allow operational breathing room but prevent uncontrolled waste.
+- Founder may configure token approval thresholds.
+- No autonomous system may increase token budget without governance approval.
 - Cost optimization must not bypass evidence, decision, approval, audit, or recovery rules.
 - Cost optimization must not bypass legal/compliance review for future investor marketplace or funding activity.
 - The cheapest execution is not always correct.
@@ -47,7 +54,9 @@ Future Policy Engine rules may use Cost Governance as an approval input.
 
 Examples of future policy inputs include budget remaining, estimated execution cost, retry cost exposure, AI token usage, infrastructure spend, and portfolio-level cost limits.
 
-Open decision: Should AI Gateway enforce per-Venture token and cost budgets in real time, or report usage after execution for Policy Engine and Cost Governance response?
+AI Gateway must enforce bounded token usage where policy requires it and report token usage records to Cost Governance, Treasury, Observability, and Audit where applicable.
+
+Token budgets must support soft limits, hard limits, emergency override, Founder approval thresholds, forecasting, monitoring, waste detection, runaway execution detection, repeated prompt detection, low-value execution detection, model selection by cost/value, efficiency scoring, audit, and escalation.
 
 ## Future Optimization Engine
 

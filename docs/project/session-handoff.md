@@ -6,6 +6,16 @@ Source Of Truth: This file is the source of truth for the latest work-session ha
 
 ## Completed Today
 
+- AI Token Governance final Phase 2 gap fix completed.
+- AI Token Governance created.
+- Added ADR-083.
+- Recorded that tokens are financial resources.
+- Recorded token budgets, per-Organization limits, per-Portfolio limits, per-Venture limits, per-Capability limits, per-Agent limits, per-Execution limits, soft limits, hard limits, emergency override, Founder approval thresholds, cost attribution, forecasting, monitoring, waste detection, runaway execution detection, repeated prompt detection, low-value execution detection, model selection by cost/value, token efficiency scoring, token usage audit, and escalation.
+- Recorded that token usage must be attributed to Organization, Portfolio, Venture, Capability, Agent, and Execution.
+- Recorded that AI Gateway must not allow unbounded token consumption.
+- Recorded that Policy Engine evaluates token budget rules before high-cost AI execution.
+- Recorded that Treasury and Cost Governance receive token usage records.
+- Recorded that no autonomous system may increase token budget without governance approval.
 - Phase 2 Workstream 06 completed.
 - Observability Architecture created.
 - System Health Model created.
@@ -247,6 +257,11 @@ Source Of Truth: This file is the source of truth for the latest work-session ha
 - Phase 2 implementation-readiness architecture work is complete.
 - Phase 2 is awaiting internal readiness review and external Claude Red Team review.
 - Implementation remains blocked until review outcomes are accepted and a future implementation phase is explicitly approved.
+- AI Token Governance is first-class.
+- Tokens are financial resources.
+- Token usage must be attributed to Organization, Portfolio, Venture, Capability, Agent, and Execution.
+- AI Gateway must not allow unbounded token consumption.
+- No autonomous system may increase token budget without governance approval.
 - Multi-Tenancy Architecture is first-class.
 - Data Ownership Model is first-class.
 - Cross-Venture Intelligence is first-class.
@@ -371,6 +386,7 @@ Source Of Truth: This file is the source of truth for the latest work-session ha
 - `docs/architecture/treasury-risk-engine.md`
 - `docs/architecture/capital-stress-simulator.md`
 - `docs/architecture/founder-financial-dashboard.md`
+- `docs/architecture/ai-token-governance.md`
 - `docs/architecture/observability-architecture.md`
 - `docs/architecture/system-health-model.md`
 - `docs/architecture/incident-management.md`
@@ -445,6 +461,7 @@ Source Of Truth: This file is the source of truth for the latest work-session ha
 
 ## ADRs Added
 
+- `docs/adr/ADR-083-ai-token-governance.md`
 - `docs/adr/ADR-077-observability-architecture.md`
 - `docs/adr/ADR-078-system-health-model.md`
 - `docs/adr/ADR-079-incident-management.md`
@@ -554,6 +571,7 @@ Do not add new strategic concepts before Phase 2 is completed and reviewed.
 - Read ADR-063 through ADR-068 before Multi-Tenancy, Data Ownership, Cross-Venture Intelligence, Global Search, Enterprise Isolation, or Enterprise Identity work.
 - Read ADR-069 through ADR-076 before Treasury Domain, Capital Lifecycle, Treasury Security, Portfolio Governance, Milestone Funding, Treasury Risk Engine, Capital Stress Simulator, or Founder Financial Dashboard work.
 - Read ADR-077 through ADR-082 before Observability, System Health, Incident Management, Operations Dashboard, Architecture Readiness, or Phase 2 completion review work.
+- Read ADR-083 before AI Gateway token use, Cost Governance, token budgets, AI model cost/value, token usage monitoring, or token budget approval work.
 - Read `docs/project/yuri-session-restart.md` when starting a new Yuri session.
 - Read `docs/phases/phase-1-system-foundation.md` before any Phase 1 implementation discussion.
 - Confirm that no production code is requested before proceeding.

@@ -12,9 +12,9 @@ VentureOS is an Enterprise Value-first, founder-owned Company Operating System f
 
 - Current Phase: Phase 2, documentation and architecture specification only.
 - Current Workstream: Phase 2 internal readiness review and external Claude Red Team review.
-- Current Architecture Version: Phase 2 Workstream 06 completed; latest accepted ADR is ADR-082.
+- Current Architecture Version: Phase 2 Workstream 06 plus AI Token Governance final gap fix completed; latest accepted ADR is ADR-083.
 - Current Documentation Version: Documentation foundation; Phase 2 implementation-readiness architecture complete.
-- Latest Commit: `3277d0f` before this Workstream 06 update.
+- Latest Commit: `760df4e` before this AI Token Governance update.
 - Repository Root: `/Users/harelitzhaki/VentureOS`
 - GitHub Remote: `https://github.com/harelizz22-cell/ventureos.git`
 - Current Branch: `main`
@@ -97,6 +97,7 @@ High-level roadmap only:
 - 2026-07-01: Completed Phase 2 Workstream 05 Capital, Treasury, and Portfolio Governance.
 - 2026-07-01: Completed Phase 2 Workstream 06 Observability and Operations.
 - 2026-07-01: Created Architecture Scorecard and Phase 2 Completion Checklist.
+- 2026-07-02: Added AI Token Governance final Phase 2 gap fix.
 
 ## Current Focus
 
@@ -134,6 +135,8 @@ These architectural decisions must not change without a new ADR:
 - Future Architecture Candidates are not approved architecture and must not enter active Phase 2 without external review and a new approval path.
 - No Organization may access another Organization's information unless explicitly governed.
 - Policy Engine remains the enforcement point for enterprise authorization, cross-Venture intelligence, search, analytics, runtime access, and AI context access.
+- AI Gateway must not allow unbounded token consumption.
+- Tokens are financial resources and token usage must be attributed to Organization, Portfolio, Venture, Capability, Agent, and Execution.
 
 ## Current Core Domains
 
@@ -167,6 +170,7 @@ These architectural decisions must not change without a new ADR:
 - Policy Engine
 - Tool Gateway
 - AI Gateway
+- AI Token Governance
 - Event Architecture
 - State Machines
 - Runtime Autonomy Levels
@@ -226,6 +230,7 @@ These architectural decisions must not change without a new ADR:
 - Enterprise Isolation
 - Enterprise Identity Model
 - Treasury Security
+- AI Token Governance
 - Observability Architecture
 - System Health Model
 - Incident Management
@@ -256,7 +261,6 @@ These architectural decisions must not change without a new ADR:
 
 ## Latest ADRs
 
-- ADR-073: Milestone Funding
 - ADR-074: Treasury Risk Engine
 - ADR-075: Capital Stress Simulator
 - ADR-076: Founder Financial Dashboard
@@ -266,6 +270,7 @@ These architectural decisions must not change without a new ADR:
 - ADR-080: Architecture Readiness
 - ADR-081: Operational Dashboard
 - ADR-082: Phase 2 Completion
+- ADR-083: AI Token Governance
 
 ## Latest Claude Review
 

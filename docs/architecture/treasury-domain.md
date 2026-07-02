@@ -18,6 +18,8 @@ Treasury never evaluates ideas. Treasury never creates strategy. Treasury never 
 - Treasury records capital state changes but does not decide business attractiveness.
 - Every financial action is auditable.
 - No autonomous money movement is allowed.
+- Tokens are financial resources.
+- Treasury must receive token usage records from AI Gateway and Cost Governance where token usage affects financial reporting, budget state, or capital discipline.
 
 ## Treasury Controller
 
@@ -42,6 +44,7 @@ Inputs:
 - Policy Engine outcomes.
 - Founder or governed approval records.
 - Capital lifecycle state.
+- Token usage records where AI costs affect budget or financial reporting.
 
 Outputs:
 
@@ -49,6 +52,7 @@ Outputs:
 - Capital lifecycle events.
 - Audit records.
 - Escalation requests.
+- Token cost visibility records where applicable.
 
 Security requirements:
 

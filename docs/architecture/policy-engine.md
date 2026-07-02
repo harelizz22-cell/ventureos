@@ -54,6 +54,8 @@ If the Policy Engine becomes unavailable, new execution must stop fail-closed.
 
 Cost Governance may be used as an approval input.
 
+AI Token Governance may be used as an approval input.
+
 Treasury Domain, Capital Lifecycle, Capital Allocation Governance, Milestone Funding, Portfolio Governance, Treasury Security, Treasury Risk Engine, Capital Stress Simulator, and Founder Financial Dashboard must route capital-sensitive actions through Policy Engine.
 
 No money can move without Policy Engine evaluation.
@@ -87,3 +89,13 @@ Raw Venture data must not leak between Ventures unless Policy Engine explicitly 
 Policy Engine evaluates capital-sensitive actions including reservation, commitment, approval, release, spend verification, recovery, cancellation, closure, emergency freeze, high-value approval, re-budgeting, holdback release, and freeze removal where required.
 
 If policy, approval, lifecycle state, ledger state, treasury risk, or compliance status cannot be verified, the affected capital action must fail closed.
+
+## AI Token Governance Enforcement
+
+Policy Engine evaluates token budget rules before high-cost AI execution.
+
+Policy Engine may require Founder approval, cost review, risk review, denial, fail-closed handling, or emergency override for token-consuming AI execution.
+
+Token-consuming execution must fail closed when attribution, budget state, hard-limit status, approval state, AI Gateway status, Treasury token usage record delivery, or Cost Governance token usage record delivery cannot be verified.
+
+No autonomous system may increase token budget without governance approval.

@@ -50,6 +50,7 @@ These definitions are architectural vocabulary. All future documents must use th
 - Portfolio Governance: The capital governance concern that manages diversification, concentration, liquidity, risk balance, expected return, portfolio health, and follow-on planning.
 - Observability: The architecture concern for metrics, logs, distributed tracing, health checks, diagnostics, dependency monitoring, incidents, operational dashboards, and readiness review.
 - System Health: A scoped operational health score with status, confidence, risk, trend, and recommended action.
+- AI Token Governance: The architecture concern for treating AI tokens as financial resources with scoped budgets, attribution, limits, monitoring, audit, and escalation.
 
 ## Current Architecture Posture
 
@@ -164,6 +165,7 @@ VentureOS must not claim it can legally raise funds, sell securities, hold inves
 - Event Ordering and Replay Model: `docs/architecture/event-ordering-replay-model.md`
 - Tool Gateway: `docs/architecture/tool-gateway.md`
 - AI Gateway: `docs/architecture/ai-gateway.md`
+- AI Token Governance: `docs/architecture/ai-token-governance.md`
 - Execution Orchestrator: `docs/architecture/execution-orchestrator.md`
 - Workflow Orchestrator compatibility note: `docs/architecture/workflow-orchestrator.md`
 - Policy Engine: `docs/architecture/policy-engine.md`
@@ -219,6 +221,10 @@ Operational visibility must include Metrics, Logs, Distributed Tracing, health c
 System health must exist for Organization, Portfolio, Venture, Runtime, Execution, Workflow, Agent, Capability, Knowledge, Treasury, and Infrastructure.
 
 Phase 2 Completion Checklist records that no architectural blockers remain. Implementation remains blocked until internal readiness review, external Claude Red Team review, accepted review outcomes, and explicit implementation phase approval.
+
+AI Token Governance is adopted as a final Phase 2 gap fix before readiness review. Tokens are financial resources, token usage must be attributed to Organization, Portfolio, Venture, Capability, Agent, and Execution, and AI Gateway must not allow unbounded token consumption.
+
+Policy Engine must evaluate token budget rules before high-cost AI execution. Treasury and Cost Governance must receive token usage records. No autonomous system may increase token budget without governance approval.
 
 No Venture may move from idea to validation without an approved hypothesis.
 

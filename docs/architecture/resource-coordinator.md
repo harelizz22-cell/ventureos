@@ -18,6 +18,9 @@ Define resource availability checks before execution starts.
 - Human approval dependency check.
 - Capital reservation dependency check.
 - Time-window validation.
+- Token budget scope validation.
+- Token soft-limit and hard-limit validation.
+- Token usage forecast review.
 
 ## Coordination
 
@@ -29,6 +32,9 @@ Resource Coordinator coordinates with:
 - Capital Reservation Model.
 - Policy Engine.
 - Execution Scheduler.
+- AI Gateway.
+- AI Token Governance.
+- Treasury Domain.
 
 ## Rule
 
@@ -39,6 +45,10 @@ If required resources are unavailable, execution must not start.
 Resource checks must be scoped, auditable, policy-aware, and cost-aware where meaningful.
 
 Resource Coordinator may block execution or request escalation. It does not approve business strategy, capital allocation, or money movement.
+
+AI token checks must be scoped to Organization, Portfolio, Venture, Capability, Agent, and Execution.
+
+Resource Coordinator must not allow high-cost AI execution to start when token budget state is unavailable, attribution is missing, hard limits are reached, or required Founder approval is absent.
 
 ## Placeholder Status
 
